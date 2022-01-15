@@ -10239,14 +10239,14 @@ Defeated, $heOrShe turns to an underling and says something that isn't quite pic
 $HeOrShe mumbles an abashed fare-well platitude and signs off just as your logistics officer reports an incoming cargo drone.",cutCommLinkNoText:Continue,
 ,,,,,,
 # GA - deliver VIP mission,,,,,,
-gaVIPBlurb,gaVIP_blurb,,,"""A student from an influential family requires priority transport to $gaVIP_marketName in the $gaVIP_starName system within a short timeframe.""",,
+gaVIPBlurb,gaVIP_blurb,,,"""有力者の家の学生が、短期間で $gaVIP_starName システムの $gaVIP_marketName への優先的な輸送を必要としています。""",,
 gaVIPBlurbOfferOption,gaVIP_option,,,,gaVIP_start:Ask about the VIP transport,
 gaVIPBlurbMissionTextBasic,DialogOptionSelected,"$option == gaVIP_start
 $gaVIP_variation == BASIC","$missionId = gaVIP
 SetTextHighlights $gaVIP_timeLimit $gaVIP_reward
-Call $global.gaVIP_ref showMap ""Destination: $gaVIP_marketName""","""The Academy provides secure and, um, discreet transport to the very, very important students who attend. These are very important families you know, and there have been..."" Sebestyen looks like he's trying not to look concerned. ""Threats? Maybe. You never know. So.""
+Call $global.gaVIP_ref showMap ""Destination: $gaVIP_marketName""","""このアカデミーは安全で、うーん、目立たないように、とてもとても大切な生徒を送迎します。 とても大切な家族なのです、ご存じでしょう..."" Sebestyen は心配そうな顔をしないようにしているようだ。 ""脅威？そうかもね。分からないよ。だから""
 
-He taps a datapad on his desk a couple times before deciding it's a good time to just keep going.
+机の上のデータパッドを何度か叩いてから、そろそろいいだろうと判断した。
 
 ""This student is the $gaVIP_subjectRelation of $gaVIP_VIPName - that's the $gaVIP_VIPPost of $gaVIP_marketName, did you know? How exciting! Ah, and they require priority transport to $gaVIP_marketName in the $gaVIP_starName system for $gaVIP_event within $gaVIP_timeLimit days. We've been authorized an honorarium of... "", Sebestyen checks another datapad, ""$gaVIP_reward credits. That's pretty good for an easy trip through the Core Worlds, right?""","aseb_accept:Accept
 aseb_decline:Decline
