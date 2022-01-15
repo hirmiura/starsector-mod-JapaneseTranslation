@@ -13004,7 +13004,7 @@ ssatOfferOption,ssat_option,,,,ssat_start:Ask about deploying the observation pa
 ssatBlurbUW,ssat_blurb,$ssat_underworld,,"""I would like a small satellite deployed to orbit around $ssat_marketName. Just to keep an eye on things.""
 OR
 ""I am in need of watchful eyes on $ssat_marketName - deploying a small スパイ衛星 should be sufficient.""",,
-ssatOfferOptionUW,ssat_option,$ssat_underworld,,,ssat_start:Ask about the spysat deployment,
+ssatOfferOptionUW,ssat_option,$ssat_underworld,,,ssat_start:Ask about the スパイ衛星 deployment,
 ssatBlurbBar,ssat_blurbBar,,,From a shadowy booth a conspicuously nondescript $ssat_manOrWoman sitting with perfect posture catches your eye and gives what might be a small nod.,,
 ssatOfferOptionBar,ssat_optionBar,,,,ssat_startBar:Walk over to the shadowy booth to join the $ssat_manOrWoman with perfect posture,
 ssatBlurbBarUW,ssat_blurbBar,$ssat_underworld,,From a shadowy booth a conspicuously nondescript $ssat_manOrWoman nursing a drink in a booth catches your eye and gives what might be a small nod.,,
@@ -13013,13 +13013,13 @@ ssatOfferTextBar,DialogOptionSelected,$option == ssat_startBar,"$missionId = ssa
 SetTextHighlights $ssat_reward","Although without insignia or uniform you instantly tag the $manOrWoman as military. It's the boots. They can never give up the mil-spec boots.
 
 ""Captain $playerName,"" $heOrShe says, ""You are known to my organization as a capable and discreet operative. I am authorized to propose a simple mission for you to carry out. Payment would consist of $ssat_reward credits upon completion.""",ssat_startBar2:Continue,
-ssatOfferTextBar2,DialogOptionSelected,$option == ssat_startBar2,"Call $ssat_ref showMap ""Target: $ssat_marketName""","""As for the the operation,"" $heOrShe continues, as if briefing a cadet, ""Enter a standard orbit of $ssat_marketName, in the $ssat_systemName. Then deploy the スパイ衛星 package; it is critical that no patrols be tracking your fleet at this stage. Once deployed, the spysat has stealth capabilities which make detection unlikely.""
+ssatOfferTextBar2,DialogOptionSelected,$option == ssat_startBar2,"Call $ssat_ref showMap ""Target: $ssat_marketName""","""As for the the operation,"" $heOrShe continues, as if briefing a cadet, ""Enter a standard orbit of $ssat_marketName, in the $ssat_systemName. Then deploy the スパイ衛星 package; it is critical that no patrols be tracking your fleet at this stage. Once deployed, the スパイ衛星 has stealth capabilities which make detection unlikely.""
 
 ""Simple. Of course my organization could not risk carrying out this mission with flagged vessels. That is why we have come to you. Do you accept?""","contact_acceptBar:Accept
 contact_declineBarNoContinue:Decline",
 ssatOfferTextContact,DialogOptionSelected,$option == ssat_start,"$missionId = ssat
 SetTextHighlights $ssat_reward
-Call $ssat_ref showMap ""Target: $ssat_marketName""","""The mission: enter a standard orbit of $ssat_marketName in the $ssat_systemName. Then deploy the スパイ衛星 package while unobserved. I repeat, it is critical that no patrols be tracking your fleet at this stage. Once deployed, the spysat has stealth capabilities which make detection unlikely.""
+Call $ssat_ref showMap ""Target: $ssat_marketName""","""The mission: enter a standard orbit of $ssat_marketName in the $ssat_systemName. Then deploy the スパイ衛星 package while unobserved. I repeat, it is critical that no patrols be tracking your fleet at this stage. Once deployed, the スパイ衛星 has stealth capabilities which make detection unlikely.""
 
 ""Simple. Your reward for mission completion would be $ssat_reward credits. Of course my organization could not risk carrying out this mission with flagged vessels. That is why we have come to you. Do you accept?""","contact_accept:Accept
 contact_decline:Decline",
@@ -13032,7 +13032,7 @@ $HeOrShe flicks some ash from a smoldering stim-stick onto the table, then offer
 
 ""I need eyes on $ssat_marketName, in the $ssat_systemName. Word is you're quiet and can get jobs done."" A drag from the stim-stick. ""I can't afford being caught there, even in orbit. Got a bit of a record."" You see a smile by the glint off $hisOrHer teeth.
 
-""I'll provide the spysat package. Make sure no patrols are on your tail when you deploy it in orbit. Easy as robbing a Luddie pilgrim, yeah? Pay is $ssat_reward credits. You in?""","contact_acceptBar:Accept
+""I'll provide the スパイ衛星 package. Make sure no patrols are on your tail when you deploy it in orbit. Easy as robbing a Luddie pilgrim, yeah? Pay is $ssat_reward credits. You in?""","contact_acceptBar:Accept
 contact_declineBarNoContinue:Decline",
 ssatOfferTextContactUW,DialogOptionSelected,"$option == ssat_start
 $ssat_underworld","$missionId = ssat
@@ -13041,19 +13041,19 @@ Call $ssat_ref showMap ""Target: $ssat_marketName""                        ","""
 
 $personName smiles like a predator, a little too proud. Probably best not to inquire.
 
-""I'll provide the spysat package. Make sure no patrols are on your tail when you deploy it in orbit. Easy as robbing a Luddie pilgrimage. Pay is $ssat_reward credits. You in?""","contact_accept:Accept
+""I'll provide the スパイ衛星 package. Make sure no patrols are on your tail when you deploy it in orbit. Easy as robbing a Luddie pilgrimage. Pay is $ssat_reward credits. You in?""","contact_accept:Accept
 contact_decline:Decline",
 # spysat deployment - node interaction,,,,,,
 ssatPrintHostilesText,OpenInteractionDialog,"$ssat_target score:1000
 IsSeenByAnyFleet
-Call $ssat_ref updateData",ShowDefaultVisual,"Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, making a covert spysat deployment impossible.",defaultLeave:Leave,
+Call $ssat_ref updateData",ShowDefaultVisual,"Your $shipOrFleet was recently detected - or is currently being tracked by - a nearby fleet, making a covert スパイ衛星 deployment impossible.",defaultLeave:Leave,
 ssatObjectInteraction,OpenInteractionDialog,"$ssat_target score:1000
-Call $ssat_ref updateData",ShowDefaultVisual,"Your nav officer reports that your $shipOrFleet has arrived at the coordinates provided by $ssat_personName. The spysat is ready for deployment.
+Call $ssat_ref updateData",ShowDefaultVisual,"Your nav officer reports that your $shipOrFleet has arrived at the coordinates provided by $ssat_personName. The スパイ衛星 is ready for deployment.
 
-The go-button flashes softly on your command interface.","ssat_scan:Deploy the spysat
+The go-button flashes softly on your command interface.","ssat_scan:Deploy the スパイ衛星
 defaultLeave:Leave",
 ssatObjectScan,DialogOptionSelected,$option == ssat_scan,"$ssat_completed = true
-Call $ssat_ref updateStage","The bay doors open, and the spysat is released from its cradle. You watch the display feed as built-in maneuvering thrusters puff softly, guiding it away from your flagship. The image flickers.
+Call $ssat_ref updateStage","The bay doors open, and the スパイ衛星 is released from its cradle. You watch the display feed as built-in maneuvering thrusters puff softly, guiding it away from your flagship. The image flickers.
 
 Your sensors officer looks up in alarm, ""$PlayerSirOrMadam, I don't have a track on the sat. It's just... gone.""",defaultLeave:Leave,
 ,,,,,,
