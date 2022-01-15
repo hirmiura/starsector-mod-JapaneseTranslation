@@ -1,0 +1,9 @@
+{
+    "masterVersionFile": "https://raw.githubusercontent.com/hirmiura/starsector-mod-Japanese_Translation/main/JapaneseTranslation.version",
+    "modName": "zja Japanese Translation",
+    "modVersion": {
+        "major": 0,
+        "minor": 1,
+        "patch": 0
+    }
+}
