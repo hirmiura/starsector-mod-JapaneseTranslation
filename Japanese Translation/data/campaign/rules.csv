@@ -13578,7 +13578,7 @@ SetTextHighlightColors $seco_factionColor h
 SetTextHighlights $seco_faction $seco_price
 DoCanAffordCheck $seco_price contact_acceptBar false","あなたはメニューを読むふりをし、相手ははジャックを下ろし、あなたの船が入ってくるのを見たと言います。 ""あなたは $seco_faction の最新施設のセキュリティコードの用途を見つけられる人のようだ、"" $seco_heOrShe はウィンクしながら言う。
 
-""They'd change all the codes once you pulled this trick, of course but breaching the security system at the right moment... "" $HeOrShe trails off, leaving you to complete the thought: it would give you a significant one-time advantage in a ground operation. ""And you'd have to use them soon,"" $heOrShe says with a shrug, ""これらのコードはローテーションされる、おぉ、月イチぐらいだ。場合によるが。""
+""They'd change all the codes once you pulled this trick, of course but breaching the security system at the right moment... "" $HeOrShe trails off, leaving you to complete the thought: it would give you a significant one-time advantage in a ground operation. ""And you'd have to use them soon,"" $heOrShe says with a shrug, ""これらのコードはローテーションされる、えぇ、月イチぐらいだ。場合によるが。""
 
 The $seco_manOrWoman explains that the price is $seco_price credits, significantly more than the drink you were eying.","contact_acceptBar:セキュリティコードを買う
 contact_declineBarNoContinue:Decline",
