@@ -10240,17 +10240,17 @@ $HeOrShe mumbles an abashed fare-well platitude and signs off just as your logis
 ,,,,,,
 # GA - deliver VIP mission,,,,,,
 gaVIPBlurb,gaVIP_blurb,,,"""A student from an influential family requires priority transport to $gaVIP_marketName in the $gaVIP_starName system within a short timeframe.""",,
-gaVIPBlurbOfferOption,gaVIP_option,,,,gaVIP_start:Ask about the VIP transport,
+gaVIPBlurbOfferOption,gaVIP_option,,,,gaVIP_start:VIPの送迎について聞く,
 gaVIPBlurbMissionTextBasic,DialogOptionSelected,"$option == gaVIP_start
 $gaVIP_variation == BASIC","$missionId = gaVIP
 SetTextHighlights $gaVIP_timeLimit $gaVIP_reward
-Call $global.gaVIP_ref showMap ""Destination: $gaVIP_marketName""","""The Academy provides secure and, um, discreet transport to the very, very important students who attend. These are very important families you know, and there have been..."" Sebestyen looks like he's trying not to look concerned. ""Threats? Maybe. You never know. So.""
+Call $global.gaVIP_ref showMap ""Destination: $gaVIP_marketName""","「アカデミーは、とてもとても大切な生徒のために、安全で、うーん、慎重な輸送を提供しています。 These are very important families you know, and there have been...」 Sebestyenは心配そうな顔をしないようにしているようだ。 「脅威？そうかもね。分からないよ。だから」
 
-He taps a datapad on his desk a couple times before deciding it's a good time to just keep going.
+彼は机の上のデータパッドを何度か叩いてから、そろそろいいだろうと判断した。
 
-""This student is the $gaVIP_subjectRelation of $gaVIP_VIPName - that's the $gaVIP_VIPPost of $gaVIP_marketName, did you know? How exciting! Ah, and they require priority transport to $gaVIP_marketName in the $gaVIP_starName system for $gaVIP_event within $gaVIP_timeLimit days. We've been authorized an honorarium of... "", Sebestyen checks another datapad, ""$gaVIP_reward credits. That's pretty good for an easy trip through the Core Worlds, right?""","aseb_accept:Accept
+「この学生は $gaVIP_VIPName の $gaVIP_subjectRelation です。 $gaVIP_marketName の $gaVIP_VIPPost のです。ご存知でしたか？ エキサイティン！ あぁそれと、 $gaVIP_starName システムの $gaVIP_marketName へ $gaVIP_event の為に $gaVIP_timeLimit 日以内の優先輸送を要求されています。 我々はその謝礼を承認されています……」 Sebestyen は別のデータパッドをチェックする。 「$gaVIP_reward クレジット。 コアワールドを簡単に旅するには、かなりいいんじゃないですか？」","aseb_accept:Accept
 aseb_decline:Decline
-gaVIP_threats:""Threats?""",
+gaVIP_threats:「脅威？」",
 gaVIPBlurbMissionTextBasicThreats,DialogOptionSelected,$option == gaVIP_threats,,"""Oh um. You know. Threats.""
 
 You simply wait for him to elaborate. He gives in almost instantly.
