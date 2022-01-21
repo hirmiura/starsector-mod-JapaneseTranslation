@@ -3333,7 +3333,7 @@ gaOpenDialogDuringTutorial,GAHegOfficerInteraction,"$global.isInTutorial
 
 An adjutant leans into frame and whispers something in $hisOrHer ear.
 
-""So you’re the freelancer my CO on Ancyra got to help us out."" $HeOrShe relaxes $hisOrHer tone somewhat, ""I'm Lieutenant $personName. We're carrying out the investigation into who screwed up here while you take care of the problem out there. And I wish you luck, captain, because if you don't solve this it's going to get ugly.”","0:gaDuringTutorialMoreInfo1:""What's going on here?""
+""So you’re the freelancer my CO on Ancyra got to help us out."" $HeOrShe relaxes $hisOrHer tone somewhat, ""I'm Lieutenant $personName. We're carrying out the investigation into who screwed up here while you take care of the problem out there. And I wish you luck, captain, because if you don't solve this it's going to get ugly.""","0:gaDuringTutorialMoreInfo1:""What's going on here?""
 100:defaultLeave:Thank the officer and sign off.",
 gaDuringTutorialMoreInfo1,DialogOptionSelected,$option == gaDuringTutorialMoreInfo1,,"$HeOrShe considers whether to answer your question.
 
@@ -9493,7 +9493,7 @@ gaDataOfferOption,gaData_option,,,,gaData_start:Ask about data retrieval from th
 gaDataMissionTextBasicOrPirates,DialogOptionSelected,"$option == gaData_start
 $gaData_variation == BASIC","$missionId = gaData
 SetTextHighlights $gaData_dist $gaData_reward
-Call $global.gaData_ref showMap ""Target: $gaData_planetName""","""So this is an easy one, right? All you have to do is get to $gaData_planetName, in the $gaData_systemName system, which is,"" $heOrShe checks a different datapad, ""about $gaData_dist light-years away. We'll provide the exact coordinates of the $gaData_target you need to, um, access. Then once you're back in hypercomm range, send the encrypted contents back to the Academy and the finance office will pay you $gaData_reward credits.“","aseb_accept:Accept
+Call $global.gaData_ref showMap ""Target: $gaData_planetName""","""So this is an easy one, right? All you have to do is get to $gaData_planetName, in the $gaData_systemName system, which is,"" $heOrShe checks a different datapad, ""about $gaData_dist light-years away. We'll provide the exact coordinates of the $gaData_target you need to, um, access. Then once you're back in hypercomm range, send the encrypted contents back to the Academy and the finance office will pay you $gaData_reward credits.""","aseb_accept:Accept
 aseb_decline:Decline",
 gaDataMissionTextRemnants,DialogOptionSelected,"$option == gaData_start
 $gaData_variation == REMNANTS","$missionId = gaData
@@ -9645,7 +9645,7 @@ gaDAMissionTextRemnants,DialogOptionSelected,"$option == gaDA_start
 !$gaDA_notRemnants","$missionId = gaDA
 SetTextHighlights $gaDA_dist $gaDA_fuel","Academician Sebestyen's eyes go wide as he reads over the datapad, then he quickly looks back to you.
 
-He puts on a bright smile. ""This will be simple, they know exactly where to find the, um,"" $heOrShe looks back to the datapad, brow creased, ""'$gaDA_widgetNoArticle' in the target’s hull. Just send a salvage crew, get the thing, and off you go! And that’s in the $gaDA_systemName, just $gaDA_dist light-years, there and back with,” a few taps on a different datapad, ""around $gaDA_fuel units of fuel for your fleet."" The academician shifts uncomfortably, as if $heOrShe doesn’t want to deliver bad news.","gaDA_and:""And?""",
+He puts on a bright smile. ""This will be simple, they know exactly where to find the, um,"" $heOrShe looks back to the datapad, brow creased, ""'$gaDA_widgetNoArticle' in the target’s hull. Just send a salvage crew, get the thing, and off you go! And that’s in the $gaDA_systemName, just $gaDA_dist light-years, there and back with,"" a few taps on a different datapad, ""around $gaDA_fuel units of fuel for your fleet."" The academician shifts uncomfortably, as if $heOrShe doesn’t want to deliver bad news.","gaDA_and:""And?""",
 gaDAMissionTextRemnants2,DialogOptionSelected,$option == gaDA_and,"SetTextHighlights $gaDA_reward
 $aseb_givePlayerNeutrinoDetector = true 0
 Call $global.gaDA_ref showMap ""Target: $gaDA_systemName""","""And. Well, the last expedition they sent. Um. The last transmission said something about 'hostile AI warships'. Maybe."" $HeOrShe drops $hisOrHer voice, ""We're not supposed to talk about it. Officially, I mean. But it could be ... maybe dangerous? That’s why this one pays more than usual - $gaDA_reward credits. You can handle it, right?"" Academician $personLastName resumes $hisOrHer previous volume ""- And everything will be fine! Just get in, retrieve the object, and return it to the Academy.""","aseb_accept:Accept
@@ -9939,7 +9939,7 @@ HailPlayer",,,
 gaCOPatherOpenComm,OpenCommLink,"$entity.gaCO_patherMissionInProgress score:1000
 !$entity.ignorePlayerCommRequests
 Call $global.gaCO_ref updateData","$entity.ignorePlayerCommRequests = true
-SetStoryOption gaCO_convince 1 gaCO_convince general ""Convinced Pather captain you were one of them""","The channel opens to the scowling face of a Pather fanatic. ""Defiler! Interloper!” $HeOrShe spits the words. ""We know well of your kind, for you are not the first to be sent from the Galatia Academy, that foul temple of Belial which vomits up corrupt servants to broadcast profanities upon holy creation!""
+SetStoryOption gaCO_convince 1 gaCO_convince general ""Convinced Pather captain you were one of them""","The channel opens to the scowling face of a Pather fanatic. ""Defiler! Interloper!"" $HeOrShe spits the words. ""We know well of your kind, for you are not the first to be sent from the Galatia Academy, that foul temple of Belial which vomits up corrupt servants to broadcast profanities upon holy creation!""
 
 ""Eject the demonic artifact,"" $heOrShe hisses the words like they're a curse, ""so that we may eliminate it. After this act of supplication, and only after, we might consider praying for your forgiveness, blessing of Ludd be upon even those who malign his Path.""
 
@@ -9987,7 +9987,7 @@ HailPlayer",,,
 gaCOPatherOpenCommAfter,OpenCommLink,"!$entity.gaCO_patherMissionInProgress
 $entity.gaCO_patherPermanentFlag score:1000
 !$entity.ignorePlayerCommRequests","$entity.ignorePlayerCommRequests = true
-DoCanAffordCheck $entity.gaCO_patherTithe gaCO_ejectAfter false","The channel opens on the scowling face of a Pather fanatic. “Defiler! Interloper!” $heOrShe spits the words like a curse, ""Your emanations are offerings to Belial, profanities broadcast upon holy creation! Eject your demonic machine of science,"" that word spoken as a hissed curse, ""that we may destroy it in cleansing fire.""
+DoCanAffordCheck $entity.gaCO_patherTithe gaCO_ejectAfter false","The channel opens on the scowling face of a Pather fanatic. ""Defiler! Interloper!"" $heOrShe spits the words like a curse, ""Your emanations are offerings to Belial, profanities broadcast upon holy creation! Eject your demonic machine of science,"" that word spoken as a hissed curse, ""that we may destroy it in cleansing fire.""
 
 Is that all? No - the Pather was drawing breath to continue the tirade ""- Then pay us a goodly sum, a tithe for your unholy crime, and only then we might consider praying for your forgiveness! Answer now, heretic!""
 
@@ -10995,7 +10995,7 @@ SetStoryOption pwi2_bluff general ""Bluffed Pather to keep $entity.pwi2_item""",
 ""Yes, we know what you have. And we will destroy it, either in your cargo hold, or in Holy Vacuum. Choose now.""","cutCommLink:Decline, close comms
 pwi2_bluff:Bluff to get rid of the Pather
 pwi2_accept:Accept, and eject the technology package",
-pwi2Bluff,DialogOptionSelected,$option == pwi2_bluff,,"You put on a look of grave concern, “$BrotherOrSister, I fear you have misunderstood the situation completely. I walk the Path, as you do, but I?"" You lower your voice to a whisper, ""In the shadow.""
+pwi2Bluff,DialogOptionSelected,$option == pwi2_bluff,,"You put on a look of grave concern, ""$BrotherOrSister, I fear you have misunderstood the situation completely. I walk the Path, as you do, but I?"" You lower your voice to a whisper, ""In the shadow.""
 
 Confusion grows on the Pather's face as $heOrShe tries to process your meaning.
 
