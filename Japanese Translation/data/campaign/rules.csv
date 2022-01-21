@@ -13464,13 +13464,14 @@ dhiBlurbBar,dhi_blurbBar,,,"You recognize a high ranking officer of $TheFaction 
 dhiOfferOptionBar,dhi_optionBar,,,,dhi_startBar:高級将校と共に'ひとこと'に加わる,
 dhiOfferTextBar,DialogOptionSelected,$option == dhi_startBar,"$missionId = dhi
 Highlight $dhi_disruptDays $dhi_dist $dhi_reward $dhi_marines
-Call $dhi_ref showMap ""Target: $dhi_marketName""","あなたは副官に従って個室ブースへ、彼らは敬礼し、バーに向かって再展開します。
+Call $dhi_ref showMap ""Target: $dhi_marketName""","あなたは 副官に 従って 個室ブースへ、 彼らは 敬礼し、 バーに 向かって 再展開します。
 
-""キャプテン"" $Rank $personName は華美なくあなたへ挨拶する。 ""どうぞ、お座り下さい。 楽になさって下さい。"" $HeOrShe は、冷たく澄んだ水の入ったピッチャーを指し示す。 $HeOrShe は常に任務中のように振る舞う。
+""キャプテン"" $Rank $personName は 華美なく あなたへ 挨拶する。 ""どうぞ、 お座り 下さい。 楽に なさって 下さい。"" $HeOrShe は、 冷たく 澄んだ 水の 入った ピッチャーを 指し示す。 $HeOrShe は 常に 任務中のように 振る舞う。
 
-""STRATCOM は $dhi_industry $dhi_marketOnOrAt $dhi_marketName を少なくとも $dhi_disruptDays 日間混乱させる非正規部隊を必要としている。"" データパッドを少しフリックすると、ホロマップがテーブルの上に浮かび上がる。 情報は包括的で、駐留軍の推定値と配備の配置が示されている。 ""目標は $dhi_dist 光年先だ。 特殊作戦室は、あなたがこのミッションを完了することができれば $dhi_reward クレジットを支払うことに合意した。""
+""STRATCOM は $dhi_industry $dhi_marketOnOrAt $dhi_marketName を
+少なくとも $dhi_disruptDays 日間 混乱させる 非正規部隊を 必要と している。"" データパッドを 少し フリックすると、 ホロマップが テーブルの 上に 浮かび 上がる。 情報は 包括的で、 駐留軍の 推定値と 配備の 配置が 示されている。 ""目標は $dhi_dist 光年先だ。 特殊作戦室は、 あなたが この ミッションを 完了することが できれば $dhi_reward クレジットを 支払うことに 合意した。""
 
-あなたはデータを調べ、この作戦を成功させるためにはおよそ $dhi_marines の海兵隊員が必要であると見積もった。 $faction $rank はあなたの計算を見ながら、辛抱強くあなたの返答を待っている。","contact_acceptBar:Accept
+あなたは データを調べ、 この作戦を 成功させる ためには およそ $dhi_marines の 海兵隊員が 必要であると 見積もった。 $faction $rank は あなたの 計算を 見ながら、 辛抱強く あなたの 返答を 待っている。","contact_acceptBar:Accept
 contact_declineBarNoContinue:Decline",
 dhiOfferTextContact,DialogOptionSelected,$option == dhi_start,"$missionId = dhi
 Highlight $dhi_disruptDays $dhi_dist $dhi_reward $dhi_marines
