@@ -13461,16 +13461,16 @@ FireBest MarketPostDock",You do not have enough $smug_commodityName to complete 
 dhiBlurb,dhi_blurb,,,"""STRATCOM wants to call in a favor. Seems they want $dhi_industry $dhi_marketOnOrAt $dhi_marketName disrupted as part of some bigger operation.""",,
 dhiOfferOption,dhi_option,,,,dhi_start:Ask about disrupting the $dhi_industry $dhi_marketOnOrAt $dhi_marketName,
 dhiBlurbBar,dhi_blurbBar,,,"You recognize a high ranking officer of $TheFaction in a private booth- and it looks like they recognized you, because an adjutant is sent over to invite you over for 'a word'.",,
-dhiOfferOptionBar,dhi_optionBar,,,,dhi_startBar:Join the high-ranking officer for 'a word',
+dhiOfferOptionBar,dhi_optionBar,,,,dhi_startBar:高級将校と共に'ひとこと'に加わる,
 dhiOfferTextBar,DialogOptionSelected,$option == dhi_startBar,"$missionId = dhi
 Highlight $dhi_disruptDays $dhi_dist $dhi_reward $dhi_marines
-Call $dhi_ref showMap ""Target: $dhi_marketName""","You follow the adjutant to the private booth; they give a salute and redeploy toward the bar.
+Call $dhi_ref showMap ""Target: $dhi_marketName""","あなたは副官に従って個室ブースへ、彼らは敬礼し、バーに向かって再展開します。
 
-""Captain."" $Rank $personName greets you without flourish. ""Please, do sit. Make yourself comfortable"" $HeOrShe motions toward a pitcher of cool, clear water. $HeOrShe is always on-duty from the looks of it.
+""キャプテン"" $Rank $personName は華美なくあなたへ挨拶する。 ""どうぞ、お座り下さい。 楽になさって下さい。"" $HeOrShe は、冷たく澄んだ水の入ったピッチャーを指し示す。 $HeOrShe は常に任務中のように振る舞う。
 
-""STRATCOM requires an irregular force to disrupt the $dhi_industry $dhi_marketOnOrAt $dhi_marketName for at least $dhi_disruptDays days."" A few flicks on a datapad and a holo-map floats above the table. The intel is comprehensive: estimated garrison stats and deployment disposition. ""The target is $dhi_dist light-years away. The special operations office has agreed to pay $dhi_reward credits if you can complete this mission.""
+""STRATCOM は $dhi_industry $dhi_marketOnOrAt $dhi_marketName を少なくとも $dhi_disruptDays 日間混乱させる非正規部隊を必要としている。"" データパッドを少しフリックすると、ホロマップがテーブルの上に浮かび上がる。 情報は包括的で、駐留軍の推定値と配備の配置が示されている。 ""目標は $dhi_dist 光年先だ。 特殊作戦室は、あなたがこのミッションを完了することができれば $dhi_reward クレジットを支払うことに合意した。""
 
-You examine the data and estimate that roughly $dhi_marines marines would be required to pull off this operation. The $faction $rank watches you make your calculations, patiently awaiting your response.","contact_acceptBar:Accept
+あなたはデータを調べ、この作戦を成功させるためにはおよそ $dhi_marines の海兵隊員が必要であると見積もった。 $faction $rank はあなたの計算を見ながら、辛抱強くあなたの返答を待っている。","contact_acceptBar:Accept
 contact_declineBarNoContinue:Decline",
 dhiOfferTextContact,DialogOptionSelected,$option == dhi_start,"$missionId = dhi
 Highlight $dhi_disruptDays $dhi_dist $dhi_reward $dhi_marines
