@@ -10244,13 +10244,13 @@ gaVIPBlurbOfferOption,gaVIP_option,,,,gaVIP_start:VIPの送迎について聞く
 gaVIPBlurbMissionTextBasic,DialogOptionSelected,"$option == gaVIP_start
 $gaVIP_variation == BASIC","$missionId = gaVIP
 SetTextHighlights $gaVIP_timeLimit $gaVIP_reward
-Call $global.gaVIP_ref showMap ""Destination: $gaVIP_marketName""","「アカデミーは、とてもとても大切な生徒のために、安全で、うーん、慎重な輸送を提供しています。 These are very important families you know, and there have been...」 Sebestyenは心配そうな顔をしないようにしているようだ。 「脅威？そうかもね。分からないよ。だから」
+Call $global.gaVIP_ref showMap ""Destination: $gaVIP_marketName""","""アカデミーは、とてもとても大切な生徒のために、安全で、うーん、慎重な輸送を提供しています。 These are very important families you know, and there have been..."" Sebestyenは心配そうな顔をしないようにしているようだ。 ""脅威？そうかもね。分からないよ。だから""
 
 彼は机の上のデータパッドを何度か叩いてから、そろそろいいだろうと判断した。
 
-「この学生は $gaVIP_VIPName の $gaVIP_subjectRelation です。 $gaVIP_marketName の $gaVIP_VIPPost のです。ご存知でしたか？ エキサイティン！ あぁそれと、 $gaVIP_starName システムの $gaVIP_marketName へ $gaVIP_event の為に $gaVIP_timeLimit 日以内の優先輸送を要求されています。 我々はその謝礼を承認されています……」 Sebestyen は別のデータパッドをチェックする。 「$gaVIP_reward クレジット。 コアワールドを簡単に旅するには、かなりいいんじゃないですか？」","aseb_accept:Accept
+""この学生は $gaVIP_VIPName の $gaVIP_subjectRelation です。 $gaVIP_marketName の $gaVIP_VIPPost のです。ご存知でしたか？ エキサイティン！ あぁそれと、 $gaVIP_starName システムの $gaVIP_marketName へ $gaVIP_event の為に $gaVIP_timeLimit 日以内の優先輸送を要求されています。 我々はその謝礼を承認されています……"" Sebestyen は別のデータパッドをチェックする。 ""$gaVIP_reward クレジット。 コアワールドを簡単に旅するには、かなりいいんじゃないですか？""","aseb_accept:Accept
 aseb_decline:Decline
-gaVIP_threats:「脅威？」",
+gaVIP_threats:""脅威？""",
 gaVIPBlurbMissionTextBasicThreats,DialogOptionSelected,$option == gaVIP_threats,,"""Oh um. You know. Threats.""
 
 You simply wait for him to elaborate. He gives in almost instantly.
