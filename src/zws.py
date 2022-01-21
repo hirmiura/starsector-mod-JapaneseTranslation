@@ -10,8 +10,8 @@ from pathlib import Path
 
 import regex
 
-zws = r'\u200b'
-zwss = r'\u034f\u200b-\u200f\u2028-\u202e\u2061-\u2063\ufeff'
+zws = '\u200b'
+zwss = '\u034f\u200b-\u200f\u2028-\u202e\u2061-\u2063\ufeff'
 tarchar = (r'\p{Hiragana}\p{Katakana}\p{Kana_Extended_A}\p{Kana_Supplement}'
            r'\p{Katakana_Phonetic_Extensions}\p{Small_Kana_Extension}\p{Han}')
 
