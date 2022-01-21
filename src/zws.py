@@ -5,13 +5,15 @@ from __future__ import annotations
 
 import argparse
 import io
-from pathlib import Path
-import re
 import sys
+from pathlib import Path
+
+import regex
 
 zws = r'\u200b'
 zwss = r'\u034f\u200b-\u200f\u2028-\u202e\u2061-\u2063\ufeff'
-tarchar = r'\u2e80-\ufefe\uff00-\u3134f'
+tarchar = (r'\p{Hiragana}\p{Katakana}\p{Kana_Extended_A}\p{Kana_Supplement}'
+           r'\p{Katakana_Phonetic_Extensions}\p{Small_Kana_Extension}\p{Han')
 
 
 def pargs():
@@ -29,9 +31,9 @@ def process():
         fp = Path(file)
         text = fp.read_text(encoding='utf-8')
         if args.c:
-            text = re.sub(f'{zws}', '', text)
+            text = regex.sub(f'{zws}', '', text)
         else:
-            text = re.sub(rf'(?<![\s{zwss}])([{tarchar}])', f'{zws}$2', text)
+            text = regex.sub(rf'(?<![\s{zwss}])([{tarchar}])', rf'{zws}\1', text)
         fp.write_text(text, encoding='utf-8')
 
 
