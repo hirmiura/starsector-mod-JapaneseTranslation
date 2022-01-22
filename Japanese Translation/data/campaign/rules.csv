@@ -12878,7 +12878,7 @@ cpcOfferOptionBar1,cpc_optionBar,$cpc_trade,,,cpc_startBar:Talk to the well-dres
 cpcBlurbBar2,cpc_blurbBar,$cpc_military,,"At a private table, a $cpc_manOrWoman in uniform complains to another patron about how the ordnance department left them with unfilled nanoforge production slots- and a hole in the budget.",,
 cpcOfferOptionBar2,cpc_optionBar,$cpc_military,,,cpc_startBar:Talk to the $cpc_manOrWoman in uniform about selling you those military nanoforge production slots,
 cpcBlurbBar4,cpc_blurbBar,$cpc_armsDealer,,In a smoky booth flanked by bodyguards sits a $cpc_manOrWoman who you recognize as a notorious black market arms dealer.,,
-cpcOfferOptionBar4,cpc_optionBar,$cpc_armsDealer,,,cpc_startBar:Talk to the arms dealer about buying illegal weapons,
+cpcOfferOptionBar4,cpc_optionBar,$cpc_armsDealer,,,cpc_startBar:武器商人に違法な武器の購入について相談する,
 cpcOfferTextContact1,DialogOptionSelected,"$option == cpc_start
 $cpc_trade","$missionId = cpc
 SetTextHighlights $cpc_maxCapacity $cpc_costPercent $cpc_days
