@@ -13703,17 +13703,17 @@ $jabr_completed = true
 Call $jabr_ref updateStage","Your TriPad chimes, notifying you that your chief security officer has handed off the prisoner, now free. Perhaps.",contact_pickAnotherGreeting:Continue,
 ,,,,,,
 # Dead Drop mission,,,,,,
-ddroBlurb1,ddro_blurb,,,"""I need a package delivered. The destination must be kept a secret. Simple.""",,
-ddroOfferOption1,ddro_option,,,,ddro_start:Ask about the secret package delivery,
+ddroBlurb1,ddro_blurb,,,"""荷物を 届けて ほしい。 行き先は 秘密に しなければ ならない。 簡単な ことだ。""",,
+ddroOfferOption1,ddro_option,,,,ddro_start:シークレットパッケージの配送について尋ねる,
 ddroBlurbBar1,ddro_blurbBar,,,"At the end of the bar, a rakish $ddro_manOrWoman is met by a variety of low-life characters who scurry away again almost immediately. Giving orders, perhaps.",,
-ddroOfferOptionBar1,ddro_optionBar,,,,ddro_startBar:Find out what the rakish $ddro_manOrWoman at the end of the bar is up to,
+ddroOfferOptionBar1,ddro_optionBar,,,,ddro_startBar:バーの端にいるラキッシュな  $ddro_manOrWoman の魂胆を見出す,
 ddroOfferTextBar1,DialogOptionSelected,$option == ddro_startBar,"$missionId = ddro
 Highlight $ddro_dist $ddro_reward
 Call $ddro_ref showMap ""Destination: $ddro_systemName""","The $ddro_manOrWoman watches your approach. ""You want in on the business, that right?"" $heOrShe says, amused at your audacity.
 
-""Let me give you a job so easy that any rad-addled spacer could manage it. But,"" $heOrShe shrugs regretfully, ""It's a real shame how many of 'em just can't follow instructions and end up getting tossed out an airlock."" $HeOrShe laughs like this is a good joke.
+""放射線で イカれたような スペーサーでも 何とか 出来るような、 簡単な 仕事を 紹介しよう。 しかし……"" $heOrShe は残念そうに 肩を すくめる、 ""指示に 従えず エアロックから 放り出されて しまう人が 多いのは、 本当に 残念だよ。"" $HeOrShe は これが 良い ジョークなように 笑う。
 
-""Deliver the item to the specified location in $ddro_systemName, $ddro_dist light-years away."" $HeOrShe flips a TriPad out of $hisOrHer coat. The display shows $ddro_aOrAnThing. ""This is it. The reward is $ddro_reward credits. Don't be seen making the drop, and don't tell anyone about it.""","contact_acceptBar:Accept
+""アイテムを $ddro_systemName の 指定された 場所、 $ddro_dist 光年先に 配送する。"" $HeOrShe はコートから TriPad を取り出した。 ディスプレイには $ddro_aOrAnThing と表示されている。 ""これが そうだ。 報酬は $ddro_reward クレジット。 ドロップ している ところを 見られないように、 そして 誰にも 言わない ように。""","contact_acceptBar:Accept
 contact_declineBarNoContinue:Decline",
 ddroOfferTextContact1,DialogOptionSelected,$option == ddro_start,"$missionId = ddro
 Highlight $ddro_dist $ddro_reward
