@@ -96,7 +96,7 @@ Reduces the peak performance time by a factor of %s, prevents the use of active 
 
 Can not be installed on civilian or capital ships.","Drastic improvement in performance, much lower peak time.",graphics/hullmods/safety_overrides.png
 ,,,,,,,,,,,,,,,,,,
-Stabilized Shields,stabilizedshieldemitter,1,,,"shields, defensive, merc",Shields,5000,,,,3,6,9,15,data.hullmods.StabilizedShieldEmitter,Reduces the amount of soft flux raised shields generate per second by %s. Does not affect the hard flux generated as a result of shields taking damage.,Reduces flux upkeep for shields.,graphics/hullmods/stabilized_shields.png
+Stabilized Shields,stabilizedshieldemitter,1,,,"shields, defensive, merc",Shields,5000,,,,3,6,9,15,data.hullmods.StabilizedShieldEmitter,シールドが 1秒間に 発生させる ソフト フラックスの 量を %s 減少させます。 シールドが ダメージを 受けた 際に 生成される ハード フラックスには 影響しません。,Reduces flux upkeep for shields.,graphics/hullmods/stabilized_shields.png
 ,,,,,,,,,,,,,,,,,,
 Unstable Injector,unstable_injector,0,,,"engines, merc",Engines,2500,TRUE,,,5,10,15,25,data.hullmods.UnstableInjector,"Increases the ship's top speed in combat by %s/%s/%s/%s su/second, depending on hull size.
 
