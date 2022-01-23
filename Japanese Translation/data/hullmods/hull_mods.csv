@@ -112,9 +112,9 @@ Augmented Drive Field,augmentedengines,1,,,"req_spaceport, merc","Logistics, Req
 Auxiliary Fuel Tanks,auxiliary_fuel_tanks,0,,,"req_spaceport, merc","Logistics, Requires Dock",4000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.AuxiliaryFuelTanks,"Increases maximum fuel capacity by %s/%s/%s/%s, depending on hull size, or by %s, whichever is higher.
 
 For civilian-grade hulls, also increases maintenance supply use by %s.",Increases fuel capacity.,graphics/hullmods/fuel_tanks.png
-Efficiency Overhaul,efficiency_overhaul,0,,,"req_spaceport, merc","Logistics, Requires Dock",4000,,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.EfficiencyOverhaul,"Reduces supply use for maintenance, fuel use, and minimum crew required by %s.
+Efficiency Overhaul,efficiency_overhaul,0,,,"req_spaceport, merc","Logistics, Requires Dock",4000,,,,3,6,9,15,com.fs.starfarer.api.impl.hullmods.EfficiencyOverhaul,"メンテナンスの 補給品使用量、 燃料使用量、 最小乗員数を %s 減少させます。
 
-Increases the combat readiness recovery and repair rates by %s. The per-day supply consumption for CR recovery is increased to account for the increased recovery rate, but the total supply cost remains the same.",Reduces ongoing costs and enables more deployments.,graphics/hullmods/efficiency.png
+CR 回復率と 修理率を %s 増加させます。 回復率の 上昇に 伴い、 CR回復の ための 1日 あたりの 補給品消費量が 増加しますが、 総消費量は 変わりません。",Reduces ongoing costs and enables more deployments.,graphics/hullmods/efficiency.png
 Expanded Cargo Holds,expanded_cargo_holds,0,,,"req_spaceport, merc","Logistics, Requires Dock",4000,TRUE,,,5,10,15,25,com.fs.starfarer.api.impl.hullmods.ExpandedCargoHolds,"Increases maximum cargo capacity by %s/%s/%s/%s, depending on hull size, or by %s, whichever is higher.
 
 For civilian-grade hulls, also increases maintenance supply use by %s.",Increases cargo capacity.,graphics/hullmods/expanded_cargo.png
@@ -195,12 +195,12 @@ Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/compro
 Compromised Hull,comp_hull,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedHull,"This ship's hull has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Hull integrity reduced by %s.
 
 Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/compromised_hull.png
-Degraded Engines,degraded_engines,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.DegradedEngines,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's engines are suffering from permanently degraded combat performance. 
+Degraded Engines,degraded_engines,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.DegradedEngines,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's engines are suffering from permanently degraded combat performance.
 
 Top speed and maneuverability in combat reduced by %s.
 
 Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/degraded_engines.png
-Degraded Drive Field,degraded_drive_field,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,data.hullmods.DegradedDriveField,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's drive field is suffering from permanently degraded performance. 
+Degraded Drive Field,degraded_drive_field,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,data.hullmods.DegradedDriveField,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's drive field is suffering from permanently degraded performance.
 
 Maximum burn level decreased by %s. Sensor profile increased by %s.
 
