@@ -10713,17 +10713,17 @@ A quick glance to the other party behind the display and then back to you.
 ""That's all I, uh, that's all, captain. We should discuss other matters now and not return to this subject.""",contact_pickAnotherGreeting:Continue,
 ,,,,,,
 # GA - buy artifact from contact,,,,,,
-gaBABlurbPirate,gaBA_blurb,$gaBA_variation == PIRATE,,"""A, um, collector of esoteric goods? on $gaBA_marketName is offering to sell an important technological object to the Academy. We need someone to make the purchase.""",,
-gaBAOfferOptionPirate,gaBA_option,$gaBA_variation == PIRATE,,,gaBA_start:Ask about purchasing technology from pirates,
-gaBABlurbPather,gaBA_blurb,$gaBA_variation == PATHER,,"""A, um, individual possibly from the Luddic Path, um, spiritual movement on $gaBA_marketName is offering to sell an important technological object to the Academy. We need someone to make the purchase.""",,
-gaBAOfferOptionPather,gaBA_option,$gaBA_variation == PATHER,,,gaBA_start:Ask about purchasing technology from a Pather,
+gaBABlurbPirate,gaBA_blurb,$gaBA_variation == PIRATE,,"""あぁうん... $gaBA_marketName の ある 秘儀の コレクターが 重要な 技術的な 物を アカデミーに 売りたいと 言っている。 我々は 買い付けに 行く人が 必要です。""",,
+gaBAOfferOptionPirate,gaBA_option,$gaBA_variation == PIRATE,,,gaBA_start:海賊からの技術購入について聞く,
+gaBABlurbPather,gaBA_blurb,$gaBA_variation == PATHER,,"""あぁうん... ある 個人が Luddic Path の... うぅむ $gaBA_marketName での スピリチュアル ムーブメントから 重要な 技術的な 物を アカデミーに 売りたいと 言っている。 我々は 買い付けに 行く人が 必要です。""",,
+gaBAOfferOptionPather,gaBA_option,$gaBA_variation == PATHER,,,gaBA_start:Pather からの技術購入について聞く,
 gaBAMissionTextPirate,DialogOptionSelected,"$option == gaBA_start
 $gaBA_variation == PIRATE",$missionId = gaBA,"""Pirate is such a strong word, isn't it? There are all sorts of reasons, maybe, that a polity might find itself outside of um legitimate faction control. One imagines. What I mean is that, ah, we have to be diplomatic when an opportunity presents itself to acquire ah, um,"" Sebestyen looks carefully at a datapad, ""Ah I see- $gaBA_aOrAnItem! Just think what this could mean for research!""",gaBA_briefing1:Continue,
 gaBAMissionTextPirate1,DialogOptionSelected,"$option == gaBA_briefing1
 $gaBA_variation == PIRATE","SetTextHighlights $gaBA_costNormal $gaBA_reward
-Call $global.gaBA_ref showMap ""Target: $gaBA_marketName""","""... Because- well, never mind. Um, where was I- yes, so the contact is named $gaBA_contactName, they're $gaBA_onOrAt $gaBA_marketName in the $gaBA_systemName system. The Academy has allocated funds in the amount of $gaBA_costNormal credits which would be provided to you to make the purchase. Just talk to the contact, make arrangements, and return the $gaBA_item to the Galatia Academy. Simple!"" The academician taps his datapad on his desk contentedly.
+Call $global.gaBA_ref showMap ""Target: $gaBA_marketName""","""... Because- well, never mind. Um, where was I- yes, so the contact is named $gaBA_contactName, they're $gaBA_onOrAt $gaBA_marketName in the $gaBA_systemName system. アカデミーは 購入の ために あなたに $gaBA_costNormal クレジットの 資金を 割り当てています。 担当者に 話して 手配し $gaBA_item を Galatia アカデミーに 返却するだけです。 簡単ですね！"" 学者は 満足げに 机の 上の データパッドを 叩いている。
 
-""Oh right, and there's a mission reward of $gaBA_reward credits. Just,"" he leans in, looking concerned, ""you'll want to be careful. Space pirates. I've ... heard things."" He shakes his head, as if dismissing these concerns ""But you'd be fine, right?""","gaBA_accept:Accept
+""そうそう、 ミッションの 報酬として $gaBA_reward クレジットが ありますよ。ただね..."" 彼は 心配そうに 身を 乗り出す。 ""気を 付けたい ところです。 宇宙海賊... 私は... 色々と 聞いた。"" 彼は 首を 横に 振って、 それを 否定するように 言う。 ""でも、 あなたは 大丈夫だ。 でしょう？""","gaBA_accept:Accept
 aseb_decline:Decline",
 gaBAMissionTextPather,DialogOptionSelected,"$option == gaBA_start
 $gaBA_variation == PATHER",$missionId = gaBA,"""Wow. Huh,"" the academician studies his datapad as if not quite believing it.
