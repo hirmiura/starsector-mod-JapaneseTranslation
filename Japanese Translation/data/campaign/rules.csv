@@ -13418,7 +13418,7 @@ OR
 ""I need to move some $smug_commodityName to $smug_marketName- without the involvement of the authorities.""",,
 smugOfferOption,smug_option,,,,smug_start:Ask about the discreet smuggling operation,
 smugBlurbBar,smug_blurbBar,,,At the bar a shady $smug_manOrWoman bothers disinterested starship captains with an off-brand datapad.,,
-smugOfferOptionBar,smug_optionBar,,,,smug_startBar:Find out what the shady $smug_manOrWoman with the off-brand datapad is bothering people about,
+smugOfferOptionBar,smug_optionBar,,,,smug_startBar:オフブランドのデータパッドを持つ怪しげな $smug_manOrWoman が人々を悩ませていることを突き止める,
 smugOfferTextBar,DialogOptionSelected,$option == smug_startBar,"$missionId = smug
 SetTextHighlights $smug_quantity $smug_dist $smug_reward
 ShowRemainingCapacity $smug_commodityId
@@ -13426,7 +13426,7 @@ Call $smug_ref showMap ""Destination: $smug_marketName""","As you approach, the 
 
 ""You there, captain. Yes, you know an honest face when you see one!"" $HeOrShe gives a crooked smile, ""Just look here,"" $heOrShe shoves the flickering display of the datapad into your hands: a cargo manifest consisting mostly of low-grade construction materials stored in a warehouse in a completely different system.
 
-$HeOrShe leans in, and speaks quietly, motioning as if explaining the datapad's contents, ""You help me move $smug_quantity units of $smug_commodityName to $smug_marketName, a quick hop of $smug_dist light-years. Then I pay you $smug_reward credits. No need to involve the authorities, no inspections, no tariffs. Easy money, right?""","contact_acceptBar:Accept
+$HeOrShe は身を 乗り出し、 静かに 語り、 データパッドの 内容を 説明するように 合図を する。 ""あなたには $smug_quantity ユニットの $smug_commodityName を $smug_marketNameへ 移動するのを 手伝ってもらう。 $smug_dist 光年先だ。 そして、 私は あなたに $smug_reward クレジットを 支払う。 当局の 関与も、 検査も、 関税も 必要ない。 簡単な 儲けだろう？""","contact_acceptBar:Accept
 contact_declineBarNoContinue:Decline",
 smugOfferTextContact,DialogOptionSelected,$option == smug_start,"$missionId = smug
 SetTextHighlights $smug_quantity $smug_dist $smug_reward
