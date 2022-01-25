@@ -168,54 +168,6 @@ No Weapon Flux,no_weapon_flux,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.NoWeaponFlu
 Do Not Fire Through,do_not_fire_through,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.DoNotFireThrough,ステーションの他のモジュールに搭載されている武器は、このモジュールを通過して発射しても命中しないため、このモジュールを通過しての発射を避けることができます。,,
 Shard Spawner,shard_spawner,,,,,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ShardSpawner,船が破壊されたとき、シャード船を生成するようにする。,,
 Fourteenth Battlegroup,fourteenth,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Fourteenth,Hegemony を築いた第14ドメイン戦隊の生き残りである。ドメイン海軍の「決戦」ドクトリンを体現しており、特に一連の抜本的な構造変更(崩壊前の工法)により、重装甲を一律 %s ユニット搭載可能となった。これは速度や機動力を %s 低下させるだけである。特別にうまく調整されたエネルギーシステムは、この船体の標準的な例よりもフラックスの処理能力と容量を %s 増加させる。,,graphics/hullmods/fourteenth.png
-Compromised Armor,comp_armor,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedArmor,"This ship's armor has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Armor rating reduced by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/compromised_armor.png
-Compromised Hull,comp_hull,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedHull,"This ship's hull has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Hull integrity reduced by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/compromised_hull.png
-Degraded Engines,degraded_engines,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.DegradedEngines,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's engines are suffering from permanently degraded combat performance. 
-
-Top speed and maneuverability in combat reduced by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/degraded_engines.png
-Degraded Drive Field,degraded_drive_field,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,data.hullmods.DegradedDriveField,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's drive field is suffering from permanently degraded performance. 
-
-Maximum burn level decreased by %s. Sensor profile increased by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/degraded_drivefield.png
-Faulty Power Grid,faulty_grid,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.FaultyPowerGrid,"Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's power grid will never be capable of achieving peak performance.
-
-Flux capacity reduced by %s. Flux dissipation rate reduced by %s. Sensor profile increased by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/faulty_power_grid.png
-Phase Coil Instability,unstable_coils,,,,"dmod, phaseDamage",,,,TRUE,,0,0,0,0,data.hullmods.PhaseCoilInstability,"The phase coils on this ship are impossible to calibrate properly due to subtle flaws. Reduces the phase-time bonus by %s, reduces the peak performance time by %s, and increases the rate at which combat readiness degrades by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/phase_coil_instability.png
-Structural Damage,comp_structure,,,,"dmod, damageStruct, destroyedDamageAlways",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStructure,"This ship's hull has likely taken extreme damage in the past, possibly to the point of breaking apart. Armor rating reduced by %s, hull integrity reduced by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/structural_damage.png
-Glitched Sensor Array,glitched_sensors,,,,"dmod, damage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.GlitchedSensorArray,"The ship's sensor array is damaged past any repair short of a complete hull overhaul. Weapon range in combat reduced by %s. Sensor strength reduced by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/glitched_sensor_array.png
-Malfunctioning Comms,malfunctioning_comms,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.MalfunctioningComms,"The comm system has suffered serious damage, making punching through battlefield jamming even more of a challenge. Fighter engagement range reduced by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/malfunctioning_comms.png
-Defective Manufactory,defective_manufactory,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DefectiveManufactory,"The manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/defective_manufactory.png
-Damaged Flight Deck,damaged_deck,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DamagedFlightDeck,"The flight decks on this ship have taken major damage and seriously interfere with normal operation. Time to launch replacement fighters is increased by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/damaged_flight_deck.png
-Unreliable Subsystems,fragile_subsystems,,,,"dmod, damage, peak_time, notPhase",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FragileSubsystems,"A widespread loss of redundant components reduces peak operating time by %s, and increases the rate at which combat readiness degrades by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/fragile_subsystems.png
-Compromised Storage,comp_storage,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStorage,"The storage capacity of this ship is significantly degraded. Crew, cargo, and fuel capacity reduced by %s.
-
-Supply cost to recover from deployment reduced by %s.",,graphics/hullmods/compromised_storage.png
-Increased Maintenance,increased_maintenance,,,,"dmod, damage, civ, notAuto",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.IncreasedMaintenance,"Increases the monthly maintenance supply cost by %s. Increases minimum crew required by %s. Decreases maximum combat readiness by %s.
-
-Supply cost to recover from deployment reduced by %s.","Increases maintenance cost and crew requirements, decreases maximum combat readiness.",graphics/hullmods/increased_maintenance.png
 Erratic Fuel Injector,erratic_injector,,,,"dmod, damage, civ",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ErraticInjector,"燃料消費量が %s 増加し、ゼロフラックスブーストが %s su/second 減少する。
 
 展開から回復するための補給コストが %s 減少する。",Increases fuel use and decreases the zero-flux boost.,graphics/hullmods/erratic_injector.png
