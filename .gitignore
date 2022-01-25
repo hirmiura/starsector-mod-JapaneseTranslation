@@ -1,6 +1,9 @@
 # trans ディレクトリ
 /trans/*.orig
 /trans/*.orig.*
+/trans/*.csv
+/trans/*.pot
+!/trans/*.po
 
 # 成果物ディレクト
 /Japanese Translation/
