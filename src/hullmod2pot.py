@@ -8,6 +8,7 @@ import csv
 import io
 import re
 import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 
@@ -30,7 +31,18 @@ def process():
                 # 指定行数スキップする
                 next(reader)
                 i += 1
-            pottext = []
+            JST = timezone(timedelta(hours=+9), 'JST')
+            NOW = datetime.now(JST)
+            pottext = [
+                '# Created by script.',
+                'msgid ""',
+                'msgstr ""',
+                f'"POT-Creation-Date: {NOW.strftime("%Y-%m-%d %H:%M%z")}\\n"',
+                r'"MIME-Version: 1.0"\n',
+                r'"Content-Type: text/plain; charset=UTF-8"\n',
+                r'"Content-Transfer-Encoding: 8bit"\n',
+                '',
+            ]
             for row in reader:
                 if len(row) > 16 and row[16].strip():
                     pottext.append(f'#: {file}:{i}')
