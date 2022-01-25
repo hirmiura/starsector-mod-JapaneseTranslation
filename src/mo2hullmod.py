@@ -43,7 +43,7 @@ def process():
             for row in reader:
                 rowLen = len(row)
                 id = row[1] if rowLen > 1 and row[1].strip() else None
-                desc = row[16] if rowLen > 16 and row[16].strip() else None
+                desc = row[16].replace('\r', '') if rowLen > 16 and row[16].strip() else None
                 if not id or not desc:
                     # データのない行はスキップする
                     continue
