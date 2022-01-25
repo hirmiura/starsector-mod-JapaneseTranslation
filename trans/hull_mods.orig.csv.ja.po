@@ -19,7 +19,7 @@ msgctxt "advancedshieldemitter"
 msgid ""
 "Increases the turn rate of the ship's shields by %s and the rate at which "
 "the shields are raised by %s."
-msgstr ""
+msgstr "シールドの回転速度を %s 上げ、起動速度を %s 上げる。"
 
 #: hull_mods.orig.csv:3
 #, java-format
@@ -34,6 +34,13 @@ msgid ""
 "design coils with no other modifications, this takes the threshold from %s "
 "to %s."
 msgstr ""
+"フェイズコイルは、船のハードフラックスレベルが上昇すると、通常の空間との接続"
+"を維持することができなくなり、その結果、コイルが牽引力を得るのに苦労して最高"
+"速度が大幅に減少する。\n"
+"\n"
+"このmodにより、コイルはより高レベルのハードフラックスを処理できるようになり、"
+"速度が底をつく閾値が %s 増加する。他の変更を加えていない標準的なコイルの場"
+"合、閾値は %s から %s になる。"
 
 #: hull_mods.orig.csv:4
 #, java-format
@@ -42,12 +49,14 @@ msgid ""
 "Extends the range of beam weapons by %s, but reduces their turn rate by %s. "
 "Cumulative with Integrated Targeting Unit."
 msgstr ""
+"ビーム兵器の射程を %s 延長するが、ターンレートを %s 減少させる。Integrated "
+"Targeting Unit と累積する。"
 
 #: hull_mods.orig.csv:5
 #, java-format
 msgctxt "turretgyros"
 msgid "Increases the turn rate of all turrets by %s."
-msgstr ""
+msgstr "全てのタレットのターンレートを %s 増加させる。"
 
 #: hull_mods.orig.csv:6
 #, java-format
@@ -56,6 +65,8 @@ msgid ""
 "Increases the durability of all weapons by %s and reduces recoil by %s, but "
 "decreases weapon turn rate by %s. Also increases the ship's armor by %s."
 msgstr ""
+"すべての武器の耐久性を %s 増加させ、リコイルを %s 減少させるが、ターンレート"
+"を %s 減少させる。また、船の装甲を %s 増加させる。"
 
 #: hull_mods.orig.csv:7
 #, java-format
@@ -66,6 +77,9 @@ msgid ""
 "\n"
 "Will try to engage enemies and otherwise act as a combat ship in battle."
 msgstr ""
+"船体値を %s 、装甲を %s 、フラックス容量を %s 増加させる。\n"
+"\n"
+"戦闘時に敵と交戦しようとし、戦闘艦として振る舞うようになる。"
 
 #: hull_mods.orig.csv:8
 #, java-format
@@ -74,12 +88,13 @@ msgid ""
 "Reduces the time required to repair disabled weapons and engines (in combat) "
 "by %s."
 msgstr ""
+"戦闘時に、戦闘不能となった武器とエンジンの修理に必要な時間を %s 短縮する。"
 
 #: hull_mods.orig.csv:9
 #, java-format
 msgctxt "auxiliarythrusters"
 msgid "Increases the ship's maneuverability by %s."
-msgstr ""
+msgstr "船の機動力を %s 増加させる。"
 
 #: hull_mods.orig.csv:10
 #, java-format
@@ -96,6 +111,10 @@ msgid ""
 "\n"
 "Ship takes %s fewer crew casualties from hull damage sustained in combat."
 msgstr ""
+"船内の重要な箇所に、密閉性の高い強化ドアを追加する。船体値を %s 増加させ"
+"る。\n"
+"\n"
+"戦闘中に受けた船体損傷による乗組員の犠牲が %s 減少する。"
 
 #: hull_mods.orig.csv:12
 #, java-format
@@ -113,6 +132,14 @@ msgid ""
 "Can not be installed on frigates, phase ships, or ships that already have "
 "proper fighter bays."
 msgstr ""
+"標準のシャトル格納庫を改造し、戦闘機ベイを搭載する。戦闘機のシャーシを生産す"
+"る即席の製造工場は信頼性に欠け、ほとんどの部品に小さな欠陥がある。戦闘機の速"
+"度が %s 低下し、受けるダメージが %s 増加する。\n"
+"\n"
+"パイロットと格納庫クルーのために、最低乗員数を %s 増加させる。爆撃の "
+"Ordnance ポイントが %s 増加し、他のすべての戦闘機については %s 増加する。\n"
+"\n"
+"フリゲート艦、フェイズ艦、既に適切な戦闘機ベイを持つ船には設置できない。"
 
 #: hull_mods.orig.csv:13
 #, java-format
@@ -123,6 +150,8 @@ msgid ""
 "requirements by %s per fighter bay. The crew reduction is limited to a "
 "maximum of %s."
 msgstr ""
+"戦闘機ベイを即席の貨物室に変換し、貨物容量をさらに %s 増加させ、戦闘機ベイ1つ"
+"につき必要な乗組員を %s 減少させる。乗員の減少は最大で %s までとなる。"
 
 #: hull_mods.orig.csv:14
 #, java-format
@@ -137,6 +166,13 @@ msgid ""
 "Most combat ships install either an Integrated Targeting Unit or a Dedicated "
 "Targeting Core, with the exception of more specialized variants."
 msgstr ""
+"巡洋艦/主力艦の弾道/エネルギー兵器の射程を %s/%s 増加させる。\n"
+"\n"
+"フリゲート艦や駆逐艦には搭載できず、 Integrated Targeting Unit との併用もでき"
+"ない。\n"
+"\n"
+"特殊なバリアントを除けば、ほとんどの戦闘艦は Integrated Targeting Unit か "
+"Dedicated Targeting Core のどちらかを搭載している。"
 
 #: hull_mods.orig.csv:15
 #, java-format
@@ -152,6 +188,13 @@ msgid ""
 "Reduces the weapon range reduction due to superior enemy Electronic Warfare "
 "by %s."
 msgstr ""
+"自艦から発射されたミサイルが、ECMやフレアの影響を受ける確率を %s 減少させ"
+"る。\n"
+"\n"
+"各ミサイルに搭載されたCPUコア付属物により、ミサイルの最高速度を %s 、機動性"
+"を %s 向上させ、さらに誘導アルゴリズムも大幅に改善する。\n"
+"\n"
+"敵の電子戦優勢による武器射程の低下を %s 減少させる。"
 
 #: hull_mods.orig.csv:16
 #, java-format
@@ -160,6 +203,8 @@ msgid ""
 "When deployed in combat, grants %s/%s/%s/%s ECM rating, depending on this "
 "ship's hull size."
 msgstr ""
+"戦闘中に配備された場合、この艦の船体サイズに応じて %s/%s/%s/%s のECMレーティ"
+"ングを付与する。"
 
 #: hull_mods.orig.csv:17
 #, java-format
@@ -171,6 +216,10 @@ msgid ""
 "\n"
 "Will try to engage enemies and otherwise act as a combat ship in battle."
 msgstr ""
+"船の機動性を %s 増加する。全てのポイントディフェンス兵器の射程を %s 増加さ"
+"せ、戦闘機とミサイルに与えるダメージを %s 増加させる。\n"
+"\n"
+"戦闘時に敵と交戦しようとし、戦闘艦として振る舞うようになる。"
 
 #: hull_mods.orig.csv:18
 #, java-format
@@ -181,6 +230,10 @@ msgid ""
 "\n"
 "Increases the crew required by %s per fighter bay."
 msgstr ""
+"戦闘機の損失による戦闘機交換率の低下率を %s 減少させ、回復率を %s 増加させ"
+"る。\n"
+"\n"
+"戦闘機ベイごとに必要な乗員を%s増加させる。"
 
 #: hull_mods.orig.csv:19
 #, java-format
@@ -188,19 +241,19 @@ msgctxt "magazines"
 msgid ""
 "Increases the ammo capacity or the number of charges for ballistic and "
 "energy weapons by %s."
-msgstr ""
+msgstr "弾道兵器とエネルギー兵器の弾薬の容量とチャージ数を %s 増加させる。"
 
 #: hull_mods.orig.csv:20
 #, java-format
 msgctxt "missleracks"
 msgid "Increases the ammo capacity of missile weapons by %s."
-msgstr ""
+msgstr "ミサイル兵器の弾薬容量を %s 増加させる。"
 
 #: hull_mods.orig.csv:21
 #, java-format
 msgctxt "extendedshieldemitter"
 msgid "Increases the shield's coverage by %s degrees."
-msgstr ""
+msgstr "シールドのカバー率を %s 度増加させる。"
 
 #: hull_mods.orig.csv:22
 #, java-format
@@ -1061,6 +1114,9 @@ msgid ""
 "\n"
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
+"武器のターンレートが %s 減少し、リコイルが %s 増加する。\n"
+"\n"
+"配備から回復するための補給コストが %s 減少する。"
 
 #: hull_mods.orig.csv:125
 #, java-format
@@ -1070,6 +1126,9 @@ msgid ""
 "\n"
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
+"最大乗員数を %s 、最大戦闘準備率を %s 減少させる。\n"
+"\n"
+"配備から回復するための補給コストが %s 減少する。"
 
 #: hull_mods.orig.csv:126
 #, java-format
@@ -1079,6 +1138,9 @@ msgid ""
 "\n"
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
+"シールドが受けるダメージ量を %s 増加させる。\n"
+"\n"
+"配備から回復するための補給コストが %s 減少する。"
 
 #: hull_mods.orig.csv:128
 #, java-format
@@ -1087,6 +1149,8 @@ msgid ""
 "Some of the original weapon mounts on this ship have been damaged beyond "
 "repair and can no longer be used."
 msgstr ""
+"この船のオリジナルの武器マウントのいくつかは、修理不可能なほど損傷しており、"
+"もはや使用することはできない。"
 
 #: hull_mods.orig.csv:129
 #, java-format
@@ -1097,3 +1161,6 @@ msgid ""
 "routine conditions, but have a significant chance of critical malfunction "
 "when stressed."
 msgstr ""
+"この船体のシステムは、おそらく認定された技術者の監督なしに、仕様から大幅に変"
+"更されている。通常の状態では正常に動作しているように見えるが、ストレスがかか"
+"ると重大な誤動作を起こす可能性が高い。"
