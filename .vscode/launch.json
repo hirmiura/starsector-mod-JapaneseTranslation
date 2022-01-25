@@ -11,6 +11,15 @@
             "program": "${file}",
             "cwd": "${fileDirname}",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: mo2hullmod.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/mo2hullmod.py",
+            "cwd": "${workspaceFolder}/trans",
+            "console": "integratedTerminal",
+            "args": ["hull_mods.orig.csv.ja.mo"]
         }
     ]
 }

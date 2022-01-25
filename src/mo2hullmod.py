@@ -43,14 +43,14 @@ def process():
             for row in reader:
                 rowLen = len(row)
                 id = row[1] if rowLen > 1 and row[1].strip() else None
-                desc = row[16] if rowLen > 16 and row[16].strip() else None
+                desc = row[16].replace('\r', '') if rowLen > 16 and row[16].strip() else None
                 if not id or not desc:
                     # データのない行はスキップする
                     continue
                 trtext = gtr.pgettext(id, desc) if id and desc else None
-                if not args.t or row[16] != trtext:
+                if not args.t or desc != trtext:
                     if trtext:
-                        row[16] = trtext
+                        row[16] = trtext.replace('\n', '\r\n')
                     writer.writerow(row)
     pass
 
