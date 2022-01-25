@@ -10,7 +10,7 @@ all: package
 
 package:
 	cp -r $(SRC_NAME) $(DST_NAME)
-	cp CHANGELOG.md LICENSE.md README.md $(DST_NAME)
+	cp CHANGELOG.md README.md $(DST_NAME)
 	$(ZIP) -r $(ZIP_NAME) $(DST_NAME)
 
 clean:
