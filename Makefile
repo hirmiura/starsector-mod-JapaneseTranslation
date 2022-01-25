@@ -1,14 +1,17 @@
 # Makefile @ /
 ZIP = zip
-DIR_NAME = "Japanese Translation"
+SRC_NAME = mod
+DST_NAME = "Japanese Translation"
 ZIP_NAME = Japanese_Translation.zip
 
-.PHONY: all compress clean
+.PHONY: all package clean
 
-all: compress
+all: package
 
-compress: clean
-	$(ZIP) -r $(ZIP_NAME) $(DIR_NAME)
+package:
+	cp -r $(SRC_NAME) $(DST_NAME)
+	cp CHANGELOG.md LICENSE.md README.md $(DST_NAME)
+	$(ZIP) -r $(ZIP_NAME) $(DST_NAME)
 
 clean:
-	rm -f $(ZIP_NAME)
+	rm -fr $(ZIP_NAME) $(SRC_NAME)
