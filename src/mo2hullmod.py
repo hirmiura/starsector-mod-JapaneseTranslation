@@ -48,9 +48,9 @@ def process():
                     # データのない行はスキップする
                     continue
                 trtext = gtr.pgettext(id, desc) if id and desc else None
-                if not args.t or row[16] != trtext:
+                if not args.t or desc != trtext:
                     if trtext:
-                        row[16] = trtext
+                        row[16] = trtext.replace('\n', '\r\n')
                     writer.writerow(row)
     pass
 
