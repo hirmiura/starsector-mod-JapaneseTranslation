@@ -6,12 +6,14 @@ MOD_DIR := mod/
 DST_NAME := "Japanese Translation"
 ZIP_NAME := Japanese_Translation.zip
 
-.PHONY: all copy-original package clean clean-package clean-original
+.PHONY: all trans package clean clean-package
 
 all: package
 
-package:
+trans:
 	make -C trans install
+
+package: trans
 	cp -r $(MOD_DIR) $(DST_NAME)
 	cp CHANGELOG.md README.md $(DST_NAME)
 	$(ZIP) -r $(ZIP_NAME) $(DST_NAME)
