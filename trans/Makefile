@@ -12,6 +12,7 @@ install: mo2csv
 	mv hull_mods.csv $(MOD_DIR)data/hullmods/
 
 mo2csv:
+	msgfmt hull_mods.orig.csv.ja.po -o hull_mods.orig.csv.ja.mo
 	$(PYTHON) $(SRC_DIR)mo2hullmod.py -t hull_mods.orig.csv.ja.mo
 
 copy-original:
