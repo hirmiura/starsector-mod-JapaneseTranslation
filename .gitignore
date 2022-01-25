@@ -1,2 +1,9 @@
+# trans ディレクトリ
+/trans/*.orig
+/trans/*.orig.*
+
+# 成果物ディレクト
+/Japanese Translation/
+
 # zipファイルは除外する
 *.zip
