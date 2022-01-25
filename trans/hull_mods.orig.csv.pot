@@ -1,0 +1,671 @@
+#: hull_mods.orig.csv:2
+#, java-format
+msgctxt "advancedshieldemitter"
+msgid "Increases the turn rate of the ship's shields by %s and the rate at which the shields are raised by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:3
+#, java-format
+msgctxt "adaptive_coils"
+msgid "Phase coils are less able to maintain a connection with normal space as the ship's hard flux levels rise, resulting in a greatly reduced top speed as the coils struggle to gain traction.\n\nThis modification allows the coils to handle higher levels of hard flux, increasing the threshold at which speed bottoms out by %s. For standard-design coils with no other modifications, this takes the threshold from %s to %s."
+msgstr ""
+
+#: hull_mods.orig.csv:4
+#, java-format
+msgctxt "advancedoptics"
+msgid "Extends the range of beam weapons by %s, but reduces their turn rate by %s. Cumulative with Integrated Targeting Unit."
+msgstr ""
+
+#: hull_mods.orig.csv:5
+#, java-format
+msgctxt "turretgyros"
+msgid "Increases the turn rate of all turrets by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:6
+#, java-format
+msgctxt "armoredweapons"
+msgid "Increases the durability of all weapons by %s and reduces recoil by %s, but decreases weapon turn rate by %s. Also increases the ship's armor by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:7
+#, java-format
+msgctxt "assault_package"
+msgid "Increases the ship's hull integrity by %s, armor by %s, and flux capacity by %s.\n\nWill try to engage enemies and otherwise act as a combat ship in battle."
+msgstr ""
+
+#: hull_mods.orig.csv:8
+#, java-format
+msgctxt "autorepair"
+msgid "Reduces the time required to repair disabled weapons and engines (in combat) by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:9
+#, java-format
+msgctxt "auxiliarythrusters"
+msgid "Increases the ship's maneuverability by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:10
+#, java-format
+msgctxt "ballistic_rangefinder"
+msgid "<tooltip created in the script due to lots of highlighting>"
+msgstr ""
+
+#: hull_mods.orig.csv:11
+#, java-format
+msgctxt "blast_doors"
+msgid "Installs additional hermetic and heavily reinforced doors at critical junctures throughout the ship. Increases hull integrity by %s.\n\nShip takes %s fewer crew casualties from hull damage sustained in combat."
+msgstr ""
+
+#: hull_mods.orig.csv:12
+#, java-format
+msgctxt "converted_hangar"
+msgid "Converts the ship's standard shuttle hangar to house a fighter bay. The improvised manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s.\n\nIncreases the minimum crew required by %s to account for pilots and bay crews. Increases the ordnance point cost of bombers by %s, and of all other fighters by %s.\n\nCan not be installed on frigates, phase ships, or ships that already have proper fighter bays."
+msgstr ""
+
+#: hull_mods.orig.csv:13
+#, java-format
+msgctxt "converted_fighterbay"
+msgid "Converts the ship's fighter bays housing built-in wings into improvised cargo holds, giving it an additional %s cargo capacity and reducing its crew requirements by %s per fighter bay. The crew reduction is limited to a maximum of %s."
+msgstr ""
+
+#: hull_mods.orig.csv:14
+#, java-format
+msgctxt "dedicated_targeting_core"
+msgid "Increases the range of ballistic and energy weapons by %s/%s for cruisers/capital ships.\n\nCan not be installed on a frigate or a destroyer, and can not work in conjunction with Integrated Targeting Unit.\n\nMost combat ships install either an Integrated Targeting Unit or a Dedicated Targeting Core, with the exception of more specialized variants."
+msgstr ""
+
+#: hull_mods.orig.csv:15
+#, java-format
+msgctxt "eccm"
+msgid "Reduces the chance for missiles launched by the ship to be affected by electronic counter-measures and flares by %s.\n\nA CPU core adjunct in each missile increases missile top speed by %s and missile maneuverability by %s, as well as significantly improving the guidance algorithm.\n\nReduces the weapon range reduction due to superior enemy Electronic Warfare by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:16
+#, java-format
+msgctxt "ecm"
+msgid "When deployed in combat, grants %s/%s/%s/%s ECM rating, depending on this ship's hull size."
+msgstr ""
+
+#: hull_mods.orig.csv:17
+#, java-format
+msgctxt "escort_package"
+msgid "Increases the ship's maneuverability by %s. Increases the range of all point-defense weapons by %s, and increases the damage dealt to fighters and missiles by %s.\n\nWill try to engage enemies and otherwise act as a combat ship in battle."
+msgstr ""
+
+#: hull_mods.orig.csv:18
+#, java-format
+msgctxt "expanded_deck_crew"
+msgid "Reduces the rate at which the fighter replacement rate decreases due to fighter losses by %s, and increases the rate at which it recovers by %s.\n\nIncreases the crew required by %s per fighter bay."
+msgstr ""
+
+#: hull_mods.orig.csv:19
+#, java-format
+msgctxt "magazines"
+msgid "Increases the ammo capacity or the number of charges for ballistic and energy weapons by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:20
+#, java-format
+msgctxt "missleracks"
+msgid "Increases the ammo capacity of missile weapons by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:21
+#, java-format
+msgctxt "extendedshieldemitter"
+msgid "Increases the shield's coverage by %s degrees."
+msgstr ""
+
+#: hull_mods.orig.csv:22
+#, java-format
+msgctxt "fluxcoil"
+msgid "Increases the ship's flux capacity by %s/%s/%s/%s, depending on hull size. Not as efficient as flux capacitors - most useful when added to a design that already carries the maximum possible number of capacitors."
+msgstr ""
+
+#: hull_mods.orig.csv:23
+#, java-format
+msgctxt "fluxdistributor"
+msgid "Increases the ship's flux dissipation by %s/%s/%s/%s, depending on hull size. Not as efficient as flux vents - most useful when added to a design that already carries the maximum possible number of vents."
+msgstr ""
+
+#: hull_mods.orig.csv:24
+#, java-format
+msgctxt "frontemitter"
+msgid "Locks the ship's omni-directional shield emitter to a front-facing position and extends its arc by %s. In addition, the stable emitter position results in a %s reduction to the shield's upkeep cost.\n\nAs with all frontal emitters, the shield will also deploy twice as quickly."
+msgstr ""
+
+#: hull_mods.orig.csv:25
+#, java-format
+msgctxt "shield_shunt"
+msgid "Removes the ship's shields. The external emitter nodes are replaced with reinforced plating, increasing the ship's armor by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:26
+#, java-format
+msgctxt "frontshield"
+msgid "Installs a makeshift, inefficient shield generator on the ship. The shield emitter is locked in a forward-facing position and has a %s degree arc.\n\nThe shield generator draws much of its power from engines and reduces the ship's top speed by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:27
+#, java-format
+msgctxt "hardenedshieldemitter"
+msgid "Reduces the amount of damage taken by shields by %s. Also reduces the chance that shields will be pierced by EMP arcs from weapons like the Ion Beam."
+msgstr ""
+
+#: hull_mods.orig.csv:28
+#, java-format
+msgctxt "hardened_subsystems"
+msgid "Increases peak operating time for ships that suffer degraded performance from extended deployment by %s.\n\nAlso reduces the rate at which combat readiness degrades by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:29
+#, java-format
+msgctxt "heavyarmor"
+msgid "Increases the ship's armor by %s/%s/%s/%s points, depending on hull size. Also reduces its maneuverability by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:30
+#, java-format
+msgctxt "high_scatter_amp"
+msgid "<tooltip created in the script due to sections>"
+msgstr ""
+
+#: hull_mods.orig.csv:31
+#, java-format
+msgctxt "pointdefenseai"
+msgid "Gives all small non-missile weapons the ability to automatically target incoming enemy missiles and to identify - and ignore - decoy flares. Targeting missiles takes priority over targeting enemy ships or fighters.\n\nIn addition, all point-defense weapons get the best possible target leading, regardless of combat readiness, and all damage to missiles is increased by %s. "
+msgstr ""
+
+#: hull_mods.orig.csv:32
+#, java-format
+msgctxt "pdintegration"
+msgid "Reduces the ordnance point cost of small point-defense weapons by %s. The cost reduction only affects weapons that have PD capability as a feature of the weapon itself, and not when it's gained through other means such as from a hullmod.\n\nIn addition, all point-defense weapons deal %s more damage to all targets."
+msgstr ""
+
+#: hull_mods.orig.csv:33
+#, java-format
+msgctxt "targetingunit"
+msgid "Extends the range of ballistic and energy weapons by %s/%s/%s/%s, depending on hull size. Can not work in conjunction with Dedicated Targeting Core.\n\nMost combat ships install either an Integrated Targeting Unit or a Dedicated Targeting Core, with the exception of more specialized variants."
+msgstr ""
+
+#: hull_mods.orig.csv:34
+#, java-format
+msgctxt "nav_relay"
+msgid "When deployed in combat, increases nav rating of your fleet by %s/%s/%s/%s, depending on this ship's hull size.\n\nThe total nav rating of your fleet increases the top speed of your deployed ships."
+msgstr ""
+
+#: hull_mods.orig.csv:35
+#, java-format
+msgctxt "neural_interface"
+msgid "Links the flagship with another ship, allowing switching between ships without using a shuttle pod. Both ships must have a Neural Interface and not be commanded by an officer or an AI core. The transfer is instant if the combined deployment points of the ships are %s or less.\n\nIf the linked ship is destroyed or leaves the battlefield, the flagship will establish a neural link with another ship with a Neural Interface. If the flagship is destroyed or leaves the battlefield, command will have to be physically transferred to another ship with a Neural Interface before a new link can be established.\n\nBoth linked ships benefit from your personal combat skills as if you'd transferred command to them, regardless of which one you're controlling personally. As with "transfer command", some skill effects - such as those increasing ammo capacity, or other fixed ship stats - do not apply."
+msgstr ""
+
+#: hull_mods.orig.csv:36
+#, java-format
+msgctxt "neural_integrator"
+msgid "An augmented version of Neural Interface that works with automated ships by enabling direct control of all of the ship's systems via the link, instead of having the controlling conscousness aspect simply direct the bridge crew.\n\nLinks the flagship with another ship, allowing switching between ships without using a shuttle pod. Both ships must have a Neural Interface and not be commanded by an officer or an AI core. The transfer is instant if the combined deployment points of the ships are %s or less.\n\nIf the linked ship is destroyed or leaves the battlefield, the flagship will establish a neural link with another ship with a Neural Interface. If the flagship is destroyed or leaves the battlefield, command will have to be physically transferred to another ship with a Neural Interface before a new link can be established.\n\nBoth linked ships benefit from your personal combat skills as if you'd transferred command to them, regardless of which one you're controlling personally. As with "transfer command", some skill effects - such as those increasing ammo capacity, or other fixed ship stats - do not apply."
+msgstr ""
+
+#: hull_mods.orig.csv:37
+#, java-format
+msgctxt "adaptiveshields"
+msgid "Converts frontal shields to omni-directional. Reduces the shield's arc by %s, and decreases its upkeep by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:38
+#, java-format
+msgctxt "operations_center"
+msgid "Increases the command point recovery rate by %s when installed on the flagship."
+msgstr ""
+
+#: hull_mods.orig.csv:39
+#, java-format
+msgctxt "phase_anchor"
+msgid "Reduces the phase cloak's activation cost to %s. Increases the soft flux dissipation and weapon recharge rate by %s while phased.\n\nWhen suffering critical damage that would otherwise destroy or disable the ship, able to initiate an emergency dive deep into p-space. The ship counts as retreated and will emerge into normal space when combat is over, suffering an additional penalty to combat readiness equal to %s its deployment cost. The ship must have enough combat readiness to cover this cost to initiate the dive.\n\nDue to the immense distortions in p-space caused by such a maneuver, only one ship per battle - regardless of which side it's on - is able to perform it."
+msgstr ""
+
+#: hull_mods.orig.csv:40
+#, java-format
+msgctxt "recovery_shuttles"
+msgid "Reduces the casualties suffered by fighter pilots by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:41
+#, java-format
+msgctxt "reinforcedhull"
+msgid "Increases the ship's hull integrity by %s. If disabled, the ship will not break apart and is almost always recoverable after the battle."
+msgstr ""
+
+#: hull_mods.orig.csv:42
+#, java-format
+msgctxt "fluxbreakers"
+msgid "Decreases the amount of damage taken from EMP weapons (such as Ion Cannons) by %s. Also increases the ship's flux dissipation rate while venting by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:43
+#, java-format
+msgctxt "safetyoverrides"
+msgid "Disabling safety protocols increases the ship's top speed in combat by %s/%s/%s (depending on ship size, with a corresponding increase in acceleration) and allows the zero-flux engine boost to take effect regardless of flux level. The flux dissipation rate, including that of additional vents, is increased by a factor of %s.\n\nReduces the peak performance time by a factor of %s, prevents the use of active venting, and drastically reduces weapon ranges past %s units.\n\nCan not be installed on civilian or capital ships."
+msgstr ""
+
+#: hull_mods.orig.csv:45
+#, java-format
+msgctxt "stabilizedshieldemitter"
+msgid "Reduces the amount of soft flux raised shields generate per second by %s. Does not affect the hard flux generated as a result of shields taking damage."
+msgstr ""
+
+#: hull_mods.orig.csv:47
+#, java-format
+msgctxt "unstable_injector"
+msgid "Increases the ship's top speed in combat by %s/%s/%s/%s su/second, depending on hull size.\n\nInterferes with weapons targeting and other vulnerable systems, reducing weapon range by %s and increasing the fighter replacement time by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:52
+#, java-format
+msgctxt "additional_berthing"
+msgid "Increases maximum crew capacity by %s/%s/%s/%s, depending on hull size, or by %s, whichever is higher.\n\nFor civilian-grade hulls, also increases maintenance supply use by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:53
+#, java-format
+msgctxt "augmentedengines"
+msgid "Increases maximum burn level by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:54
+#, java-format
+msgctxt "auxiliary_fuel_tanks"
+msgid "Increases maximum fuel capacity by %s/%s/%s/%s, depending on hull size, or by %s, whichever is higher.\n\nFor civilian-grade hulls, also increases maintenance supply use by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:55
+#, java-format
+msgctxt "efficiency_overhaul"
+msgid "Reduces supply use for maintenance, fuel use, and minimum crew required by %s.\n\nIncreases the combat readiness recovery and repair rates by %s. The per-day supply consumption for CR recovery is increased to account for the increased recovery rate, but the total supply cost remains the same."
+msgstr ""
+
+#: hull_mods.orig.csv:56
+#, java-format
+msgctxt "expanded_cargo_holds"
+msgid "Increases maximum cargo capacity by %s/%s/%s/%s, depending on hull size, or by %s, whichever is higher.\n\nFor civilian-grade hulls, also increases maintenance supply use by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:57
+#, java-format
+msgctxt "hiressensors"
+msgid "Increases sensor strength by %s points for frigates, destroyers, and cruisers, and by %s for capital ships."
+msgstr ""
+
+#: hull_mods.orig.csv:58
+#, java-format
+msgctxt "insulatedengine"
+msgid "Increases the durability of the ship's engines by %s, and the ship's hull integrity by %s.\n\nThe ship's sensor profile is also reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:59
+#, java-format
+msgctxt "militarized_subsystems"
+msgid "Removes the penalties from a civilian-grade hull, and increases maximum burn level by %s.\n\nIncreases flux dissipation by %s, and adds %s armor for the damage reduction calculation only.\n\nIncreases minimum crew required by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:60
+#, java-format
+msgctxt "solar_shielding"
+msgid "Originally developed by Diktat engineers after spending cycles dealing with the unique conditions of the inner Askonia system. Decreases the effect operating in a solar corona has on combat readiness by %s; also has the same effect against storms in deep hyperspace.\n\nIn combat, reduces energy damage taken by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:61
+#, java-format
+msgctxt "surveying_equipment"
+msgid "Reduces the heavy machinery and supplies required to perform surveys by %s/%s/%s/%s depending on hull size, down to a minimum of %s for each."
+msgstr ""
+
+#: hull_mods.orig.csv:64
+#, java-format
+msgctxt "terminator_core"
+msgid "Used by the terminator drone, this text should not be visible to the player."
+msgstr ""
+
+#: hull_mods.orig.csv:65
+#, java-format
+msgctxt "shared_flux_sink"
+msgid "Handles %s of the flux dissipation of all attached modules. If modules are lost during battle, the extra flux dissipation is redistributed among the remaining modules. Up to %s of this extra dissipation applies to hard flux."
+msgstr ""
+
+#: hull_mods.orig.csv:66
+#, java-format
+msgctxt "stealth_minefield"
+msgid "Mines attack enemy ships during battle."
+msgstr ""
+
+#: hull_mods.orig.csv:67
+#, java-format
+msgctxt "stealth_minefield_lt"
+msgid "Mines attack enemy ships during battle."
+msgstr ""
+
+#: hull_mods.orig.csv:68
+#, java-format
+msgctxt "chassis_storage"
+msgid "Fighter replacement rate does not go down when fighters are lost."
+msgstr ""
+
+#: hull_mods.orig.csv:70
+#, java-format
+msgctxt "missile_reload"
+msgid "An autoforge inside the ship periodically fully reloads the magazines of all missile weapons."
+msgstr ""
+
+#: hull_mods.orig.csv:71
+#, java-format
+msgctxt "shielded_holds"
+msgid "Commonly found on ships that can't always rely on shields to protect their cargo from cosmic radiation. Only a few tweaks are needed to have the shielding confound long-range cargo scans, reducing the probability of contraband being detected."
+msgstr ""
+
+#: hull_mods.orig.csv:72
+#, java-format
+msgctxt "repair_gantry"
+msgid "Increases the resources gained from salvaging abandoned stations, derelicts, floating hulks, and other such by %s/%s/%s/%s, depending on hull size. Only affects the recovery of common resources such as fuel and supplies, and not rare items like blueprints. In addition, %s of the bonus applies to post-battle salvage."
+msgstr ""
+
+#: hull_mods.orig.csv:73
+#, java-format
+msgctxt "phasefield"
+msgid "The ship is able to run a low-grade phase field for extended periods of time, reducing its effective sensor profile by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:74
+#, java-format
+msgctxt "fluxshunt"
+msgid "Allows the ship to dissipate hard flux at %s of the normal rate while shields are on."
+msgstr ""
+
+#: hull_mods.orig.csv:75
+#, java-format
+msgctxt "civgrade"
+msgid "Increases sensor profile by %s. Reduces sensor strength by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:76
+#, java-format
+msgctxt "high_maintenance"
+msgid "Increases the monthly maintenance supply cost by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:78
+#, java-format
+msgctxt "tow_cable"
+msgid "Improves the maximum burn level of the slowest ship in the fleet by 1. Multiple tugs can not be used to speed up the same ship by more than 1.\n\nCan not be used in combat."
+msgstr ""
+
+#: hull_mods.orig.csv:79
+#, java-format
+msgctxt "drive_field_stabilizer"
+msgid "Stabilizes the fleet's drive bubble, increasing the maximum burn of the fleet by %s. The effect of multiple stabilizers is cumulative.\n\nIncreases the ship's sensor profile by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:80
+#, java-format
+msgctxt "ground_support"
+msgid "Close support weapons and counter-measures for ground defenses. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet."
+msgstr ""
+
+#: hull_mods.orig.csv:81
+#, java-format
+msgctxt "advanced_ground_support"
+msgid "Close support weapons and counter-measures for ground defenses. Increases the effective strength of planetary raids by %s, up to the total number of marines in the fleet."
+msgstr ""
+
+#: hull_mods.orig.csv:82
+#, java-format
+msgctxt "delicate"
+msgid "The ship systems require excessive maintenance and do not stand up well under the rigours of prolonged engagements.\n\nIncreases the rate of in-combat CR decay after peak performance time runs out by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:83
+#, java-format
+msgctxt "hbi"
+msgid "Reduces the ordnance point cost of large ballistic weapons by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:84
+#, java-format
+msgctxt "rugged"
+msgid "Reduces most negative effects of d-mods by %s. If disabled or destroyed in combat, the ship has a %s chance to avoid new d-mods, and is almost always recoverable after the battle."
+msgstr ""
+
+#: hull_mods.orig.csv:85
+#, java-format
+msgctxt "automated"
+msgid "This ship is fully automated, and does not require - and can not take on - any human crew.\n\nAutomated ships require specialized equipment and expertise to maintain, resulting in a maximum combat readiness penalty of %s. This penalty can be offset by a fleet commander skilled in the use of automated ships."
+msgstr ""
+
+#: hull_mods.orig.csv:86
+#, java-format
+msgctxt "advancedcore"
+msgid "Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.\n\nPrecludes the installation of a Dedicated Targeting Core or an Integrated Targeting Unit."
+msgstr ""
+
+#: hull_mods.orig.csv:87
+#, java-format
+msgctxt "supercomputer"
+msgid "Extends the range of ballistic and energy weapons by %s. The range of point-defense weapons is only extended by %s.\n\nAlso increases target-leading accuracy and greatly increases in-combat sensor range."
+msgstr ""
+
+#: hull_mods.orig.csv:88
+#, java-format
+msgctxt "ex_phase_coils"
+msgid "Reduces phase cloak cooldown by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:89
+#, java-format
+msgctxt "high_frequency_attractor"
+msgid "An experimental modification allowing high-frequency motes to be warped in by the rift core on board the ship."
+msgstr ""
+
+#: hull_mods.orig.csv:90
+#, java-format
+msgctxt "converted_bay"
+msgid "This ship's cargo hold has been converted to house a pair of fighter bays. The improvised manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:91
+#, java-format
+msgctxt "vastbulk"
+msgid "The main body of this structure is vast and is, for practical purposes, capable of absorbing any amount of damage from conventional weapons without being destroyed."
+msgstr ""
+
+#: hull_mods.orig.csv:92
+#, java-format
+msgctxt "axialrotation"
+msgid "This structure constantly rotates around its axis."
+msgstr ""
+
+#: hull_mods.orig.csv:93
+#, java-format
+msgctxt "anchorrotation"
+msgid "This structure rotates around its anchor attachment point. For station modules only."
+msgstr ""
+
+#: hull_mods.orig.csv:94
+#, java-format
+msgctxt "reduced_explosion"
+msgid "Reduced explosion radius and damage."
+msgstr ""
+
+#: hull_mods.orig.csv:95
+#, java-format
+msgctxt "always_detaches"
+msgid "Always detaches from parent structure when destroyed."
+msgstr ""
+
+#: hull_mods.orig.csv:96
+#, java-format
+msgctxt "never_detaches"
+msgid "Never detaches from parent structure when destroyed."
+msgstr ""
+
+#: hull_mods.orig.csv:97
+#, java-format
+msgctxt "no_weapon_flux"
+msgid "Weapon fire costs no flux. Used on fighters for fine-grained control of effective shield hitpoints."
+msgstr ""
+
+#: hull_mods.orig.csv:98
+#, java-format
+msgctxt "do_not_fire_through"
+msgid "Weapons on other modules of a station will avoid firing through this module, even though the shots would go over it and not hit."
+msgstr ""
+
+#: hull_mods.orig.csv:99
+#, java-format
+msgctxt "shard_spawner"
+msgid "Spawns shard ships when ship is disabled/destroyed."
+msgstr ""
+
+#: hull_mods.orig.csv:100
+#, java-format
+msgctxt "do_not_back_off"
+msgid "Sets DO_NOT_BACK_OFF AIFlag"
+msgstr ""
+
+#: hull_mods.orig.csv:103
+#, java-format
+msgctxt "fourteenth"
+msgid "This ship is a survivor of the original 14th Domain Battlegroup which founded the Hegemony. It is a prime specimen of the Domain Navy's "decisive battle" doctrine, particularly exhibited by a series of radical structural modifications (performed with pre-Collapse industrial methods) which allow the mounting of heavier armor plating by a flat increase of %s standard units, with only a %s reduction in speed and maneuverability. Exceptionally well-tuned energy systems increase flux throughput and capacity by %s over standard examples of this hull."
+msgstr ""
+
+#: hull_mods.orig.csv:104
+#, java-format
+msgctxt "heg_militarized"
+msgid "This ship is - or was - on the Hegemony auxiliary list. Uparmour kits applied at Hegemony Naval yards resulting in no loss of performance for a %s/%s/%s/%s increase in armor strength, depending on hull size. Core power systems have been upgraded to military standards resulting in a %s improvement in overall handling, %s increase in flux capacity, a %s increase in flux dissipation, and an increase of maximum burn level by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:108
+#, java-format
+msgctxt "comp_armor"
+msgid "This ship's armor has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Armor rating reduced by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:109
+#, java-format
+msgctxt "comp_hull"
+msgid "This ship's hull has taken major and irreparable damage at some point in the past, or suffered from major errors in the manufacturing process. Hull integrity reduced by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:110
+#, java-format
+msgctxt "degraded_engines"
+msgid "Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's engines are suffering from permanently degraded combat performance. \n\nTop speed and maneuverability in combat reduced by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:111
+#, java-format
+msgctxt "degraded_drive_field"
+msgid "Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's drive field is suffering from permanently degraded performance. \n\nMaximum burn level decreased by %s. Sensor profile increased by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:112
+#, java-format
+msgctxt "faulty_grid"
+msgid "Whether due to battle damage, manufacturing defects, or cycles of poor maintenance, this ship's power grid will never be capable of achieving peak performance.\n\nFlux capacity reduced by %s. Flux dissipation rate reduced by %s. Sensor profile increased by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:113
+#, java-format
+msgctxt "unstable_coils"
+msgid "The phase coils on this ship are impossible to calibrate properly due to subtle flaws. Reduces the phase-time bonus by %s, reduces the peak performance time by %s, and increases the rate at which combat readiness degrades by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:114
+#, java-format
+msgctxt "comp_structure"
+msgid "This ship's hull has likely taken extreme damage in the past, possibly to the point of breaking apart. Armor rating reduced by %s, hull integrity reduced by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:115
+#, java-format
+msgctxt "glitched_sensors"
+msgid "The ship's sensor array is damaged past any repair short of a complete hull overhaul. Weapon range in combat reduced by %s. Sensor strength reduced by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:116
+#, java-format
+msgctxt "malfunctioning_comms"
+msgid "The comm system has suffered serious damage, making punching through battlefield jamming even more of a challenge. Fighter engagement range reduced by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:117
+#, java-format
+msgctxt "defective_manufactory"
+msgid "The manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:118
+#, java-format
+msgctxt "damaged_deck"
+msgid "The flight decks on this ship have taken major damage and seriously interfere with normal operation. Time to launch replacement fighters is increased by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:119
+#, java-format
+msgctxt "fragile_subsystems"
+msgid "A widespread loss of redundant components reduces peak operating time by %s, and increases the rate at which combat readiness degrades by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:120
+#, java-format
+msgctxt "comp_storage"
+msgid "The storage capacity of this ship is significantly degraded. Crew, cargo, and fuel capacity reduced by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:121
+#, java-format
+msgctxt "increased_maintenance"
+msgid "Increases the monthly maintenance supply cost by %s. Increases minimum crew required by %s. Decreases maximum combat readiness by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:122
+#, java-format
+msgctxt "erratic_injector"
+msgid "Increases fuel use by %s and decreases the zero-flux boost by %s su/second.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:123
+#, java-format
+msgctxt "faulty_auto"
+msgid "Increases minimum crew required by %s and decreases maximum combat readiness by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:124
+#, java-format
+msgctxt "damaged_mounts"
+msgid "Reduces weapon turn rate by %s and increases recoil by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:125
+#, java-format
+msgctxt "degraded_life_support"
+msgid "Decreases maximum crew capacity by %s, and maximum combat readiness by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:126
+#, java-format
+msgctxt "degraded_shields"
+msgid "Increases the amount of damage taken by shields by %s.\n\nSupply cost to recover from deployment reduced by %s."
+msgstr ""
+
+#: hull_mods.orig.csv:128
+#, java-format
+msgctxt "destroyed_mounts"
+msgid "Some of the original weapon mounts on this ship have been damaged beyond repair and can no longer be used."
+msgstr ""
+
+#: hull_mods.orig.csv:129
+#, java-format
+msgctxt "ill_advised"
+msgid "This hull's systems have been drastically modified from spec, likely without certified engineering oversight. Its systems appear to work correctly under routine conditions, but have a significant chance of critical malfunction when stressed."
+msgstr ""
