@@ -14,4 +14,4 @@ package:
 	$(ZIP) -r $(ZIP_NAME) $(DST_NAME)
 
 clean:
-	rm -fr $(ZIP_NAME) $(SRC_NAME)
+	rm -fr $(ZIP_NAME) $(DST_NAME)
