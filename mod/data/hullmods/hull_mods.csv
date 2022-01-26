@@ -125,6 +125,8 @@ Solar Shielding,solar_shielding,2,,,"defensive, req_spaceport, merc","Defenses, 
 Surveying Equipment,surveying_equipment,1,,,"special, req_spaceport","Logistics, Requires Dock",5000,,,,5,10,15,25,data.hullmods.SurveyingEquipment,調査に必要な重機や補給品を、船体サイズに応じて %s/%s/%s/%s 削減する。それぞれ最低 %s までになる。,Reduces resource requirements for surveying.,graphics/hullmods/surveying_equipment.png
 Terminator Core,terminator_core,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.TerminatorCore,ターミネータードローンが使用するもので、このテキストはプレイヤーには見えないようにする必要がある。,,graphics/hullmods/terminator_core.png
 Shared Flux Sink,shared_flux_sink,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.SharedFluxSink,接続されている全てのモジュールのフラックス散逸の %s を処理する。戦闘中にモジュールが失われた場合、余分なフラックス散逸は残りのモジュールに再分配される。この余分な散逸のうち、最大で %s がハードフラックスに適用される。,Flux/hard flux dissipation bonus as modules are lost.,graphics/hullmods/shared_flux_sink.png
+Stealth Minefield,stealth_minefield,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.StealthMinefield,戦闘中に敵艦を攻撃する地雷。,Mines attack enemy ships during battle.,graphics/hullmods/stealth_mines.png
+Stealth Minefield,stealth_minefield_lt,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.StealthMinefieldLT,戦闘中に敵艦を攻撃する地雷。,Mines attack enemy ships during battle.,graphics/hullmods/stealth_mines.png
 Fighter Chassis Storage,chassis_storage,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FighterChassisStorage,戦闘機を失っても、戦闘機補充率は下がらない。,Fighter replacement rate does not go down.,graphics/hullmods/expanded_deck_crew.png
 Missile Autoforge,missile_reload,,,,,,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.PeriodicMissileReload,艦内のオートフォージは、定期的にすべてのミサイル兵器の弾倉をフルリロードする。,Periodically reloads all missile weapons.,graphics/hullmods/expanded_missile_racks.png
 Shielded Cargo Holds,shielded_holds,2,,,,,,,TRUE,,5,10,15,30,data.hullmods.ShieldedCargoHolds,宇宙線から貨物を守るために、常にシールドに頼ることができない船舶によく見られる。わずかな調整でシールドが長距離貨物スキャンを混乱させ、密輸品が検出される確率を下げることができる。,Improves chance to avoid detection of contraband.,graphics/hullmods/shielded_cargo_hold.png
@@ -168,6 +170,55 @@ No Weapon Flux,no_weapon_flux,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.NoWeaponFlu
 Do Not Fire Through,do_not_fire_through,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.DoNotFireThrough,ステーションの他のモジュールに搭載されている武器は、このモジュールを通過して発射しても命中しないため、このモジュールを通過しての発射を避けることができます。,,
 Shard Spawner,shard_spawner,,,,,,,,TRUE,TRUE,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ShardSpawner,船が破壊されたとき、シャード船を生成するようにする。,,
 Fourteenth Battlegroup,fourteenth,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Fourteenth,Hegemony を築いた第14ドメイン戦隊の生き残りである。ドメイン海軍の「決戦」ドクトリンを体現しており、特に一連の抜本的な構造変更(崩壊前の工法)により、重装甲を一律 %s ユニット搭載可能となった。これは速度や機動力を %s 低下させるだけである。特別にうまく調整されたエネルギーシステムは、この船体の標準的な例よりもフラックスの処理能力と容量を %s 増加させる。,,graphics/hullmods/fourteenth.png
+Militarized Hegemony Auxiliary,heg_militarized,,,,,,,,TRUE,,0,0,0,0,data.hullmods.Militarized,この船は Hegemony の補助艦リストに載っている(または載っていた)。 Hegemony の海軍工廠にてアップアーマーキットが適用されており、性能低下なく船体サイズに応じて %s/%s/%s/%s の装甲強度が増加する。コアパワーシステムは軍用規格にアップグレードされ、全体的なハンドリングが %s 向上し、フラックス容量が %s 増加、フラックス散逸が %s 増加、最大燃焼レベルが %s 増加する。,,graphics/hullmods/militarized_hegemony_auxiliary.png
+Compromised Armor,comp_armor,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedArmor,"この船の装甲は、過去のある時点で修復不可能な大きなダメージを受けたか、製造工程における大きなミスに見舞われた。装甲が %s 減少する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/compromised_armor.png
+Compromised Hull,comp_hull,,,,"dmod, damage, damageStruct",,,,TRUE,,0,0,0,0,data.hullmods.CompromisedHull,"この船の船体は、過去のある時点で修復不可能な大きなダメージを受けたか、製造工程で大きなミスを犯している。船体値が %s 減少する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/compromised_hull.png
+Degraded Engines,degraded_engines,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.DegradedEngines,"戦闘による損傷、製造上の欠陥、あるいは整備不良の繰り返しにより、この艦のエンジンは永久に戦闘性能が低下している。
+
+戦闘時の最高速度と機動性が %s低下する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/degraded_engines.png
+Degraded Drive Field,degraded_drive_field,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,data.hullmods.DegradedDriveField,"戦闘による損傷、製造上の欠陥、あるいは整備不良の繰り返しにより、本艦のドライブフィールドは永久的な性能劣化に見舞われている。
+
+最大燃焼レベルが %s 減少する。センサープロファイルが %s 増加する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/degraded_drivefield.png
+Faulty Power Grid,faulty_grid,,,,"dmod, damage",,,,TRUE,,0,0,0,0,data.hullmods.FaultyPowerGrid,"戦闘による損傷、製造上の欠陥、あるいは整備不良の繰り返しにより、本艦のパワーグリッドが最高の性能を発揮することはないだろう。
+
+フラックス容量が %s 減少する。フラックス散逸率が %s 減少する。センサーのプロファイルが %s 増加する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/faulty_power_grid.png
+Phase Coil Instability,unstable_coils,,,,"dmod, phaseDamage",,,,TRUE,,0,0,0,0,data.hullmods.PhaseCoilInstability,"この船のフェイズコイルは、微妙な欠陥のため、正しく較正することが不可能である。フェイズタイムボーナスが %s 減少し、ピークパフォーマンスタイムが %s 減少し、戦闘即応性が低下する割合が %s 増加する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/phase_coil_instability.png
+Structural Damage,comp_structure,,,,"dmod, damageStruct, destroyedDamageAlways",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStructure,"この船の船体は過去に極度のダメージを受け、おそらくバラバラになるほどのダメージを受けたと思われる。装甲が %s 減少し、船体値が %s 減少する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/structural_damage.png
+Glitched Sensor Array,glitched_sensors,,,,"dmod, damage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.GlitchedSensorArray,"センサーアレイが損傷しており、船体のオーバーホールを行わないと修復できない。戦闘中の武器の射程距離が %s 減少する。センサーの強度が %s 減少する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/glitched_sensor_array.png
+Malfunctioning Comms,malfunctioning_comms,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.MalfunctioningComms,"通信システムが深刻なダメージを受け、戦場の妨害電波を打ち抜くことがより困難になっている。戦闘機の交戦範囲が %s 縮小される。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/malfunctioning_comms.png
+Defective Manufactory,defective_manufactory,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DefectiveManufactory,"戦闘機のシャーシを製造している工場が不安定で、ほとんどの部品に小さな欠陥がある。戦闘機の速度が %s 減少し、受けるダメージが %s 増加する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/defective_manufactory.png
+Damaged Flight Deck,damaged_deck,,,,"dmod, fighterBayDamage",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.DamagedFlightDeck,"本艦の飛行甲板は大きな損傷を受け、正常な運用に重大な支障をきたしている。代替戦闘機の発進までの時間が %s 増加する。
+
+配備から回復するための補給コストが %s 減少する。",,graphics/hullmods/damaged_flight_deck.png
+Unreliable Subsystems,fragile_subsystems,,,,"dmod, damage, peak_time, notPhase",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.FragileSubsystems,"冗長コンポーネントの広範な喪失により、ピーク動作時間が %s 短縮され、戦闘即応性が %s 低下する割合が増加する。
+
+配備から回復するための供給コストが %s 減少する。",,graphics/hullmods/fragile_subsystems.png
+Compromised Storage,comp_storage,,,,"dmod, damage, civOnly",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.CompromisedStorage,"この船の貯蔵能力は著しく低下している。乗員、貨物、燃料の容量が %s 減少する。
+
+配備から回復するための供給コストが %s 減少する。",,graphics/hullmods/compromised_storage.png
+Increased Maintenance,increased_maintenance,,,,"dmod, damage, civ, notAuto",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.IncreasedMaintenance,"毎月のメンテナンスコストが %s 増加する。必要な最小乗員数が ％s 増加する。最大戦闘即応性が %s 減少する。
+
+配備から回復するための補給コストが %s 減少する。","Increases maintenance cost and crew requirements, decreases maximum combat readiness.",graphics/hullmods/increased_maintenance.png
 Erratic Fuel Injector,erratic_injector,,,,"dmod, damage, civ",,,,TRUE,,0,0,0,0,com.fs.starfarer.api.impl.hullmods.ErraticInjector,"燃料消費量が %s 増加し、ゼロフラックスブーストが %s su/second 減少する。
 
 展開から回復するための補給コストが %s 減少する。",Increases fuel use and decreases the zero-flux boost.,graphics/hullmods/erratic_injector.png
