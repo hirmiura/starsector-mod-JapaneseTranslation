@@ -1,0 +1,1 @@
+# starsector-mod-JapaneseTranslation
