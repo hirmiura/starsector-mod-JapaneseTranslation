@@ -165,5 +165,7 @@ cython_debug/
 !/trans/**/*.po
 !/trans/**/Makefile
 /tmp/
+/Starsector/
+/Starsector
 /JapaneseTranslation/
 *.zip
