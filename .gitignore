@@ -160,10 +160,10 @@ cython_debug/
 #.idea/
 
 # Repository specific
-/bin/bmfont64.exe
-/trans/*
-!/trans/**/*.po
+/trans/**/*
+!/trans/**/
 !/trans/**/Makefile
+!/trans/**/*.po
 /tmp/
 /Starsector/
 /Starsector
