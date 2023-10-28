@@ -4,10 +4,9 @@
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
-
-import regex
 
 zws = "\u200b"
 zwss = "\u034f\u200b-\u200f\u2028-\u202e\u2061-\u2063\ufeff"
@@ -31,9 +30,9 @@ def process():
         fp = Path(file)
         text = fp.read_text(encoding="utf-8")
         if args.c:
-            text = regex.sub(f"{zws}", "", text)
+            text = re.sub(f"{zws}", "", text)
         else:
-            text = regex.sub(rf"(?<![\s{zwss}])([{tarchar}])", rf"{zws}\1", text)
+            text = re.sub(rf"(?<![\s{zwss}])([{tarchar}])", rf"{zws}\1", text)
         fp.write_text(text, encoding="utf-8")
 
 
