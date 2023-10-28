@@ -3,8 +3,8 @@ STARSECTOR_COREDATA = "$(STARSECTOR)/starsector-core/data/"
 ORIGINAL_SUFFIX := .orig
 ZIP := zip
 MOD_DIR := mod/
-DST_NAME := "Japanese Translation"
-ZIP_NAME := Japanese_Translation.zip
+DST_NAME := JapaneseTranslation
+ZIP_NAME := JapaneseTranslation.zip
 
 .PHONY: all trans package clean clean-package
 
