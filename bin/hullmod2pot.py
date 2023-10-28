@@ -48,8 +48,9 @@ def process(args: argparse.Namespace) -> None:
                     pottext.append(f"#: {file}:{i}")
                     pottext.append("#, java-format")
                     pottext.append(f'msgctxt "{row[1]}"')  # id
-                    text = re.sub(r"(\r\n|\n)", r"\\n", row[16])  # desc
-                    pottext.append(f'msgid "{text}"')
+                    text = re.sub(r"(\r\n|\n)", r"\\n", row[16])
+                    text = re.sub('"', r'\"', text)
+                    pottext.append(f'msgid "{text}"')  # desc
                     pottext.append('msgstr ""')
                     pottext.append("")
                 i += 1
