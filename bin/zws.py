@@ -1,4 +1,4 @@
-#!/usr/bin/env -S python3
+#!/usr/bin/env -S python
 # SPDX-License-Identifier: MIT
 # Copyright 2022 hirmiura (https://github.com/hirmiura)
 from __future__ import annotations
