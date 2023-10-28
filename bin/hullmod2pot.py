@@ -15,6 +15,7 @@ def pargs() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="hullmodのcsvファイルからpotファイルを作成する")
     parser.add_argument("-s", "--skip", type=int, default=1, help="先頭から指定行数だけスキップする。デフォルト: 1")
     parser.add_argument("-d", "--directory", help="出力ディレクトリ")
+    parser.add_argument("-v", "--ss-version", default="0.96a-RC10", help="Starsector本体のバージョン")
     parser.add_argument("files", nargs="+", help="1つ以上の入力ファイル")
     parser.add_argument("--version", action="version", version="%(prog)s 0.1.0")
     args = parser.parse_args()
@@ -37,6 +38,7 @@ def process(args: argparse.Namespace) -> None:
                 "# Created by script.",
                 'msgid ""',
                 'msgstr ""',
+                f'"Project-Id-Version: hull_mods.csv Version {args.ss_version}\\n"',
                 f'"POT-Creation-Date: {NOW.strftime("%Y-%m-%d %H:%M%z")}\\n"',
                 r'"MIME-Version: 1.0\n"',
                 r'"Content-Type: text/plain; charset=UTF-8\n"',
