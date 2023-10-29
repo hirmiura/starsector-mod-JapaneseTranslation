@@ -160,6 +160,10 @@ cython_debug/
 #.idea/
 
 # Repository specific
+/mod/**/*
+!/mod/data/config/version/version_files.csv
+!/mod/JapaneseTranslation.version
+!/mod/mod_info.json
 /trans/**/*
 !/trans/**/
 !/trans/**/Makefile
