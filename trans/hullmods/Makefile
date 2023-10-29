@@ -50,21 +50,24 @@ check:
 setup: ## セットアップ - ビルドの前準備
 setup: check generate-pot
 
-F_HMC_POT	:= hull_mods.csv.pot
-F_HMC_JPO	:= hull_mods.csv.ja.po
+F_HMC		:= hull_mods.csv
+F_HMC_POT	:= $(F_HMC).pot
+F_HMC_PO	:= $(F_HMC).po
 
 generate-pot: $(F_HMC_POT)
 
-$(F_HMC_POT): $(D_SSDATA)/hullmods/hull_mods.csv
+$(F_HMC_POT): $(D_SSDATA)/hullmods/$(F_HMC)
 	@echo -e '$(CC_BrBlue)========== $(F_HMC_POT) ==========$(CC_Reset)'
-	$(D_BIN)/hullmod2pot.py -d . $(D_SSDATA)/hullmods/hull_mods.csv
+	$(D_BIN)/hullmod2pot.py -d . $<
 
-merge-po: $(F_HMC_JPO)
+merge-po: $(F_HMC_PO)
 
-$(F_HMC_JPO): $(F_HMC_POT)
-	@echo -e '$(CC_BrBlue)========== $(F_HMC_JPO) ==========$(CC_Reset)'
-	if [[ -f "$(F_HMC_JPO)" ]] ; then \
+$(F_HMC_PO): $(F_HMC_POT)
+	@echo -e '$(CC_BrBlue)========== $(F_HMC_PO) ==========$(CC_Reset)'
+	if [[ -f "$(F_HMC_PO)" ]] ; then \
 		msgmerge --lang=ja --backup=t -U $@ $< ; \
+	else \
+		cp -f $< $@ ; \
 	fi
 
 
