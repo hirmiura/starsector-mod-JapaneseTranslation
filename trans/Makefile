@@ -1,22 +1,46 @@
-# Makefile @ /trans
-STARSECTOR_COREDATA = $(STARSECTOR)/starsector-core/data/
-TRANS_DIR := ./
-ORIGINAL_SUFFIX := .orig
-PYTHON = python
-SRC_DIR := ../src/
-MOD_DIR := ../mod/
+# SPDX-License-Identifier: MIT
+# Copyright 2023 hirmiura (https://github.com/hirmiura)
+#
+SHELL := /bin/bash
 
-.PHONY: install mo2csv copy-original init-pot
+# 各種ディレクトリ
+D_HULLMODS	:= hullmods
 
-install: mo2csv
-	mv hull_mods.csv $(MOD_DIR)data/hullmods/
 
-mo2csv:
-	msgfmt hull_mods.orig.csv.ja.po -o hull_mods.orig.csv.ja.mo
-	$(PYTHON) $(SRC_DIR)mo2hullmod.py -t hull_mods.orig.csv.ja.mo
+#==============================================================================
+# カラーコード
+# ヘルプ表示
+#==============================================================================
+include ../ColorCode.mk
+include ../Help.mk
 
-copy-original:
-	cp "$(STARSECTOR_COREDATA)hullmods/hull_mods.csv" $(TRANS_DIR)hull_mods$(ORIGINAL_SUFFIX).csv
 
-init-pot:
-	$(PYTHON) $(SRC_DIR)hullmod2pot.py hull_mods$(ORIGINAL_SUFFIX).csv
+#==============================================================================
+# セットアップ
+#==============================================================================
+.PHONY: setup
+setup: ## セットアップ - ビルドの前準備
+setup:
+	$(MAKE) -C $(D_HULLMODS) setup
+
+
+#==============================================================================
+# ビルド
+#==============================================================================
+.PHONY: build
+build: ## ビルドする
+build:
+	$(MAKE) -C $(D_HULLMODS) build
+
+
+#==============================================================================
+# クリーンアップ
+#==============================================================================
+.PHONY: clean clean-all
+clean: ## セットアップで生成したファイル以外を全て削除します
+clean:
+	$(MAKE) -C $(D_HULLMODS) clean
+
+clean-all: ## 生成した全てのファイルを削除します
+clean-all:
+	$(MAKE) -C $(D_HULLMODS) clean-all

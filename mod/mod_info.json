@@ -1,8 +1,9 @@
 {
     "id": "JapaneseTranslation",
-    "name": "zja Japanese Translation",
+    "name": "0ja Japanese Translation",
     "author": "hirmiura",
+    "utility": "true",
     "version": "0.1.0",
     "description": "Japanese translation for vanilla. You also need Japanese font.",
-    "gameVersion": "0.95.1a-RC6"
+    "gameVersion": "0.96"
 }
