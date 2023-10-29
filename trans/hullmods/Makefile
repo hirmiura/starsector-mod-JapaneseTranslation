@@ -66,7 +66,7 @@ merge-po: $(F_HMC_PO)
 $(F_HMC_PO): $(F_HMC_POT)
 	@echo -e '$(CC_BrBlue)========== $(F_HMC_PO) ==========$(CC_Reset)'
 	if [[ -f "$(F_HMC_PO)" ]] ; then \
-		msgmerge --lang=ja --backup=t -U $@ $< ; \
+		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $< ; \
 	else \
 		cp -f $< $@ ; \
 	fi
