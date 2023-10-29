@@ -15,7 +15,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:2
 #, java-format
-msgctxt "advancedshieldemitter"
+msgctxt "advancedshieldemitter:desc"
 msgid ""
 "Increases the turn rate of the ship's shields by %s and the rate at which "
 "the shields are raised by %s."
@@ -23,7 +23,7 @@ msgstr "シールドの回転速度を %s 上げ、起動速度を %s 上げる�
 
 #: hull_mods.orig.csv:3
 #, java-format
-msgctxt "adaptive_coils"
+msgctxt "adaptive_coils:desc"
 msgid ""
 "Phase coils are less able to maintain a connection with normal space as the "
 "ship's hard flux levels rise, resulting in a greatly reduced top speed as "
@@ -44,7 +44,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:4
 #, java-format
-msgctxt "advancedoptics"
+msgctxt "advancedoptics:desc"
 msgid ""
 "Extends the range of beam weapons by %s, but reduces their turn rate by %s. "
 "Cumulative with Integrated Targeting Unit."
@@ -54,13 +54,13 @@ msgstr ""
 
 #: hull_mods.orig.csv:5
 #, java-format
-msgctxt "turretgyros"
+msgctxt "turretgyros:desc"
 msgid "Increases the turn rate of all turrets by %s."
 msgstr "全てのタレットのターンレートを %s 増加させる。"
 
 #: hull_mods.orig.csv:6
 #, java-format
-msgctxt "armoredweapons"
+msgctxt "armoredweapons:desc"
 msgid ""
 "Increases the durability of all weapons by %s and reduces recoil by %s, but "
 "decreases weapon turn rate by %s. Also increases the ship's armor by %s."
@@ -70,7 +70,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:7
 #, java-format
-msgctxt "assault_package"
+msgctxt "assault_package:desc"
 msgid ""
 "Increases the ship's hull integrity by %s, armor by %s, and flux capacity by "
 "%s.\n"
@@ -83,7 +83,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:8
 #, java-format
-msgctxt "autorepair"
+msgctxt "autorepair:desc"
 msgid ""
 "Reduces the time required to repair disabled weapons and engines (in combat) "
 "by %s."
@@ -92,19 +92,19 @@ msgstr ""
 
 #: hull_mods.orig.csv:9
 #, java-format
-msgctxt "auxiliarythrusters"
+msgctxt "auxiliarythrusters:desc"
 msgid "Increases the ship's maneuverability by %s."
 msgstr "船の機動力を %s 増加させる。"
 
 #: hull_mods.orig.csv:10
 #, java-format
-msgctxt "ballistic_rangefinder"
+msgctxt "ballistic_rangefinder:desc"
 msgid "<tooltip created in the script due to lots of highlighting>"
 msgstr ""
 
 #: hull_mods.orig.csv:11
 #, java-format
-msgctxt "blast_doors"
+msgctxt "blast_doors:desc"
 msgid ""
 "Installs additional hermetic and heavily reinforced doors at critical "
 "junctures throughout the ship. Increases hull integrity by %s.\n"
@@ -118,7 +118,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:12
 #, java-format
-msgctxt "converted_hangar"
+msgctxt "converted_hangar:desc"
 msgid ""
 "Converts the ship's standard shuttle hangar to house a fighter bay. The "
 "improvised manufactory that produces fighter chassis is unreliable, and most "
@@ -143,7 +143,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:13
 #, java-format
-msgctxt "converted_fighterbay"
+msgctxt "converted_fighterbay:desc"
 msgid ""
 "Converts the ship's fighter bays housing built-in wings into improvised "
 "cargo holds, giving it an additional %s cargo capacity and reducing its crew "
@@ -155,7 +155,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:14
 #, java-format
-msgctxt "dedicated_targeting_core"
+msgctxt "dedicated_targeting_core:desc"
 msgid ""
 "Increases the range of ballistic and energy weapons by %s/%s for cruisers/"
 "capital ships.\n"
@@ -176,7 +176,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:15
 #, java-format
-msgctxt "eccm"
+msgctxt "eccm:desc"
 msgid ""
 "Reduces the chance for missiles launched by the ship to be affected by "
 "electronic counter-measures and flares by %s.\n"
@@ -198,7 +198,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:16
 #, java-format
-msgctxt "ecm"
+msgctxt "ecm:desc"
 msgid ""
 "When deployed in combat, grants %s/%s/%s/%s ECM rating, depending on this "
 "ship's hull size."
@@ -208,7 +208,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:17
 #, java-format
-msgctxt "escort_package"
+msgctxt "escort_package:desc"
 msgid ""
 "Increases the ship's maneuverability by %s. Increases the range of all point-"
 "defense weapons by %s, and increases the damage dealt to fighters and "
@@ -223,7 +223,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:18
 #, java-format
-msgctxt "expanded_deck_crew"
+msgctxt "expanded_deck_crew:desc"
 msgid ""
 "Reduces the rate at which the fighter replacement rate decreases due to "
 "fighter losses by %s, and increases the rate at which it recovers by %s.\n"
@@ -237,7 +237,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:19
 #, java-format
-msgctxt "magazines"
+msgctxt "magazines:desc"
 msgid ""
 "Increases the ammo capacity or the number of charges for ballistic and "
 "energy weapons by %s."
@@ -245,19 +245,19 @@ msgstr "弾道兵器とエネルギー兵器の弾薬の容量とチャージ数
 
 #: hull_mods.orig.csv:20
 #, java-format
-msgctxt "missleracks"
+msgctxt "missleracks:desc"
 msgid "Increases the ammo capacity of missile weapons by %s."
 msgstr "ミサイル兵器の弾薬容量を %s 増加させる。"
 
 #: hull_mods.orig.csv:21
 #, java-format
-msgctxt "extendedshieldemitter"
+msgctxt "extendedshieldemitter:desc"
 msgid "Increases the shield's coverage by %s degrees."
 msgstr "シールドのカバー率を %s 度増加させる。"
 
 #: hull_mods.orig.csv:22
 #, java-format
-msgctxt "fluxcoil"
+msgctxt "fluxcoil:desc"
 msgid ""
 "Increases the ship's flux capacity by %s/%s/%s/%s, depending on hull size. "
 "Not as efficient as flux capacitors - most useful when added to a design "
@@ -269,7 +269,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:23
 #, java-format
-msgctxt "fluxdistributor"
+msgctxt "fluxdistributor:desc"
 msgid ""
 "Increases the ship's flux dissipation by %s/%s/%s/%s, depending on hull "
 "size. Not as efficient as flux vents - most useful when added to a design "
@@ -281,7 +281,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:24
 #, java-format
-msgctxt "frontemitter"
+msgctxt "frontemitter:desc"
 msgid ""
 "Locks the ship's omni-directional shield emitter to a front-facing position "
 "and extends its arc by %s. In addition, the stable emitter position results "
@@ -296,7 +296,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:25
 #, java-format
-msgctxt "shield_shunt"
+msgctxt "shield_shunt:desc"
 msgid ""
 "Removes the ship's shields. The external emitter nodes are replaced with "
 "reinforced plating, increasing the ship's armor by %s."
@@ -306,7 +306,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:26
 #, java-format
-msgctxt "frontshield"
+msgctxt "frontshield:desc"
 msgid ""
 "Installs a makeshift, inefficient shield generator on the ship. The shield "
 "emitter is locked in a forward-facing position and has a %s degree arc.\n"
@@ -322,7 +322,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:27
 #, java-format
-msgctxt "hardenedshieldemitter"
+msgctxt "hardenedshieldemitter:desc"
 msgid ""
 "Reduces the amount of damage taken by shields by %s. Also reduces the chance "
 "that shields will be pierced by EMP arcs from weapons like the Ion Beam."
@@ -332,7 +332,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:28
 #, java-format
-msgctxt "hardened_subsystems"
+msgctxt "hardened_subsystems:desc"
 msgid ""
 "Increases peak operating time for ships that suffer degraded performance "
 "from extended deployment by %s.\n"
@@ -345,7 +345,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:29
 #, java-format
-msgctxt "heavyarmor"
+msgctxt "heavyarmor:desc"
 msgid ""
 "Increases the ship's armor by %s/%s/%s/%s points, depending on hull size. "
 "Also reduces its maneuverability by %s."
@@ -355,13 +355,13 @@ msgstr ""
 
 #: hull_mods.orig.csv:30
 #, java-format
-msgctxt "high_scatter_amp"
+msgctxt "high_scatter_amp:desc"
 msgid "<tooltip created in the script due to sections>"
 msgstr ""
 
 #: hull_mods.orig.csv:31
 #, java-format
-msgctxt "pointdefenseai"
+msgctxt "pointdefenseai:desc"
 msgid ""
 "Gives all small non-missile weapons the ability to automatically target "
 "incoming enemy missiles and to identify - and ignore - decoy flares. "
@@ -380,7 +380,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:32
 #, java-format
-msgctxt "pdintegration"
+msgctxt "pdintegration:desc"
 msgid ""
 "Reduces the ordnance point cost of small point-defense weapons by %s. The "
 "cost reduction only affects weapons that have PD capability as a feature of "
@@ -398,7 +398,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:33
 #, java-format
-msgctxt "targetingunit"
+msgctxt "targetingunit:desc"
 msgid ""
 "Extends the range of ballistic and energy weapons by %s/%s/%s/%s, depending "
 "on hull size. Can not work in conjunction with Dedicated Targeting Core.\n"
@@ -414,7 +414,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:34
 #, java-format
-msgctxt "nav_relay"
+msgctxt "nav_relay:desc"
 msgid ""
 "When deployed in combat, increases nav rating of your fleet by %s/%s/%s/%s, "
 "depending on this ship's hull size.\n"
@@ -429,7 +429,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:35
 #, java-format
-msgctxt "neural_interface"
+msgctxt "neural_interface:desc"
 msgid ""
 "Links the flagship with another ship, allowing switching between ships "
 "without using a shuttle pod. Both ships must have a Neural Interface and not "
@@ -463,7 +463,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:36
 #, java-format
-msgctxt "neural_integrator"
+msgctxt "neural_integrator:desc"
 msgid ""
 "An augmented version of Neural Interface that works with automated ships by "
 "enabling direct control of all of the ship's systems via the link, instead "
@@ -505,7 +505,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:37
 #, java-format
-msgctxt "adaptiveshields"
+msgctxt "adaptiveshields:desc"
 msgid ""
 "Converts frontal shields to omni-directional. Reduces the shield's arc by "
 "%s, and decreases its upkeep by %s."
@@ -515,7 +515,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:38
 #, java-format
-msgctxt "operations_center"
+msgctxt "operations_center:desc"
 msgid ""
 "Increases the command point recovery rate by %s when installed on the "
 "flagship."
@@ -524,7 +524,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:39
 #, java-format
-msgctxt "phase_anchor"
+msgctxt "phase_anchor:desc"
 msgid ""
 "Reduces the phase cloak's activation cost to %s. Increases the soft flux "
 "dissipation and weapon recharge rate by %s while phased.\n"
@@ -554,13 +554,13 @@ msgstr ""
 
 #: hull_mods.orig.csv:40
 #, java-format
-msgctxt "recovery_shuttles"
+msgctxt "recovery_shuttles:desc"
 msgid "Reduces the casualties suffered by fighter pilots by %s."
 msgstr "戦闘機パイロットが受ける犠牲を %s 減らす。"
 
 #: hull_mods.orig.csv:41
 #, java-format
-msgctxt "reinforcedhull"
+msgctxt "reinforcedhull:desc"
 msgid ""
 "Increases the ship's hull integrity by %s. If disabled, the ship will not "
 "break apart and is almost always recoverable after the battle."
@@ -570,7 +570,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:42
 #, java-format
-msgctxt "fluxbreakers"
+msgctxt "fluxbreakers:desc"
 msgid ""
 "Decreases the amount of damage taken from EMP weapons (such as Ion Cannons) "
 "by %s. Also increases the ship's flux dissipation rate while venting by %s."
@@ -580,7 +580,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:43
 #, java-format
-msgctxt "safetyoverrides"
+msgctxt "safetyoverrides:desc"
 msgid ""
 "Disabling safety protocols increases the ship's top speed in combat by %s/%s/"
 "%s (depending on ship size, with a corresponding increase in acceleration) "
@@ -605,7 +605,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:45
 #, java-format
-msgctxt "stabilizedshieldemitter"
+msgctxt "stabilizedshieldemitter:desc"
 msgid ""
 "Reduces the amount of soft flux raised shields generate per second by %s. "
 "Does not affect the hard flux generated as a result of shields taking damage."
@@ -615,7 +615,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:47
 #, java-format
-msgctxt "unstable_injector"
+msgctxt "unstable_injector:desc"
 msgid ""
 "Increases the ship's top speed in combat by %s/%s/%s/%s su/second, depending "
 "on hull size.\n"
@@ -630,7 +630,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:52
 #, java-format
-msgctxt "additional_berthing"
+msgctxt "additional_berthing:desc"
 msgid ""
 "Increases maximum crew capacity by %s/%s/%s/%s, depending on hull size, or "
 "by %s, whichever is higher.\n"
@@ -644,13 +644,13 @@ msgstr ""
 
 #: hull_mods.orig.csv:53
 #, java-format
-msgctxt "augmentedengines"
+msgctxt "augmentedengines:desc"
 msgid "Increases maximum burn level by %s."
 msgstr "最大燃焼度を %s 増加させる。"
 
 #: hull_mods.orig.csv:54
 #, java-format
-msgctxt "auxiliary_fuel_tanks"
+msgctxt "auxiliary_fuel_tanks:desc"
 msgid ""
 "Increases maximum fuel capacity by %s/%s/%s/%s, depending on hull size, or "
 "by %s, whichever is higher.\n"
@@ -664,7 +664,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:55
 #, java-format
-msgctxt "efficiency_overhaul"
+msgctxt "efficiency_overhaul:desc"
 msgid ""
 "Reduces supply use for maintenance, fuel use, and minimum crew required by "
 "%s.\n"
@@ -680,7 +680,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:56
 #, java-format
-msgctxt "expanded_cargo_holds"
+msgctxt "expanded_cargo_holds:desc"
 msgid ""
 "Increases maximum cargo capacity by %s/%s/%s/%s, depending on hull size, or "
 "by %s, whichever is higher.\n"
@@ -694,7 +694,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:57
 #, java-format
-msgctxt "hiressensors"
+msgctxt "hiressensors:desc"
 msgid ""
 "Increases sensor strength by %s points for frigates, destroyers, and "
 "cruisers, and by %s for capital ships."
@@ -704,7 +704,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:58
 #, java-format
-msgctxt "insulatedengine"
+msgctxt "insulatedengine:desc"
 msgid ""
 "Increases the durability of the ship's engines by %s, and the ship's hull "
 "integrity by %s.\n"
@@ -717,7 +717,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:59
 #, java-format
-msgctxt "militarized_subsystems"
+msgctxt "militarized_subsystems:desc"
 msgid ""
 "Removes the penalties from a civilian-grade hull, and increases maximum burn "
 "level by %s.\n"
@@ -737,7 +737,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:60
 #, java-format
-msgctxt "solar_shielding"
+msgctxt "solar_shielding:desc"
 msgid ""
 "Originally developed by Diktat engineers after spending cycles dealing with "
 "the unique conditions of the inner Askonia system. Decreases the effect "
@@ -754,7 +754,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:61
 #, java-format
-msgctxt "surveying_equipment"
+msgctxt "surveying_equipment:desc"
 msgid ""
 "Reduces the heavy machinery and supplies required to perform surveys by %s/"
 "%s/%s/%s depending on hull size, down to a minimum of %s for each."
@@ -764,7 +764,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:64
 #, java-format
-msgctxt "terminator_core"
+msgctxt "terminator_core:desc"
 msgid ""
 "Used by the terminator drone, this text should not be visible to the player."
 msgstr ""
@@ -773,7 +773,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:65
 #, java-format
-msgctxt "shared_flux_sink"
+msgctxt "shared_flux_sink:desc"
 msgid ""
 "Handles %s of the flux dissipation of all attached modules. If modules are "
 "lost during battle, the extra flux dissipation is redistributed among the "
@@ -785,25 +785,25 @@ msgstr ""
 
 #: hull_mods.orig.csv:66
 #, java-format
-msgctxt "stealth_minefield"
+msgctxt "stealth_minefield:desc"
 msgid "Mines attack enemy ships during battle."
 msgstr "戦闘中に敵艦を攻撃する地雷。"
 
 #: hull_mods.orig.csv:67
 #, java-format
-msgctxt "stealth_minefield_lt"
+msgctxt "stealth_minefield_lt:desc"
 msgid "Mines attack enemy ships during battle."
 msgstr "戦闘中に敵艦を攻撃する地雷。"
 
 #: hull_mods.orig.csv:68
 #, java-format
-msgctxt "chassis_storage"
+msgctxt "chassis_storage:desc"
 msgid "Fighter replacement rate does not go down when fighters are lost."
 msgstr "戦闘機を失っても、戦闘機補充率は下がらない。"
 
 #: hull_mods.orig.csv:70
 #, java-format
-msgctxt "missile_reload"
+msgctxt "missile_reload:desc"
 msgid ""
 "An autoforge inside the ship periodically fully reloads the magazines of all "
 "missile weapons."
@@ -813,7 +813,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:71
 #, java-format
-msgctxt "shielded_holds"
+msgctxt "shielded_holds:desc"
 msgid ""
 "Commonly found on ships that can't always rely on shields to protect their "
 "cargo from cosmic radiation. Only a few tweaks are needed to have the "
@@ -826,7 +826,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:72
 #, java-format
-msgctxt "repair_gantry"
+msgctxt "repair_gantry:desc"
 msgid ""
 "Increases the resources gained from salvaging abandoned stations, derelicts, "
 "floating hulks, and other such by %s/%s/%s/%s, depending on hull size. Only "
@@ -841,7 +841,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:73
 #, java-format
-msgctxt "phasefield"
+msgctxt "phasefield:desc"
 msgid ""
 "The ship is able to run a low-grade phase field for extended periods of "
 "time, reducing its effective sensor profile by %s."
@@ -851,7 +851,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:74
 #, java-format
-msgctxt "fluxshunt"
+msgctxt "fluxshunt:desc"
 msgid ""
 "Allows the ship to dissipate hard flux at %s of the normal rate while "
 "shields are on."
@@ -861,19 +861,19 @@ msgstr ""
 
 #: hull_mods.orig.csv:75
 #, java-format
-msgctxt "civgrade"
+msgctxt "civgrade:desc"
 msgid "Increases sensor profile by %s. Reduces sensor strength by %s."
 msgstr "センサープロファイルを %s 増加させる。センサー強度を %s 下げる。"
 
 #: hull_mods.orig.csv:76
 #, java-format
-msgctxt "high_maintenance"
+msgctxt "high_maintenance:desc"
 msgid "Increases the monthly maintenance supply cost by %s."
 msgstr "毎月のメンテナンスサプライコストを %s 増加させる。"
 
 #: hull_mods.orig.csv:78
 #, java-format
-msgctxt "tow_cable"
+msgctxt "tow_cable:desc"
 msgid ""
 "Improves the maximum burn level of the slowest ship in the fleet by 1. "
 "Multiple tugs can not be used to speed up the same ship by more than 1.\n"
@@ -887,7 +887,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:79
 #, java-format
-msgctxt "drive_field_stabilizer"
+msgctxt "drive_field_stabilizer:desc"
 msgid ""
 "Stabilizes the fleet's drive bubble, increasing the maximum burn of the "
 "fleet by %s. The effect of multiple stabilizers is cumulative.\n"
@@ -901,7 +901,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:80
 #, java-format
-msgctxt "ground_support"
+msgctxt "ground_support:desc"
 msgid ""
 "Close support weapons and counter-measures for ground defenses. Increases "
 "the effective strength of planetary raids by %s, up to the total number of "
@@ -912,7 +912,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:81
 #, java-format
-msgctxt "advanced_ground_support"
+msgctxt "advanced_ground_support:desc"
 msgid ""
 "Close support weapons and counter-measures for ground defenses. Increases "
 "the effective strength of planetary raids by %s, up to the total number of "
@@ -923,7 +923,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:82
 #, java-format
-msgctxt "delicate"
+msgctxt "delicate:desc"
 msgid ""
 "The ship systems require excessive maintenance and do not stand up well "
 "under the rigours of prolonged engagements.\n"
@@ -937,13 +937,13 @@ msgstr ""
 
 #: hull_mods.orig.csv:83
 #, java-format
-msgctxt "hbi"
+msgctxt "hbi:desc"
 msgid "Reduces the ordnance point cost of large ballistic weapons by %s."
 msgstr "大型弾道兵器の武器点数コストを %s 低下させる。"
 
 #: hull_mods.orig.csv:84
 #, java-format
-msgctxt "rugged"
+msgctxt "rugged:desc"
 msgid ""
 "Reduces most negative effects of d-mods by %s. If disabled or destroyed in "
 "combat, the ship has a %s chance to avoid new d-mods, and is almost always "
@@ -954,7 +954,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:85
 #, java-format
-msgctxt "automated"
+msgctxt "automated:desc"
 msgid ""
 "This ship is fully automated, and does not require - and can not take on - "
 "any human crew.\n"
@@ -972,7 +972,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:86
 #, java-format
-msgctxt "advancedcore"
+msgctxt "advancedcore:desc"
 msgid ""
 "Extends the range of ballistic and energy weapons by %s. The range of point-"
 "defense weapons is only extended by %s.\n"
@@ -987,7 +987,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:87
 #, java-format
-msgctxt "supercomputer"
+msgctxt "supercomputer:desc"
 msgid ""
 "Extends the range of ballistic and energy weapons by %s. The range of point-"
 "defense weapons is only extended by %s.\n"
@@ -1002,13 +1002,13 @@ msgstr ""
 
 #: hull_mods.orig.csv:88
 #, java-format
-msgctxt "ex_phase_coils"
+msgctxt "ex_phase_coils:desc"
 msgid "Reduces phase cloak cooldown by %s."
 msgstr "フェーズクロークのクールダウンを %s 減少させる。"
 
 #: hull_mods.orig.csv:89
 #, java-format
-msgctxt "high_frequency_attractor"
+msgctxt "high_frequency_attractor:desc"
 msgid ""
 "An experimental modification allowing high-frequency motes to be warped in "
 "by the rift core on board the ship."
@@ -1016,7 +1016,7 @@ msgstr "高周波モートを船内のリフトコアでワープさせる実験
 
 #: hull_mods.orig.csv:90
 #, java-format
-msgctxt "converted_bay"
+msgctxt "converted_bay:desc"
 msgid ""
 "This ship's cargo hold has been converted to house a pair of fighter bays. "
 "The improvised manufactory that produces fighter chassis is unreliable, and "
@@ -1029,7 +1029,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:91
 #, java-format
-msgctxt "vastbulk"
+msgctxt "vastbulk:desc"
 msgid ""
 "The main body of this structure is vast and is, for practical purposes, "
 "capable of absorbing any amount of damage from conventional weapons without "
@@ -1040,13 +1040,13 @@ msgstr ""
 
 #: hull_mods.orig.csv:92
 #, java-format
-msgctxt "axialrotation"
+msgctxt "axialrotation:desc"
 msgid "This structure constantly rotates around its axis."
 msgstr "この構造体は、常に軸を中心に回転しています。"
 
 #: hull_mods.orig.csv:93
 #, java-format
-msgctxt "anchorrotation"
+msgctxt "anchorrotation:desc"
 msgid ""
 "This structure rotates around its anchor attachment point. For station "
 "modules only."
@@ -1055,25 +1055,25 @@ msgstr ""
 
 #: hull_mods.orig.csv:94
 #, java-format
-msgctxt "reduced_explosion"
+msgctxt "reduced_explosion:desc"
 msgid "Reduced explosion radius and damage."
 msgstr "爆発範囲とダメージを縮小。"
 
 #: hull_mods.orig.csv:95
 #, java-format
-msgctxt "always_detaches"
+msgctxt "always_detaches:desc"
 msgid "Always detaches from parent structure when destroyed."
 msgstr "破壊されると、常に親構造体から切り離される。"
 
 #: hull_mods.orig.csv:96
 #, java-format
-msgctxt "never_detaches"
+msgctxt "never_detaches:desc"
 msgid "Never detaches from parent structure when destroyed."
 msgstr "破壊されても親構造体から切り離されることはない。"
 
 #: hull_mods.orig.csv:97
 #, java-format
-msgctxt "no_weapon_flux"
+msgctxt "no_weapon_flux:desc"
 msgid ""
 "Weapon fire costs no flux. Used on fighters for fine-grained control of "
 "effective shield hitpoints."
@@ -1083,7 +1083,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:98
 #, java-format
-msgctxt "do_not_fire_through"
+msgctxt "do_not_fire_through:desc"
 msgid ""
 "Weapons on other modules of a station will avoid firing through this module, "
 "even though the shots would go over it and not hit."
@@ -1094,19 +1094,19 @@ msgstr ""
 
 #: hull_mods.orig.csv:99
 #, java-format
-msgctxt "shard_spawner"
+msgctxt "shard_spawner:desc"
 msgid "Spawns shard ships when ship is disabled/destroyed."
 msgstr "船が破壊されたとき、シャード船を生成するようにする。"
 
 #: hull_mods.orig.csv:100
 #, java-format
-msgctxt "do_not_back_off"
+msgctxt "do_not_back_off:desc"
 msgid "Sets DO_NOT_BACK_OFF AIFlag"
 msgstr ""
 
 #: hull_mods.orig.csv:103
 #, java-format
-msgctxt "fourteenth"
+msgctxt "fourteenth:desc"
 msgid ""
 "This ship is a survivor of the original 14th Domain Battlegroup which "
 "founded the Hegemony. It is a prime specimen of the Domain Navy's \"decisive "
@@ -1125,7 +1125,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:104
 #, java-format
-msgctxt "heg_militarized"
+msgctxt "heg_militarized:desc"
 msgid ""
 "This ship is - or was - on the Hegemony auxiliary list. Uparmour kits "
 "applied at Hegemony Naval yards resulting in no loss of performance for a %s/"
@@ -1142,7 +1142,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:108
 #, java-format
-msgctxt "comp_armor"
+msgctxt "comp_armor:desc"
 msgid ""
 "This ship's armor has taken major and irreparable damage at some point in "
 "the past, or suffered from major errors in the manufacturing process. Armor "
@@ -1157,7 +1157,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:109
 #, java-format
-msgctxt "comp_hull"
+msgctxt "comp_hull:desc"
 msgid ""
 "This ship's hull has taken major and irreparable damage at some point in the "
 "past, or suffered from major errors in the manufacturing process. Hull "
@@ -1172,7 +1172,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:110
 #, java-format
-msgctxt "degraded_engines"
+msgctxt "degraded_engines:desc"
 msgid ""
 "Whether due to battle damage, manufacturing defects, or cycles of poor "
 "maintenance, this ship's engines are suffering from permanently degraded "
@@ -1191,7 +1191,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:111
 #, java-format
-msgctxt "degraded_drive_field"
+msgctxt "degraded_drive_field:desc"
 msgid ""
 "Whether due to battle damage, manufacturing defects, or cycles of poor "
 "maintenance, this ship's drive field is suffering from permanently degraded "
@@ -1210,7 +1210,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:112
 #, java-format
-msgctxt "faulty_grid"
+msgctxt "faulty_grid:desc"
 msgid ""
 "Whether due to battle damage, manufacturing defects, or cycles of poor "
 "maintenance, this ship's power grid will never be capable of achieving peak "
@@ -1231,7 +1231,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:113
 #, java-format
-msgctxt "unstable_coils"
+msgctxt "unstable_coils:desc"
 msgid ""
 "The phase coils on this ship are impossible to calibrate properly due to "
 "subtle flaws. Reduces the phase-time bonus by %s, reduces the peak "
@@ -1248,7 +1248,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:114
 #, java-format
-msgctxt "comp_structure"
+msgctxt "comp_structure:desc"
 msgid ""
 "This ship's hull has likely taken extreme damage in the past, possibly to "
 "the point of breaking apart. Armor rating reduced by %s, hull integrity "
@@ -1263,7 +1263,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:115
 #, java-format
-msgctxt "glitched_sensors"
+msgctxt "glitched_sensors:desc"
 msgid ""
 "The ship's sensor array is damaged past any repair short of a complete hull "
 "overhaul. Weapon range in combat reduced by %s. Sensor strength reduced by "
@@ -1278,7 +1278,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:116
 #, java-format
-msgctxt "malfunctioning_comms"
+msgctxt "malfunctioning_comms:desc"
 msgid ""
 "The comm system has suffered serious damage, making punching through "
 "battlefield jamming even more of a challenge. Fighter engagement range "
@@ -1293,7 +1293,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:117
 #, java-format
-msgctxt "defective_manufactory"
+msgctxt "defective_manufactory:desc"
 msgid ""
 "The manufactory that produces fighter chassis is unreliable, and most "
 "components have minor defects. Fighter speed reduced by %s, and damage taken "
@@ -1308,7 +1308,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:118
 #, java-format
-msgctxt "damaged_deck"
+msgctxt "damaged_deck:desc"
 msgid ""
 "The flight decks on this ship have taken major damage and seriously "
 "interfere with normal operation. Time to launch replacement fighters is "
@@ -1323,7 +1323,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:119
 #, java-format
-msgctxt "fragile_subsystems"
+msgctxt "fragile_subsystems:desc"
 msgid ""
 "A widespread loss of redundant components reduces peak operating time by %s, "
 "and increases the rate at which combat readiness degrades by %s.\n"
@@ -1337,7 +1337,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:120
 #, java-format
-msgctxt "comp_storage"
+msgctxt "comp_storage:desc"
 msgid ""
 "The storage capacity of this ship is significantly degraded. Crew, cargo, "
 "and fuel capacity reduced by %s.\n"
@@ -1351,7 +1351,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:121
 #, java-format
-msgctxt "increased_maintenance"
+msgctxt "increased_maintenance:desc"
 msgid ""
 "Increases the monthly maintenance supply cost by %s. Increases minimum crew "
 "required by %s. Decreases maximum combat readiness by %s.\n"
@@ -1365,7 +1365,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:122
 #, java-format
-msgctxt "erratic_injector"
+msgctxt "erratic_injector:desc"
 msgid ""
 "Increases fuel use by %s and decreases the zero-flux boost by %s su/second.\n"
 "\n"
@@ -1377,7 +1377,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:123
 #, java-format
-msgctxt "faulty_auto"
+msgctxt "faulty_auto:desc"
 msgid ""
 "Increases minimum crew required by %s and decreases maximum combat readiness "
 "by %s.\n"
@@ -1390,7 +1390,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:124
 #, java-format
-msgctxt "damaged_mounts"
+msgctxt "damaged_mounts:desc"
 msgid ""
 "Reduces weapon turn rate by %s and increases recoil by %s.\n"
 "\n"
@@ -1402,7 +1402,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:125
 #, java-format
-msgctxt "degraded_life_support"
+msgctxt "degraded_life_support:desc"
 msgid ""
 "Decreases maximum crew capacity by %s, and maximum combat readiness by %s.\n"
 "\n"
@@ -1414,7 +1414,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:126
 #, java-format
-msgctxt "degraded_shields"
+msgctxt "degraded_shields:desc"
 msgid ""
 "Increases the amount of damage taken by shields by %s.\n"
 "\n"
@@ -1426,7 +1426,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:128
 #, java-format
-msgctxt "destroyed_mounts"
+msgctxt "destroyed_mounts:desc"
 msgid ""
 "Some of the original weapon mounts on this ship have been damaged beyond "
 "repair and can no longer be used."
@@ -1436,7 +1436,7 @@ msgstr ""
 
 #: hull_mods.orig.csv:129
 #, java-format
-msgctxt "ill_advised"
+msgctxt "ill_advised:desc"
 msgid ""
 "This hull's systems have been drastically modified from spec, likely without "
 "certified engineering oversight. Its systems appear to work correctly under "
