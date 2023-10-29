@@ -82,17 +82,21 @@ build-trans:
 #==============================================================================
 # クリーンアップ
 #==============================================================================
-.PHONY: clean clean-all clean-pot
+.PHONY: clean clean-all clean-pot clean-mo clean-backup
 clean: ## セットアップで生成したファイル以外を全て削除します
 clean: clean-pot
 
 clean-all: ## 生成した全てのファイルを削除します
-clean-all: clean clean-mo
+clean-all: clean clean-mo clean-backup
 
 clean-pot:
 	@echo -e '$(CC_BrMagenta)========== clean-pot ==========$(CC_Reset)'
-	rm -fr *.pot
+	rm -f *.pot
 
 clean-mo:
 	@echo -e '$(CC_BrMagenta)========== clean-mo ==========$(CC_Reset)'
-	rm -fr *.mo
+	rm -f *.mo
+
+clean-backup:
+	@echo -e '$(CC_BrMagenta)========== clean-backup ==========$(CC_Reset)'
+	rm -f *~
