@@ -30,7 +30,7 @@
         "${workspaceFolder}/.venv/bin/python"
     ],
     "mypy-type-checker.path": [
-        "${workspaceFolder}/.venv/bin/mypy"
+        "${workspaceFolder}/.venv/bin/mypyc"
     ],
     "python.analysis.extraPaths": [
         "${workspaceFolder}/.venv/lib/python3.11/site-packages"
