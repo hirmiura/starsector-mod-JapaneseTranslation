@@ -113,4 +113,4 @@ clean-backup:
 
 clean-package:
 	@echo -e '$(CC_BrMagenta)========== clean-package ==========$(CC_Reset)'
-	rm -f $(D_MODDST)/*
+	rm -fr $(D_MODDST)
