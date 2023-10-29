@@ -43,14 +43,24 @@ exclude = '''
     | \.pytest_cache
     | \.venv
     | \.vscode
+    | Starsector
 )
 '''
 
 
 [tool.flake8]
-exclude         = [ ".git", ".mypy_cache", ".pytest_cache", ".venv", "__pycache__", "tests/*" ]
-ignore          = "E203,W503"
-max-complexity  = 10
+exclude = [
+    ".git",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".venv",
+    ".vscode",
+    "__pycache__",
+    "tests/*",
+    "Starsector",
+]
+ignore = "E203,W503"
+max-complexity = 10
 max-line-length = 100
 
 
@@ -62,7 +72,15 @@ profile                = "black"
 
 
 [tool.pyright]
-include        = [ "bin" ]
-exclude        = [ ".git", ".mypy_cache", ".pytest_cache", ".venv", "**/__pycache__" ]
-pythonVersion  = "3.11"
+include = [ "bin" ]
+exclude = [
+    ".git",
+    ".mypy_cache",
+    ".pytest_cache",
+    ".venv",
+    ".vscode",
+    "**/__pycache__",
+    "Starsector",
+]
+pythonVersion = "3.11"
 pythonPlatform = "Linux"
