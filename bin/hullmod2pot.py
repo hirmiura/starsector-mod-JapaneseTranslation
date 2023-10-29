@@ -46,13 +46,32 @@ def process(args: argparse.Namespace) -> None:
                 "",
             ]
             for row in reader:
-                if len(row) > 16 and row[16].strip():
+                row_len = len(row)
+                if row_len > 16 and row[16].strip():  # desc
                     pottext.append(f"#: {file}:{i}")
                     pottext.append("#, java-format")
-                    pottext.append(f'msgctxt "{row[1]}"')  # id
+                    pottext.append(f'msgctxt "{row[1]}:desc"')  # id:desc
                     text = re.sub(r"(\r\n|\n)", r"\\n", row[16])
-                    text = re.sub('"', r'\"', text)
-                    pottext.append(f'msgid "{text}"')  # desc
+                    text = re.sub('"', r"\"", text)
+                    pottext.append(f'msgid "{text}"')
+                    pottext.append('msgstr ""')
+                    pottext.append("")
+                if row_len > 17 and row[17].strip():  # short
+                    pottext.append(f"#: {file}:{i}")
+                    pottext.append("#, java-format")
+                    pottext.append(f'msgctxt "{row[1]}:short"')  # id:short
+                    text = re.sub(r"(\r\n|\n)", r"\\n", row[17])
+                    text = re.sub('"', r"\"", text)
+                    pottext.append(f'msgid "{text}"')
+                    pottext.append('msgstr ""')
+                    pottext.append("")
+                if row_len > 18 and row[18].strip():  # sModDesc
+                    pottext.append(f"#: {file}:{i}")
+                    pottext.append("#, java-format")
+                    pottext.append(f'msgctxt "{row[1]}:sModDesc"')  # id:sModDesc
+                    text = re.sub(r"(\r\n|\n)", r"\\n", row[18])
+                    text = re.sub('"', r"\"", text)
+                    pottext.append(f'msgid "{text}"')
                     pottext.append('msgstr ""')
                     pottext.append("")
                 i += 1
