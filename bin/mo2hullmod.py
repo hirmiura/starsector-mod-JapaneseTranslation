@@ -66,7 +66,7 @@ def process(args: argparse.Namespace) -> None:
                 desc = row[16].replace("\r", "") if row_len > 16 and row[16].strip() else None
                 short = row[17].replace("\r", "") if row_len > 17 and row[17].strip() else None
                 sModDesc = row[18].replace("\r", "") if row_len > 18 and row[18].strip() else None
-                if not mod_id or not desc:
+                if not mod_id or (not desc and not short and not sModDesc):
                     # データのない行はスキップする
                     continue
                 ctxt_desc = f"{mod_id}:desc"
@@ -74,13 +74,13 @@ def process(args: argparse.Namespace) -> None:
                 ctxt_sModDesc = f"{mod_id}:sModDesc"
                 is_translated = False
                 tr_desc = gtr.pgettext(ctxt_desc, desc) if mod_id and desc else None
-                if tr_desc:
+                if tr_desc and tr_desc != desc:
                     is_translated = True
                 tr_short = gtr.pgettext(ctxt_short, short) if mod_id and short else None
-                if tr_short:
+                if tr_short and tr_short != short:
                     is_translated = True
                 tr_sModDesc = gtr.pgettext(ctxt_sModDesc, sModDesc) if mod_id and sModDesc else None
-                if tr_sModDesc:
+                if tr_sModDesc and tr_sModDesc != sModDesc:
                     is_translated = True
                 if not args.t or is_translated:
                     if tr_desc:
