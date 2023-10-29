@@ -49,18 +49,18 @@ check:
 .PHONY: setup
 setup: ## セットアップ - ビルドの前準備
 setup: check
+	@echo -e '$(CC_BrBlue)========== setup ==========$(CC_Reset)'
+	$(MAKE) -C $(D_TRANS) setup
 
 
 #==============================================================================
 # ビルド
 #==============================================================================
-.PHONY: build build-trans
+.PHONY: build
 build: ## ビルドする
 build: setup build-trans
-
-build-trans:
-	@echo -e '$(CC_BrBlue)========== build-trans ==========$(CC_Reset)'
-	$(MAKE) -C $(D_TRANS) install
+	@echo -e '$(CC_BrBlue)========== build ==========$(CC_Reset)'
+	$(MAKE) -C $(D_TRANS) build
 
 
 #==============================================================================
