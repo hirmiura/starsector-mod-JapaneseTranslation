@@ -46,7 +46,7 @@ def process(args: argparse.Namespace) -> None:
         output_csv = (
             Path(args.directory) / original_csv.name
             if args.directory
-            else original_csv.with_suffix("ja.csv")
+            else original_csv.with_suffix(".ja.csv")
         )
         with (
             original_csv.open(
