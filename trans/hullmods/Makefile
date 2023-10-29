@@ -46,13 +46,14 @@ check:
 #==============================================================================
 # セットアップ
 #==============================================================================
-.PHONY: setup
+.PHONY: setup generate-pot merge-po
 setup: ## セットアップ - ビルドの前準備
-setup: check generate-pot
+setup: check generate-pot merge-po
 
 F_HMC		:= hull_mods.csv
 F_HMC_POT	:= $(F_HMC).pot
 F_HMC_PO	:= $(F_HMC).po
+F_HMC_MO	:= $(F_HMC).mo
 
 generate-pot: $(F_HMC_POT)
 
@@ -74,13 +75,15 @@ $(F_HMC_PO): $(F_HMC_POT)
 #==============================================================================
 # ビルド
 #==============================================================================
-.PHONY: build build-trans
+.PHONY: build generate-mo
 build: ## ビルドする
-build: setup build-trans
+build: setup generate-mo
 
-build-trans:
-	@echo -e '$(CC_BrBlue)========== build-trans ==========$(CC_Reset)'
+generate-mo: $(F_HMC_MO)
 
+$(F_HMC_MO): $(F_HMC_PO)
+	@echo -e '$(CC_BrBlue)========== $(F_HMC_MO) ==========$(CC_Reset)'
+	msgfmt --statistics -o $@ $^
 
 #==============================================================================
 # クリーンアップ
