@@ -4,13 +4,18 @@
 SHELL := /bin/bash
 
 # 各種ディレクトリ
-D_SSHOME	:= ../../Starsector
-D_SSDATA	:= $(D_SSHOME)/starsector-core/data
 D_BIN		:= ../../bin
-D_TRANS		:= ../../trans
-D_OLDTRANS	:= ../../oldtrans
-D_TMP		:= ../../tmp
 D_MOD		:= ../../mod
+D_DHM		:= data/hullmods
+D_MODDST	:= $(D_MOD)/$(D_DHM)
+D_SSHOME	:= ../../Starsector
+D_SSDHM		:= $(D_SSHOME)/starsector-core/$(D_DHM)
+
+# 各種ファイル名
+F_HMC		:= hull_mods.csv
+F_HMC_POT	:= $(F_HMC).pot
+F_HMC_PO	:= $(F_HMC).po
+F_HMC_MO	:= $(F_HMC).mo
 
 
 #==============================================================================
@@ -38,14 +43,9 @@ check:
 setup: ## セットアップ - ビルドの前準備
 setup: check generate-pot merge-po
 
-F_HMC		:= hull_mods.csv
-F_HMC_POT	:= $(F_HMC).pot
-F_HMC_PO	:= $(F_HMC).po
-F_HMC_MO	:= $(F_HMC).mo
-
 generate-pot: $(F_HMC_POT)
 
-$(F_HMC_POT): $(D_SSDATA)/hullmods/$(F_HMC)
+$(F_HMC_POT): $(D_SSDHM)/$(F_HMC)
 	@echo -e '$(CC_BrBlue)========== $(F_HMC_POT) ==========$(CC_Reset)'
 	$(D_BIN)/hullmod2pot.py -d . $<
 
@@ -65,7 +65,7 @@ $(F_HMC_PO): $(F_HMC_POT)
 #==============================================================================
 .PHONY: build generate-mo translate
 build: ## ビルドする
-build: setup generate-mo translate
+build: setup generate-mo translate copy-csv
 
 generate-mo: $(F_HMC_MO)
 
@@ -75,20 +75,25 @@ $(F_HMC_MO): $(F_HMC_PO)
 
 translate: $(F_HMC)
 
-$(F_HMC): $(F_HMC_MO) $(D_SSDATA)/hullmods/$(F_HMC)
+$(F_HMC): $(F_HMC_MO) $(D_SSDHM)/$(F_HMC)
 	@echo -e '$(CC_BrBlue)========== $(F_HMC) ==========$(CC_Reset)'
-	$(D_BIN)/mo2hullmod.py -t -m $(F_HMC_MO) -d . $(D_SSDATA)/hullmods/$(F_HMC)
+	$(D_BIN)/mo2hullmod.py -t -m $(F_HMC_MO) -d . $(D_SSDHM)/$(F_HMC)
+
+copy-csv: $(F_HMC)
+	@echo -e '$(CC_BrBlue)========== copy-csv ==========$(CC_Reset)'
+	@mkdir -p $(D_MODDST)
+	cp $(F_HMC) $(D_MODDST)
 
 
 #==============================================================================
 # クリーンアップ
 #==============================================================================
-.PHONY: clean clean-all clean-pot clean-mo clean-csv clean-backup
+.PHONY: clean clean-all clean-pot clean-mo clean-csv clean-backup clean-package
 clean: ## セットアップで生成したファイル以外を全て削除します
-clean: clean-pot
+clean: clean-mo clean-csv clean-package
 
 clean-all: ## 生成した全てのファイルを削除します
-clean-all: clean clean-mo clean-csv clean-backup
+clean-all: clean clean-pot clean-backup
 
 clean-pot:
 	@echo -e '$(CC_BrMagenta)========== clean-pot ==========$(CC_Reset)'
@@ -105,3 +110,7 @@ clean-csv:
 clean-backup:
 	@echo -e '$(CC_BrMagenta)========== clean-backup ==========$(CC_Reset)'
 	rm -f *~
+
+clean-package:
+	@echo -e '$(CC_BrMagenta)========== clean-package ==========$(CC_Reset)'
+	rm -f $(D_MODDST)/*
