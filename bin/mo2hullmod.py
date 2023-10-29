@@ -64,13 +64,31 @@ def process(args: argparse.Namespace) -> None:
                 row_len = len(row)
                 mod_id = row[1] if row_len > 1 and row[1].strip() else None
                 desc = row[16].replace("\r", "") if row_len > 16 and row[16].strip() else None
+                short = row[17].replace("\r", "") if row_len > 17 and row[17].strip() else None
+                sModDesc = row[18].replace("\r", "") if row_len > 18 and row[18].strip() else None
                 if not mod_id or not desc:
                     # データのない行はスキップする
                     continue
-                trtext = gtr.pgettext(mod_id, desc) if mod_id and desc else None
-                if not args.t or desc != trtext:
-                    if trtext:
-                        row[16] = trtext.replace("\n", "\r\n")
+                ctxt_desc = f"{mod_id}:desc"
+                ctxt_short = f"{mod_id}:short"
+                ctxt_sModDesc = f"{mod_id}:sModDesc"
+                is_translated = False
+                tr_desc = gtr.pgettext(ctxt_desc, desc) if mod_id and desc else None
+                if tr_desc:
+                    is_translated = True
+                tr_short = gtr.pgettext(ctxt_short, short) if mod_id and short else None
+                if tr_short:
+                    is_translated = True
+                tr_sModDesc = gtr.pgettext(ctxt_sModDesc, sModDesc) if mod_id and sModDesc else None
+                if tr_sModDesc:
+                    is_translated = True
+                if not args.t or is_translated:
+                    if tr_desc:
+                        row[16] = tr_desc.replace("\n", "\r\n")
+                    if tr_short:
+                        row[17] = tr_short.replace("\n", "\r\n")
+                    if tr_sModDesc:
+                        row[18] = tr_sModDesc.replace("\n", "\r\n")
                     writer.writerow(row)
 
 
