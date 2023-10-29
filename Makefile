@@ -9,7 +9,6 @@ SHELL := /bin/bash
 # 各種ディレクトリ
 D_SSHOME	:= Starsector
 D_SSDATA	:= $(D_SSHOME)/starsector-core/data
-D_BIN		:= bin
 D_TRANS		:= trans
 D_TMP		:= tmp
 D_MOD		:= mod
@@ -58,7 +57,7 @@ setup: check
 #==============================================================================
 .PHONY: build
 build: ## ビルドする
-build: setup build-trans
+build: setup
 	@echo -e '$(CC_BrBlue)========== build ==========$(CC_Reset)'
 	$(MAKE) -C $(D_TRANS) build
 
@@ -93,7 +92,6 @@ clean: ## セットアップで生成したファイル以外を全て削除し�
 clean: clean-package
 	@echo -e '$(CC_BrMagenta)========== clean ==========$(CC_Reset)'
 	$(MAKE) -C $(D_TRANS) clean
-
 
 clean-all: ## 生成した全てのファイルを削除します
 clean-all: clean clean-tmp
