@@ -21,7 +21,7 @@
    - moファイルの生成
    - 訳文の反映
    - modの生成
-5. `JapaneseTranslation.zip` が完成品です。
+5. `JapaneseTranslation-x.y.z.zip` が完成品です。
 
 ## ライセンス
 

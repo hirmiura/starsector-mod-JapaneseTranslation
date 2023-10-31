@@ -5,5 +5,7 @@
         "major": 0,
         "minor": 1,
         "patch": 0
-    }
+    },
+    "directDownloadURL": "https://github.com/hirmiura/starsector-mod-JapaneseTranslation/releases/download/v0.1.0/JapaneseTranslation-0.1.0.zip",
+    "changelogURL": "https://raw.githubusercontent.com/hirmiura/starsector-mod-JapaneseTranslation/main/mod/JapaneseTranslation.changelog"
 }
