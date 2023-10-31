@@ -162,6 +162,7 @@ cython_debug/
 # Repository specific
 /mod/**/*
 !/mod/data/config/version/version_files.csv
+!/mod/JapaneseTranslation.changelog
 !/mod/JapaneseTranslation.version
 !/mod/mod_info.json
 /trans/**/*
