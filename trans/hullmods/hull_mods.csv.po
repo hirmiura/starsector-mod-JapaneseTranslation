@@ -402,7 +402,7 @@ msgstr ""
 "艦載機の損失による艦載機交換率の低下率を %s 減少させ、回復率を %s 増加させ"
 "る。\n"
 "\n"
-"艦載機ベイごとに必要な乗員を%s増加させる。"
+"艦載機ベイごとに必要な乗員を %s 増加させる。"
 
 #: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:19
 #, java-format
