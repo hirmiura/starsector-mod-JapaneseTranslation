@@ -1,9 +1,9 @@
 # Created by script.
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2022-01-25 15:01+0900\n"
-"PO-Revision-Date: \n"
+"Project-Id-Version: hull_mods.csv Version 0.96a-RC10\n"
+"POT-Creation-Date: 2023-10-31 21:26+0900\n"
+"PO-Revision-Date: 2023-10-31 23:41+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -11,9 +11,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 3.4.1\n"
 
-#: hull_mods.orig.csv:2
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:2
 #, java-format
 msgctxt "advancedshieldemitter:desc"
 msgid ""
@@ -21,7 +21,19 @@ msgid ""
 "the shields are raised by %s."
 msgstr "シールドの回転速度を %s 上げ、起動速度を %s 上げる。"
 
-#: hull_mods.orig.csv:3
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:2
+#, java-format
+msgctxt "advancedshieldemitter:short"
+msgid "Increases shield turn rate and extension speed."
+msgstr "シールドの回転速度と起動速度を上げる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:2
+#, java-format
+msgctxt "advancedshieldemitter:sModDesc"
+msgid "Increases the shield's turn rate and raise rate by an additional %s."
+msgstr "シールドの回転速度と起動速度を追加で %s 上げる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:3
 #, java-format
 msgctxt "adaptive_coils:desc"
 msgid ""
@@ -42,7 +54,14 @@ msgstr ""
 "速度が底をつく閾値が %s 増加する。他の変更を加えていない標準的なコイルの場"
 "合、閾値は %s から %s になる。"
 
-#: hull_mods.orig.csv:4
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:3
+#, java-format
+msgctxt "adaptive_coils:short"
+msgid "Reduces impact of hard flux level on top speed while phased."
+msgstr ""
+"ハードフラックスレベルがフェイズ中のトップスピードに与える影響を軽減する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:4
 #, java-format
 msgctxt "advancedoptics:desc"
 msgid ""
@@ -52,13 +71,35 @@ msgstr ""
 "ビーム兵器の射程を %s 延長するが、ターンレートを %s 減少させる。Integrated "
 "Targeting Unit と累積する。"
 
-#: hull_mods.orig.csv:5
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:4
+#, java-format
+msgctxt "advancedoptics:short"
+msgid "Increases beam weapon range."
+msgstr "ビーム兵器の射程を延長する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:5
 #, java-format
 msgctxt "turretgyros:desc"
 msgid "Increases the turn rate of all turrets by %s."
 msgstr "全てのタレットのターンレートを %s 増加させる。"
 
-#: hull_mods.orig.csv:6
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:5
+#, java-format
+msgctxt "turretgyros:short"
+msgid "Increases turret turn rate."
+msgstr "タレットのターンレートを増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:5
+#, java-format
+msgctxt "turretgyros:sModDesc"
+msgid ""
+"Increases damage to missiles and fighters by %s. Increases damage to smaller "
+"ships by %s per size class of difference."
+msgstr ""
+"ミサイルと艦載機へのダメージを %s 増加させる。小型艦へのダメージがサイズクラ"
+"ス差につき %s 増加する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:6
 #, java-format
 msgctxt "armoredweapons:desc"
 msgid ""
@@ -68,7 +109,19 @@ msgstr ""
 "すべての武器の耐久性を %s 増加させ、リコイルを %s 減少させるが、ターンレート"
 "を %s 減少させる。また、船の装甲を %s 増加させる。"
 
-#: hull_mods.orig.csv:7
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:6
+#, java-format
+msgctxt "armoredweapons:short"
+msgid "Makes weapons harder to disable, reduces recoil."
+msgstr "武器を無力化されにくくし、リコイルを減らす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:6
+#, java-format
+msgctxt "armoredweapons:sModDesc"
+msgid "Increases the rate of fire of all non-missile weapons by %s."
+msgstr "すべての非ミサイル兵器の発射速度を %s 増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:7
 #, java-format
 msgctxt "assault_package:desc"
 msgid ""
@@ -81,7 +134,13 @@ msgstr ""
 "\n"
 "戦闘時に敵と交戦しようとし、戦闘艦として振る舞うようになる。"
 
-#: hull_mods.orig.csv:8
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:7
+#, java-format
+msgctxt "assault_package:short"
+msgid "Increases hull integrity, armor, and flux capacity."
+msgstr "船体値、装甲、フラックス容量を増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:8
 #, java-format
 msgctxt "autorepair:desc"
 msgid ""
@@ -90,19 +149,43 @@ msgid ""
 msgstr ""
 "戦闘時に、戦闘不能となった武器とエンジンの修理に必要な時間を %s 短縮する。"
 
-#: hull_mods.orig.csv:9
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:8
+#, java-format
+msgctxt "autorepair:short"
+msgid "Increases weapon repair rate in combat."
+msgstr "戦闘中の武器の修理率が上がる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:8
+#, java-format
+msgctxt "autorepair:sModDesc"
+msgid "Reduces repair time to %s, and reduces overload duration by %s."
+msgstr "修復時間を %s に短縮し、オーバーロード時間を %s 短縮します。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:9
 #, java-format
 msgctxt "auxiliarythrusters:desc"
 msgid "Increases the ship's maneuverability by %s."
 msgstr "船の機動力を %s 増加させる。"
 
-#: hull_mods.orig.csv:10
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:9
+#, java-format
+msgctxt "auxiliarythrusters:short"
+msgid "Increases maneuverability."
+msgstr "船の機動力を増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:10
 #, java-format
 msgctxt "ballistic_rangefinder:desc"
 msgid "<tooltip created in the script due to lots of highlighting>"
 msgstr ""
 
-#: hull_mods.orig.csv:11
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:10
+#, java-format
+msgctxt "ballistic_rangefinder:short"
+msgid "Increases base range of small and medium weapons in ballisic slots."
+msgstr "小型と中型の弾道兵器スロットの基本射程距離を増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:11
 #, java-format
 msgctxt "blast_doors:desc"
 msgid ""
@@ -116,32 +199,41 @@ msgstr ""
 "\n"
 "戦闘中に受けた船体損傷による乗組員の犠牲が %s 減少する。"
 
-#: hull_mods.orig.csv:12
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:11
+#, java-format
+msgctxt "blast_doors:short"
+msgid "Increases hull integrity, reduces crew casualties."
+msgstr "船体値を増加させ、乗員の犠牲を減らす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:11
+#, java-format
+msgctxt "blast_doors:sModDesc"
+msgid "Increases the crew casualty reduction to %s."
+msgstr "乗員の犠牲を %s 減らす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:12
 #, java-format
 msgctxt "converted_hangar:desc"
-msgid ""
-"Converts the ship's standard shuttle hangar to house a fighter bay. The "
-"improvised manufactory that produces fighter chassis is unreliable, and most "
-"components have minor defects. Fighter speed reduced by %s, and damage taken "
-"increased by %s.\n"
-"\n"
-"Increases the minimum crew required by %s to account for pilots and bay "
-"crews. Increases the ordnance point cost of bombers by %s, and of all other "
-"fighters by %s.\n"
-"\n"
-"Can not be installed on frigates, phase ships, or ships that already have "
-"proper fighter bays."
+msgid "<Tooltip created in script>"
 msgstr ""
-"標準のシャトル格納庫を改造し、戦闘機ベイを搭載する。戦闘機のシャーシを生産す"
-"る即席の製造工場は信頼性に欠け、ほとんどの部品に小さな欠陥がある。戦闘機の速"
-"度が %s 低下し、受けるダメージが %s 増加する。\n"
-"\n"
-"パイロットと格納庫クルーのために、最低乗員数を %s 増加させる。爆撃の "
-"Ordnance ポイントが %s 増加し、他のすべての戦闘機については %s 増加する。\n"
-"\n"
-"フリゲート艦、フェイズ艦、既に適切な戦闘機ベイを持つ船には設置できない。"
 
-#: hull_mods.orig.csv:13
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:12
+#, java-format
+msgctxt "converted_hangar:short"
+msgid "Improvised fighter bay for non-carriers."
+msgstr "非空母用の即席艦載機ベイ。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:12
+#, java-format
+msgctxt "converted_hangar:sModDesc"
+msgid ""
+"Increases the rate at which the fighter replacement rate recovers by %s for "
+"cruisers, and by %s for capital ships. No added effect for destroyers."
+msgstr ""
+"艦載機の交換率が回復する速度を、巡洋艦の場合は %s 、主力艦の場合は %s 増加さ"
+"せる。駆逐艦には追加効果なし。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:13
 #, java-format
 msgctxt "converted_fighterbay:desc"
 msgid ""
@@ -150,10 +242,22 @@ msgid ""
 "requirements by %s per fighter bay. The crew reduction is limited to a "
 "maximum of %s."
 msgstr ""
-"戦闘機ベイを即席の貨物室に変換し、貨物容量をさらに %s 増加させ、戦闘機ベイ1つ"
+"艦載機ベイを即席の貨物室に変換し、貨物容量をさらに %s 増加させ、艦載機ベイ1つ"
 "につき必要な乗組員を %s 減少させる。乗員の減少は最大で %s までとなる。"
 
-#: hull_mods.orig.csv:14
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:13
+#, java-format
+msgctxt "converted_fighterbay:short"
+msgid "Converts built-in fighter bays into improvised cargo holds."
+msgstr "内臓の艦載機ベイを貨物庫に変える。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:13
+#, java-format
+msgctxt "converted_fighterbay:sModDesc"
+msgid "Monthly maintenance cost reduced by %s per fighter bay."
+msgstr "毎月のメンテナンス費が艦載機ベイあたり %s 減少する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:14
 #, java-format
 msgctxt "dedicated_targeting_core:desc"
 msgid ""
@@ -174,7 +278,44 @@ msgstr ""
 "特殊なバリアントを除けば、ほとんどの戦闘艦は Integrated Targeting Unit か "
 "Dedicated Targeting Core のどちらかを搭載している。"
 
-#: hull_mods.orig.csv:15
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:14
+#, java-format
+msgctxt "dedicated_targeting_core:short"
+msgid "Increases weapon range, more so for larger ships."
+msgstr "武器の射程が伸び、大型船ほど傾向が強くなる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:14
+#, java-format
+msgctxt "dedicated_targeting_core:sModDesc"
+msgid "Increases the range bonus to %s for cruisers and %s for capital ships."
+msgstr "射程ボーナスが巡洋艦では %s 、主力艦では %s 伸びる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:15
+#, java-format
+msgctxt "defensive_targeting_array:desc"
+msgid ""
+"Standard fighter communication links are re-purposed to provide short-range "
+"targeting data.\n"
+"\n"
+"Increases fighter damage to missiles and other fighters by %s, but makes the "
+"fighters unable to leave the vicinity of their ship."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:15
+#, java-format
+msgctxt "defensive_targeting_array:short"
+msgid "Increases fighter PD damage, reduces fighter roam range to zero."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:15
+#, java-format
+msgctxt "defensive_targeting_array:sModDesc"
+msgid ""
+"Extends range of ballistic and energy weapons of the ship's fighters by %s "
+"units."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:16
 #, java-format
 msgctxt "eccm:desc"
 msgid ""
@@ -185,18 +326,32 @@ msgid ""
 "missile maneuverability by %s, as well as significantly improving the "
 "guidance algorithm.\n"
 "\n"
-"Reduces the weapon range reduction due to superior enemy Electronic Warfare "
-"by %s."
+"Also reduces the weapon range reduction due to superior enemy Electronic "
+"Warfare by %s."
 msgstr ""
-"自艦から発射されたミサイルが、ECMやフレアの影響を受ける確率を %s 減少させ"
-"る。\n"
+"艦から発射されたミサイルがECMやフレアの影響を受ける確率を %s 減少させる。\n"
 "\n"
-"各ミサイルに搭載されたCPUコア付属物により、ミサイルの最高速度を %s 、機動性"
-"を %s 向上させ、さらに誘導アルゴリズムも大幅に改善する。\n"
+"各ミサイルに搭載された補助CPUコアにより、ミサイルの最高速度が %s 、ミサイルの"
+"機動性が %s 向上し、誘導アルゴリズムも大幅に改善される。\n"
 "\n"
-"敵の電子戦優勢による武器射程の低下を %s 減少させる。"
+"また、敵の電子戦優勢による武器射程の減少を %s 減少させる。"
 
-#: hull_mods.orig.csv:16
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:16
+#, java-format
+msgctxt "eccm:short"
+msgid ""
+"Improves missile speed and guidance, reduces effect of enemy Electronic "
+"Warfare."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:16
+#, java-format
+msgctxt "eccm:sModDesc"
+msgid ""
+"Fully negates the effect of ECM and flares on missiles fired by this ship."
+msgstr "本艦が発射したミサイルに対するECMとフレアの効果を完全に無効化する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:17
 #, java-format
 msgctxt "ecm:desc"
 msgid ""
@@ -206,7 +361,13 @@ msgstr ""
 "戦闘中に配備された場合、この艦の船体サイズに応じて %s/%s/%s/%s のECMレーティ"
 "ングを付与する。"
 
-#: hull_mods.orig.csv:17
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:17
+#, java-format
+msgctxt "ecm:short"
+msgid "Increases ship's ECM rating."
+msgstr "ECMレーティングを増やす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:18
 #, java-format
 msgctxt "escort_package:desc"
 msgid ""
@@ -217,11 +378,19 @@ msgid ""
 "Will try to engage enemies and otherwise act as a combat ship in battle."
 msgstr ""
 "船の機動性を %s 増加する。全てのポイントディフェンス兵器の射程を %s 増加さ"
-"せ、戦闘機とミサイルに与えるダメージを %s 増加させる。\n"
+"せ、艦載機とミサイルに与えるダメージを %s 増加させる。\n"
 "\n"
 "戦闘時に敵と交戦しようとし、戦闘艦として振る舞うようになる。"
 
-#: hull_mods.orig.csv:18
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:18
+#, java-format
+msgctxt "escort_package:short"
+msgid ""
+"Increases maneuverability, point-defense range, and damage dealt to fighters "
+"and missiles."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:19
 #, java-format
 msgctxt "expanded_deck_crew:desc"
 msgid ""
@@ -230,12 +399,18 @@ msgid ""
 "\n"
 "Increases the crew required by %s per fighter bay."
 msgstr ""
-"戦闘機の損失による戦闘機交換率の低下率を %s 減少させ、回復率を %s 増加させ"
+"艦載機の損失による艦載機交換率の低下率を %s 減少させ、回復率を %s 増加させ"
 "る。\n"
 "\n"
-"戦闘機ベイごとに必要な乗員を%s増加させる。"
+"艦載機ベイごとに必要な乗員を%s増加させる。"
 
-#: hull_mods.orig.csv:19
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:19
+#, java-format
+msgctxt "expanded_deck_crew:short"
+msgid "Improves fighter replacement rate, increases crew requirements."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:20
 #, java-format
 msgctxt "magazines:desc"
 msgid ""
@@ -243,19 +418,57 @@ msgid ""
 "energy weapons by %s."
 msgstr "弾道兵器とエネルギー兵器の弾薬の容量とチャージ数を %s 増加させる。"
 
-#: hull_mods.orig.csv:20
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:20
+#, java-format
+msgctxt "magazines:short"
+msgid "Increases ammo/charges for ballistic and energy weapons."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:20
+#, java-format
+msgctxt "magazines:sModDesc"
+msgid ""
+"Increases the ammo/charge regeneration rate for ballistic and energy weapons "
+"by %s."
+msgstr "弾道兵器とエネルギー兵器の弾薬/チャージ再生率を %s 増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:21
 #, java-format
 msgctxt "missleracks:desc"
 msgid "Increases the ammo capacity of missile weapons by %s."
 msgstr "ミサイル兵器の弾薬容量を %s 増加させる。"
 
-#: hull_mods.orig.csv:21
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:21
+#, java-format
+msgctxt "missleracks:short"
+msgid "Increases missile weapon ammo."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:21
+#, java-format
+msgctxt "missleracks:sModDesc"
+msgid "Reduces the rate of fire of missile weapons by %s."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:22
 #, java-format
 msgctxt "extendedshieldemitter:desc"
 msgid "Increases the shield's coverage by %s degrees."
 msgstr "シールドのカバー率を %s 度増加させる。"
 
-#: hull_mods.orig.csv:22
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:22
+#, java-format
+msgctxt "extendedshieldemitter:short"
+msgid "Increases maximum shield arc."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:22
+#, java-format
+msgctxt "extendedshieldemitter:sModDesc"
+msgid "Increases the shield's coverage by an additional %s degrees."
+msgstr "シールドのカバー範囲をさらに %s 度増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:23
 #, java-format
 msgctxt "fluxcoil:desc"
 msgid ""
@@ -267,7 +480,23 @@ msgstr ""
 "キャパシタほど効率的ではない - すでに最大数のキャパシタを搭載している設計に追"
 "加した場合に最も有効。"
 
-#: hull_mods.orig.csv:23
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:23
+#, java-format
+msgctxt "fluxcoil:short"
+msgid "Increases flux capacity."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:23
+#, java-format
+msgctxt "fluxcoil:sModDesc"
+msgid ""
+"Increases flux capacity by a further %s/%s/%s/%s, making the coil as "
+"efficient as adding capacitors."
+msgstr ""
+"フラックス容量をさらに %s/%s/%s/%s 増加させ、コイルをキャパシタを追加するのと"
+"同じくらい効率的にする。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:24
 #, java-format
 msgctxt "fluxdistributor:desc"
 msgid ""
@@ -279,22 +508,23 @@ msgstr ""
 "ベントほど効率的ではない - すでに最大数のベントを搭載している設計に追加した場"
 "合に最も有効。"
 
-#: hull_mods.orig.csv:24
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:24
 #, java-format
-msgctxt "frontemitter:desc"
-msgid ""
-"Locks the ship's omni-directional shield emitter to a front-facing position "
-"and extends its arc by %s. In addition, the stable emitter position results "
-"in a %s reduction to the shield's upkeep cost.\n"
-"\n"
-"As with all frontal emitters, the shield will also deploy twice as quickly."
+msgctxt "fluxdistributor:short"
+msgid "Increases flux dissipation."
 msgstr ""
-"船の全方位シールドエミッタを正面に固定し、その弧を %s 度延長する。さらに、エ"
-"ミッターの位置が安定することで、シールドの維持費が %s 減少する。\n"
-"\n"
-"すべての正面エミッターと同様に、シールドの展開速度も2倍になる。"
 
-#: hull_mods.orig.csv:25
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:24
+#, java-format
+msgctxt "fluxdistributor:sModDesc"
+msgid ""
+"Increases flux dissipation by a further %s/%s/%s/%s, making the distributor "
+"as efficient as adding vents."
+msgstr ""
+"フラックス放散をさらに %s/%s/%s/%s 増加させ、ディストリビュータをベントを追加"
+"するのと同じくらい効率的にする。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:26
 #, java-format
 msgctxt "shield_shunt:desc"
 msgid ""
@@ -304,7 +534,19 @@ msgstr ""
 "船のシールドを除去する。外部エミッターノードは強化プレートに置き換えられ、船"
 "の装甲が %s 増加する。"
 
-#: hull_mods.orig.csv:26
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:26
+#, java-format
+msgctxt "shield_shunt:short"
+msgid "Removes shields, increases armor."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:26
+#, java-format
+msgctxt "shield_shunt:sModDesc"
+msgid "Increases the ship's armor by an additional %s."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:27
 #, java-format
 msgctxt "frontshield:desc"
 msgid ""
@@ -320,7 +562,31 @@ msgstr ""
 "シールドジェネレータはそのパワーの多くをエンジンから得ており、船の最高速度を "
 "%s 低下させる。"
 
-#: hull_mods.orig.csv:27
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:27
+#, java-format
+msgctxt "frontshield:short"
+msgid "Installs basic shields on shieldless ship. Reduces top speed."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:28
+#, java-format
+msgctxt "missile_autoloader:desc"
+msgid "<tooltip created in the script due to sections/other complexity>"
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:28
+#, java-format
+msgctxt "missile_autoloader:short"
+msgid "Reloads missile weapons in small missile mounts"
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:28
+#, java-format
+msgctxt "missile_autoloader:sModDesc"
+msgid "Increases the post-reload cooldown to %s seconds."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:29
 #, java-format
 msgctxt "hardenedshieldemitter:desc"
 msgid ""
@@ -330,7 +596,13 @@ msgstr ""
 "シールドが受けるダメージ量を %s 減少させる。また、シールドがイオンビームなど"
 "の武器のEMPアークに貫通される確率を下げる。"
 
-#: hull_mods.orig.csv:28
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:29
+#, java-format
+msgctxt "hardenedshieldemitter:short"
+msgid "Reduces damage taken by shields."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:30
 #, java-format
 msgctxt "hardened_subsystems:desc"
 msgid ""
@@ -343,42 +615,78 @@ msgstr ""
 "\n"
 "また、戦闘即応性の低下率を %s 低下させる。"
 
-#: hull_mods.orig.csv:29
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:30
+#, java-format
+msgctxt "hardened_subsystems:short"
+msgid "Increases peak time, CR degrades more slowly."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:31
 #, java-format
 msgctxt "heavyarmor:desc"
 msgid ""
-"Increases the ship's armor by %s/%s/%s/%s points, depending on hull size. "
-"Also reduces its maneuverability by %s."
-msgstr ""
-"船体サイズに応じて、船の装甲を %s/%s/%s/%s ポイント増加させる。また、操縦性"
-"を %s 減少させる。"
+"Increases the ship's armor by %s/%s/%s/%s points, depending on hull size."
+msgstr "船体サイズに応じて、船の装甲を %s/%s/%s/%s ポイント増加させる。"
 
-#: hull_mods.orig.csv:30
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:31
+#, java-format
+msgctxt "heavyarmor:short"
+msgid "Increases armor."
+msgstr "装甲を増やす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:31
+#, java-format
+msgctxt "heavyarmor:sModDesc"
+msgid "Reduces the ship's maneuverability by %s."
+msgstr "船の機動力を %s 減少させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:32
 #, java-format
 msgctxt "high_scatter_amp:desc"
 msgid "<tooltip created in the script due to sections>"
 msgstr ""
 
-#: hull_mods.orig.csv:31
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:32
+#, java-format
+msgctxt "high_scatter_amp:short"
+msgid ""
+"Reduces beam range; beams deal more damage and apply hard flux to shields."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:32
+#, java-format
+msgctxt "high_scatter_amp:sModDesc"
+msgid "Increases beam weapon damage by an additional %s."
+msgstr "ビーム兵器のダメージをさらに %s 増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:33
 #, java-format
 msgctxt "pointdefenseai:desc"
 msgid ""
-"Gives all small non-missile weapons the ability to automatically target "
-"incoming enemy missiles and to identify - and ignore - decoy flares. "
-"Targeting missiles takes priority over targeting enemy ships or fighters.\n"
-"\n"
-"In addition, all point-defense weapons get the best possible target leading, "
-"regardless of combat readiness, and all damage to missiles is increased by "
-"%s. "
+"Gives all point-defense weapons the ability to identify - and ignore - decoy "
+"flares. In addition, all point-defense weapons get the best possible target "
+"leading, regardless of combat readiness, and all damage to missiles is "
+"increased by %s. "
 msgstr ""
-"ミサイル以外の小型武器に、飛んでくる敵のミサイルを自動的に照準し、デコイフレ"
-"アを識別(無視)する能力を付与する。ミサイルへの照準は、敵の艦船や戦闘機への照"
-"準よりも優先される。\n"
-"\n"
-"さらに、すべてのポイントディフェンス兵器は戦闘即応性に関係なく最適な軌道予測"
-"を得ることができ、ミサイルに対する全てのダメージは %s 増加する。"
 
-#: hull_mods.orig.csv:32
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:33
+#, java-format
+msgctxt "pointdefenseai:short"
+msgid ""
+"Small non-missile weapons act as point-defense; PD not affected by decoy "
+"flares."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:33
+#, java-format
+msgctxt "pointdefenseai:sModDesc"
+msgid ""
+"All small non-missile weapons are classified as \"point-defense\", "
+"automatically target missiles, and are affected by point-defense stat "
+"modifiers."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:34
 #, java-format
 msgctxt "pdintegration:desc"
 msgid ""
@@ -396,7 +704,14 @@ msgstr ""
 "さらに、すべてのポイントディフェンス兵器はすべてのターゲットに与えるダメージ"
 "が %s 増加する。"
 
-#: hull_mods.orig.csv:33
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:34
+#, java-format
+msgctxt "pdintegration:short"
+msgid ""
+"Reduces ordnance point cost of small PD weapons, increases all PD damage."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:35
 #, java-format
 msgctxt "targetingunit:desc"
 msgid ""
@@ -412,7 +727,13 @@ msgstr ""
 "特殊な艦船を除き、ほとんどの戦闘艦は Integrated Targeting Unit か Dedicated "
 "Targeting Core を搭載している。"
 
-#: hull_mods.orig.csv:34
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:35
+#, java-format
+msgctxt "targetingunit:short"
+msgid "Increases weapon range, more so for larger ships."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:36
 #, java-format
 msgctxt "nav_relay:desc"
 msgid ""
@@ -427,7 +748,13 @@ msgstr ""
 "\n"
 "自艦隊の Nav レーティングの合計が、配備された艦の最高速度を増加させる。"
 
-#: hull_mods.orig.csv:35
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:36
+#, java-format
+msgctxt "nav_relay:short"
+msgid "Increases top speed of deployed ships."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:37
 #, java-format
 msgctxt "neural_interface:desc"
 msgid ""
@@ -461,7 +788,15 @@ msgstr ""
 "に個人の戦闘スキルが適用される。指揮権移譲と同様、弾薬量増加など一部のスキル"
 "効果や、固定されたステータスは適用されない。"
 
-#: hull_mods.orig.csv:36
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:37
+#, java-format
+msgctxt "neural_interface:short"
+msgid ""
+"Allows rapid switching between ships, resets system cooldown and adds a "
+"charge."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:38
 #, java-format
 msgctxt "neural_integrator:desc"
 msgid ""
@@ -503,17 +838,55 @@ msgstr ""
 "に個人の戦闘スキルが適用される。指揮権移譲と同様、弾薬量増加など一部のスキル"
 "効果や、固定されたステータスは適用されない。"
 
-#: hull_mods.orig.csv:37
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:38
+#, java-format
+msgctxt "neural_integrator:short"
+msgid "Specialized Neural Interface for automated ships."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:39
+#, java-format
+msgctxt "frontemitter:desc"
+msgid ""
+"Locks the ship's omni-directional shield emitter to a front-facing position "
+"and extends its arc by %s. As with all frontal emitters, the shield will "
+"also deploy twice as quickly."
+msgstr ""
+"船の全方向シールドエミッタを正面に固定し、その弧を %s 伸ばす。全ての正面エ"
+"ミッターと同様に、シールドの展開速度も2倍になる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:39
+#, java-format
+msgctxt "frontemitter:short"
+msgid "Converts omni shield to front, extends arc."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:39
+#, java-format
+msgctxt "frontemitter:sModDesc"
+msgid "Reduces the amount of damage taken by shields by %s."
+msgstr "シールドが受けるダメージを %s 減少させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:40
 #, java-format
 msgctxt "adaptiveshields:desc"
 msgid ""
-"Converts frontal shields to omni-directional. Reduces the shield's arc by "
-"%s, and decreases its upkeep by %s."
-msgstr ""
-"正面シールドを全方位に変換する。シールドの弧を %s 減少させ、アップキープを%s "
-"減少させる。"
+"Converts frontal shields to omni-directional. Reduces the shield's arc by %s."
+msgstr "正面シールドを全方位シールドに変換する。シールドの弧を %s 減少させる。"
 
-#: hull_mods.orig.csv:38
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:40
+#, java-format
+msgctxt "adaptiveshields:short"
+msgid "Converts front shield to omni, reduces arc."
+msgstr "正面シールドを全方位に変換し、弧を減らす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:40
+#, java-format
+msgctxt "adaptiveshields:sModDesc"
+msgid "Negates the shield arc penalty."
+msgstr "シールドの弧のペナルティを無効化する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:41
 #, java-format
 msgctxt "operations_center:desc"
 msgid ""
@@ -522,7 +895,13 @@ msgid ""
 msgstr ""
 "旗艦にインストールされている場合、コマンドポイントの回復率を %s 増加させる。"
 
-#: hull_mods.orig.csv:39
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:41
+#, java-format
+msgctxt "operations_center:short"
+msgid "Increases command point recovery rate when on flagship."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:42
 #, java-format
 msgctxt "phase_anchor:desc"
 msgid ""
@@ -552,13 +931,33 @@ msgstr ""
 "このような操作によって生じるP空間の大きな歪みのため、どちらの側である かに関"
 "わらず、1回の戦闘につき1隻の艦船のみがこの操作を行うことができる。"
 
-#: hull_mods.orig.csv:40
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:42
+#, java-format
+msgctxt "phase_anchor:short"
+msgid ""
+"Increases flux dissipation and weapon recharge while phased, emergency dive "
+"maneuver."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:43
 #, java-format
 msgctxt "recovery_shuttles:desc"
 msgid "Reduces the casualties suffered by fighter pilots by %s."
-msgstr "戦闘機パイロットが受ける犠牲を %s 減らす。"
+msgstr "艦載機パイロットが受ける犠牲を %s 減らす。"
 
-#: hull_mods.orig.csv:41
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:43
+#, java-format
+msgctxt "recovery_shuttles:short"
+msgid "Reduces fighter pilot casualties."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:43
+#, java-format
+msgctxt "recovery_shuttles:sModDesc"
+msgid "Increases the fighter pilot casualty reduction to %s."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:44
 #, java-format
 msgctxt "reinforcedhull:desc"
 msgid ""
@@ -568,17 +967,35 @@ msgstr ""
 "船体値を %s 増加させる。障害を受けた場合、船はバラバラにならず、戦闘後にほと"
 "んど回復可能である。"
 
-#: hull_mods.orig.csv:42
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:44
+#, java-format
+msgctxt "reinforcedhull:short"
+msgid "Increases hull integrity; ship almost always recoverable if lost."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:45
 #, java-format
 msgctxt "fluxbreakers:desc"
 msgid ""
-"Decreases the amount of damage taken from EMP weapons (such as Ion Cannons) "
-"by %s. Also increases the ship's flux dissipation rate while venting by %s."
+"Decreases the amount of EMP damage taken from weapons such as Ion Cannons by "
+"%s. Also increases the ship's flux dissipation rate while venting by %s."
 msgstr ""
-"EMP兵器(イオンキャノンなど)から受けるダメージ量を %s 減少させる。また、ベント"
-"中の船のフラックス散逸率を %s 増加させる。"
+"イオンキャノンなどの武器から受けるEMPダメージを %s 減少させる。また、ベント中"
+"の船のフラックス散逸率を %s 増加させる。"
 
-#: hull_mods.orig.csv:43
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:45
+#, java-format
+msgctxt "fluxbreakers:short"
+msgid "Reduces EMP damage taken, improves venting speed."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:45
+#, java-format
+msgctxt "fluxbreakers:sModDesc"
+msgid "Increases the flux dissipation rate while venting by a further %s."
+msgstr "ベント中のフラックス散逸率をさらに %s 増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:46
 #, java-format
 msgctxt "safetyoverrides:desc"
 msgid ""
@@ -603,7 +1020,13 @@ msgstr ""
 "\n"
 "民間船、主力艦には取り付けられない。"
 
-#: hull_mods.orig.csv:45
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:46
+#, java-format
+msgctxt "safetyoverrides:short"
+msgid "Drastic improvement in performance, much lower peak time."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:48
 #, java-format
 msgctxt "stabilizedshieldemitter:desc"
 msgid ""
@@ -613,22 +1036,36 @@ msgstr ""
 "シールドが1秒間に発生させるソフトフラックスの量を %s 減少させる。シールドがダ"
 "メージを受けた際に生成されるハードフラックスには影響しない。"
 
-#: hull_mods.orig.csv:47
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:48
+#, java-format
+msgctxt "stabilizedshieldemitter:short"
+msgid "Reduces flux upkeep for shields."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:48
+#, java-format
+msgctxt "stabilizedshieldemitter:sModDesc"
+msgid "Converts %s of the hard flux damage taken by shields to soft flux."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:50
 #, java-format
 msgctxt "unstable_injector:desc"
 msgid ""
 "Increases the ship's top speed in combat by %s/%s/%s/%s su/second, depending "
 "on hull size.\n"
 "\n"
-"Interferes with weapons targeting and other vulnerable systems, reducing "
-"weapon range by %s and increasing the fighter replacement time by %s."
+"Interferes with weapons targeting and other vulnerable systems, reducing non-"
+"missile weapon range by %s and increasing the fighter replacement time by %s."
 msgstr ""
-"戦闘中の船の最高速度を、船体サイズに応じて %s/%s/%s/%s su/秒増加させる。\n"
-"\n"
-"武器の照準やその他の脆弱なシステムに干渉し、武器の射程を %s 減らし、戦闘機の"
-"交換時間を %s 増加させる。"
 
-#: hull_mods.orig.csv:52
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:50
+#, java-format
+msgctxt "unstable_injector:short"
+msgid "Increases speed, reduces weapon range."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:55
 #, java-format
 msgctxt "additional_berthing:desc"
 msgid ""
@@ -642,13 +1079,39 @@ msgstr ""
 "\n"
 "民間グレードの船体では、メンテナンス用品の使用量も %s 増加する。"
 
-#: hull_mods.orig.csv:53
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:55
+#, java-format
+msgctxt "additional_berthing:short"
+msgid "Increases crew capacity."
+msgstr "乗員数を増やす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:55
+#, java-format
+msgctxt "additional_berthing:sModDesc"
+msgid ""
+"Doubles the crew capacity increase and, for civilian hulls, negates the "
+"maintenance cost increase."
+msgstr "乗員数を2倍に増やし、民間用船体では維持費の増加を相殺する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:56
 #, java-format
 msgctxt "augmentedengines:desc"
 msgid "Increases maximum burn level by %s."
 msgstr "最大燃焼度を %s 増加させる。"
 
-#: hull_mods.orig.csv:54
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:56
+#, java-format
+msgctxt "augmentedengines:short"
+msgid "Increases maximum burn level."
+msgstr "最大燃焼度を増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:56
+#, java-format
+msgctxt "augmentedengines:sModDesc"
+msgid "Increases maximum burn level by a further %s."
+msgstr "最大燃焼レベルを追加で %s 増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:57
 #, java-format
 msgctxt "auxiliary_fuel_tanks:desc"
 msgid ""
@@ -662,7 +1125,21 @@ msgstr ""
 "\n"
 "民生グレードの船体では、メンテナンス用品の使用量も %s 増加する。"
 
-#: hull_mods.orig.csv:55
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:57
+#, java-format
+msgctxt "auxiliary_fuel_tanks:short"
+msgid "Increases fuel capacity."
+msgstr "燃料容量を増やす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:57
+#, java-format
+msgctxt "auxiliary_fuel_tanks:sModDesc"
+msgid ""
+"Doubles the fuel capacity increase and, for civilian hulls, negates the "
+"maintenance cost increase."
+msgstr "燃料容量が倍増し、民間用船体の場合、メンテナンス費の増加を相殺する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:58
 #, java-format
 msgctxt "efficiency_overhaul:desc"
 msgid ""
@@ -678,7 +1155,22 @@ msgstr ""
 "戦闘即応性回復率と修理率を %s 増加させる。回復率の増加に伴い、CR回復のための1"
 "日あたりのサプライ消費量が増加するが、総補給コストは変わらない。"
 
-#: hull_mods.orig.csv:56
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:58
+#, java-format
+msgctxt "efficiency_overhaul:short"
+msgid "Reduces ongoing costs and enables more deployments."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:58
+#, java-format
+msgctxt "efficiency_overhaul:sModDesc"
+msgid ""
+"Reduces maintenance cost, fuel use, and minimum crew requirement by a "
+"further %s."
+msgstr ""
+"メンテナンスコスト、燃料使用量、乗員の最低必要人数をさらに %s 削減する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:59
 #, java-format
 msgctxt "expanded_cargo_holds:desc"
 msgid ""
@@ -692,17 +1184,41 @@ msgstr ""
 "\n"
 "民生グレードの船体では、メンテナンス用品の使用量も %s 増加する。"
 
-#: hull_mods.orig.csv:57
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:59
+#, java-format
+msgctxt "expanded_cargo_holds:short"
+msgid "Increases cargo capacity."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:59
+#, java-format
+msgctxt "expanded_cargo_holds:sModDesc"
+msgid ""
+"Doubles the cargo capacity increase and, for civilian hulls, negates the "
+"maintenance cost increase."
+msgstr "貨物容量が倍増し、民間用船体ではメンテナンスコストの増加を相殺する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:60
 #, java-format
 msgctxt "hiressensors:desc"
-msgid ""
-"Increases sensor strength by %s points for frigates, destroyers, and "
-"cruisers, and by %s for capital ships."
+msgid "<Tooltip created in script>"
 msgstr ""
-"フリゲート、駆逐艦、巡洋艦のセンサー強度を %s ポイント、主力艦のセンサー強度"
-"を %s ポイント増加させる。"
 
-#: hull_mods.orig.csv:58
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:60
+#, java-format
+msgctxt "hiressensors:short"
+msgid "Increases fleet's sensor range."
+msgstr "艦隊のセンサー範囲を広げる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:60
+#, java-format
+msgctxt "hiressensors:sModDesc"
+msgid ""
+"Increases the ship's in-combat vision range by %s/%s/%s/%s, based on hull "
+"size."
+msgstr "船体サイズに応じて、戦闘中の視界の範囲を %s/%s/%s/%s 増加させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:61
 #, java-format
 msgctxt "insulatedengine:desc"
 msgid ""
@@ -715,27 +1231,51 @@ msgstr ""
 "\n"
 "また、船のセンサープロファイルが %s 減少する。"
 
-#: hull_mods.orig.csv:59
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:61
+#, java-format
+msgctxt "insulatedengine:short"
+msgid "Makes engines harder to disable, lowers sensor profile."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:61
+#, java-format
+msgctxt "insulatedengine:sModDesc"
+msgid ""
+"Increases engine durability by a further %s, and Increases the sensor "
+"profile reduction to %s."
+msgstr ""
+"エンジンの耐久性がさらに %s 向上し、センサープロファイルの削減率が %s 向上す"
+"る。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:62
 #, java-format
 msgctxt "militarized_subsystems:desc"
 msgid ""
 "Removes the penalties from a civilian-grade hull, and increases maximum burn "
 "level by %s.\n"
 "\n"
-"Increases flux dissipation by %s, and adds %s armor for the damage reduction "
-"calculation only.\n"
-"\n"
 "Increases minimum crew required by %s."
 msgstr ""
-"民生グレードの船体からペナルティを取り除き、最大燃焼レベルを %s 増加させ"
+"民間グレードの船体からペナルティを取り除き、最大燃焼レベルを %s 増加させ"
 "る。\n"
 "\n"
-"フラックス散逸を %s 増加させ、ダメージ軽減計算のためだけの装甲を %s 追加す"
-"る。\n"
-"\n"
-"必要最低乗員数を %s 増加させる。"
+"必要最小乗員数を %s 増加させる。"
 
-#: hull_mods.orig.csv:60
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:62
+#, java-format
+msgctxt "militarized_subsystems:short"
+msgid ""
+"Removes sensor penalties, increases maximum burn level, increases crew "
+"required."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:62
+#, java-format
+msgctxt "militarized_subsystems:sModDesc"
+msgid "Negates the increased crew requirements."
+msgstr "必要乗員数の増加を相殺する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:63
 #, java-format
 msgctxt "solar_shielding:desc"
 msgid ""
@@ -752,7 +1292,19 @@ msgstr ""
 "\n"
 "戦闘時、受けるエネルギーダメージを %s 減少させる。"
 
-#: hull_mods.orig.csv:61
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:63
+#, java-format
+msgctxt "solar_shielding:short"
+msgid "Reduces effect of being in corona and energy damage taken."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:63
+#, java-format
+msgctxt "solar_shielding:sModDesc"
+msgid "Increases the protection from solar coronae and similar hazards to %s."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:64
 #, java-format
 msgctxt "surveying_equipment:desc"
 msgid ""
@@ -762,7 +1314,19 @@ msgstr ""
 "調査に必要な重機や補給品を、船体サイズに応じて %s/%s/%s/%s 削減する。それぞれ"
 "最低 %s までになる。"
 
-#: hull_mods.orig.csv:64
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:64
+#, java-format
+msgctxt "surveying_equipment:short"
+msgid "Reduces resource requirements for surveying."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:64
+#, java-format
+msgctxt "surveying_equipment:sModDesc"
+msgid "Increases the survey cost reduction by %s."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:67
 #, java-format
 msgctxt "terminator_core:desc"
 msgid ""
@@ -771,7 +1335,7 @@ msgstr ""
 "ターミネータードローンが使用するもので、このテキストはプレイヤーには見えない"
 "ようにする必要がある。"
 
-#: hull_mods.orig.csv:65
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:68
 #, java-format
 msgctxt "shared_flux_sink:desc"
 msgid ""
@@ -783,25 +1347,73 @@ msgstr ""
 "ジュールが失われた場合、余分なフラックス散逸は残りのモジュールに再分配され"
 "る。この余分な散逸のうち、最大で %s がハードフラックスに適用される。"
 
-#: hull_mods.orig.csv:66
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:68
+#, java-format
+msgctxt "shared_flux_sink:short"
+msgid "Flux/hard flux dissipation bonus as modules are lost."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:69
 #, java-format
 msgctxt "stealth_minefield:desc"
 msgid "Mines attack enemy ships during battle."
 msgstr "戦闘中に敵艦を攻撃する地雷。"
 
-#: hull_mods.orig.csv:67
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:69
+#, java-format
+msgctxt "stealth_minefield:short"
+msgid "Mines attack enemy ships during battle."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:70
 #, java-format
 msgctxt "stealth_minefield_lt:desc"
 msgid "Mines attack enemy ships during battle."
 msgstr "戦闘中に敵艦を攻撃する地雷。"
 
-#: hull_mods.orig.csv:68
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:70
+#, java-format
+msgctxt "stealth_minefield_lt:short"
+msgid "Mines attack enemy ships during battle."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:71
+#, java-format
+msgctxt "bdeck:desc"
+msgid ""
+"Once per combat, when the fighter replacement rate reaches %s, the fighter "
+"launch bays are switched over to operate from a \"B-Deck\".\n"
+"\n"
+"Standby fighters are launched to rapidly bring the wings back up to full "
+"strength, and the fighter replacement rate is set to %s."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:71
+#, java-format
+msgctxt "bdeck:short"
+msgid ""
+"Launches fresh wing once per combat and replenishes the replacement rate."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:72
 #, java-format
 msgctxt "chassis_storage:desc"
 msgid "Fighter replacement rate does not go down when fighters are lost."
-msgstr "戦闘機を失っても、戦闘機補充率は下がらない。"
+msgstr "艦載機を失っても、艦載機補充率は下がらない。"
 
-#: hull_mods.orig.csv:70
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:72
+#, java-format
+msgctxt "chassis_storage:short"
+msgid "Fighter replacement rate does not go down."
+msgstr "艦載機補充率は下がらない。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:73
+#, java-format
+msgctxt "shield_always_on:short"
+msgid "Forces shield to stay on. Hidden, doesn't need description or icon."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:74
 #, java-format
 msgctxt "missile_reload:desc"
 msgid ""
@@ -811,7 +1423,13 @@ msgstr ""
 "艦内のオートフォージは、定期的にすべてのミサイル兵器の弾倉をフルリロードす"
 "る。"
 
-#: hull_mods.orig.csv:71
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:74
+#, java-format
+msgctxt "missile_reload:short"
+msgid "Periodically reloads all missile weapons."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:75
 #, java-format
 msgctxt "shielded_holds:desc"
 msgid ""
@@ -824,7 +1442,13 @@ msgstr ""
 "る。わずかな調整でシールドが長距離貨物スキャンを混乱させ、密輸品が検出される"
 "確率を下げることができる。"
 
-#: hull_mods.orig.csv:72
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:75
+#, java-format
+msgctxt "shielded_holds:short"
+msgid "Improves chance to avoid detection of contraband."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:76
 #, java-format
 msgctxt "repair_gantry:desc"
 msgid ""
@@ -839,7 +1463,13 @@ msgstr ""
 "にのみ影響し、設計図のようなレアアイテムは影響しない。また、ボーナスのうち "
 "%s は戦闘後のサルベージに適用される。"
 
-#: hull_mods.orig.csv:73
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:76
+#, java-format
+msgctxt "repair_gantry:short"
+msgid "Increases resources gained from salvage."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:77
 #, java-format
 msgctxt "phasefield:desc"
 msgid ""
@@ -849,7 +1479,13 @@ msgstr ""
 "この船は低品位のフェーズフィールドを長時間稼働させることができ、有効なセン"
 "サープロファイルを %s 減少させる。"
 
-#: hull_mods.orig.csv:74
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:77
+#, java-format
+msgctxt "phasefield:short"
+msgid "Reduces fleetwide sensor profile."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:78
 #, java-format
 msgctxt "fluxshunt:desc"
 msgid ""
@@ -859,19 +1495,49 @@ msgstr ""
 "シールドがオンのとき、通常の %s の割合でハードフラックスを散逸できるようにす"
 "る。"
 
-#: hull_mods.orig.csv:75
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:78
+#, java-format
+msgctxt "fluxshunt:short"
+msgid "Allows dissipation of hard flux while shields are up."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:79
 #, java-format
 msgctxt "civgrade:desc"
 msgid "Increases sensor profile by %s. Reduces sensor strength by %s."
 msgstr "センサープロファイルを %s 増加させる。センサー強度を %s 下げる。"
 
-#: hull_mods.orig.csv:76
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:79
+#, java-format
+msgctxt "civgrade:short"
+msgid "Increases sensor profile, reduces sensor strength."
+msgstr "センサープロファイルを増加させる。センサー強度を下げる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:80
 #, java-format
 msgctxt "high_maintenance:desc"
 msgid "Increases the monthly maintenance supply cost by %s."
 msgstr "毎月のメンテナンスサプライコストを %s 増加させる。"
 
-#: hull_mods.orig.csv:78
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:80
+#, java-format
+msgctxt "high_maintenance:short"
+msgid "Increases maintenance cost."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:81
+#, java-format
+msgctxt "coherer:desc"
+msgid "<tooltip created in the script>"
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:81
+#, java-format
+msgctxt "coherer:short"
+msgid "Increases base range of non-beam energy weapons."
+msgstr "ビーム以外のエネルギー兵器の基本射程距離を伸ばす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:86
 #, java-format
 msgctxt "tow_cable:desc"
 msgid ""
@@ -885,7 +1551,13 @@ msgstr ""
 "\n"
 "戦闘中には使用できない。"
 
-#: hull_mods.orig.csv:79
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:86
+#, java-format
+msgctxt "tow_cable:short"
+msgid "Increases burn level of another ship."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:87
 #, java-format
 msgctxt "drive_field_stabilizer:desc"
 msgid ""
@@ -899,7 +1571,13 @@ msgstr ""
 "\n"
 "艦のセンサープロファイルを %s 増加させる。"
 
-#: hull_mods.orig.csv:80
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:87
+#, java-format
+msgctxt "drive_field_stabilizer:short"
+msgid "Reduces fleetwide fuel use."
+msgstr "艦隊全体の燃料使用量を減らす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:88
 #, java-format
 msgctxt "ground_support:desc"
 msgid ""
@@ -910,7 +1588,13 @@ msgstr ""
 "地上防衛のための近接支援兵器と対抗措置。惑星強襲の有効戦力を、艦隊の海兵隊員"
 "総数を上限として %s 増加させる。"
 
-#: hull_mods.orig.csv:81
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:88
+#, java-format
+msgctxt "ground_support:short"
+msgid "Improves effectiveness of raids."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:89
 #, java-format
 msgctxt "advanced_ground_support:desc"
 msgid ""
@@ -921,7 +1605,13 @@ msgstr ""
 "地上防衛のための近接支援兵器と対抗措置。惑星強襲の有効戦力を、艦隊の海兵隊員"
 "総数を上限として %s 増加させる。"
 
-#: hull_mods.orig.csv:82
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:89
+#, java-format
+msgctxt "advanced_ground_support:short"
+msgid "Improves effectiveness of raids."
+msgstr "襲撃の効果を高める。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:90
 #, java-format
 msgctxt "delicate:desc"
 msgid ""
@@ -935,42 +1625,86 @@ msgstr ""
 "\n"
 "ピーク性能時間が終了した後、戦闘中のCR減少率が %s 増加する。"
 
-#: hull_mods.orig.csv:83
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:90
+#, java-format
+msgctxt "delicate:short"
+msgid "Increases CR decay rate after peak time runs out."
+msgstr "ピークタイム終了後のCR減衰率が上がる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:91
 #, java-format
 msgctxt "hbi:desc"
 msgid "Reduces the ordnance point cost of large ballistic weapons by %s."
 msgstr "大型弾道兵器の武器点数コストを %s 低下させる。"
 
-#: hull_mods.orig.csv:84
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:91
+#, java-format
+msgctxt "hbi:short"
+msgid "Reduces ordnance point cost of large ballistic weapons."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:92
+#, java-format
+msgctxt "vast_hangar:desc"
+msgid ""
+"The ship has a huge hangar and a commensurate small fleet of support craft.\n"
+"\n"
+"The number of fighter bays added by Converted Hangar is increased by %s, and "
+"its performance matches that of a dedicated fighter bay - all of the "
+"penalties and modifiers, including those to the ship's deployment cost, are "
+"negated."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:92
+#, java-format
+msgctxt "vast_hangar:short"
+msgid "Increases the effect of Converted Hangar and removes its penalties."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:93
 #, java-format
 msgctxt "rugged:desc"
 msgid ""
 "Reduces most negative effects of d-mods by %s. If disabled or destroyed in "
 "combat, the ship has a %s chance to avoid new d-mods, and is almost always "
-"recoverable after the battle."
+"recoverable after the battle.\n"
+"\n"
+"In addition, the supply cost to recover from deployment - and to effect "
+"repairs if the ship is disabled - is reduced by %s."
 msgstr ""
-"d-modのほとんどのマイナス効果を %s 減らす。戦闘不能または破壊された場合、新た"
-"なd-modを回避するチャンスが %s あり、戦闘後ほとんど回復可能である。"
 
-#: hull_mods.orig.csv:85
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:93
+#, java-format
+msgctxt "rugged:short"
+msgid "Reduces impact of d-mods; ship almost always recoverable if lost."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:94
 #, java-format
 msgctxt "automated:desc"
 msgid ""
 "This ship is fully automated, and does not require - and can not take on - "
 "any human crew.\n"
 "\n"
-"Automated ships require specialized equipment and expertise to maintain, "
-"resulting in a maximum combat readiness penalty of %s. This penalty can be "
-"offset by a fleet commander skilled in the use of automated ships."
+"Automated ships usually require specialized equipment and expertise to "
+"maintain, resulting in a maximum combat readiness penalty of %s. This "
+"penalty can be offset by a fleet commander skilled in the use of automated "
+"ships."
 msgstr ""
-"この船は完全に自動化されており、人間の乗組員を必要とせず、また乗組員を受け入"
-"れることもできない。\n"
+"この艦は完全に自動化されており、人間の乗組員を必要とせず乗せることも出来な"
+"い。\n"
 "\n"
-"自動化された船は維持するために特殊な設備と専門知識を必要とし、その結果、最大"
-"で %s の戦闘即応性ペナルティが発生する。このペナルティは、自動化艦の使用に熟"
-"練した艦隊司令官によって相殺することができる。"
+"自動化された艦船は通常、維持するために特殊な装備と専門知識を必要とし、その結"
+"果、最大戦闘即応性のペナルティは %s となる。このペナルティは、自動化艦の使用"
+"に熟練した艦隊司令官によって相殺することができる。"
 
-#: hull_mods.orig.csv:86
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:94
+#, java-format
+msgctxt "automated:short"
+msgid "Does not require and can not support crew."
+msgstr "乗員は必要なく、乗せることも出来ない。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:95
 #, java-format
 msgctxt "advancedcore:desc"
 msgid ""
@@ -985,7 +1719,13 @@ msgstr ""
 "\n"
 "Dedicated Targeting Core または Integrated Targeting Unit の搭載は不可。"
 
-#: hull_mods.orig.csv:87
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:95
+#, java-format
+msgctxt "advancedcore:short"
+msgid "Greatly extends non-missile weapon range."
+msgstr "非ミサイル兵器の射程を大幅に伸ばす。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:96
 #, java-format
 msgctxt "supercomputer:desc"
 msgid ""
@@ -1000,13 +1740,25 @@ msgstr ""
 "\n"
 "また、ターゲットリードの精度が向上し、戦闘中のセンサー範囲が大幅に増加する。"
 
-#: hull_mods.orig.csv:88
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:96
+#, java-format
+msgctxt "supercomputer:short"
+msgid "Greatly extends non-missile weapon range."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:97
 #, java-format
 msgctxt "ex_phase_coils:desc"
 msgid "Reduces phase cloak cooldown by %s."
 msgstr "フェーズクロークのクールダウンを %s 減少させる。"
 
-#: hull_mods.orig.csv:89
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:97
+#, java-format
+msgctxt "ex_phase_coils:short"
+msgid "Greatly reduces phase cloak cooldown."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:98
 #, java-format
 msgctxt "high_frequency_attractor:desc"
 msgid ""
@@ -1014,7 +1766,47 @@ msgid ""
 "by the rift core on board the ship."
 msgstr "高周波モートを船内のリフトコアでワープさせる実験的な改造を施したもの。"
 
-#: hull_mods.orig.csv:90
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:98
+#, java-format
+msgctxt "high_frequency_attractor:short"
+msgid "Launches more powerful high-frequency motes."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:99
+#, java-format
+msgctxt "ablative_armor:desc"
+msgid ""
+"An ancient design intended to stop micro-meteorites through sheer volume of "
+"material in place, before the advent of \"spaced\" armor.\n"
+"\n"
+"Reduces the effective armor strength for the damage reduction calculation to "
+"%s of its actual value. However, ships of this design tend to carry "
+"extremely heavy armor."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:99
+#, java-format
+msgctxt "ablative_armor:short"
+msgid "Reduces damage reduction by armor."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:100
+#, java-format
+msgctxt "distributed_fire_control:desc"
+msgid ""
+"Much of the damage that takes weapons offline is to external control runs "
+"and power conduits. This ship's weapons are engineered to operate more "
+"independently, reducing their exposure to damage by %s and reducing the EMP "
+"damage taken by the ship overall by %s."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:100
+#, java-format
+msgctxt "distributed_fire_control:short"
+msgid "Increases weapon durability and reduces EMP damage taken."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:101
 #, java-format
 msgctxt "converted_bay:desc"
 msgid ""
@@ -1023,11 +1815,48 @@ msgid ""
 "most components have minor defects. Fighter speed reduced by %s, and damage "
 "taken increased by %s."
 msgstr ""
-"貨物室を改造し、戦闘機ベイを2つ搭載している。戦闘機のシャーシを生産する即席の"
-"製造工場は信頼性が低く、ほとんどの部品に小さな欠陥がある。戦闘機の速度が %s "
+"貨物室を改造し、艦載機ベイを2つ搭載している。艦載機のシャーシを生産する即席の"
+"製造工場は信頼性が低く、ほとんどの部品に小さな欠陥がある。艦載機の速度が %s "
 "低下し、受けるダメージが %s 増加する。"
 
-#: hull_mods.orig.csv:91
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:101
+#, java-format
+msgctxt "converted_bay:short"
+msgid "Pair of improvised fighter bays."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:102
+#, java-format
+msgctxt "andrada_mods:desc"
+msgid ""
+"During an inspection of an early prototype, the Supreme Executor was heard "
+"to comment unfavorably on exposed conduits running along the passageways, "
+"and the danger these must pose to the brave and loyal crew under combat "
+"conditions. \n"
+"\n"
+"The new chief designer, a loyal officer appointed by the Supreme Executor "
+"himself, instructed the forge-programmers to make accommodations for the "
+"installation of special blast-proof insulated paneling produced by Sindria "
+"itself.\n"
+"\n"
+"If the passages are a bit narrower, conduits prone to overheating, and flush-"
+"set panels somewhat unwieldy to access, the official readiness reports "
+"include no criticism of the changes. Everyone agrees in both public and - as "
+"the Internal Security Ministry can attest - in private, that the stark "
+"grandeur of the Lion's Guard fleet is breathtaking.\n"
+"\n"
+"Crew casualties in combat are increased by %s. The base flux dissipation "
+"rate is reduced by %s, and the repair rate for disabled weapons and engines "
+"is reduced by %s."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:102
+#, java-format
+msgctxt "andrada_mods:short"
+msgid "Reduces the ship's performance."
+msgstr "船の性能を低下させる。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:103
 #, java-format
 msgctxt "vastbulk:desc"
 msgid ""
@@ -1038,13 +1867,13 @@ msgstr ""
 "この構造体の本体は広大で、実用上、通常兵器によるいかなるダメージも破壊される"
 "ことなく吸収することが可能です。"
 
-#: hull_mods.orig.csv:92
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:104
 #, java-format
 msgctxt "axialrotation:desc"
 msgid "This structure constantly rotates around its axis."
 msgstr "この構造体は、常に軸を中心に回転しています。"
 
-#: hull_mods.orig.csv:93
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:105
 #, java-format
 msgctxt "anchorrotation:desc"
 msgid ""
@@ -1053,25 +1882,25 @@ msgid ""
 msgstr ""
 "アンカー取り付け部を中心に回転する構造です。ステーションモジュールのみ。"
 
-#: hull_mods.orig.csv:94
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:106
 #, java-format
 msgctxt "reduced_explosion:desc"
 msgid "Reduced explosion radius and damage."
 msgstr "爆発範囲とダメージを縮小。"
 
-#: hull_mods.orig.csv:95
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:107
 #, java-format
 msgctxt "always_detaches:desc"
 msgid "Always detaches from parent structure when destroyed."
 msgstr "破壊されると、常に親構造体から切り離される。"
 
-#: hull_mods.orig.csv:96
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:108
 #, java-format
 msgctxt "never_detaches:desc"
 msgid "Never detaches from parent structure when destroyed."
 msgstr "破壊されても親構造体から切り離されることはない。"
 
-#: hull_mods.orig.csv:97
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:109
 #, java-format
 msgctxt "no_weapon_flux:desc"
 msgid ""
@@ -1081,7 +1910,7 @@ msgstr ""
 "武器の発射にフラックスを消費しない。ファイターでシールドの有効ヒットポイント"
 "を細かく制御するために使用する。"
 
-#: hull_mods.orig.csv:98
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:110
 #, java-format
 msgctxt "do_not_fire_through:desc"
 msgid ""
@@ -1092,19 +1921,19 @@ msgstr ""
 "発射しても命中しないため、このモジュールを通過しての発射を避けることができま"
 "す。"
 
-#: hull_mods.orig.csv:99
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:111
 #, java-format
 msgctxt "shard_spawner:desc"
 msgid "Spawns shard ships when ship is disabled/destroyed."
 msgstr "船が破壊されたとき、シャード船を生成するようにする。"
 
-#: hull_mods.orig.csv:100
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:112
 #, java-format
 msgctxt "do_not_back_off:desc"
 msgid "Sets DO_NOT_BACK_OFF AIFlag"
 msgstr ""
 
-#: hull_mods.orig.csv:103
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:115
 #, java-format
 msgctxt "fourteenth:desc"
 msgid ""
@@ -1123,7 +1952,7 @@ msgstr ""
 "ある。特別にうまく調整されたエネルギーシステムは、この船体の標準的な例よりも"
 "フラックスの処理能力と容量を %s 増加させる。"
 
-#: hull_mods.orig.csv:104
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:116
 #, java-format
 msgctxt "heg_militarized:desc"
 msgid ""
@@ -1140,7 +1969,7 @@ msgstr ""
 "レードされ、全体的なハンドリングが %s 向上し、フラックス容量が %s 増加、フ"
 "ラックス散逸が %s 増加、最大燃焼レベルが %s 増加する。"
 
-#: hull_mods.orig.csv:108
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:120
 #, java-format
 msgctxt "comp_armor:desc"
 msgid ""
@@ -1155,7 +1984,7 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:109
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:121
 #, java-format
 msgctxt "comp_hull:desc"
 msgid ""
@@ -1170,7 +1999,7 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:110
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:122
 #, java-format
 msgctxt "degraded_engines:desc"
 msgid ""
@@ -1189,7 +2018,7 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:111
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:123
 #, java-format
 msgctxt "degraded_drive_field:desc"
 msgid ""
@@ -1208,7 +2037,7 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:112
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:124
 #, java-format
 msgctxt "faulty_grid:desc"
 msgid ""
@@ -1229,7 +2058,7 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:113
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:125
 #, java-format
 msgctxt "unstable_coils:desc"
 msgid ""
@@ -1246,7 +2075,7 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:114
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:126
 #, java-format
 msgctxt "comp_structure:desc"
 msgid ""
@@ -1261,7 +2090,7 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:115
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:127
 #, java-format
 msgctxt "glitched_sensors:desc"
 msgid ""
@@ -1276,7 +2105,7 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:116
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:128
 #, java-format
 msgctxt "malfunctioning_comms:desc"
 msgid ""
@@ -1287,11 +2116,11 @@ msgid ""
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
 "通信システムが深刻なダメージを受け、戦場の妨害電波を打ち抜くことがより困難に"
-"なっている。戦闘機の交戦範囲が %s 縮小される。\n"
+"なっている。艦載機の交戦範囲が %s 縮小される。\n"
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:117
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:129
 #, java-format
 msgctxt "defective_manufactory:desc"
 msgid ""
@@ -1301,12 +2130,12 @@ msgid ""
 "\n"
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
-"戦闘機のシャーシを製造している工場が不安定で、ほとんどの部品に小さな欠陥があ"
-"る。戦闘機の速度が %s 減少し、受けるダメージが %s 増加する。\n"
+"艦載機のシャーシを製造している工場が不安定で、ほとんどの部品に小さな欠陥があ"
+"る。艦載機の速度が %s 減少し、受けるダメージが %s 増加する。\n"
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:118
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:130
 #, java-format
 msgctxt "damaged_deck:desc"
 msgid ""
@@ -1317,11 +2146,11 @@ msgid ""
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
 "本艦の飛行甲板は大きな損傷を受け、正常な運用に重大な支障をきたしている。代替"
-"戦闘機の発進までの時間が %s 増加する。\n"
+"艦載機の発進までの時間が %s 増加する。\n"
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:119
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:131
 #, java-format
 msgctxt "fragile_subsystems:desc"
 msgid ""
@@ -1335,7 +2164,7 @@ msgstr ""
 "\n"
 "配備から回復するための供給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:120
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:132
 #, java-format
 msgctxt "comp_storage:desc"
 msgid ""
@@ -1349,7 +2178,7 @@ msgstr ""
 "\n"
 "配備から回復するための供給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:121
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:133
 #, java-format
 msgctxt "increased_maintenance:desc"
 msgid ""
@@ -1363,7 +2192,15 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:122
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:133
+#, java-format
+msgctxt "increased_maintenance:short"
+msgid ""
+"Increases maintenance cost and crew requirements, decreases maximum combat "
+"readiness."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:134
 #, java-format
 msgctxt "erratic_injector:desc"
 msgid ""
@@ -1375,7 +2212,13 @@ msgstr ""
 "\n"
 "展開から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:123
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:134
+#, java-format
+msgctxt "erratic_injector:short"
+msgid "Increases fuel use and decreases the zero-flux boost."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:135
 #, java-format
 msgctxt "faulty_auto:desc"
 msgid ""
@@ -1388,7 +2231,13 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが $s 減少する。"
 
-#: hull_mods.orig.csv:124
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:135
+#, java-format
+msgctxt "faulty_auto:short"
+msgid "Increases minimum crew required, decreases maximum combat readiness."
+msgstr ""
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:136
 #, java-format
 msgctxt "damaged_mounts:desc"
 msgid ""
@@ -1400,7 +2249,13 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:125
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:136
+#, java-format
+msgctxt "damaged_mounts:short"
+msgid "Reduces weapon turn rate and increases recoil."
+msgstr "武器のターンレートが現象し、リコイルが増える。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:137
 #, java-format
 msgctxt "degraded_life_support:desc"
 msgid ""
@@ -1412,7 +2267,13 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:126
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:137
+#, java-format
+msgctxt "degraded_life_support:short"
+msgid "Decreases maximum crew capacity and combat readiness."
+msgstr "最大乗員数と戦闘即応性が減少する。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:138
 #, java-format
 msgctxt "degraded_shields:desc"
 msgid ""
@@ -1424,7 +2285,13 @@ msgstr ""
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
-#: hull_mods.orig.csv:128
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:138
+#, java-format
+msgctxt "degraded_shields:short"
+msgid "Increases damage taken by shields."
+msgstr "シールドが受けるダメージが増える。"
+
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:140
 #, java-format
 msgctxt "destroyed_mounts:desc"
 msgid ""
@@ -1434,7 +2301,7 @@ msgstr ""
 "この船のオリジナルの武器マウントのいくつかは、修理不可能なほど損傷しており、"
 "もはや使用することはできない。"
 
-#: hull_mods.orig.csv:129
+#: ../../Starsector/starsector-core/data/hullmods/hull_mods.csv:141
 #, java-format
 msgctxt "ill_advised:desc"
 msgid ""
@@ -1446,3 +2313,168 @@ msgstr ""
 "この船体のシステムは、おそらく認定された技術者の監督なしに、仕様から大幅に変"
 "更されている。通常の状態では正常に動作しているように見えるが、ストレスがかか"
 "ると重大な誤動作を起こす可能性が高い。"
+
+#~ msgctxt "converted_hangar:desc"
+#~ msgid ""
+#~ "Converts the ship's standard shuttle hangar to house a fighter bay. The "
+#~ "improvised manufactory that produces fighter chassis is unreliable, and "
+#~ "most components have minor defects. Fighter speed reduced by %s, and "
+#~ "damage taken increased by %s.\n"
+#~ "\n"
+#~ "Increases the minimum crew required by %s to account for pilots and bay "
+#~ "crews. Increases the ordnance point cost of bombers by %s, and of all "
+#~ "other fighters by %s.\n"
+#~ "\n"
+#~ "Can not be installed on frigates, phase ships, or ships that already have "
+#~ "proper fighter bays."
+#~ msgstr ""
+#~ "標準のシャトル格納庫を改造し、戦闘機ベイを搭載する。戦闘機のシャーシを生産"
+#~ "する即席の製造工場は信頼性に欠け、ほとんどの部品に小さな欠陥がある。戦闘機"
+#~ "の速度が %s 低下し、受けるダメージが %s 増加する。\n"
+#~ "\n"
+#~ "パイロットと格納庫クルーのために、最低乗員数を %s 増加させる。爆撃の "
+#~ "Ordnance ポイントが %s 増加し、他のすべての戦闘機については %s 増加す"
+#~ "る。\n"
+#~ "\n"
+#~ "フリゲート艦、フェイズ艦、既に適切な戦闘機ベイを持つ船には設置できない。"
+
+#~ msgctxt "eccm:desc"
+#~ msgid ""
+#~ "Reduces the chance for missiles launched by the ship to be affected by "
+#~ "electronic counter-measures and flares by %s.\n"
+#~ "\n"
+#~ "A CPU core adjunct in each missile increases missile top speed by %s and "
+#~ "missile maneuverability by %s, as well as significantly improving the "
+#~ "guidance algorithm.\n"
+#~ "\n"
+#~ "Reduces the weapon range reduction due to superior enemy Electronic "
+#~ "Warfare by %s."
+#~ msgstr ""
+#~ "自艦から発射されたミサイルが、ECMやフレアの影響を受ける確率を %s 減少させ"
+#~ "る。\n"
+#~ "\n"
+#~ "各ミサイルに搭載されたCPUコア付属物により、ミサイルの最高速度を %s 、機動"
+#~ "性を %s 向上させ、さらに誘導アルゴリズムも大幅に改善する。\n"
+#~ "\n"
+#~ "敵の電子戦優勢による武器射程の低下を %s 減少させる。"
+
+#~ msgctxt "frontemitter:desc"
+#~ msgid ""
+#~ "Locks the ship's omni-directional shield emitter to a front-facing "
+#~ "position and extends its arc by %s. In addition, the stable emitter "
+#~ "position results in a %s reduction to the shield's upkeep cost.\n"
+#~ "\n"
+#~ "As with all frontal emitters, the shield will also deploy twice as "
+#~ "quickly."
+#~ msgstr ""
+#~ "船の全方位シールドエミッタを正面に固定し、その弧を %s 度延長する。さらに、"
+#~ "エミッターの位置が安定することで、シールドの維持費が %s 減少する。\n"
+#~ "\n"
+#~ "すべての正面エミッターと同様に、シールドの展開速度も2倍になる。"
+
+#~ msgctxt "heavyarmor:desc"
+#~ msgid ""
+#~ "Increases the ship's armor by %s/%s/%s/%s points, depending on hull size. "
+#~ "Also reduces its maneuverability by %s."
+#~ msgstr ""
+#~ "船体サイズに応じて、船の装甲を %s/%s/%s/%s ポイント増加させる。また、操縦"
+#~ "性を %s 減少させる。"
+
+#~ msgctxt "pointdefenseai:desc"
+#~ msgid ""
+#~ "Gives all small non-missile weapons the ability to automatically target "
+#~ "incoming enemy missiles and to identify - and ignore - decoy flares. "
+#~ "Targeting missiles takes priority over targeting enemy ships or "
+#~ "fighters.\n"
+#~ "\n"
+#~ "In addition, all point-defense weapons get the best possible target "
+#~ "leading, regardless of combat readiness, and all damage to missiles is "
+#~ "increased by %s. "
+#~ msgstr ""
+#~ "ミサイル以外の小型武器に、飛んでくる敵のミサイルを自動的に照準し、デコイフ"
+#~ "レアを識別(無視)する能力を付与する。ミサイルへの照準は、敵の艦船や戦闘機へ"
+#~ "の照準よりも優先される。\n"
+#~ "\n"
+#~ "さらに、すべてのポイントディフェンス兵器は戦闘即応性に関係なく最適な軌道予"
+#~ "測を得ることができ、ミサイルに対する全てのダメージは %s 増加する。"
+
+#~ msgctxt "adaptiveshields:desc"
+#~ msgid ""
+#~ "Converts frontal shields to omni-directional. Reduces the shield's arc by "
+#~ "%s, and decreases its upkeep by %s."
+#~ msgstr ""
+#~ "正面シールドを全方位に変換する。シールドの弧を %s 減少させ、アップキープ"
+#~ "を%s 減少させる。"
+
+#~ msgctxt "fluxbreakers:desc"
+#~ msgid ""
+#~ "Decreases the amount of damage taken from EMP weapons (such as Ion "
+#~ "Cannons) by %s. Also increases the ship's flux dissipation rate while "
+#~ "venting by %s."
+#~ msgstr ""
+#~ "EMP兵器(イオンキャノンなど)から受けるダメージ量を %s 減少させる。また、ベ"
+#~ "ント中の船のフラックス散逸率を %s 増加させる。"
+
+#~ msgctxt "unstable_injector:desc"
+#~ msgid ""
+#~ "Increases the ship's top speed in combat by %s/%s/%s/%s su/second, "
+#~ "depending on hull size.\n"
+#~ "\n"
+#~ "Interferes with weapons targeting and other vulnerable systems, reducing "
+#~ "weapon range by %s and increasing the fighter replacement time by %s."
+#~ msgstr ""
+#~ "戦闘中の船の最高速度を、船体サイズに応じて %s/%s/%s/%s su/秒増加させる。\n"
+#~ "\n"
+#~ "武器の照準やその他の脆弱なシステムに干渉し、武器の射程を %s 減らし、戦闘機"
+#~ "の交換時間を %s 増加させる。"
+
+#~ msgctxt "hiressensors:desc"
+#~ msgid ""
+#~ "Increases sensor strength by %s points for frigates, destroyers, and "
+#~ "cruisers, and by %s for capital ships."
+#~ msgstr ""
+#~ "フリゲート、駆逐艦、巡洋艦のセンサー強度を %s ポイント、主力艦のセンサー強"
+#~ "度を %s ポイント増加させる。"
+
+#~ msgctxt "militarized_subsystems:desc"
+#~ msgid ""
+#~ "Removes the penalties from a civilian-grade hull, and increases maximum "
+#~ "burn level by %s.\n"
+#~ "\n"
+#~ "Increases flux dissipation by %s, and adds %s armor for the damage "
+#~ "reduction calculation only.\n"
+#~ "\n"
+#~ "Increases minimum crew required by %s."
+#~ msgstr ""
+#~ "民生グレードの船体からペナルティを取り除き、最大燃焼レベルを %s 増加させ"
+#~ "る。\n"
+#~ "\n"
+#~ "フラックス散逸を %s 増加させ、ダメージ軽減計算のためだけの装甲を %s 追加す"
+#~ "る。\n"
+#~ "\n"
+#~ "必要最低乗員数を %s 増加させる。"
+
+#~ msgctxt "rugged:desc"
+#~ msgid ""
+#~ "Reduces most negative effects of d-mods by %s. If disabled or destroyed "
+#~ "in combat, the ship has a %s chance to avoid new d-mods, and is almost "
+#~ "always recoverable after the battle."
+#~ msgstr ""
+#~ "d-modのほとんどのマイナス効果を %s 減らす。戦闘不能または破壊された場合、"
+#~ "新たなd-modを回避するチャンスが %s あり、戦闘後ほとんど回復可能である。"
+
+#~ msgctxt "automated:desc"
+#~ msgid ""
+#~ "This ship is fully automated, and does not require - and can not take on "
+#~ "- any human crew.\n"
+#~ "\n"
+#~ "Automated ships require specialized equipment and expertise to maintain, "
+#~ "resulting in a maximum combat readiness penalty of %s. This penalty can "
+#~ "be offset by a fleet commander skilled in the use of automated ships."
+#~ msgstr ""
+#~ "この船は完全に自動化されており、人間の乗組員を必要とせず、また乗組員を受け"
+#~ "入れることもできない。\n"
+#~ "\n"
+#~ "自動化された船は維持するために特殊な設備と専門知識を必要とし、その結果、最"
+#~ "大で %s の戦闘即応性ペナルティが発生する。このペナルティは、自動化艦の使用"
+#~ "に熟練した艦隊司令官によって相殺することができる。"
