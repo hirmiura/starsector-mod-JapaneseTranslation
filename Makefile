@@ -3,9 +3,6 @@
 #
 SHELL := /bin/bash
 
-# このパッケージのバージョン
-# V_VERSION := $(shell tomlq -r '.tool.poetry.version' pyproject.toml)
-
 # 各種ディレクトリ
 D_SSHOME	:= Starsector
 D_SSDATA	:= $(D_SSHOME)/starsector-core/data
@@ -13,6 +10,11 @@ D_TRANS		:= trans
 D_TMP		:= tmp
 D_MOD		:= mod
 D_ID		:= $(shell jq -r '.id' $(D_MOD)/mod_info.json)
+
+# このパッケージのバージョン
+V_ID		:= $(shell jq -r '.id' $(D_MOD)/mod_info.json)
+V_VERSION	:= $(shell jq -r '.version' $(D_MOD)/mod_info.json)
+F_PACKAGE	:= $(V_ID)-$(V_VERSION)
 
 
 #==============================================================================
@@ -67,13 +69,13 @@ build: setup
 #==============================================================================
 .PHONY: packaging
 packaging: ## パッケージ化する
-packaging: build clean-package $(D_ID).zip
+packaging: build clean-package $(F_PACKAGE).zip
 
-$(D_ID).zip:
-	@echo -e '$(CC_BrBlue)========== $(D_ID).zip ==========$(CC_Reset)'
-	cp -r $(D_MOD) $(D_ID)
-	zip -r $(D_ID).zip $(D_ID)
-	rm -fr $(D_ID)
+$(F_PACKAGE).zip:
+	@echo -e '$(CC_BrBlue)========== $(F_PACKAGE).zip ==========$(CC_Reset)'
+	cp -r $(D_MOD) $(V_ID)
+	zip -r $(F_PACKAGE).zip $(V_ID)
+	rm -fr $(V_ID)
 
 
 #==============================================================================
@@ -104,4 +106,4 @@ clean-tmp:
 
 clean-package:
 	@echo -e '$(CC_BrMagenta)========== clean-package ==========$(CC_Reset)'
-	rm -fr $(D_ID).zip $(D_ID)
+	rm -fr $(F_PACKAGE).zip $(V_ID)
