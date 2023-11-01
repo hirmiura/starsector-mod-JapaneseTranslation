@@ -6,7 +6,7 @@ SHELL := /bin/bash
 # 各種ディレクトリ
 D_BIN		:= ../../bin
 D_MODDST	:= ../../mod/data/campaign
-D_SSDHM		:= ../../Starsector/starsector-core/data/campaign
+D_SSCMP		:= ../../Starsector/starsector-core/data/campaign
 
 
 #==============================================================================
@@ -36,7 +36,7 @@ setup: check generate-pot merge-po
 
 generate-pot: rules.pot
 
-rules.pot: rules.toml $(D_SSDHM)/rules.csv
+rules.pot: rules.toml $(D_SSCMP)/rules.csv
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	$(D_BIN)/csv2pot.py -c $<
 
@@ -86,7 +86,7 @@ rules.mo: rules.po
 
 translate: rules.csv
 
-rules.csv: rules.mo rules.toml $(D_SSDHM)/rules.csv
+rules.csv: rules.mo rules.toml $(D_SSCMP)/rules.csv
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	$(D_BIN)/mo2csv.py -m $< -c rules.toml
 
