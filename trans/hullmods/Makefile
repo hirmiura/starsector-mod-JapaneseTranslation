@@ -61,7 +61,6 @@ hull_mods.edit.po::
 		msgcat --use-first --sort-output -o $@ $@ $(FN); \
 	fi \
 
-
 hull_mods.po: hull_mods.edit.po
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ -f "$@" ]] ; then \
@@ -90,9 +89,9 @@ hull_mods.mo: hull_mods.po
 
 translate: hull_mods.csv
 
-hull_mods.csv: hull_mods.mo $(D_SSDHM)/hull_mods.csv
+hull_mods.csv: hull_mods.mo hull_mods.toml $(D_SSDHM)/hull_mods.csv
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
-	$(D_BIN)/mo2hullmod.py -t -m $< -d . $(D_SSDHM)/hull_mods.csv
+	$(D_BIN)/mo2csv.py -m $< -c hull_mods.toml
 
 copy-csv: hull_mods.csv
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
