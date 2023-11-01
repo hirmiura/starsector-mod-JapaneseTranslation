@@ -169,6 +169,7 @@ cython_debug/
 !/trans/**/
 !/trans/**/Makefile
 !/trans/**/*.po
+/trans/**/*.edit.po
 !/trans/**/*.toml
 /tmp/
 /Starsector/

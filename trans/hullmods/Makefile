@@ -11,12 +11,6 @@ D_MODDST	:= $(D_MOD)/$(D_DHM)
 D_SSHOME	:= ../../Starsector
 D_SSDHM		:= $(D_SSHOME)/starsector-core/$(D_DHM)
 
-# 各種ファイル名
-F_HMC		:= hull_mods.csv
-F_HMC_POT	:= $(F_HMC).pot
-F_HMC_PO	:= $(F_HMC).po
-F_HMC_MO	:= $(F_HMC).mo
-
 
 #==============================================================================
 # カラーコード
@@ -43,21 +37,42 @@ check:
 setup: ## セットアップ - ビルドの前準備
 setup: check generate-pot merge-po
 
-generate-pot: $(F_HMC_POT)
+generate-pot: hull_mods.pot
 
-$(F_HMC_POT): $(D_SSDHM)/$(F_HMC)
-	@echo -e '$(CC_BrBlue)========== $(F_HMC_POT) ==========$(CC_Reset)'
-	$(D_BIN)/hullmod2pot.py -d . $<
+hull_mods.pot: hull_mods.toml $(D_SSDHM)/hull_mods.csv
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+	$(D_BIN)/csv2pot.py -c $<
 
-merge-po: $(F_HMC_PO)
+merge-po: hull_mods.edit.po hull_mods.po
 
-$(F_HMC_PO): $(F_HMC_POT)
-	@echo -e '$(CC_BrBlue)========== $(F_HMC_PO) ==========$(CC_Reset)'
-	if [[ -f "$(F_HMC_PO)" ]] ; then \
-		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $< ; \
+hull_mods.edit.po:: hull_mods.pot
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+	if [[ -f "$@" ]] ; then \
+		msgmerge --lang=ja --no-fuzzy-matching --sort-output --backup=t -U $@ $< ; \
 	else \
-		cp -f $< $@ ; \
+		msginit --no-translator -l ja_JP.utf8 -i $< -o - \
+		| msgcat --sort-output -o $@ - ; \
 	fi
+
+hull_mods.edit.po::
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+	$(eval FN := hull_mods.po)
+	if [[ -f "$(FN)" ]] ; then \
+		msgcat --use-first --sort-output -o $@ $@ $(FN); \
+	fi \
+
+
+hull_mods.po: hull_mods.edit.po
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+	if [[ -f "$@" ]] ; then \
+		msgcat --use-first --no-location --no-wrap --sort-output -o $@ $< $@ ; \
+	else \
+		msgcat --no-location --no-wrap --sort-output -o $@ $< ; \
+	fi
+	msgattrib --no-obsolete --no-location --no-wrap --sort-output -o - $@ \
+	| grep -vE '^"(POT-Creation-Date|X-Generator):.*\\n"' \
+	| sponge $@
+	# msgcat --no-location --no-wrap --sort-output $@ \
 
 
 #==============================================================================
@@ -67,22 +82,22 @@ $(F_HMC_PO): $(F_HMC_POT)
 build: ## ビルドする
 build: setup generate-mo translate copy-csv
 
-generate-mo: $(F_HMC_MO)
+generate-mo: hull_mods.mo
 
-$(F_HMC_MO): $(F_HMC_PO)
-	@echo -e '$(CC_BrBlue)========== $(F_HMC_MO) ==========$(CC_Reset)'
+hull_mods.mo: hull_mods.po
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	msgfmt --statistics -o $@ $^
 
-translate: $(F_HMC)
+translate: hull_mods.csv
 
-$(F_HMC): $(F_HMC_MO) $(D_SSDHM)/$(F_HMC)
-	@echo -e '$(CC_BrBlue)========== $(F_HMC) ==========$(CC_Reset)'
-	$(D_BIN)/mo2hullmod.py -t -m $(F_HMC_MO) -d . $(D_SSDHM)/$(F_HMC)
+hull_mods.csv: hull_mods.mo $(D_SSDHM)/hull_mods.csv
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+	$(D_BIN)/mo2hullmod.py -t -m $< -d . $(D_SSDHM)/hull_mods.csv
 
-copy-csv: $(F_HMC)
-	@echo -e '$(CC_BrBlue)========== copy-csv ==========$(CC_Reset)'
+copy-csv: hull_mods.csv
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	@mkdir -p $(D_MODDST)
-	cp $(F_HMC) $(D_MODDST)
+	cp $< $(D_MODDST)
 
 
 #==============================================================================
