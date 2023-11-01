@@ -30,8 +30,6 @@ def pargs() -> argparse.Namespace:
     parser.add_argument(
         "-c", "--conf", default=DEFAULT_CONFIG_FILE, help=f"設定ファイル。デフォルト「{DEFAULT_CONFIG_FILE}」"
     )
-    parser.add_argument("-d", "--directory", default=".", help="出力ディレクトリ。デフォルト「.」")
-    parser.add_argument("-s", "--skip", type=int, default=1, help="先頭から指定行数だけスキップする。デフォルト「1」")
     parser.add_argument("--version", action="version", version="%(prog)s 0.1.0")
     args = parser.parse_args()
     return args
