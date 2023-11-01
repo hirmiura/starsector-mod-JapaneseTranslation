@@ -6,7 +6,7 @@ SHELL := /bin/bash
 # 各種ディレクトリ
 D_BIN		:= ../../bin
 D_MODDST	:= ../../mod/data/campaign
-D_SSDHM		:= ../../Starsector/starsector-core/$(D_DHM)
+D_SSDHM		:= ../../Starsector/starsector-core/data/campaign
 
 
 #==============================================================================
