@@ -2,8 +2,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-02 05:27+0900\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2023-11-02 06:24+0900\n"
+"Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
@@ -4593,7 +4593,7 @@ msgstr ""
 #, java-format
 msgctxt "ddroBlurb1:text"
 msgid "\"I need a package delivered. The destination must be kept a secret. Simple.\""
-msgstr ""
+msgstr "「荷物を届けてほしい。行き先は秘密にしてくれ。簡単だろ」"
 
 #, java-format
 msgctxt "cpmOfferTextContact:text"
@@ -14463,7 +14463,7 @@ msgstr ""
 #, java-format
 msgctxt "dcomBlurbBar:text"
 msgid "A $dcom_manOrWoman in an expensive business suit is clutching a TriPad with what seems like barely-restrained rage. Just staring into space."
-msgstr ""
+msgstr "高価なビジネススーツに身を包んだ $dcom_manOrWoman が、かろうじて怒りを抑えながら TriPad を握りしめ、ただ空を見つめている。"
 
 #, java-format
 msgctxt "lptBlurbBar1:text"
@@ -17260,7 +17260,7 @@ msgstr ""
 #, java-format
 msgctxt "smugBlurbBar:text"
 msgid "At the bar a shady $smug_manOrWoman bothers disinterested starship captains with an off-brand datapad."
-msgstr ""
+msgstr "バーでは、怪しい $smug_manOrWoman がノーブランドのデータパッドを使って無関心な宇宙船の船長を困らせています。"
 
 #, java-format
 msgctxt "secoBlurbBar:text"
@@ -17270,7 +17270,7 @@ msgstr ""
 #, java-format
 msgctxt "ddroBlurbBar1:text"
 msgid "At the end of the bar, a rakish $ddro_manOrWoman is met by a variety of low-life characters who scurry away again almost immediately. Giving orders, perhaps."
-msgstr ""
+msgstr "バーの端では、不品行な $ddro_manOrWoman がすぐに走り去る様々ないかがわしい人物と会っている。おそらく命令しているのだろう。"
 
 #, java-format
 msgctxt "lppEnding1redux:text"
@@ -18682,12 +18682,12 @@ msgstr ""
 #, java-format
 msgctxt "ssatBlurbBarUW:text"
 msgid "From a shadowy booth a conspicuously nondescript $ssat_manOrWoman nursing a drink in a booth catches your eye and gives what might be a small nod."
-msgstr ""
+msgstr "陰になったブースから飲み物を飲んでいる、ひときわ目立たない $ssat_manOrWoman があなたの目に留まると、小さくうなずいた。"
 
 #, java-format
 msgctxt "ssatBlurbBar:text"
 msgid "From a shadowy booth a conspicuously nondescript $ssat_manOrWoman sitting with perfect posture catches your eye and gives what might be a small nod."
-msgstr ""
+msgstr "陰になったブースから完璧な姿勢で座っている、ひときわ目立たない $ssat_manOrWoman があなたの目に留まると、小さくうなずいた。"
 
 #, java-format
 msgctxt "jabrBlurbBar1:text"
