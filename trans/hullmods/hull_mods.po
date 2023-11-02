@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hull_mods.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-10-31 23:41+0900\n"
+"PO-Revision-Date: 2023-11-03 03:38+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -84,6 +84,9 @@ msgid ""
 "\n"
 "Reduces the effective armor strength for the damage reduction calculation to %s of its actual value. However, ships of this design tend to carry extremely heavy armor."
 msgstr ""
+"古代の設計は、「Spaced」装甲が出現する前には、その場にある大量の材料を通して微小隕石を阻止することを意図していた。\n"
+"\n"
+"ダメージ軽減計算時の有効な装甲強度を、実際の値の %s に減らす。しかしながら、この設計の船は非常に重い装甲を搭載する傾向がある。"
 
 #, java-format
 msgctxt "neural_integrator:desc"
@@ -132,12 +135,12 @@ msgstr "宇宙線から貨物を守るために、常にシールドに頼るこ
 #, java-format
 msgctxt "stabilizedshieldemitter:sModDesc"
 msgid "Converts %s of the hard flux damage taken by shields to soft flux."
-msgstr ""
+msgstr "シールドが受けたハードフラックスダメージの %s をソフトフラックスに変換する。"
 
 #, java-format
 msgctxt "converted_fighterbay:short"
 msgid "Converts built-in fighter bays into improvised cargo holds."
-msgstr "内臓の艦載機ベイを貨物庫に変える。"
+msgstr "内臓の戦闘機ベイを貨物庫に変える。"
 
 #, java-format
 msgctxt "adaptiveshields:short"
@@ -157,7 +160,7 @@ msgstr ""
 #, java-format
 msgctxt "converted_fighterbay:desc"
 msgid "Converts the ship's fighter bays housing built-in wings into improvised cargo holds, giving it an additional %s cargo capacity and reducing its crew requirements by %s per fighter bay. The crew reduction is limited to a maximum of %s."
-msgstr "艦載機ベイを即席の貨物室に変換し、貨物容量をさらに %s 増加させ、艦載機ベイ1つにつき必要な乗組員を %s 減少させる。乗員の減少は最大で %s までとなる。"
+msgstr "戦闘機ベイを即席の貨物室に変換し、貨物容量をさらに %s 増加させ、戦闘機ベイ1つにつき必要な乗組員を %s 減少させる。乗員の減少は最大で %s までとなる。"
 
 #, java-format
 msgctxt "degraded_life_support:short"
@@ -231,6 +234,13 @@ msgid ""
 "\n"
 "Crew casualties in combat are increased by %s. The base flux dissipation rate is reduced by %s, and the repair rate for disabled weapons and engines is reduced by %s."
 msgstr ""
+"初期のプロトタイプの検査の間、最高執行者は、通路に沿って走る露出した導管、およびこれらが戦闘条件下で勇敢で忠実な乗組員にもたらさなければならない危険について、好ましくないコメントをするのを聞かれた。\n"
+"\n"
+"最高遺言執行者自身によって任命された忠実な役人である新しい主任設計者は、Sindria自身によって製造された特別な防爆断熱パネルを設置するための設備を作るよう鍛造プログラマに指示した。\n"
+"\n"
+"通路が少し狭く、導管が過熱しやすく、フラッシュセットパネルがアクセスするのにいくらか扱いにくい場合、公式の準備報告書には変更に対する批判は含まれていない。公の場でも、国内治安省が証明できるように私的な場でも、誰もが、ライオンズガード艦隊の壮大さは息をのむほどだと同意している。\n"
+"\n"
+"戦闘における乗組員の死傷者は %s 増加し、基本フラックス散逸率は %s 減少し、故障した兵器やエンジンの修理率は %s 減少する。"
 
 #, java-format
 msgctxt "defensive_targeting_array:sModDesc"
@@ -278,12 +288,12 @@ msgstr "ビーム兵器の射程を %s 延長するが、ターンレートを %
 #, java-format
 msgctxt "chassis_storage:desc"
 msgid "Fighter replacement rate does not go down when fighters are lost."
-msgstr "艦載機を失っても、艦載機補充率は下がらない。"
+msgstr "戦闘機を失っても、戦闘機補充率は下がらない。"
 
 #, java-format
 msgctxt "chassis_storage:short"
 msgid "Fighter replacement rate does not go down."
-msgstr "艦載機補充率は下がらない。"
+msgstr "戦闘機補充率は下がらない。"
 
 #, java-format
 msgctxt "shared_flux_sink:short"
@@ -364,7 +374,7 @@ msgstr ""
 #, java-format
 msgctxt "converted_hangar:short"
 msgid "Improvised fighter bay for non-carriers."
-msgstr "非空母用の即席艦載機ベイ。"
+msgstr "非空母用の即席戦闘機ベイ。"
 
 #, java-format
 msgctxt "delicate:short"
@@ -429,7 +439,7 @@ msgstr "シールドが受けるダメージが増える。"
 #, java-format
 msgctxt "turretgyros:sModDesc"
 msgid "Increases damage to missiles and fighters by %s. Increases damage to smaller ships by %s per size class of difference."
-msgstr "ミサイルと艦載機へのダメージを %s 増加させる。小型艦へのダメージがサイズクラス差につき %s 増加する。"
+msgstr "ミサイルと戦闘機へのダメージを %s 増加させる。小型艦へのダメージがサイズクラス差につき %s 増加する。"
 
 #, java-format
 msgctxt "insulatedengine:sModDesc"
@@ -464,7 +474,7 @@ msgstr ""
 #, java-format
 msgctxt "fluxdistributor:sModDesc"
 msgid "Increases flux dissipation by a further %s/%s/%s/%s, making the distributor as efficient as adding vents."
-msgstr "フラックス放散をさらに %s/%s/%s/%s 増加させ、ディストリビュータをベントを追加するのと同じくらい効率的にする。"
+msgstr "フラックス散逸をさらに %s/%s/%s/%s 増加させ、ディストリビュータをベントを追加するのと同じくらい効率的にする。"
 
 #, java-format
 msgctxt "fluxdistributor:short"
@@ -763,7 +773,7 @@ msgstr ""
 #, java-format
 msgctxt "converted_hangar:sModDesc"
 msgid "Increases the rate at which the fighter replacement rate recovers by %s for cruisers, and by %s for capital ships. No added effect for destroyers."
-msgstr "艦載機の交換率が回復する速度を、巡洋艦の場合は %s 、主力艦の場合は %s 増加させる。駆逐艦には追加効果なし。"
+msgstr "戦闘機の交換率が回復する速度を、巡洋艦の場合は %s 、主力艦の場合は %s 増加させる。駆逐艦には追加効果なし。"
 
 #, java-format
 msgctxt "armoredweapons:sModDesc"
@@ -843,7 +853,7 @@ msgid ""
 "\n"
 "Will try to engage enemies and otherwise act as a combat ship in battle."
 msgstr ""
-"船の機動性を %s 増加する。全てのポイントディフェンス兵器の射程を %s 増加させ、艦載機とミサイルに与えるダメージを %s 増加させる。\n"
+"船の機動性を %s 増加する。全てのポイントディフェンス兵器の射程を %s 増加させ、戦闘機とミサイルに与えるダメージを %s 増加させる。\n"
 "\n"
 "戦闘時に敵と交戦しようとし、戦闘艦として振る舞うようになる。"
 
@@ -930,7 +940,7 @@ msgstr ""
 #, java-format
 msgctxt "bdeck:short"
 msgid "Launches fresh wing once per combat and replenishes the replacement rate."
-msgstr ""
+msgstr "戦闘ごとに1回新しい飛行隊を発進し、補充率を補給する。"
 
 #, java-format
 msgctxt "high_frequency_attractor:short"
@@ -970,27 +980,27 @@ msgstr "武器を無力化されにくくし、リコイルを減らす。"
 #, java-format
 msgctxt "stealth_minefield:desc"
 msgid "Mines attack enemy ships during battle."
-msgstr "戦闘中に敵艦を攻撃する地雷。"
+msgstr "戦闘中に敵艦を攻撃する機雷。"
 
 #, java-format
 msgctxt "stealth_minefield:short"
 msgid "Mines attack enemy ships during battle."
-msgstr ""
+msgstr "戦闘中に敵艦を攻撃する機雷。"
 
 #, java-format
 msgctxt "stealth_minefield_lt:desc"
 msgid "Mines attack enemy ships during battle."
-msgstr "戦闘中に敵艦を攻撃する地雷。"
+msgstr "戦闘中に敵艦を攻撃する機雷。"
 
 #, java-format
 msgctxt "stealth_minefield_lt:short"
 msgid "Mines attack enemy ships during battle."
-msgstr ""
+msgstr "戦闘中に敵艦を攻撃する機雷。"
 
 #, java-format
 msgctxt "converted_fighterbay:sModDesc"
 msgid "Monthly maintenance cost reduced by %s per fighter bay."
-msgstr "毎月のメンテナンス費が艦載機ベイあたり %s 減少する。"
+msgstr "毎月のメンテナンス費が戦闘機ベイあたり %s 減少する。"
 
 #, java-format
 msgctxt "distributed_fire_control:desc"
@@ -1019,6 +1029,9 @@ msgid ""
 "\n"
 "Standby fighters are launched to rapidly bring the wings back up to full strength, and the fighter replacement rate is set to %s."
 msgstr ""
+"1回の戦闘につき1回、戦闘機補充率が %s に達すると、戦闘機の発進ベイは「Bデッキ」から作動するように切り替えられる。\n"
+"\n"
+"待機戦闘機は、飛行隊を迅速に完全な強度に戻すために発進され、戦闘機補充率は %s に設定される。"
 
 #, java-format
 msgctxt "solar_shielding:desc"
@@ -1034,7 +1047,7 @@ msgstr ""
 #, java-format
 msgctxt "converted_bay:short"
 msgid "Pair of improvised fighter bays."
-msgstr ""
+msgstr "一対の即席戦闘機ベイ。"
 
 #, java-format
 msgctxt "missile_reload:short"
@@ -1070,7 +1083,7 @@ msgstr ""
 #, java-format
 msgctxt "ablative_armor:short"
 msgid "Reduces damage reduction by armor."
-msgstr ""
+msgstr "アーマーによるダメージ軽減を減らす。"
 
 #, java-format
 msgctxt "hardenedshieldemitter:short"
@@ -1100,7 +1113,7 @@ msgstr ""
 #, java-format
 msgctxt "stabilizedshieldemitter:short"
 msgid "Reduces flux upkeep for shields."
-msgstr ""
+msgstr "シールドのフラックス維持費を軽減する。"
 
 #, java-format
 msgctxt "rugged:short"
@@ -1148,7 +1161,7 @@ msgstr "フェーズクロークのクールダウンを %s 減少させる。"
 #, java-format
 msgctxt "autorepair:sModDesc"
 msgid "Reduces repair time to %s, and reduces overload duration by %s."
-msgstr "修復時間を %s に短縮し、オーバーロード時間を %s 短縮します。"
+msgstr "修復時間を %s に短縮し、オーバーロード時間を %s 短縮する。"
 
 #, java-format
 msgctxt "surveying_equipment:short"
@@ -1184,7 +1197,7 @@ msgstr "シールドが1秒間に発生させるソフトフラックスの量�
 #, java-format
 msgctxt "recovery_shuttles:desc"
 msgid "Reduces the casualties suffered by fighter pilots by %s."
-msgstr "艦載機パイロットが受ける犠牲を %s 減らす。"
+msgstr "戦闘機パイロットが受ける犠牲を %s 減らす。"
 
 #, java-format
 msgctxt "eccm:desc"
@@ -1244,9 +1257,9 @@ msgid ""
 "\n"
 "Increases the crew required by %s per fighter bay."
 msgstr ""
-"艦載機の損失による艦載機交換率の低下率を %s 減少させ、回復率を %s 増加させる。\n"
+"戦闘機の損失による戦闘機交換率の低下率を %s 減少させ、回復率を %s 増加させる。\n"
 "\n"
-"艦載機ベイごとに必要な乗員を %s 増加させる。"
+"戦闘機ベイごとに必要な乗員を %s 増加させる。"
 
 #, java-format
 msgctxt "missleracks:sModDesc"
@@ -1366,7 +1379,7 @@ msgid ""
 "\n"
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
-"通信システムが深刻なダメージを受け、戦場の妨害電波を打ち抜くことがより困難になっている。艦載機の交戦範囲が %s 縮小される。\n"
+"通信システムが深刻なダメージを受け、戦場の妨害電波を打ち抜くことがより困難になっている。戦闘機の交戦範囲が %s 縮小される。\n"
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
@@ -1377,7 +1390,7 @@ msgid ""
 "\n"
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
-"本艦の飛行甲板は大きな損傷を受け、正常な運用に重大な支障をきたしている。代替艦載機の発進までの時間が %s 増加する。\n"
+"本艦の飛行甲板は大きな損傷を受け、正常な運用に重大な支障をきたしている。代替戦闘機の発進までの時間が %s 増加する。\n"
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
@@ -1393,7 +1406,7 @@ msgid ""
 "\n"
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
-"艦載機のシャーシを製造している工場が不安定で、ほとんどの部品に小さな欠陥がある。艦載機の速度が %s 減少し、受けるダメージが %s 増加する。\n"
+"戦闘機のシャーシを製造している工場が不安定で、ほとんどの部品に小さな欠陥がある。戦闘機の速度が %s 減少し、受けるダメージが %s 増加する。\n"
 "\n"
 "配備から回復するための補給コストが %s 減少する。"
 
@@ -1494,7 +1507,7 @@ msgstr ""
 #, java-format
 msgctxt "converted_bay:desc"
 msgid "This ship's cargo hold has been converted to house a pair of fighter bays. The improvised manufactory that produces fighter chassis is unreliable, and most components have minor defects. Fighter speed reduced by %s, and damage taken increased by %s."
-msgstr "貨物室を改造し、艦載機ベイを2つ搭載している。艦載機のシャーシを生産する即席の製造工場は信頼性が低く、ほとんどの部品に小さな欠陥がある。艦載機の速度が %s 低下し、受けるダメージが %s 増加する。"
+msgstr "貨物室を改造し、戦闘機ベイを2つ搭載している。戦闘機のシャーシを生産する即席の製造工場は信頼性が低く、ほとんどの部品に小さな欠陥がある。戦闘機の速度が %s 低下し、受けるダメージが %s 増加する。"
 
 #, java-format
 msgctxt "comp_structure:desc"
@@ -1521,7 +1534,7 @@ msgstr ""
 #, java-format
 msgctxt "axialrotation:desc"
 msgid "This structure constantly rotates around its axis."
-msgstr "この構造体は、常に軸を中心に回転しています。"
+msgstr "この構造体は、常に軸を中心に回転している。"
 
 #, java-format
 msgctxt "anchorrotation:desc"
@@ -1541,7 +1554,7 @@ msgstr "武器の発射にフラックスを消費しない。ファイターで
 #, java-format
 msgctxt "do_not_fire_through:desc"
 msgid "Weapons on other modules of a station will avoid firing through this module, even though the shots would go over it and not hit."
-msgstr "ステーションの他のモジュールに搭載されている武器は、このモジュールを通過して発射しても命中しないため、このモジュールを通過しての発射を避けることができます。"
+msgstr "ステーションの他のモジュールに搭載されている武器は、このモジュールを通過して発射しても命中しないため、このモジュールを通過しての発射を避けることができる。"
 
 #, java-format
 msgctxt "ecm:desc"
