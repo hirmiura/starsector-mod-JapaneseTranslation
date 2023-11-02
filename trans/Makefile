@@ -4,7 +4,7 @@
 SHELL := /bin/bash
 
 # 各種ディレクトリ
-D_CAMPAIGN	:= hullmods
+D_CAMPAIGN	:= campaign
 D_HULLMODS	:= hullmods
 
 
