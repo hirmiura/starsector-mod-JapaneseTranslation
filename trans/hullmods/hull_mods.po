@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: hull_mods.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-03 03:38+0900\n"
+"PO-Revision-Date: 2023-11-03 05:35+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -48,24 +48,24 @@ msgid ""
 "\n"
 "Supply cost to recover from deployment reduced by %s."
 msgstr ""
-"冗長コンポーネントの広範な喪失により、ピーク動作時間が %s 短縮され、戦闘即応性が %s 低下する割合が増加する。\n"
+"冗長コンポーネントの広範な喪失により、ピーク動作時間が %s 短縮され、戦闘即応性が低下する割合が %s 増加する。\n"
 "\n"
 "配備から回復するための供給コストが %s 減少する。"
 
 #, java-format
 msgctxt "pointdefenseai:sModDesc"
 msgid "All small non-missile weapons are classified as \"point-defense\", automatically target missiles, and are affected by point-defense stat modifiers."
-msgstr ""
+msgstr "すべての小型非ミサイル兵器は「ポイントディフェンス」に分類され、自動的にミサイルを標的とし、ポイントディフェンスの状態修飾子の影響を受ける。"
 
 #, java-format
 msgctxt "fluxshunt:short"
 msgid "Allows dissipation of hard flux while shields are up."
-msgstr ""
+msgstr "シールド起動中にハードフラックスを散逸させることができる。"
 
 #, java-format
 msgctxt "neural_interface:short"
 msgid "Allows rapid switching between ships, resets system cooldown and adds a charge."
-msgstr ""
+msgstr "艦船間の迅速な切り替えを可能にし、システムのクールダウンをリセットし、チャージを追加する。"
 
 #, java-format
 msgctxt "fluxshunt:desc"
@@ -155,7 +155,7 @@ msgstr "正面シールドを全方位シールドに変換する。シールド
 #, java-format
 msgctxt "frontemitter:short"
 msgid "Converts omni shield to front, extends arc."
-msgstr ""
+msgstr "全方位シールドを正面シールドに変換し、円弧を延長する。"
 
 #, java-format
 msgctxt "converted_fighterbay:desc"
@@ -206,7 +206,7 @@ msgstr "乗員は必要なく、乗せることも出来ない。"
 #, java-format
 msgctxt "expanded_cargo_holds:sModDesc"
 msgid "Doubles the cargo capacity increase and, for civilian hulls, negates the maintenance cost increase."
-msgstr "貨物容量が倍増し、民間用船体ではメンテナンスコストの増加を相殺する。"
+msgstr "貨物積載量が倍増し、民間用船体では維持費の増加を打ち消す。"
 
 #, java-format
 msgctxt "additional_berthing:sModDesc"
@@ -221,7 +221,7 @@ msgstr "燃料容量が倍増し、民間用船体の場合、メンテナンス
 #, java-format
 msgctxt "safetyoverrides:short"
 msgid "Drastic improvement in performance, much lower peak time."
-msgstr ""
+msgstr "パフォーマンスが大幅に向上するが、ピーク時間が大幅に短縮される。"
 
 #, java-format
 msgctxt "andrada_mods:desc"
@@ -245,7 +245,7 @@ msgstr ""
 #, java-format
 msgctxt "defensive_targeting_array:sModDesc"
 msgid "Extends range of ballistic and energy weapons of the ship's fighters by %s units."
-msgstr ""
+msgstr "艦載戦闘機の弾道/エネルギー兵器の射程を %s ユニット伸ばす。"
 
 #, java-format
 msgctxt "supercomputer:desc"
@@ -298,7 +298,7 @@ msgstr "戦闘機補充率は下がらない。"
 #, java-format
 msgctxt "shared_flux_sink:short"
 msgid "Flux/hard flux dissipation bonus as modules are lost."
-msgstr ""
+msgstr "モジュールが失われたときのフラックス/ハードフラックス散逸へボーナス。"
 
 #, java-format
 msgctxt "shield_always_on:short"
@@ -313,7 +313,7 @@ msgstr "本艦が発射したミサイルに対するECMとフレアの効果を
 #, java-format
 msgctxt "pointdefenseai:desc"
 msgid "Gives all point-defense weapons the ability to identify - and ignore - decoy flares. In addition, all point-defense weapons get the best possible target leading, regardless of combat readiness, and all damage to missiles is increased by %s. "
-msgstr ""
+msgstr "すべてのポイントディフェンス兵器に、デコイフレアを識別し無視する機能を与える。さらに、すべてのポイントディフェンス兵器は、戦闘即応性に関係なく、可能な限り最善の標的誘導を得ることができ、ミサイルへのすべてのダメージは %s 増加する。"
 
 #, java-format
 msgctxt "advancedcore:short"
@@ -323,12 +323,12 @@ msgstr "非ミサイル兵器の射程を大幅に伸ばす。"
 #, java-format
 msgctxt "supercomputer:short"
 msgid "Greatly extends non-missile weapon range."
-msgstr ""
+msgstr "非ミサイル兵器の射程を大幅に伸ばす。"
 
 #, java-format
 msgctxt "ex_phase_coils:short"
 msgid "Greatly reduces phase cloak cooldown."
-msgstr ""
+msgstr "フェーズクロークのクールダウンを大幅に軽減する。"
 
 #, java-format
 msgctxt "shared_flux_sink:desc"
@@ -338,7 +338,7 @@ msgstr "接続されている全てのモジュールのフラックス散逸の
 #, java-format
 msgctxt "shielded_holds:short"
 msgid "Improves chance to avoid detection of contraband."
-msgstr ""
+msgstr "密輸品の検出を回避する可能性が向上する。"
 
 #, java-format
 msgctxt "advanced_ground_support:short"
@@ -348,17 +348,17 @@ msgstr "襲撃の効果を高める。"
 #, java-format
 msgctxt "ground_support:short"
 msgid "Improves effectiveness of raids."
-msgstr ""
+msgstr "強襲の効率が向上する。"
 
 #, java-format
 msgctxt "expanded_deck_crew:short"
 msgid "Improves fighter replacement rate, increases crew requirements."
-msgstr ""
+msgstr "戦闘機補充率を向上させ、乗組員の要件を増加させる。"
 
 #, java-format
 msgctxt "eccm:short"
 msgid "Improves missile speed and guidance, reduces effect of enemy Electronic Warfare."
-msgstr ""
+msgstr "ミサイルの速度と誘導を向上させ、敵の電子戦の影響を軽減する。"
 
 #, java-format
 msgctxt "tow_cable:desc"
@@ -384,7 +384,7 @@ msgstr "ピークタイム終了後のCR減衰率が上がる。"
 #, java-format
 msgctxt "magazines:short"
 msgid "Increases ammo/charges for ballistic and energy weapons."
-msgstr ""
+msgstr "弾道およびエネルギー兵器の弾薬/チャージ数を増加させる。"
 
 #, java-format
 msgctxt "heavyarmor:short"
@@ -414,17 +414,17 @@ msgstr "ビーム兵器の射程を延長する。"
 #, java-format
 msgctxt "tow_cable:short"
 msgid "Increases burn level of another ship."
-msgstr ""
+msgstr "他船の燃焼度を増加させる。"
 
 #, java-format
 msgctxt "expanded_cargo_holds:short"
 msgid "Increases cargo capacity."
-msgstr ""
+msgstr "貨物積載量を増やす。"
 
 #, java-format
 msgctxt "operations_center:short"
 msgid "Increases command point recovery rate when on flagship."
-msgstr ""
+msgstr "フラッグシップ搭載時にコマンドポイントの回復率を向上させる。"
 
 #, java-format
 msgctxt "additional_berthing:short"
@@ -449,7 +449,7 @@ msgstr "エンジンの耐久性がさらに %s 向上し、センサープロ�
 #, java-format
 msgctxt "defensive_targeting_array:short"
 msgid "Increases fighter PD damage, reduces fighter roam range to zero."
-msgstr ""
+msgstr "戦闘機のPDダメージを増加させ、戦闘機の巡回範囲を0に縮小する。"
 
 #, java-format
 msgctxt "hiressensors:short"
@@ -464,12 +464,12 @@ msgstr "フラックス容量をさらに %s/%s/%s/%s 増加させ、コイル�
 #, java-format
 msgctxt "fluxcoil:short"
 msgid "Increases flux capacity."
-msgstr ""
+msgstr "フラックス容量を増やす。"
 
 #, java-format
 msgctxt "phase_anchor:short"
 msgid "Increases flux dissipation and weapon recharge while phased, emergency dive maneuver."
-msgstr ""
+msgstr "フェイズ中のフラックス散逸と武器の再充填を増加させ、緊急ダイブ機動をする。"
 
 #, java-format
 msgctxt "fluxdistributor:sModDesc"
@@ -479,7 +479,7 @@ msgstr "フラックス散逸をさらに %s/%s/%s/%s 増加させ、ディス�
 #, java-format
 msgctxt "fluxdistributor:short"
 msgid "Increases flux dissipation."
-msgstr ""
+msgstr "フラックス散逸を増やす。"
 
 #, java-format
 msgctxt "auxiliary_fuel_tanks:short"
@@ -489,7 +489,7 @@ msgstr "燃料容量を増やす。"
 #, java-format
 msgctxt "erratic_injector:short"
 msgid "Increases fuel use and decreases the zero-flux boost."
-msgstr ""
+msgstr "燃料消費を増加させ、ゼロフラックスブーストを減少させる。"
 
 #, java-format
 msgctxt "erratic_injector:desc"
@@ -515,22 +515,22 @@ msgstr "船体値を増加させ、乗員の犠牲を減らす。"
 #, java-format
 msgctxt "reinforcedhull:short"
 msgid "Increases hull integrity; ship almost always recoverable if lost."
-msgstr ""
+msgstr "船体完全性が向上する。撃沈した場合でも、ほとんどの場合で回収可能になる。"
 
 #, java-format
 msgctxt "increased_maintenance:short"
 msgid "Increases maintenance cost and crew requirements, decreases maximum combat readiness."
-msgstr ""
+msgstr "メンテナンスコストと要求乗員数が増加し、最大戦闘即応性が減少する。"
 
 #, java-format
 msgctxt "high_maintenance:short"
 msgid "Increases maintenance cost."
-msgstr ""
+msgstr "メンテナンスコストの増加。"
 
 #, java-format
 msgctxt "escort_package:short"
 msgid "Increases maneuverability, point-defense range, and damage dealt to fighters and missiles."
-msgstr ""
+msgstr "機動性、ポイントディフェンス範囲、戦闘機やミサイルへのダメージを向上させる。"
 
 #, java-format
 msgctxt "auxiliarythrusters:short"
@@ -559,7 +559,7 @@ msgid ""
 "\n"
 "For civilian-grade hulls, also increases maintenance supply use by %s."
 msgstr ""
-"船体サイズに応じて最大積載量を %s/%s/%s/%s 増加、または %s 増加、どちらか高い方を増加させる。\n"
+"船体サイズに応じて最大貨物積載量を %s/%s/%s/%s 増加、または %s 増加、どちらか高い方を増加させる。\n"
 "\n"
 "民生グレードの船体では、メンテナンス用品の使用量も %s 増加する。"
 
@@ -588,7 +588,7 @@ msgstr ""
 #, java-format
 msgctxt "extendedshieldemitter:short"
 msgid "Increases maximum shield arc."
-msgstr ""
+msgstr "最大シールド円弧を増加する。"
 
 #, java-format
 msgctxt "faulty_auto:desc"
@@ -604,12 +604,12 @@ msgstr ""
 #, java-format
 msgctxt "faulty_auto:short"
 msgid "Increases minimum crew required, decreases maximum combat readiness."
-msgstr ""
+msgstr "必要最小乗員数を増やし、最大戦闘即応性を減らす。"
 
 #, java-format
 msgctxt "missleracks:short"
 msgid "Increases missile weapon ammo."
-msgstr ""
+msgstr "ミサイル兵器の弾薬を増やす。"
 
 #, java-format
 msgctxt "hardened_subsystems:desc"
@@ -625,12 +625,12 @@ msgstr ""
 #, java-format
 msgctxt "hardened_subsystems:short"
 msgid "Increases peak time, CR degrades more slowly."
-msgstr ""
+msgstr "ピーク時間が増加し、CRの低下が遅くなる。"
 
 #, java-format
 msgctxt "repair_gantry:short"
 msgid "Increases resources gained from salvage."
-msgstr ""
+msgstr "サルベージから得られるリソースが増加する。"
 
 #, java-format
 msgctxt "civgrade:desc"
@@ -655,7 +655,7 @@ msgstr "ECMレーティングを増やす。"
 #, java-format
 msgctxt "unstable_injector:short"
 msgid "Increases speed, reduces weapon range."
-msgstr ""
+msgstr "速度を上げ、武器の射程距離を減らす。"
 
 #, java-format
 msgctxt "missleracks:desc"
@@ -712,12 +712,12 @@ msgstr ""
 #, java-format
 msgctxt "vast_hangar:short"
 msgid "Increases the effect of Converted Hangar and removes its penalties."
-msgstr ""
+msgstr "Converted Hangarの効果を高め、ペナルティを取り除く。"
 
 #, java-format
 msgctxt "recovery_shuttles:sModDesc"
 msgid "Increases the fighter pilot casualty reduction to %s."
-msgstr ""
+msgstr "戦闘機パイロットの死傷者削減効果を %s 増加させる。"
 
 #, java-format
 msgctxt "fluxbreakers:sModDesc"
@@ -743,12 +743,12 @@ msgstr ""
 #, java-format
 msgctxt "missile_autoloader:sModDesc"
 msgid "Increases the post-reload cooldown to %s seconds."
-msgstr ""
+msgstr "リロード後のクールダウンを %s 秒に増加する。"
 
 #, java-format
 msgctxt "solar_shielding:sModDesc"
 msgid "Increases the protection from solar coronae and similar hazards to %s."
-msgstr ""
+msgstr "太陽コロナや %s への同様の危険からの保護を強化する。"
 
 #, java-format
 msgctxt "dedicated_targeting_core:sModDesc"
@@ -808,7 +808,7 @@ msgstr "船体サイズに応じて、船の装甲を %s/%s/%s/%s ポイント�
 #, java-format
 msgctxt "shield_shunt:sModDesc"
 msgid "Increases the ship's armor by an additional %s."
-msgstr ""
+msgstr "船の装甲を追加で %s 増やす。"
 
 #, java-format
 msgctxt "fluxcoil:desc"
@@ -864,11 +864,14 @@ msgid ""
 "\n"
 "Interferes with weapons targeting and other vulnerable systems, reducing non-missile weapon range by %s and increasing the fighter replacement time by %s."
 msgstr ""
+"船体の大きさに応じて、戦闘時の船の最高速度を %s/%s/%s/%s su/秒ずつ上げる。\n"
+"\n"
+"兵器の標的化やその他の脆弱なシステムを妨害し、非ミサイル兵器の射程距離を %s 短縮し、戦闘機の補充時間を %s 延長する。"
 
 #, java-format
 msgctxt "surveying_equipment:sModDesc"
 msgid "Increases the survey cost reduction by %s."
-msgstr ""
+msgstr "調査コストの削減量が %s 増える。"
 
 #, java-format
 msgctxt "turretgyros:desc"
@@ -883,7 +886,7 @@ msgstr "シールドの回転速度を %s 上げ、起動速度を %s 上げる�
 #, java-format
 msgctxt "nav_relay:short"
 msgid "Increases top speed of deployed ships."
-msgstr ""
+msgstr "配備された艦船の最高速度を上げる。"
 
 #, java-format
 msgctxt "turretgyros:short"
@@ -893,7 +896,7 @@ msgstr "タレットのターンレートを増加させる。"
 #, java-format
 msgctxt "distributed_fire_control:short"
 msgid "Increases weapon durability and reduces EMP damage taken."
-msgstr ""
+msgstr "武器の耐久性を高め、受けるEMPダメージを軽減する。"
 
 #, java-format
 msgctxt "dedicated_targeting_core:short"
@@ -903,7 +906,7 @@ msgstr "武器の射程が伸び、大型船ほど傾向が強くなる。"
 #, java-format
 msgctxt "targetingunit:short"
 msgid "Increases weapon range, more so for larger ships."
-msgstr ""
+msgstr "武器の射程距離を伸ばし、より大きな船ではさらに伸ばす。"
 
 #, java-format
 msgctxt "autorepair:short"
@@ -935,7 +938,7 @@ msgstr ""
 #, java-format
 msgctxt "frontshield:short"
 msgid "Installs basic shields on shieldless ship. Reduces top speed."
-msgstr ""
+msgstr "非シールド船に基本シールドを装備する。トップスピードを下げる。"
 
 #, java-format
 msgctxt "bdeck:short"
@@ -945,7 +948,7 @@ msgstr "戦闘ごとに1回新しい飛行隊を発進し、補充率を補給�
 #, java-format
 msgctxt "high_frequency_attractor:short"
 msgid "Launches more powerful high-frequency motes."
-msgstr ""
+msgstr "より強力な高周波モートを起動する。"
 
 #, java-format
 msgctxt "neural_interface:desc"
@@ -970,7 +973,7 @@ msgstr "船の全方向シールドエミッタを正面に固定し、その弧
 #, java-format
 msgctxt "insulatedengine:short"
 msgid "Makes engines harder to disable, lowers sensor profile."
-msgstr ""
+msgstr "エンジンを無効にするのが難しくなり、センサープロファイルが低下する。"
 
 #, java-format
 msgctxt "armoredweapons:short"
@@ -1005,7 +1008,7 @@ msgstr "毎月のメンテナンス費が戦闘機ベイあたり %s 減少す�
 #, java-format
 msgctxt "distributed_fire_control:desc"
 msgid "Much of the damage that takes weapons offline is to external control runs and power conduits. This ship's weapons are engineered to operate more independently, reducing their exposure to damage by %s and reducing the EMP damage taken by the ship overall by %s."
-msgstr ""
+msgstr "兵器がオフラインになる被害の多くは、外部制御の実行とパワーコンジットに対するものである。この船の兵器は、より独立して動作するように設計されており、被害への露出を %s 減らし、船全体のEMP被害を %s 減らす。"
 
 #, java-format
 msgctxt "militarized_subsystems:sModDesc"
@@ -1052,7 +1055,7 @@ msgstr "一対の即席戦闘機ベイ。"
 #, java-format
 msgctxt "missile_reload:short"
 msgid "Periodically reloads all missile weapons."
-msgstr ""
+msgstr "すべてのミサイル兵器を定期的に再装填する。"
 
 #, java-format
 msgctxt "adaptive_coils:desc"
@@ -1073,12 +1076,12 @@ msgstr "爆発範囲とダメージを縮小。"
 #, java-format
 msgctxt "fluxbreakers:short"
 msgid "Reduces EMP damage taken, improves venting speed."
-msgstr ""
+msgstr "EMPダメージを軽減し、ベントスピードを向上する。"
 
 #, java-format
 msgctxt "high_scatter_amp:short"
 msgid "Reduces beam range; beams deal more damage and apply hard flux to shields."
-msgstr ""
+msgstr "ビーム範囲を縮小する。ビームはより多くのダメージを与え、シールドにハードフラックスを与える。"
 
 #, java-format
 msgctxt "ablative_armor:short"
@@ -1088,17 +1091,17 @@ msgstr "アーマーによるダメージ軽減を減らす。"
 #, java-format
 msgctxt "hardenedshieldemitter:short"
 msgid "Reduces damage taken by shields."
-msgstr ""
+msgstr "シールドが受けるダメージを軽減する。"
 
 #, java-format
 msgctxt "solar_shielding:short"
 msgid "Reduces effect of being in corona and energy damage taken."
-msgstr ""
+msgstr "コロナやエネルギーダメージの影響を軽減する。"
 
 #, java-format
 msgctxt "recovery_shuttles:short"
 msgid "Reduces fighter pilot casualties."
-msgstr ""
+msgstr "戦闘機パイロットの死傷者を減らす。"
 
 #, java-format
 msgctxt "drive_field_stabilizer:short"
@@ -1108,7 +1111,7 @@ msgstr "艦隊全体の燃料使用量を減らす。"
 #, java-format
 msgctxt "phasefield:short"
 msgid "Reduces fleetwide sensor profile."
-msgstr ""
+msgstr "艦隊全体のセンサープロファイルを減らす。"
 
 #, java-format
 msgctxt "stabilizedshieldemitter:short"
@@ -1118,7 +1121,7 @@ msgstr "シールドのフラックス維持費を軽減する。"
 #, java-format
 msgctxt "rugged:short"
 msgid "Reduces impact of d-mods; ship almost always recoverable if lost."
-msgstr ""
+msgstr "D-Modの影響を軽減し、撃沈した場合でもほぼ常に回収可能になる。"
 
 #, java-format
 msgctxt "adaptive_coils:short"
@@ -1137,21 +1140,24 @@ msgid ""
 "\n"
 "In addition, the supply cost to recover from deployment - and to effect repairs if the ship is disabled - is reduced by %s."
 msgstr ""
+"D-Modのほとんどの悪影響を %s 軽減する。戦闘で使用不能になったり破壊されたりした場合、船は新しいd-modsを %s で回避する可能性があり、戦闘後はほぼ常に回収可能にある。\n"
+"\n"
+"さらに、配備から回復する際のサプライコストと、船が機能しなくなった場合の修理コストが、 %s 削減される。"
 
 #, java-format
 msgctxt "efficiency_overhaul:short"
 msgid "Reduces ongoing costs and enables more deployments."
-msgstr ""
+msgstr "継続的なコストを削減し、より多くの配備を可能にする。"
 
 #, java-format
 msgctxt "hbi:short"
 msgid "Reduces ordnance point cost of large ballistic weapons."
-msgstr ""
+msgstr "大型弾道兵器の兵器ポイントコストを削減する。"
 
 #, java-format
 msgctxt "pdintegration:short"
 msgid "Reduces ordnance point cost of small PD weapons, increases all PD damage."
-msgstr ""
+msgstr "小型PD兵器の兵器ポイントコストを削減し、すべてのPDダメージを増加させる。"
 
 #, java-format
 msgctxt "ex_phase_coils:desc"
@@ -1166,7 +1172,7 @@ msgstr "修復時間を %s に短縮し、オーバーロード時間を %s 短�
 #, java-format
 msgctxt "surveying_equipment:short"
 msgid "Reduces resource requirements for surveying."
-msgstr ""
+msgstr "調査に必要なリソースを削減する。"
 
 #, java-format
 msgctxt "efficiency_overhaul:desc"
@@ -1264,7 +1270,7 @@ msgstr ""
 #, java-format
 msgctxt "missleracks:sModDesc"
 msgid "Reduces the rate of fire of missile weapons by %s."
-msgstr ""
+msgstr "ミサイル兵器の発射速度を %s 減らす。"
 
 #, java-format
 msgctxt "heavyarmor:sModDesc"
@@ -1300,17 +1306,17 @@ msgstr ""
 #, java-format
 msgctxt "missile_autoloader:short"
 msgid "Reloads missile weapons in small missile mounts"
-msgstr ""
+msgstr "小型ミサイルマウントのミサイル兵器を再装填する"
 
 #, java-format
 msgctxt "militarized_subsystems:short"
 msgid "Removes sensor penalties, increases maximum burn level, increases crew required."
-msgstr ""
+msgstr "センサーのペナルティを取り除き、最大燃焼度を増やし、必要乗員数を増やす。"
 
 #, java-format
 msgctxt "shield_shunt:short"
 msgid "Removes shields, increases armor."
-msgstr ""
+msgstr "シールドを取り除き、装甲を増やす。"
 
 #, java-format
 msgctxt "militarized_subsystems:desc"
@@ -1336,7 +1342,7 @@ msgstr ""
 #, java-format
 msgctxt "pointdefenseai:short"
 msgid "Small non-missile weapons act as point-defense; PD not affected by decoy flares."
-msgstr ""
+msgstr "小型非ミサイル兵器はポイントディフェンスとして機能し、PDはデコイフレアの影響を受けない。"
 
 #, java-format
 msgctxt "destroyed_mounts:desc"
@@ -1351,7 +1357,7 @@ msgstr "船が破壊されたとき、シャード船を生成するようにす
 #, java-format
 msgctxt "neural_integrator:short"
 msgid "Specialized Neural Interface for automated ships."
-msgstr ""
+msgstr "自律船のための特殊なニューラルインターフェース。"
 
 #, java-format
 msgctxt "drive_field_stabilizer:desc"
@@ -1371,6 +1377,9 @@ msgid ""
 "\n"
 "Increases fighter damage to missiles and other fighters by %s, but makes the fighters unable to leave the vicinity of their ship."
 msgstr ""
+"標準的な戦闘機の通信リンクは、短距離の標的データを提供するために再利用される。\n"
+"\n"
+"ミサイルやその他の戦闘機への戦闘機ダメージを %s 増加させるが、戦闘機が船の近くを離れることができなくなる。"
 
 #, java-format
 msgctxt "malfunctioning_comms:desc"
@@ -1428,6 +1437,9 @@ msgid ""
 "\n"
 "The number of fighter bays added by Converted Hangar is increased by %s, and its performance matches that of a dedicated fighter bay - all of the penalties and modifiers, including those to the ship's deployment cost, are negated."
 msgstr ""
+"この船には巨大な格納庫と、それに見合った小型の支援艇がある。\n"
+"\n"
+"Converted Hangarによって追加された戦闘機ベイの数が %s 増加し、そのパフォーマンスは専用の戦闘機ベイのパフォーマンスに匹敵する。船の配備コストを含むすべてのペナルティと修飾子は無効になる。"
 
 #, java-format
 msgctxt "phasefield:desc"
