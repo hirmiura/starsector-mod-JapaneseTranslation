@@ -4,6 +4,7 @@
 SHELL := /bin/bash
 
 # 各種ディレクトリ
+D_CAMPAIGN	:= hullmods
 D_HULLMODS	:= hullmods
 
 
@@ -21,7 +22,8 @@ include ../Help.mk
 .PHONY: setup
 setup: ## セットアップ - ビルドの前準備
 setup:
-	$(MAKE) -C $(D_HULLMODS) setup
+	$(MAKE) -C $(D_CAMPAIGN) $@
+	$(MAKE) -C $(D_HULLMODS) $@
 
 
 #==============================================================================
@@ -30,7 +32,8 @@ setup:
 .PHONY: build
 build: ## ビルドする
 build:
-	$(MAKE) -C $(D_HULLMODS) build
+	$(MAKE) -C $(D_CAMPAIGN) $@
+	$(MAKE) -C $(D_HULLMODS) $@
 
 
 #==============================================================================
@@ -39,8 +42,10 @@ build:
 .PHONY: clean clean-all
 clean: ## セットアップで生成したファイル以外を全て削除します
 clean:
-	$(MAKE) -C $(D_HULLMODS) clean
+	$(MAKE) -C $(D_CAMPAIGN) $@
+	$(MAKE) -C $(D_HULLMODS) $@
 
 clean-all: ## 生成した全てのファイルを削除します
 clean-all:
-	$(MAKE) -C $(D_HULLMODS) clean-all
+	$(MAKE) -C $(D_CAMPAIGN) $@
+	$(MAKE) -C $(D_HULLMODS) $@
