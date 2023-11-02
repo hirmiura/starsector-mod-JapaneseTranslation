@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-02 06:24+0900\n"
+"PO-Revision-Date: 2023-11-02 15:38+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -4593,7 +4593,7 @@ msgstr ""
 #, java-format
 msgctxt "ddroBlurb1:text"
 msgid "\"I need a package delivered. The destination must be kept a secret. Simple.\""
-msgstr "「荷物を届けてほしい。行き先は秘密にしてくれ。簡単だろ」"
+msgstr "\"荷物を届けてほしい。行き先は秘密にしてくれ。簡単だろ\""
 
 #, java-format
 msgctxt "cpmOfferTextContact:text"
@@ -4622,7 +4622,7 @@ msgstr ""
 #, java-format
 msgctxt "cpmBlurbUW:text"
 msgid "\"I need someone I can count on to arrange for a colonial producer of $cpm_commodityName over a period of several cycles.\""
-msgstr ""
+msgstr "\" $cpm_commodityName のコロニー生産者を数サイクルに渡って手配してくれる頼れる人が欲しい。\""
 
 #, java-format
 msgctxt "proComBlurb:text"
@@ -5191,6 +5191,9 @@ msgid ""
 "OR\n"
 "\"I'm looking to invest in a colony which can produce $cpm_commodityName reliably for several cycles.\""
 msgstr ""
+"\" $cpm_commodityName の信頼できる植民地生産者と、数サイクルにわたる経済協定を結びたい。\"\n"
+"OR\n"
+"\" $cpm_commodityName を数サイクルにわたって確実に生産できるコロニーに投資したい。\""
 
 #, java-format
 msgctxt "CBDeserter:text"
@@ -14453,12 +14456,12 @@ msgstr ""
 #, java-format
 msgctxt "cpmBlurbBar:text"
 msgid "A $cpm_manOrWoman in a business suit sits in a private booth thoughtfully perusing a top-line TriPad alongside a bottle of something expensive."
-msgstr ""
+msgstr "ビジネススーツに身を包んだ $cpm_manOrWoman が個室ブースに座り、高価なボトルとともに最高級のTriPadをじっくりと眺めている。"
 
 #, java-format
 msgctxt "cpmBlurbBarUW:text"
 msgid "A $cpm_manOrWoman sits alone in a private booth, flanked by discreet bodyguards. There is a sinister vibe to their bearing."
-msgstr ""
+msgstr "$cpm_manOrWoman がプライベートブースに一人座り、控えめなボディーガードに囲まれている。その佇まいには不吉な雰囲気が漂う。"
 
 #, java-format
 msgctxt "dcomBlurbBar:text"
@@ -15400,7 +15403,7 @@ msgstr ""
 #, java-format
 msgctxt "cpcBlurbBar1:text"
 msgid "A well-dressed $cpc_manOrWoman seems to be arguing with a TriPad about a canceled nanoforge order and the need to fill some production slots as soon as possible."
-msgstr ""
+msgstr "身なりの良い $cpc_manOrWoman が、キャンセルされたナノフォージの注文と、早急に生産枠を埋める必要性についてTriPadで口論しているようだ。"
 
 #, java-format
 msgctxt "lppHesperusShrineVisitFirst1sneak:text"
@@ -15734,6 +15737,11 @@ msgid ""
 "\n"
 "The machine is true to its word."
 msgstr ""
+"しばらく待つと、自動応答で接続要求が受理される。\n"
+"\n"
+"\"こちらは Anahita Baird 学長のオフィスです。アポイントメント・キューに順番を確保するには、事務担当者にお問い合わせください。この電話は3秒後に終了します。\n"
+"\n"
+"機械の言葉どおりだ。"
 
 #, java-format
 msgctxt "genericContactMissionReturn1:text"
@@ -17225,7 +17233,7 @@ msgstr ""
 #, java-format
 msgctxt "cpcBlurbBar2:text"
 msgid "At a private table, a $cpc_manOrWoman in uniform complains to another patron about how the ordnance department left them with unfilled nanoforge production slots- and a hole in the budget."
-msgstr ""
+msgstr "個室のテーブルで、制服を着た $cpc_manOrWoman が他の客に、いかに兵器部門がナノフォージの生産枠を空け、予算に穴をあけたかを愚痴っている。"
 
 #, java-format
 msgctxt "gaPZRelayInteractionStart:text"
@@ -20093,7 +20101,7 @@ msgstr ""
 #, java-format
 msgctxt "cpcBlurbBar4:text"
 msgid "In a smoky booth flanked by bodyguards sits a $cpc_manOrWoman who you recognize as a notorious black market arms dealer."
-msgstr ""
+msgstr "ボディーガードに挟まれた煙たいブースには、悪名高い闇市場の武器商人として知られる $cpc_manOrWoman が座っている。"
 
 #, java-format
 msgctxt "ngcPickSecondShip:text"
@@ -30973,7 +30981,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_shuttleDescGeneric:text"
 msgid "You take a shuttle down to the main concourse and quickly find a likely-looking establishment."
-msgstr ""
+msgstr "シャトルでメインコンコースに降り、すぐに良さそうな店を見つける。"
 
 #, java-format
 msgctxt "gaKANewMaxiosVisit0:text"
@@ -32122,6 +32130,11 @@ msgid ""
 "\n"
 "\"Ah, $playerName. What brings you to me at this hour?\""
 msgstr ""
+"あなたの接続はすぐに受け入れられる。アシスタントが現れ、紹介するまでもなくあなたを認識しているようだ。 \"少々お待ち下さい、 $PlayerSirOrMadam 。学長がまもなく参ります。\"\n"
+"\n"
+"しばらく待つと、Baird学長がのオフィスに通信が開く。彼女は別のホロスクリーンでの作業を終えてから、あなたに向き直る。\n"
+"\n"
+"\"ああ、 $playerName 。こんな時間に何の用かね？\""
 
 #, java-format
 msgctxt "tut_janContactReport:text"
