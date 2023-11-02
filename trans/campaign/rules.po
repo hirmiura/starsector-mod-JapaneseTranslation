@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-02 15:38+0900\n"
+"PO-Revision-Date: 2023-11-02 19:37+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -888,7 +888,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComPickupGreeting:text"
 msgid "\"Ah, it's $playerName isn't it? You must be here to pick up $cheapCom_quantity units of $cheapCom_commodityName for $cheapCom_pricePerUnit credits per unit,\" $heOrShe taps at a TriPad, nodding, \"We can get you set right up if you're prepared to receive the cargo now.\""
-msgstr ""
+msgstr "\"あぁ $playerName ですね？ あなたは、ここまで $cheapCom_quantity ユニットの $cheapCom_commodityName を ユニットあたり $cheapCom_pricePerUnit クレジットで受け取りに行かなければなりません\" $heOrShe は TriPad をタップし、うなずく、 \"今すぐ貨物を受け取ることが出来るのであれば、すぐに提供できます。\""
 
 #, java-format
 msgctxt "sdtuUmbraTrickVIPOptionG2:text"
@@ -4369,7 +4369,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComBlurb:text"
 msgid "\"I have a large stockpile of surplus $cheapCom_commodityName available at a low price.\""
-msgstr ""
+msgstr "\"私は余剰の $cheapCom_commodityName を大量に備蓄しており、低価格で提供できる。\""
 
 #, java-format
 msgctxt "PZIntroHub1bSel:text"
@@ -6156,7 +6156,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComTextLocal:text"
 msgid "\"It would come out to,\" $heOrShe squints at $hisOrHer TriPad, \"There- $cheapCom_quantity units of $cheapCom_commodityName for $cheapCom_pricePerUnit per unit. If you can help me clear out this warehouse, it'd do me a real favor.\""
-msgstr ""
+msgstr "\"次のようになります\" $heOrShe は $hisOrHer TriPad に目を細める。 \" $cheapCom_quantity ユニットの $cheapCom_commodityName が、ユニットあたり $cheapCom_pricePerUnit であります。 この倉庫を片付けるのを手伝ってくれたら、本当に助かります\""
 
 #, java-format
 msgctxt "dcomOfferTextBar2:text"
@@ -8946,7 +8946,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComPickupOptionSel:text"
 msgid "\"Thank you for taking this off my hands.\""
-msgstr ""
+msgstr "\"これを受け取ってくれてありがとう\""
 
 #, java-format
 msgctxt "optionPayCIFine:text"
@@ -13457,6 +13457,11 @@ msgid ""
 "\n"
 "$HeOrShe puts down the datapad. \"So what do you think?\""
 msgstr ""
+"$HeOrShe は顔を上げる。 「あなたはトレーダーで商船隊を率いている？」 あなたは確定的でないことをつぶやきます。 「おぉ、完璧だ」 $heOrShe は言う。\n"
+"\n"
+"「一刻も早く倉庫を片付けたい」 $heOrShe は、あなたに $hisOrHer データパッドを見せる。 近くでよく見ると TriPad の安物の模造品だ。 「ちょうど今、 $cheapCom_quantity ユニットの $cheapCom_commodityName で満杯なんだ。 もし君が手伝ってくれるなら、ユニットあたり $cheapCom_pricePerUnit クレジットの低価格で譲ろう。 これは本当にお買い得だよ！」\n"
+"\n"
+"$HeOrShe はデータパッドを置いた。「それでどうだい？」"
 
 #, java-format
 msgctxt "cheapComTextRemoteBar:text"
@@ -14172,7 +14177,7 @@ msgstr ""
 #, java-format
 msgctxt "cob_takeControlWarning:text"
 msgid "$TheFaction will certainly regard such a takeover of vital infrastructure as an act of war."
-msgstr ""
+msgstr "$TheFaction は、このような重大なインフラの乗っ取りを戦争行為と見なすでしょう。"
 
 #, java-format
 msgctxt "cob_salvageOtherOwned:text"
@@ -14451,7 +14456,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComBlurbBar:text"
 msgid "A $cheapCom_manOrWoman in a cheap business suit sips a reasonably priced drink, occasionally tapping at $hisOrHer TriPad in consternation."
-msgstr ""
+msgstr "安いビジネススーツに身を包んだ $cheapCom_manOrWoman が、手頃な価格の飲み物を飲みながら、時折 $hisOrHer TriPad をタップして困惑している。"
 
 #, java-format
 msgctxt "cpmBlurbBar:text"
@@ -15006,7 +15011,7 @@ msgstr ""
 #, java-format
 msgctxt "cob_snifferDesc:text"
 msgid "A quick scan on the maintenance shortwave reveals several common vulnerabilities to choose from, and the sniffer script is uploaded within a few minutes."
-msgstr ""
+msgstr "保守用短波で素早くスキャンすると、いくつかの一般的な脆弱性が明らかになり、そこから選ぶことで、スニファー・スクリプトは数分以内にアップロードされる。"
 
 #, java-format
 msgctxt "cob_hackDesc:text"
@@ -15270,12 +15275,12 @@ msgstr ""
 #, java-format
 msgctxt "cob_snifferDesc2:text"
 msgid "A soft chime from the comms console indicates the sniffer is installed and fully operational."
-msgstr ""
+msgstr "通信コンソールからの柔らかなチャイム音は、スニッファーがインストールされ、完全に動作可能になったことを示している。"
 
 #, java-format
 msgctxt "cob_snifferDesc3:text"
 msgid "A soft chime from the comms console indicates the sniffer is offline."
-msgstr ""
+msgstr "通信コンソールからの柔らかなチャイム音は、スニッファーがオフラインであることを示している。"
 
 #, java-format
 msgctxt "lkeMazBarAgentRespPunch:text"
@@ -16471,7 +16476,7 @@ msgstr ""
 #, java-format
 msgctxt "beaconOpenDialog:text"
 msgid "An autonomous warning beacon has been left emitting a distorted wail between official channels. Whatever message it was meant to convey has been corrupted."
-msgstr ""
+msgstr "自律警告ビーコンが公式チャンネルの間で歪んだ叫び声を発したままになっている。それが伝えるべきメッセージが何であれ、破損してしまったのだ。"
 
 #, java-format
 msgctxt "sdtuSafehouseHolorecCheck:text"
@@ -22723,7 +22728,7 @@ msgstr ""
 #, java-format
 msgctxt "cob_takeControlPrompt:text"
 msgid "Taking control of the $shortName will grant your in-system fleets and colonies the benefits it provides."
-msgstr ""
+msgstr "$shortName を支配することで、星系内のあなたの船団やコロニーに恩恵を与えることが出来ます。"
 
 #, java-format
 msgctxt "gaVIPConMerc1:text"
@@ -27177,6 +27182,9 @@ msgid ""
 "\n"
 "\"DANGER: This star system is known to contain potentially active autonomous weapon systems. Access to this system by unauthorized parties is forbidden by Hegemony Navy diktat 224.34.\""
 msgstr ""
+"この自律警告ビーコンはループするメッセージを発している。\n"
+"\n"
+"\"危険: この星系には自律兵器システムが存在する可能性があります。ヘゲモニー海軍強制令 224.34 により、許可されていない者のアクセスは禁止されています\""
 
 #, java-format
 msgctxt "beaconOpenDialogRemnantsResurgent:text"
@@ -27185,6 +27193,9 @@ msgid ""
 "\n"
 "\"DANGER: This star system is known to contain potentially active autonomous weapon systems. Access to this system by unauthorized parties is forbidden by Hegemony Navy diktat 224.34.\""
 msgstr ""
+"この自律警告ビーコンはループするメッセージを発している。\n"
+"\n"
+"\"危険: この星系には自律兵器システムが存在する可能性があります。ヘゲモニー海軍強制令 224.34 により、許可されていない者のアクセスは禁止されています\""
 
 #, java-format
 msgctxt "beaconOpenDialogRemnantsSuppressed:text"
@@ -27193,6 +27204,9 @@ msgid ""
 "\n"
 "\"DANGER: This star system is known to contain potentially active autonomous weapon systems. Access to this system by unauthorized parties is forbidden by Hegemony Navy diktat 224.34.\""
 msgstr ""
+"この自律警告ビーコンはループするメッセージを発している。\n"
+"\n"
+"\"危険: この星系には自律兵器システムが存在する可能性があります。ヘゲモニー海軍強制令 224.34 により、許可されていない者のアクセスは禁止されています\""
 
 #, java-format
 msgctxt "beaconOpenDialogDaedaleon:text"
@@ -27201,6 +27215,9 @@ msgid ""
 "\n"
 "\"This world is corrupted by technological sin and its abomination stands testament to the result of straying from the path of virtue. Trespass is forbidden. Any who scorn this warning shall become both corrupt of body and outlaw by the holy justice enforced by this order of the Knights of Ludd.\""
 msgstr ""
+"この自律警告ビーコンは、ループするメッセージを発している。\n"
+"\n"
+"\"この世界は技術的な罪によって堕落しており、その醜悪さは美徳の道から外れた結果の証しである。この警告を軽んじる者は、ラッド騎士団が執行する聖なる正義によって、肉体を堕落させ、無法者となる。\""
 
 #, java-format
 msgctxt "PKSentinelDockyardOpen:text"
