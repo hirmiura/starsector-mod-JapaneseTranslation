@@ -10,14 +10,12 @@ import csv
 import re
 import sys
 import tomllib
-from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
 from x2pot_conf import X2PotConf, X2PotConfItem
 
 DEFAULT_CONFIG_FILE = "csv2pot.toml"
-TZ = timezone(timedelta(hours=+9), "JST")
 
 
 def pargs() -> argparse.Namespace:
