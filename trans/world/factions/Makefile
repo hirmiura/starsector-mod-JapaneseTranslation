@@ -4,20 +4,17 @@
 SHELL := /bin/bash
 
 # 各種ディレクトリ
-D_BIN		:= ../../bin
-D_MOD		:= ../../mod
-D_DHM		:= data/hullmods
-D_MODDST	:= $(D_MOD)/$(D_DHM)
-D_SSHOME	:= ../../Starsector
-D_SSDHM		:= $(D_SSHOME)/starsector-core/$(D_DHM)
+D_BIN		:= ../../../bin
+D_MODDST	:= ../../../mod/data/world/factions
+D_SSCMP		:= ../../../Starsector/starsector-core/data/world/factions
 
 
 #==============================================================================
 # カラーコード
 # ヘルプ表示
 #==============================================================================
-include ../../ColorCode.mk
-include ../../Help.mk
+include ../../../ColorCode.mk
+include ../../../Help.mk
 
 
 #==============================================================================
@@ -27,7 +24,7 @@ include ../../Help.mk
 check: ## Starsecto本体へのリンク/ディレクトリを確認します
 check:
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
-	$(MAKE) -C ../.. check
+	$(MAKE) -C ../../.. check
 
 
 #==============================================================================
@@ -37,15 +34,15 @@ check:
 setup: ## セットアップ - ビルドの前準備
 setup: check generate-pot merge-po
 
-generate-pot: hull_mods.pot
+generate-pot: default_ranks.pot
 
-hull_mods.pot: hull_mods.toml $(D_SSDHM)/hull_mods.csv
+default_ranks.pot: default_ranks.toml $(D_SSCMP)/default_ranks.json
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
-	$(D_BIN)/csv2pot.py -c $<
+	$(D_BIN)/json2pot.py -c $<
 
-merge-po: hull_mods.edit.po hull_mods.po
+merge-po: default_ranks.edit.po default_ranks.po
 
-hull_mods.edit.po:: hull_mods.pot
+default_ranks.edit.po:: default_ranks.pot
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ -f "$@" ]] ; then \
 		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $< ; \
@@ -53,14 +50,14 @@ hull_mods.edit.po:: hull_mods.pot
 		msginit --no-translator -l ja_JP.utf8 -i $< -o $@ ; \
 	fi
 
-hull_mods.edit.po::
+default_ranks.edit.po::
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
-	$(eval FN := hull_mods.po)
+	$(eval FN := default_ranks.po)
 	if [[ -f "$(FN)" ]] ; then \
 		msgcat --use-first -o $@ $@ $(FN); \
 	fi \
 
-hull_mods.po: hull_mods.edit.po
+default_ranks.po: default_ranks.edit.po
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ -f "$@" ]] ; then \
 		msgcat --use-first --no-location --no-wrap --sort-output -o $@ $< $@ ; \
@@ -78,21 +75,21 @@ hull_mods.po: hull_mods.edit.po
 #==============================================================================
 .PHONY: build generate-mo translate
 build: ## ビルドする
-build: setup generate-mo translate copy-csv
+build: setup generate-mo translate copy-json
 
-generate-mo: hull_mods.mo
+generate-mo: default_ranks.mo
 
-hull_mods.mo: hull_mods.po
+default_ranks.mo: default_ranks.po
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	msgfmt --statistics -o $@ $^
 
-translate: hull_mods.csv
+translate: default_ranks.json
 
-hull_mods.csv: hull_mods.mo hull_mods.toml $(D_SSDHM)/hull_mods.csv
+default_ranks.json: default_ranks.mo default_ranks.toml $(D_SSCMP)/default_ranks.json
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
-	$(D_BIN)/mo2csv.py -m $< -c hull_mods.toml
+	$(D_BIN)/mo2json.py -m $< -c default_ranks.toml
 
-copy-csv: hull_mods.csv
+copy-json: default_ranks.json
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	@mkdir -p $(D_MODDST)
 	cp $< $(D_MODDST)
@@ -101,9 +98,9 @@ copy-csv: hull_mods.csv
 #==============================================================================
 # クリーンアップ
 #==============================================================================
-.PHONY: clean clean-all clean-pot clean-mo clean-csv clean-backup clean-package
+.PHONY: clean clean-all clean-pot clean-mo clean-json clean-backup clean-package
 clean: ## セットアップで生成したファイル以外を全て削除します
-clean: clean-mo clean-csv clean-package
+clean: clean-mo clean-json clean-package
 
 clean-all: ## 生成した全てのファイルを削除します
 clean-all: clean clean-pot clean-backup
@@ -116,9 +113,9 @@ clean-mo:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
 	rm -f *.mo
 
-clean-csv:
+clean-json:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
-	rm -f *.csv
+	rm -f *.json
 
 clean-backup:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'

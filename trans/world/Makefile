@@ -4,18 +4,15 @@
 SHELL := /bin/bash
 
 # 各種ディレクトリ
-D_LIST		:= campaign hullmods world
-D_CAMPAIGN	:= campaign
-D_HULLMODS	:= hullmods
-D_WORLD		:= world
+D_FACTIONS	:= factions
 
 
 #==============================================================================
 # カラーコード
 # ヘルプ表示
 #==============================================================================
-include ../ColorCode.mk
-include ../Help.mk
+include ../../ColorCode.mk
+include ../../Help.mk
 
 
 #==============================================================================
@@ -24,7 +21,7 @@ include ../Help.mk
 .PHONY: setup
 setup: ## セットアップ - ビルドの前準備
 setup:
-	$(foreach c,$(D_LIST),$(MAKE) -C $(c) $@ && ) true
+	$(MAKE) -C $(D_FACTIONS) $@
 
 
 #==============================================================================
@@ -33,7 +30,7 @@ setup:
 .PHONY: build
 build: ## ビルドする
 build:
-	$(foreach c,$(D_LIST),$(MAKE) -C $(c) $@ && ) true
+	$(MAKE) -C $(D_FACTIONS) $@
 
 
 #==============================================================================
@@ -42,8 +39,8 @@ build:
 .PHONY: clean clean-all
 clean: ## セットアップで生成したファイル以外を全て削除します
 clean:
-	$(foreach c,$(D_LIST),$(MAKE) -C $(c) $@ && ) true
+	$(MAKE) -C $(D_FACTIONS) $@
 
 clean-all: ## 生成した全てのファイルを削除します
 clean-all:
-	$(foreach c,$(D_LIST),$(MAKE) -C $(c) $@ && ) true
+	$(MAKE) -C $(D_FACTIONS) $@

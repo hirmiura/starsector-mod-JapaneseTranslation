@@ -1,0 +1,380 @@
+# Created by json2pot.py.
+msgid ""
+msgstr ""
+"Project-Id-Version: default_ranks.json Version 0.96a-RC10\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-11-04 07:00+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "posts.academician.name"
+msgid "Academician"
+msgstr ""
+
+msgctxt "posts.activist.name"
+msgid "Activist"
+msgstr ""
+
+msgctxt "posts.administrator.name"
+msgid "Administrator"
+msgstr ""
+
+msgctxt "posts.military_administrator.name"
+msgid "Administrator"
+msgstr ""
+
+msgctxt "ranks.spaceAdmiral.name"
+msgid "Admiral"
+msgstr ""
+
+msgctxt "posts.agent.name"
+msgid "Agent"
+msgstr ""
+
+msgctxt "ranks.agent.name"
+msgid "Agent"
+msgstr ""
+
+msgctxt "posts.archcurate.name"
+msgid "Archcurate"
+msgstr ""
+
+msgctxt "posts.aristocrat.name"
+msgid "Aristocrat"
+msgstr ""
+
+msgctxt "posts.armsDealer.name"
+msgid "Arms Dealer"
+msgstr ""
+
+msgctxt "posts.baseCommander.name"
+msgid "Base Commander"
+msgstr ""
+
+msgctxt "ranks.brother.name"
+msgid "Brother"
+msgstr ""
+
+msgctxt "ranks.groundCaptain.name"
+msgid "Captain"
+msgstr ""
+
+msgctxt "ranks.spaceCaptain.name"
+msgid "Captain"
+msgstr ""
+
+msgctxt "ranks.spaceChief.name"
+msgid "Chief"
+msgstr ""
+
+msgctxt "ranks.chiefHighInspector.name"
+msgid "Chief High Inspector"
+msgstr ""
+
+msgctxt "posts.investigator.name"
+msgid "Chief Investigator"
+msgstr ""
+
+msgctxt "posts.citizen.name"
+msgid "Citizen"
+msgstr ""
+
+msgctxt "ranks.citizen.name"
+msgid "Citizen"
+msgstr ""
+
+msgctxt "ranks.clone.name"
+msgid "Clone"
+msgstr ""
+
+msgctxt "ranks.groundColonel.name"
+msgid "Colonel"
+msgstr ""
+
+msgctxt "posts.genericMilitary.name"
+msgid "Commander"
+msgstr ""
+
+msgctxt "ranks.spaceCommander.name"
+msgid "Commander"
+msgstr ""
+
+msgctxt "posts.commodities_agent.name"
+msgid "Commodities Agent"
+msgstr ""
+
+msgctxt "posts.communeLeader.name"
+msgid "Commune Leader"
+msgstr ""
+
+msgctxt "posts.criminal.name"
+msgid "Criminal"
+msgstr ""
+
+msgctxt "posts.shrinePriest.name"
+msgid "Curate Sacraria"
+msgstr ""
+
+msgctxt "ranks.deputyStarMarshal.name"
+msgid "Deputy Star Marshal"
+msgstr ""
+
+msgctxt "posts.intelligenceDirector.name"
+msgid "Director of Intelligence"
+msgstr ""
+
+msgctxt "posts.guardLeader.name"
+msgid "Director of Special Forces"
+msgstr ""
+
+msgctxt "posts.doctor.name"
+msgid "Doctor"
+msgstr ""
+
+msgctxt "ranks.elder.name"
+msgid "Elder"
+msgstr ""
+
+msgctxt "ranks.spaceEnsign.name"
+msgid "Ensign"
+msgstr ""
+
+msgctxt "posts.entrepreneur.name"
+msgid "Entrepreneur"
+msgstr ""
+
+msgctxt "posts.excubitorOrbis.name"
+msgid "Excubitor Orbis"
+msgstr ""
+
+msgctxt "posts.executive.name"
+msgid "Executive"
+msgstr ""
+
+msgctxt "ranks.father.name"
+msgid "Father"
+msgstr ""
+
+msgctxt "posts.fence.name"
+msgid "Fence"
+msgstr ""
+
+msgctxt "posts.fleetCommander.name"
+msgid "Fleet Commander"
+msgstr ""
+
+msgctxt "ranks.freedomFighter.name"
+msgid "Freedom Fighter"
+msgstr ""
+
+msgctxt "posts.freeAdmin.name"
+msgid "Freelance Administrator"
+msgstr ""
+
+msgctxt "posts.gangster.name"
+msgid "Gangster"
+msgstr ""
+
+msgctxt "ranks.groundGeneral.name"
+msgid "General"
+msgstr ""
+
+msgctxt "ranks.guardHighDeputyExecutor.name"
+msgid "Guard High Deputy Executor"
+msgstr ""
+
+msgctxt "posts.guildMaster.name"
+msgid "Guildmaster"
+msgstr ""
+
+msgctxt "posts.hacker.name"
+msgid "Hacker"
+msgstr ""
+
+msgctxt "posts.hermit.name"
+msgid "Hermit"
+msgstr ""
+
+msgctxt "posts.factionLeader.name"
+msgid "High Commander"
+msgstr ""
+
+msgctxt "ranks.factionLeader.name"
+msgid "High Commander"
+msgstr ""
+
+msgctxt "posts.initiate.name"
+msgid "Initiate"
+msgstr ""
+
+msgctxt "posts.investor.name"
+msgid "Investor"
+msgstr ""
+
+msgctxt "ranks.knightCaptain.name"
+msgid "Knight-Captain"
+msgstr ""
+
+msgctxt "ranks.groundLieutenant.name"
+msgid "Lieutenant"
+msgstr ""
+
+msgctxt "ranks.spaceLieutenant.name"
+msgid "Lieutenant"
+msgstr ""
+
+msgctxt "ranks.groundMajor.name"
+msgid "Major"
+msgstr ""
+
+msgctxt "posts.medicalSupplier.name"
+msgid "Medical Supplier"
+msgstr ""
+
+msgctxt "posts.mercenary.name"
+msgid "Mercenary Officer"
+msgstr ""
+
+msgctxt "posts.merchant.name"
+msgid "Merchant"
+msgstr ""
+
+msgctxt "ranks.mother.name"
+msgid "Mother"
+msgstr ""
+
+msgctxt "posts.novice.name"
+msgid "Novice"
+msgstr ""
+
+msgctxt "posts.officer.name"
+msgid "Officer"
+msgstr ""
+
+msgctxt "posts.officer_for_hire.name"
+msgid "Officer (available for hire)"
+msgstr ""
+
+msgctxt "posts.outpostCommander.name"
+msgid "Outpost Commander"
+msgstr ""
+
+msgctxt "posts.patrolCommander.name"
+msgid "Patrol Commander"
+msgstr ""
+
+msgctxt "posts.pensioner.name"
+msgid "Pensioner"
+msgstr ""
+
+msgctxt "posts.pilgrim.name"
+msgid "Pilgrim"
+msgstr ""
+
+msgctxt "ranks.pilot.name"
+msgid "Pilot"
+msgstr ""
+
+msgctxt "posts.portmaster.name"
+msgid "Portmaster"
+msgstr ""
+
+msgctxt "ranks.groundPrivate.name"
+msgid "Private"
+msgstr ""
+
+msgctxt "posts.provost.name"
+msgid "Provost"
+msgstr ""
+
+msgctxt "posts.supplyOfficer.name"
+msgid "Quartermaster"
+msgstr ""
+
+msgctxt "posts.scientist.name"
+msgid "Scientist"
+msgstr ""
+
+msgctxt "posts.seniorExecutive.name"
+msgid "Senior Executive"
+msgstr ""
+
+msgctxt "ranks.groundSergeant.name"
+msgid "Sergeant"
+msgstr ""
+
+msgctxt "posts.shady.name"
+msgid "Shady Character"
+msgstr ""
+
+msgctxt "ranks.sister.name"
+msgid "Sister"
+msgstr ""
+
+msgctxt "posts.minorCriminal.name"
+msgid "Small-time Criminal"
+msgstr ""
+
+msgctxt "posts.smuggler.name"
+msgid "Smuggler"
+msgstr ""
+
+msgctxt "ranks.spaceMarshal.name"
+msgid "Space Marshal"
+msgstr ""
+
+msgctxt "posts.spacer.name"
+msgid "Spacer"
+msgstr ""
+
+msgctxt "ranks.spaceSailor.name"
+msgid "Spacer"
+msgstr ""
+
+msgctxt "posts.specialAgent.name"
+msgid "Special Agent"
+msgstr ""
+
+msgctxt "ranks.specialAgent.name"
+msgid "Special Agent"
+msgstr ""
+
+msgctxt "posts.stationCommander.name"
+msgid "Station Commander"
+msgstr ""
+
+msgctxt "posts.supplyManager.name"
+msgid "Supply Manager"
+msgstr ""
+
+msgctxt "posts.synodSubcurate.name"
+msgid "Synod Subcurate"
+msgstr ""
+
+msgctxt "posts.terrorist.name"
+msgid "Terrorist"
+msgstr ""
+
+msgctxt "ranks.terrorist.name"
+msgid "Terrorist"
+msgstr ""
+
+msgctxt "posts.trader.name"
+msgid "Trader"
+msgstr ""
+
+msgctxt "posts.unknown.name"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "ranks.unknown.name"
+msgid "Unknown"
+msgstr ""
+
+msgctxt "posts.warlord.name"
+msgid "Warlord"
+msgstr ""
