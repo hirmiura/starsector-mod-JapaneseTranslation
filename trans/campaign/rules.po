@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-03 15:06+0900\n"
+"PO-Revision-Date: 2023-11-03 21:37+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -4638,6 +4638,11 @@ msgid ""
 "OR\n"
 "\"I need a shipment of $proCom_commodityName.\""
 msgstr ""
+"「 $proCom_commodityName を調達する必要があります」\n"
+"OR\n"
+"「 $proCom_commodityName の配達をお願いします」\n"
+"OR\n"
+"「 $proCom_commodityName の発送が必要です」"
 
 #, java-format
 msgctxt "bairdIntro7:text"
@@ -5463,7 +5468,7 @@ msgstr ""
 #, java-format
 msgctxt "ucbBlurb:text"
 msgid "\"I've got a list of targets that need killing,\" $personName says nonchalantly. \"You could earn yourself some good credits with one of these jobs.\""
-msgstr ""
+msgstr "「殺す必要のあるターゲットのリストを手に入れた」 $personName はさり気なく言う。「これらの仕事でよいクレジットを稼げる」"
 
 #, java-format
 msgctxt "lppVolturnCurateConfirmed:text"
@@ -8417,7 +8422,7 @@ msgstr ""
 #, java-format
 msgctxt "taboBlurb:text"
 msgid "\"STRATCOM needs an irregular force to perform a tactical bombardment of $tabo_marketName; I thought you might make a good candidate to run this op.\""
-msgstr ""
+msgstr "「STRATCOMは $tabo_marketName への戦術的な爆撃を行うために非正規の部隊を必要としています。私はあなたがこの作戦を実行するのに良い候補者になると思いました」"
 
 #, java-format
 msgctxt "dhiBlurb:text"
@@ -9452,7 +9457,7 @@ msgstr ""
 #, java-format
 msgctxt "proComBlurbAristo:text"
 msgid "\"The family decided that I must 'demonstrate initiative' by procuring a cargo of $proCom_commodityName. Perhaps I could pay you to solve this little conundrum.\""
-msgstr ""
+msgstr "「ファミリーは $proCom_commodityName を調達するこで『イニシアチブを示す』必要があると判断した。 おそらく、私はこの小さな難問を解決するためにあなたにお金を払うことができるだろう」"
 
 #, java-format
 msgctxt "psbBlurb:text"
@@ -14502,12 +14507,12 @@ msgstr ""
 #, java-format
 msgctxt "psbBlurbBar:text"
 msgid "A $psb_manOrWoman is motioning to a news feed, haranguing an officer in the local navy patrol uniform about the increased pirate raids."
-msgstr ""
+msgstr "$psb_manOrWoman が海賊の襲撃が増加しているというニュースフィードについて、地元海軍のパトロール服を着た士官に大声で抗議している。"
 
 #, java-format
 msgctxt "ucbBlurbBar:text"
 msgid "A $ucb_manOrWoman occupies a booth on the back wall, a pair of goons hidden in shadow but for the glow of their augmented eyes. You watch an obvious merc-slash-pirate approach for an exchange of words and tap of datapads. Farming out underworld hits?"
-msgstr ""
+msgstr "$ucb_manOrWoman が後壁のブースを占拠している。影の中には一対の暴漢がいるのが、彼らのオーグメントされた眼球の光でわかる。言葉を交わしデータパッドをタップするという、傭兵と海賊のアプローチが見られる。裏社会のヒット作を開拓するか？"
 
 #, java-format
 msgctxt "kpRemnantTrophyDesc:text"
@@ -14651,7 +14656,7 @@ msgstr ""
 #, java-format
 msgctxt "proComBlurbBar:text"
 msgid "A handful of commodity traders downing caffeine-spiked drinks seems to be giving a $proCom_manOrWoman some disappointing news."
-msgstr ""
+msgstr "カフェインスパイクな飲み物を飲んでいる一握りの商品トレーダーが $proCom_manOrWoman に残念なニュースを伝えているようだ。"
 
 #, java-format
 msgctxt "gaOpPlanetRogueAICont2:text"
@@ -14664,7 +14669,7 @@ msgstr ""
 #, java-format
 msgctxt "taboBlurbBar:text"
 msgid "A high-ranking officer in crisp uniform meets your eyes from a private booth. Their adjutant approaches you, \"My superior would consult with you on a matter of some discretion. $PlayerSirOrMadam. At your leisure.\""
-msgstr ""
+msgstr "個人のブースから、しゃれた軍服を着た高官があなたの目に見える。彼らの副官があなたに近づいてくる。「私の上司は、ある程度の裁量の問題についてあなたと相談するでしょう、 $PlayerSirOrMadam 。あなたのご都合のよいときに」"
 
 #, java-format
 msgctxt "PKPathRecoverMission1:text"
@@ -14949,7 +14954,7 @@ msgstr ""
 #, java-format
 msgctxt "proComBlurbBarUnderworld:text"
 msgid "A pack of seedy-looking traders passing around a narco-stick seem to give a $proCom_manOrWoman disappointing news."
-msgstr ""
+msgstr "ヤクのスティックを回している怪しげなトレーダーの集団が $proCom_manOrWoman に残念なニュースを伝えているようだ。"
 
 #, java-format
 msgctxt "soeMeetCaspianStart1:text"
