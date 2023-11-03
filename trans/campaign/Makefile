@@ -45,17 +45,16 @@ merge-po: rules.edit.po rules.po
 rules.edit.po:: rules.pot
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ -f "$@" ]] ; then \
-		msgmerge --lang=ja --no-fuzzy-matching --sort-output --backup=t -U $@ $< ; \
+		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $< ; \
 	else \
-		msginit --no-translator -l ja_JP.utf8 -i $< -o - \
-		| msgcat --sort-output -o $@ - ; \
+		msginit --no-translator -l ja_JP.utf8 -i $< -o $@ ; \
 	fi
 
 rules.edit.po::
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	$(eval FN := rules.po)
 	if [[ -f "$(FN)" ]] ; then \
-		msgcat --use-first --sort-output -o $@ $@ $(FN); \
+		msgcat --use-first -o $@ $@ $(FN); \
 	fi \
 
 rules.po: rules.edit.po
