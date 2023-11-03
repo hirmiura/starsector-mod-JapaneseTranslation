@@ -77,6 +77,17 @@ files = [
 ]
 
 [[package]]
+name = "dirtyjson"
+version = "1.0.8"
+description = "JSON decoder for Python that can extract data from the muck"
+optional = false
+python-versions = "*"
+files = [
+    {file = "dirtyjson-1.0.8-py3-none-any.whl", hash = "sha256:125e27248435a58acace26d5c2c4c11a1c0de0a9c5124c5a94ba78e517d74f53"},
+    {file = "dirtyjson-1.0.8.tar.gz", hash = "sha256:90ca4a18f3ff30ce849d100dcf4a003953c79d3a2348ef056f1d9c22231a25fd"},
+]
+
+[[package]]
 name = "flake8"
 version = "6.1.0"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -135,6 +146,20 @@ colors = ["colorama (>=0.4.3)"]
 pipfile-deprecated-finder = ["pip-shims (>=0.5.2)", "pipreqs", "requirementslib"]
 plugins = ["setuptools"]
 requirements-deprecated-finder = ["pip-api", "pipreqs"]
+
+[[package]]
+name = "jsonpath-ng"
+version = "1.6.0"
+description = "A final implementation of JSONPath for Python that aims to be standard compliant, including arithmetic and binary comparison operators and providing clear AST for metaprogramming."
+optional = false
+python-versions = "*"
+files = [
+    {file = "jsonpath-ng-1.6.0.tar.gz", hash = "sha256:5483f8e9d74c39c9abfab554c070ae783c1c8cbadf5df60d561bc705ac68a07e"},
+    {file = "jsonpath_ng-1.6.0-py3-none-any.whl", hash = "sha256:6fd04833412c4b3d9299edf369542f5e67095ca84efa17cbb7f06a34958adc9f"},
+]
+
+[package.dependencies]
+ply = "*"
 
 [[package]]
 name = "mccabe"
@@ -254,6 +279,17 @@ files = [
 [package.extras]
 dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
+
+[[package]]
+name = "ply"
+version = "3.11"
+description = "Python Lex & Yacc"
+optional = false
+python-versions = "*"
+files = [
+    {file = "ply-3.11-py2.py3-none-any.whl", hash = "sha256:096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce"},
+    {file = "ply-3.11.tar.gz", hash = "sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3"},
+]
 
 [[package]]
 name = "pycodestyle"
@@ -448,4 +484,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "5954bb6a15d8987a1e2560ca6a3fab301c6c6796ffccf563061667a702fda683"
+content-hash = "b665c539970acdb76daf5a07a715e064f77a7ae630fd505787e1d28b3500490a"
