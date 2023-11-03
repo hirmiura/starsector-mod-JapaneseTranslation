@@ -212,14 +212,29 @@ def generate_pot(config: ConfCsv2Pot) -> str:
                         if ctxt:
                             pottext.append(f'msgctxt "{ctxt}"')
                         # 文章
-                        text = re.sub(r"(\r\n|\n)", r"\\n", row[col])
-                        text = re.sub('"', r"\"", text)
+                        text = escape(row[col])
                         pottext.extend([f'msgid "{text}"', 'msgstr ""', ""])
                 line_num += 1
 
     # テキストを返す
     output_text = "\n".join(pottext)
     return output_text
+
+
+CRE_CRLF = re.compile(r"(\r\n|\n)")
+ESC_TRANS = str.maketrans(
+    {
+        "\\": "\\\\",
+        '"': r"\"",
+    }
+)
+
+
+def escape(text: str) -> str:
+    assert text is not None
+    text = CRE_CRLF.sub(r"\\n", text)
+    text = text.translate(ESC_TRANS)
+    return text
 
 
 def main() -> int:
