@@ -15,6 +15,7 @@ from pathlib import Path
 from typing import Optional
 
 from pydantic import BaseModel
+from x2pot_conf import X2PotConf, X2PotConfItem
 
 DEFAULT_CONFIG_FILE = "csv2pot.toml"
 TZ = timezone(timedelta(hours=+9), "JST")
@@ -35,14 +36,10 @@ def pargs() -> argparse.Namespace:
     return args
 
 
-class ConfCsv2Pot(BaseModel):
+class ConfCsv2Pot(X2PotConf):
     """csv2potの設定"""
 
-    input_files: list[str] = []
     has_header: bool = True
-    output_file: str = ""
-
-    pid_version: str = ""  # Project-Id-Version
 
     ctxt_id: Optional[str] = None  # msgctxtに追加する文字列
     ctxt_id_column: Optional[int] = 0  # msgctxtに追加する文字列に「列」を使用する場合の列番号
@@ -95,7 +92,7 @@ class ConfCsv2Pot(BaseModel):
         return ctxt
 
 
-class ConfCsv2PotItem(BaseModel):
+class ConfCsv2PotItem(X2PotConfItem):
     """csv2pot設定中のリストアイテム"""
 
     column: int = 0  # 抽出する列番号
@@ -170,8 +167,9 @@ def generate_pot(config: ConfCsv2Pot) -> str:
 
     # potヘッダを生成する
     pottext = ["# Created by csv2pot.py.", 'msgid ""', 'msgstr ""']
-    if config.pid_version is not None:
-        pottext.append(f'"Project-Id-Version: {config.pid_version}\\n"')
+    pidv_header = config.pid_version_header
+    if pidv_header:
+        pottext.append(pidv_header)
     dt_now = datetime.now(TZ)
     pottext.extend(
         [
@@ -202,9 +200,9 @@ def generate_pot(config: ConfCsv2Pot) -> str:
                         # リファレンス
                         pottext.append(f"#: {file}:{reader.line_num}")
                         # フラグ
-                        flags: Optional[str] = ",".join(extract.flags) if extract.flags else None
-                        if flags is not None:
-                            pottext.append(f"#, {flags}")
+                        flags_line = extract.flags_line
+                        if flags_line:
+                            pottext.append(flags_line)
                         # コンテキスト
                         ctxt = config.get_ctxt(col, row, headers)
                         if ctxt:
