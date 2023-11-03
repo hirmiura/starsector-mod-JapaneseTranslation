@@ -27,6 +27,10 @@
    - modの生成
 6. `JapaneseTranslation-x.y.z.zip` が完成品です。
 
+## Wiki
+
+雑多な情報は[こちら](https://github.com/hirmiura/starsector-mod-JapaneseTranslation/wiki)です。
+
 ## ライセンス
 
 [MIT License] としています。
