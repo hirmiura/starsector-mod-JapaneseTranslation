@@ -187,13 +187,11 @@ def generate_pot(config: ConfCsv2Pot) -> str:
     for file in config.input_files:
         with open(file, newline="", encoding="cp1252") as f:  # WARNING: Windows-1252 で読み込む
             reader = csv.reader(f)
-            line_num = 1
 
             # ヘッダがあれば読み込む
             headers = None
             if config.has_header:
                 headers = next(reader)
-                line_num += 1
 
             # 行を読み込む
             for row in reader:
@@ -202,7 +200,7 @@ def generate_pot(config: ConfCsv2Pot) -> str:
                     col = extract.column
                     if row_len > col and row[col].strip():
                         # リファレンス
-                        pottext.append(f"#: {file}:{line_num}")
+                        pottext.append(f"#: {file}:{reader.line_num}")
                         # フラグ
                         flags: Optional[str] = ",".join(extract.flags) if extract.flags else None
                         if flags is not None:
@@ -212,14 +210,28 @@ def generate_pot(config: ConfCsv2Pot) -> str:
                         if ctxt:
                             pottext.append(f'msgctxt "{ctxt}"')
                         # 文章
-                        text = re.sub(r"(\r\n|\n)", r"\\n", row[col])
-                        text = re.sub('"', r"\"", text)
+                        text = escape(row[col])
                         pottext.extend([f'msgid "{text}"', 'msgstr ""', ""])
-                line_num += 1
 
     # テキストを返す
     output_text = "\n".join(pottext)
     return output_text
+
+
+CRE_CRLF = re.compile(r"(\r\n|\n)")
+ESC_TRANS = str.maketrans(
+    {
+        "\\": "\\\\",
+        '"': r"\"",
+    }
+)
+
+
+def escape(text: str) -> str:
+    assert text is not None
+    text = text.translate(ESC_TRANS)
+    text = CRE_CRLF.sub(r"\\n", text)
+    return text
 
 
 def main() -> int:
