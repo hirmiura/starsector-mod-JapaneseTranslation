@@ -232,8 +232,8 @@ ESC_TRANS = str.maketrans(
 
 def escape(text: str) -> str:
     assert text is not None
-    text = CRE_CRLF.sub(r"\\n", text)
     text = text.translate(ESC_TRANS)
+    text = CRE_CRLF.sub(r"\\n", text)
     return text
 
 
