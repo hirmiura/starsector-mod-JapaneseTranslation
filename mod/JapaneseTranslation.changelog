@@ -1,3 +1,7 @@
+Version 0.1.2
+ * campaign/rules.csv の script 列を翻訳に追加した
+   * AddBarEvent を翻訳
+
 Version 0.1.1
  * campaign/rules.csv の翻訳を進めた
  * hullmods/hull_mods.csv をほぼ翻訳した
