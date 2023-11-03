@@ -14,7 +14,6 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Optional
 
-from pydantic import BaseModel
 from x2pot_conf import X2PotConf, X2PotConfItem
 
 DEFAULT_CONFIG_FILE = "csv2pot.toml"
