@@ -2,13 +2,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
+"PO-Revision-Date: 2023-11-04 01:24+0900\n"
+"Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2023-11-03 23:04+0900\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #, java-format
@@ -27512,27 +27512,27 @@ msgstr ""
 #, java-format
 msgctxt "lkeAskChalcedonBarPrompt:script"
 msgid "AddBarEvent LKEchalcedon_barEvent \"Find someone well-connected to bribe for information on Bornanew\" \"There are many here who make 'arrangements' between Pathers and the black market merchants, mercenaries, and bounty hunters who might have difficulty openly dealing with them. Perhaps one can get your information on Jethro Bornanew.\""
-msgstr ""
+msgstr "AddBarEvent LKEchalcedon_barEvent \"Bornanewに関する情報を得るために買収するに値する充分なコネのある人物を見つける\" \"ここには、パサーと闇商人、傭兵、賞金稼ぎとの間で「取り決め」をしている人がたくさんいる。Jethro Bornanewについての情報を得ることができるでしょう。\""
 
 #, java-format
 msgctxt "LKEaskMazalotBarPrompt:script"
 msgid "AddBarEvent LKEmazalot_barEvent \"Find someone well-connected to bribe for information on Bornanew\" \"There are those who make 'arrangements' between Pathers and the black marketeers and mercs who might have difficulty openly dealing with them. Perhaps one can provide a lead on Bornanew.\""
-msgstr ""
+msgstr "AddBarEvent LKEmazalot_barEvent \"Bornanewに関する情報を得るために買収するに値する充分なコネのある人物を見つける\" \"ここには、パサーと闇商人、傭兵、賞金稼ぎとの間で「取り決め」をしている人がたくさんいるが、彼らと公然と取引するのは難しいかもしれない。おそらく誰かがBornanewへの手がかりを提供できるだろう。\""
 
 #, java-format
 msgctxt "anhCantinaStartInBar:script"
 msgid "AddBarEvent anh_cantinaAsk \"See what the old man wants\" \"You see an old man followed by a kid and a chunky robot trying to talk to some of the seedier-looking space captains.\""
-msgstr ""
+msgstr "AddBarEvent anh_cantinaAsk \"老人が何を欲しているのか見る\" \"老人の後ろに子供とずんぐりしたロボットが続き、より怪しげな外見の宇宙船長たちと話そうとしているのが見える。\""
 
 #, java-format
 msgctxt "gaMeetHegLieutenantOnCoatl:script"
 msgid "AddBarEvent coatlOfficer_barEvent \"Take the lieutenant up on that offer of a pint\" \"At the bar you see the lieutenant you met at the Galatia Academy. You recall that he offered to buy you a pint if you ever made it to Coatl.\""
-msgstr ""
+msgstr "AddBarEvent coatlOfficer_barEvent \"中尉からの1パイントのビールの申し出を受ける。\" \"あなたはバーでガラティアアカデミーで出会った中尉に会う。Coatlに行ったことがあるなら、彼があなたに1パインと奢ると申し出たことを思い出させる。\""
 
 #, java-format
 msgctxt "gaATGAskEpiphanyBarPrompt:script"
 msgid "AddBarEvent gaATGEpiphany_barEvent \"Ask around about Brother Cotton\" \"You could try asking if anyone knows anything about Brother Cotton.\""
-msgstr ""
+msgstr "AddBarEvent gaATGEpiphany_barEvent \"ブラザーコットンについて尋ねて回る\" \"ブラザーコットンについて何か知っている人がいないか尋ねてみる。\""
 
 #, java-format
 msgctxt "gaATGmeetCottonAvoid:script"
@@ -27540,31 +27540,33 @@ msgid ""
 "AddBarEvent gaATG_meetCottonStart2 \"Go to the backgroom and meet Brother Cotton.\" \"The Pather heavies watch you openly and obviously, full cups of tea going cold between them.\"\n"
 "BarCMD showOptions"
 msgstr ""
+"AddBarEvent gaATG_meetCottonStart2 \"奥の部屋に行き、ブラザーコットンと会う。\" \"パサーの重鎮たちは、あなたを公然と、そして明らかに見ています。彼らの間で一杯のお茶が冷めています。」\"\n"
+"BarCMD showOptions"
 
 #, java-format
 msgctxt "gaFCAskAroundKapteynBarStart:script"
 msgid "AddBarEvent gaFCKapteyn_barEvent \"Ask around about Scylla Coureuse\" \"It's a shot in the dark, but you could try asking if anyone here knows anything about Scylla Coureuse.\""
-msgstr ""
+msgstr "AddBarEvent gaFCKapteyn_barEvent \"Scylla Coureuseについて尋ねて回る。\" \"それは盲撃ちだが、ここにいる誰かがScylla Coureuseについて何か知っているか尋ねてみてもいい。\""
 
 #, java-format
 msgctxt "gaFCAskAroundLaicailleBarStart:script"
 msgid "AddBarEvent gaFCLaicaille_barEvent \"Ask around about Scylla Coureuse\" \"It's a shot in the dark, but you could try asking if anyone here knows anything about Scylla Coureuse.\""
-msgstr ""
+msgstr "AddBarEvent gaFCLaicaille_barEvent \"Scylla Coureuseについて尋ねて回る。\" \"それは盲撃ちだが、ここにいる誰かがScylla Coureuseについて何か知っているか尋ねてみてもいい。\""
 
 #, java-format
 msgctxt "gaFCAskAroundLaicailleBarStartB:script"
 msgid "AddBarEvent gaFCLaicaille_barEvent2 \"Ask the technicians what's going on\" \"A couple technicians are griping about strange transmissions interfering with nav transponders.\""
-msgstr ""
+msgstr "AddBarEvent gaFCLaicaille_barEvent2 \"何が起こっているのか技術者に尋ねる\" \"何人かの技術者が、ナビゲーション・トランスポンダに干渉する奇妙な信号について不満を漏らしている。\""
 
 #, java-format
 msgctxt "gaFCAskAroundFikenhildBarStart:script"
 msgid "AddBarEvent gaFCfikenhild_barEvent \"Ask around about Scylla Coureuse\" \"It's a shot in the dark, but you could try asking if anyone here knows Scylla Coureuse.\""
-msgstr ""
+msgstr "AddBarEvent gaFCfikenhild_barEvent \"Scylla Coureuseについて尋ねて回る。\" \"それは盲撃ちだが、ここにいる誰かがScylla Coureuseを知っているか尋ねてみてもいい。\""
 
 #, java-format
 msgctxt "gaPZKeliseBarEventAdd:script"
 msgid "AddBarEvent gaPZ_keliseBarEvent \"Ask around about Kelise Astraia\" \"\""
-msgstr ""
+msgstr "AddBarEvent gaPZ_keliseBarEvent \"Kelise Astraiaについて尋ねて回る\" \"\""
 
 #, java-format
 msgctxt "goToTheGABarEventOption:script"
@@ -27574,17 +27576,17 @@ msgstr "AddBarEvent goToGA_barEvent \"著名な学者と話す。\" \"著名で�
 #, java-format
 msgctxt "jabrBarEventAdd:script"
 msgid "AddBarEvent jabr_barEvent \"Talk to the patron who ordered 'The Prisoner'\" \"A patron loudly orders something called 'The Prisoner' and beams a smile at you.\""
-msgstr ""
+msgstr "AddBarEvent jabr_barEvent \"「囚人」と注文したパトロンと話す\" \"パトロンは「囚人」と呼ばれるものを大声で注文し、あなたに微笑みかけた。\""
 
 #, java-format
 msgctxt "lppHesperusBarEventAddA:script"
 msgid "AddBarEvent lpp_hesperusShrine_barEvent \"Find someone bribable in local traffic control\" \"A motley crowd of distinctly non-Luddic spacer officers drink and talk. They can't all be honest traders. One of them might know how to sneak a shuttle past traffic control...\""
-msgstr ""
+msgstr "AddBarEvent lpp_hesperusShrine_barEvent \"地元の交通管制で買収できる人を見つける\" \"明らかにラディックではない航宙士官の雑多な群衆が、酒を飲み話をする。彼ら全員が正直なトレーダーであるとは限らない。彼らの1人は交通管制をすり抜けてシャトルを忍び込ませる方法を知っているかもしれない……\""
 
 #, java-format
 msgctxt "lppHesperusBarEventAddB:script"
 msgid "AddBarEvent lpp_hesperusShrine_barEvent \"Find someone bribable in local traffic control\" \"A motley crowd of distinctly non-Luddic spacer officers drink and talk. They can't all be honest traders. One of them might know how to sneak a shuttle past traffic control...\""
-msgstr ""
+msgstr "AddBarEvent lpp_hesperusShrine_barEvent \"地元の交通管制で買収できる人を見つける\" \"明らかにラディックではない航宙士官の雑多な群衆が、酒を飲み話をする。彼ら全員が正直なトレーダーであるとは限らない。彼らの1人は交通管制をすり抜けてシャトルを忍び込ませる方法を知っているかもしれない……\""
 
 #, java-format
 msgctxt "smugPostAccept:script"
