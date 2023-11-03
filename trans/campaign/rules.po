@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-02 19:37+0900\n"
+"PO-Revision-Date: 2023-11-03 15:06+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -888,7 +888,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComPickupGreeting:text"
 msgid "\"Ah, it's $playerName isn't it? You must be here to pick up $cheapCom_quantity units of $cheapCom_commodityName for $cheapCom_pricePerUnit credits per unit,\" $heOrShe taps at a TriPad, nodding, \"We can get you set right up if you're prepared to receive the cargo now.\""
-msgstr "\"あぁ $playerName ですね？ あなたは、ここまで $cheapCom_quantity ユニットの $cheapCom_commodityName を ユニットあたり $cheapCom_pricePerUnit クレジットで受け取りに行かなければなりません\" $heOrShe は TriPad をタップし、うなずく、 \"今すぐ貨物を受け取ることが出来るのであれば、すぐに提供できます。\""
+msgstr "「あぁ $playerName ですね？ あなたは、ここまで $cheapCom_quantity ユニットの $cheapCom_commodityName を ユニットあたり $cheapCom_pricePerUnit クレジットで受け取りに行かなければなりません」 $heOrShe は TriPad をタップし、うなずく、 「今すぐ貨物を受け取ることが出来るのであれば、すぐに提供できます」"
 
 #, java-format
 msgctxt "sdtuUmbraTrickVIPOptionG2:text"
@@ -1011,6 +1011,11 @@ msgid ""
 "\n"
 "\"It doesn't get talked about much, at least in the Hegemony. But even the Academy didn't push as hard as they could have for reparations... \" $HeOrShe trails off, then looks up. \"Anyway, that's in the past.\" "
 msgstr ""
+"「ああ」 $hisOrHer はあたりを見回すが、不快な話題を避ける方法が見つからない。\n"
+"\n"
+"「それは第2次AI戦争の間のことでした。12、13サイクル前ですか？ガラテヤ・アカデミーの研究船団が、Tia-Taxet星系の秘密のヘゲモニー・プロジェクトに出くわしました。戦争パラノイア、フェーズレイダー、そして一般的なハイパーウェーブ通信の崩壊の間で…」、$heOrShe は $hisOrHer の目を閉じ、「ヘゲモニーが攻撃してきました。アカデミーの船は生き残れませんでした。信じられないほどの損失です。生存者もいました。実際、私はSyrinxでその1人と話しました。彼らは戦争の残りの間、刑務所に入れられました。」\n"
+"\n"
+"「少なくともヘゲモニーではあまり話題にならない。しかし、アカデミーでさえ、賠償のためにできる限りの努力をしなかった…」 $HeOrShe は後ずさりして上を見上げる。「とにかく、それは過去のことだ」"
 
 #, java-format
 msgctxt "gaFCFikenhildAdonyaB2:text"
@@ -1384,7 +1389,7 @@ msgstr ""
 #, java-format
 msgctxt "academyFleetConvPay1:text"
 msgid "\"Any time,\" $heOrShe says, pleased to pass on some spacer wisdom. \"Speaking of time, I think it's about mine to burn on. Safe travels, captain.\""
-msgstr ""
+msgstr "「いつでも」と $heOrShe は言い、スペーサーの知恵を喜んで伝えた。「時間と言えば、それは私のものだと思う。安全な旅を、キャプテン。」"
 
 #, java-format
 msgctxt "CMSNTextWelcomePart2_default:text"
@@ -1510,7 +1515,7 @@ msgstr ""
 #, java-format
 msgctxt "academyFleetConvPay2:text"
 msgid "\"As you will,\" $heOrShe says, rolling $hisOrHer eyes. \"I guess you know where you're going, then. A good day to you, captain,\" $heOrShe concludes, intentionally using a dirtsider farewell."
-msgstr ""
+msgstr "「お好きなように」と $heOrShe はあざけりながら言う。「では、あなたはどこへ行くのか知っていると思います。良い一日をお過ごしください、キャプテン」と $heOrShe は意図的にダートサイダーの別れを利用して締めくくた。"
 
 #, java-format
 msgctxt "sdtuMercReactStronger:text"
@@ -4369,7 +4374,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComBlurb:text"
 msgid "\"I have a large stockpile of surplus $cheapCom_commodityName available at a low price.\""
-msgstr "\"私は余剰の $cheapCom_commodityName を大量に備蓄しており、低価格で提供できる。\""
+msgstr "「私は余剰の $cheapCom_commodityName を大量に備蓄しており、低価格で提供できる。」"
 
 #, java-format
 msgctxt "PZIntroHub1bSel:text"
@@ -4593,7 +4598,7 @@ msgstr ""
 #, java-format
 msgctxt "ddroBlurb1:text"
 msgid "\"I need a package delivered. The destination must be kept a secret. Simple.\""
-msgstr "\"荷物を届けてほしい。行き先は秘密にしてくれ。簡単だろ\""
+msgstr "「荷物を届けてほしい。行き先は秘密にしてくれ。簡単だろ」"
 
 #, java-format
 msgctxt "cpmOfferTextContact:text"
@@ -4622,7 +4627,7 @@ msgstr ""
 #, java-format
 msgctxt "cpmBlurbUW:text"
 msgid "\"I need someone I can count on to arrange for a colonial producer of $cpm_commodityName over a period of several cycles.\""
-msgstr "\" $cpm_commodityName のコロニー生産者を数サイクルに渡って手配してくれる頼れる人が欲しい。\""
+msgstr "「 $cpm_commodityName のコロニー生産者を数サイクルに渡って手配してくれる頼れる人が欲しい」"
 
 #, java-format
 msgctxt "proComBlurb:text"
@@ -5191,9 +5196,9 @@ msgid ""
 "OR\n"
 "\"I'm looking to invest in a colony which can produce $cpm_commodityName reliably for several cycles.\""
 msgstr ""
-"\" $cpm_commodityName の信頼できる植民地生産者と、数サイクルにわたる経済協定を結びたい。\"\n"
+"「 $cpm_commodityName の信頼できる植民地生産者と、数サイクルにわたる経済協定を結びたい」\n"
 "OR\n"
-"\" $cpm_commodityName を数サイクルにわたって確実に生産できるコロニーに投資したい。\""
+"「 $cpm_commodityName を数サイクルにわたって確実に生産できるコロニーに投資したい」"
 
 #, java-format
 msgctxt "CBDeserter:text"
@@ -6156,7 +6161,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComTextLocal:text"
 msgid "\"It would come out to,\" $heOrShe squints at $hisOrHer TriPad, \"There- $cheapCom_quantity units of $cheapCom_commodityName for $cheapCom_pricePerUnit per unit. If you can help me clear out this warehouse, it'd do me a real favor.\""
-msgstr "\"次のようになります\" $heOrShe は $hisOrHer TriPad に目を細める。 \" $cheapCom_quantity ユニットの $cheapCom_commodityName が、ユニットあたり $cheapCom_pricePerUnit であります。 この倉庫を片付けるのを手伝ってくれたら、本当に助かります\""
+msgstr "「次のようになります」 $heOrShe は $hisOrHer TriPad に目を細める。 「 $cheapCom_quantity ユニットの $cheapCom_commodityName が、ユニットあたり $cheapCom_pricePerUnit であります。 この倉庫を片付けるのを手伝ってくれたら、本当に助かります」"
 
 #, java-format
 msgctxt "dcomOfferTextBar2:text"
@@ -7706,6 +7711,9 @@ msgid ""
 "\n"
 "\"Then,\" $heOrShe says with emphasis, \"You get jobs from those big-money big-influence folks.\""
 msgstr ""
+"「ああ、もういい。トップレートでもボトムでもない。ちょっとしたチップをあげよう」と $heOrShe はウィンクする。「本当の報酬は、あなたが作るコネクションです。あなたは、あらゆる派閥の大物たちを、彼らの最高で聡明な人たちをガラテヤ・アカデミーに送りたいと思っています。私は個人的に『キャプテンとして、私はあなたのお子さんの絶対的な安全を守ります』などと自己紹介します。彼らはそれを気に入っています」\n"
+"\n"
+"「そうすれば、お金持ちで影響力のある人たちから仕事を得ることができる」と $heOrShe は強調する。"
 
 #, java-format
 msgctxt "gaFCScavengerBribe1:text"
@@ -8792,6 +8800,9 @@ msgid ""
 "\n"
 "\"Furthermore, subfactions within the League could not call an open vote on a matter so delicate as this. We merely resolved their political questions by other means,\" the provost tips her head toward you, acknowledging your role."
 msgstr ""
+"「彼らの階級の中には、そうな人もいる」と、Bairdの顔にかすかな微笑みが浮かんでいる。「しかし、これが前進する最善の方法であることを理解している人もいる。連盟はセクター全体から最も優秀で聡明な人を引き出すことはできない。ガラテヤ・アカデミーはできる。彼らは我々が行っている理論的研究と実験のインフラを持っていない。武器、軍艦、重工業、同盟国への契約など、艦隊の装備に関するすべてが実際的な問題である」\n"
+"\n"
+"「さらに、連盟内の小派閥は、これほどデリケートな問題について公開投票を行うことができなかった。私たちは他の手段で彼らの政治的問題を解決しただけだ」と、学長はあなたの役割を認めて、あなたに頭を傾ける。"
 
 #, java-format
 msgctxt "PKPatherAskWhyYouNot:text"
@@ -8946,7 +8957,7 @@ msgstr ""
 #, java-format
 msgctxt "cheapComPickupOptionSel:text"
 msgid "\"Thank you for taking this off my hands.\""
-msgstr "\"これを受け取ってくれてありがとう\""
+msgstr "「これを受け取ってくれてありがとう」"
 
 #, java-format
 msgctxt "optionPayCIFine:text"
@@ -9220,7 +9231,7 @@ msgstr ""
 #, java-format
 msgctxt "academyFleetConvJob:text"
 msgid "\"The Academy operates only a small contingent of dedicated research ships, especially after the ISS Enki incident,\" $heOrShe says, \"So they will contract out transport jobs to freelancers like myself.\""
-msgstr ""
+msgstr "「アカデミーは、特にISSエンキ号事件の後、少数の専用調査船しか運営していません」と $heOrShe は言う。「だから、彼らは私のようなフリーランサーに輸送の仕事を委託するでしょう」"
 
 #, java-format
 msgctxt "gaVIPBlurbMissionTextBasic:text"
@@ -11109,7 +11120,7 @@ msgstr ""
 #, java-format
 msgctxt "academyFleetConvWhere:text"
 msgid "\"Well. Ah. It's in the Galatia system.\" $HeOrShe does an admirable job trying not to sound condescending, \"In orbit around Pontus. Beautiful views, if you ask me. But I'm a sucker for ring systems.\""
-msgstr ""
+msgstr "「そうですね。ああ。それはGalatia星系にあります。」 $HeOrShe は、見下したように聞こえないようにするために、賞賛に値する仕事をしている。「Pontusの軌道です。私に言わせれば、美しい景色です。でも私はリング星系には慣れています。」"
 
 #, java-format
 msgctxt "gaATGzalMissionHubA:text"
@@ -13399,6 +13410,11 @@ msgid ""
 "\n"
 "$HeOrShe is almost abashed at this show of idealism, \"At least, that's the idea. There's always political back-and-forth, but it really is a neutral ground for a good cause. I'm proud to run these jobs.\""
 msgstr ""
+"$HeOrShe は一瞬驚いたように見えたが、すぐに戻った。「ああ、もちろん。我々のミッションプロファイルはトランスポンダコードに記録されている」\n"
+"\n"
+"「ガラテヤ・アカデミーは、ペルシアンセクターにおける最も重要な学習・研究機関である。知識を保存し、新しい発見をすべての人が共有できるように、特定の派閥に所属していない」\n"
+"\n"
+"$HeOrShe は、この理想主義のショーにほとんど当惑してる。「少なくとも、それはアイデアです。常に政治的なやりとりがありますが、それは本当に正当な理由のための中立的な根拠です。私はこれらの仕事を運営することを誇りに思います」"
 
 #, java-format
 msgctxt "contactMHOpenText:text"
@@ -15744,7 +15760,7 @@ msgid ""
 msgstr ""
 "しばらく待つと、自動応答で接続要求が受理される。\n"
 "\n"
-"\"こちらは Anahita Baird 学長のオフィスです。アポイントメント・キューに順番を確保するには、事務担当者にお問い合わせください。この電話は3秒後に終了します。\n"
+"「こちらは Anahita Baird 学長のオフィスです。アポイントメント・キューに順番を確保するには、事務担当者にお問い合わせください。この電話は3秒後に終了します。」\n"
 "\n"
 "機械の言葉どおりだ。"
 
@@ -17424,6 +17440,11 @@ msgid ""
 "\n"
 "Baird turns, staring forward, and sets her jaw."
 msgstr ""
+"Bairdは長い間あなたを見ている。あなたは何か新しいものを見ていると思った。なにか感情的な痛みのようなものだ。\n"
+"\n"
+"「スキュラは私が…アカデミーが彼女に提供した贈り物を決して評価しなかった。おそらく彼女はそのように育てられたのだろう。彼女の反抗は甘やかされていた。習慣的になった。しかし、時間が経つにつれて、彼女が私たちが成し遂げたことを見ると、彼女のより高い合理性の感覚が勝つかもしれない。私は彼女がそれができることを知っている」\n"
+"\n"
+"Bairdは振り向いて前を見つめ、あごを引いた。"
 
 #, java-format
 msgctxt "GAKABairdHubBSel:text"
@@ -32147,11 +32168,11 @@ msgid ""
 "\n"
 "\"Ah, $playerName. What brings you to me at this hour?\""
 msgstr ""
-"あなたの接続はすぐに受け入れられる。アシスタントが現れ、紹介するまでもなくあなたを認識しているようだ。 \"少々お待ち下さい、 $PlayerSirOrMadam 。学長がまもなく参ります。\"\n"
+"あなたの接続はすぐに受け入れられる。アシスタントが現れ、紹介するまでもなくあなたを認識しているようだ。 「少々お待ち下さい、 $PlayerSirOrMadam 。学長がまもなく参ります」\n"
 "\n"
 "しばらく待つと、Baird学長がのオフィスに通信が開く。彼女は別のホロスクリーンでの作業を終えてから、あなたに向き直る。\n"
 "\n"
-"\"ああ、 $playerName 。こんな時間に何の用かね？\""
+"「ああ、 $playerName 。こんな時間に何の用かね？」"
 
 #, java-format
 msgctxt "tut_janContactReport:text"
