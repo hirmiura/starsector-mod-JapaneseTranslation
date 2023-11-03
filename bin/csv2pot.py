@@ -165,20 +165,8 @@ def generate_pot(config: ConfCsv2Pot) -> str:
     assert config
 
     # potヘッダを生成する
-    pottext = ["# Created by csv2pot.py.", 'msgid ""', 'msgstr ""']
-    pidv_header = config.pid_version_header
-    if pidv_header:
-        pottext.append(pidv_header)
-    dt_now = datetime.now(TZ)
-    pottext.extend(
-        [
-            f'"POT-Creation-Date: {dt_now.strftime("%Y-%m-%d %H:%M%z")}\\n"',
-            r'"MIME-Version: 1.0\n"',
-            r'"Content-Type: text/plain; charset=UTF-8\n"',
-            r'"Content-Transfer-Encoding: 8bit\n"',
-            "",
-        ]
-    )
+    pottext = config.pot_header.copy()
+    pottext[0] = r"# Created by csv2pot.py."
 
     # csvファイルを読み込む
     for file in config.input_files:
