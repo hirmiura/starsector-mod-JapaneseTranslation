@@ -106,17 +106,17 @@ def generate_pot(config: Json2PotConf) -> str:
         match_dict: dict[str, dict[str, str]] = {}
         with open(file, newline="", encoding="utf-8") as fp:
             json_obj = dirtyjson.load(fp)
-            # 設定を読み込む
-            for extract in config.extracts:
-                ext_path = extract.path
-                assert ext_path
-                jp_expr = jsonpath_ng.parse(ext_path)
-                matches = jp_expr.find(json_obj)
-                for m in matches:
-                    match_dict[m.full_path] = {
-                        "value": m.value,
-                        "flags_line": extract.flags_line or "",
-                    }
+        # 設定を読み込む
+        for extract in config.extracts:
+            ext_path = extract.path
+            assert ext_path
+            jp_expr = jsonpath_ng.parse(ext_path)
+            matches = jp_expr.find(json_obj)
+            for m in matches:
+                match_dict[m.full_path] = {
+                    "value": m.value,
+                    "flags_line": extract.flags_line or "",
+                }
 
     # データせ生成する
     for k, v in match_dict.items():
