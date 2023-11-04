@@ -1,3 +1,7 @@
+Version 0.1.3
+ * JSONファイルの翻訳機能を追加した
+   * world/factions/default_ranks.json
+
 Version 0.1.2
  * campaign/rules.csv の script 列を翻訳に追加した
    * AddBarEvent を翻訳
