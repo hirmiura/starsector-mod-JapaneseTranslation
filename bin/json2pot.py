@@ -15,7 +15,7 @@ from pathlib import Path
 from typing import Optional
 
 import dirtyjson
-import jsonpath_ng
+import jsonpath_ng.ext
 from x2pot_conf import X2PotConf, X2PotConfItem
 
 DEFAULT_CONFIG_FILE = "json2pot.toml"
@@ -110,13 +110,14 @@ def generate_pot(config: Json2PotConf) -> str:
         for extract in config.extracts:
             ext_path = extract.path
             assert ext_path
-            jp_expr = jsonpath_ng.parse(ext_path)
+            jp_expr = jsonpath_ng.ext.parse(ext_path)
             matches = jp_expr.find(json_obj)
             for m in matches:
-                match_dict[m.full_path] = {
-                    "value": m.value,
-                    "flags_line": extract.flags_line or "",
-                }
+                if isinstance(m.value, str):
+                    match_dict[m.full_path] = {
+                        "value": m.value,
+                        "flags_line": extract.flags_line or "",
+                    }
 
     # データせ生成する
     for k, v in match_dict.items():
