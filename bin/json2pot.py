@@ -137,10 +137,17 @@ def generate_pot(config: Json2PotConf) -> str:
 
 
 CRE_CRLF = re.compile(r"(\r\n|\n)")
+ESC_TRANS = str.maketrans(
+    {
+        "\\": "\\\\",
+        '"': r"\"",
+    }
+)
 
 
 def escape(text: str) -> str:
     assert text is not None
+    text = text.translate(ESC_TRANS)
     text = CRE_CRLF.sub(r"\\n", text)
     return text
 
