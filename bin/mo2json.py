@@ -65,6 +65,8 @@ def process(args: argparse.Namespace) -> None:
             jp_expr = jsonpath_ng.parse(ext_path)
             matches = jp_expr.find(json_obj)
             for m in matches:
+                if not isinstance(m.value, str):
+                    continue
                 full_path = str(m.full_path)
                 or_text = m.value.replace("\r", "")
                 tr_text = gtr.pgettext(full_path, or_text)
