@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: default_ranks.json Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-04 14:18+0900\n"
+"PO-Revision-Date: 2023-11-04 18:45+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -13,59 +13,59 @@ msgstr ""
 
 msgctxt "posts.academician.name"
 msgid "Academician"
-msgstr ""
+msgstr "学者"
 
 msgctxt "posts.activist.name"
 msgid "Activist"
-msgstr ""
+msgstr "活動家"
 
 msgctxt "posts.administrator.name"
 msgid "Administrator"
-msgstr ""
+msgstr "行政長官"
 
 msgctxt "posts.military_administrator.name"
 msgid "Administrator"
-msgstr ""
+msgstr "統治長官"
 
 msgctxt "ranks.spaceAdmiral.name"
 msgid "Admiral"
-msgstr "大将"
+msgstr "宙軍大将"
 
 msgctxt "posts.agent.name"
 msgid "Agent"
-msgstr ""
+msgstr "エージェント"
 
 msgctxt "ranks.agent.name"
 msgid "Agent"
-msgstr ""
+msgstr "エージェント"
 
 msgctxt "posts.archcurate.name"
 msgid "Archcurate"
-msgstr ""
+msgstr "大助任司祭"
 
 msgctxt "posts.aristocrat.name"
 msgid "Aristocrat"
-msgstr ""
+msgstr "貴族"
 
 msgctxt "posts.armsDealer.name"
 msgid "Arms Dealer"
-msgstr ""
+msgstr "武器商人"
 
 msgctxt "posts.baseCommander.name"
 msgid "Base Commander"
-msgstr ""
+msgstr "基地司令"
 
 msgctxt "ranks.brother.name"
 msgid "Brother"
-msgstr ""
+msgstr "ブラザー"
 
 msgctxt "ranks.groundCaptain.name"
 msgid "Captain"
-msgstr ""
+msgstr "陸軍大尉"
 
 msgctxt "ranks.spaceCaptain.name"
 msgid "Captain"
-msgstr "大佐"
+msgstr "宙軍大佐"
 
 msgctxt "ranks.spaceChief.name"
 msgid "Chief"
@@ -73,135 +73,135 @@ msgstr "一等航宙士"
 
 msgctxt "ranks.chiefHighInspector.name"
 msgid "Chief High Inspector"
-msgstr ""
+msgstr "首席監察官"
 
 msgctxt "posts.investigator.name"
 msgid "Chief Investigator"
-msgstr ""
+msgstr "捜査主任"
 
 msgctxt "posts.citizen.name"
 msgid "Citizen"
-msgstr ""
+msgstr "市民"
 
 msgctxt "ranks.citizen.name"
 msgid "Citizen"
-msgstr ""
+msgstr "市民"
 
 msgctxt "ranks.clone.name"
 msgid "Clone"
-msgstr ""
+msgstr "クローン"
 
 msgctxt "ranks.groundColonel.name"
 msgid "Colonel"
-msgstr ""
+msgstr "陸軍大佐"
 
 msgctxt "posts.genericMilitary.name"
 msgid "Commander"
-msgstr ""
+msgstr "指揮官"
 
 msgctxt "ranks.spaceCommander.name"
 msgid "Commander"
-msgstr "中佐"
+msgstr "宙軍中佐"
 
 msgctxt "posts.commodities_agent.name"
 msgid "Commodities Agent"
-msgstr ""
+msgstr "商品代理人"
 
 msgctxt "posts.communeLeader.name"
 msgid "Commune Leader"
-msgstr ""
+msgstr "コミューンリーダー"
 
 msgctxt "posts.criminal.name"
 msgid "Criminal"
-msgstr ""
+msgstr "犯罪者"
 
 msgctxt "posts.shrinePriest.name"
 msgid "Curate Sacraria"
-msgstr ""
+msgstr "聖所助任司祭"
 
 msgctxt "ranks.deputyStarMarshal.name"
 msgid "Deputy Star Marshal"
-msgstr ""
+msgstr "副宙軍元帥"
 
 msgctxt "posts.intelligenceDirector.name"
 msgid "Director of Intelligence"
-msgstr ""
+msgstr "情報部長"
 
 msgctxt "posts.guardLeader.name"
 msgid "Director of Special Forces"
-msgstr ""
+msgstr "特殊部隊長"
 
 msgctxt "posts.doctor.name"
 msgid "Doctor"
-msgstr ""
+msgstr "ドクター"
 
 msgctxt "ranks.elder.name"
 msgid "Elder"
-msgstr ""
+msgstr "エルダー"
 
 msgctxt "ranks.spaceEnsign.name"
 msgid "Ensign"
-msgstr "少尉"
+msgstr "宙軍少尉"
 
 msgctxt "posts.entrepreneur.name"
 msgid "Entrepreneur"
-msgstr ""
+msgstr "起業家"
 
 msgctxt "posts.excubitorOrbis.name"
 msgid "Excubitor Orbis"
-msgstr ""
+msgstr "星域守護者"
 
 msgctxt "posts.executive.name"
 msgid "Executive"
-msgstr ""
+msgstr "役員"
 
 msgctxt "ranks.father.name"
 msgid "Father"
-msgstr ""
+msgstr "神父"
 
 msgctxt "posts.fence.name"
 msgid "Fence"
-msgstr ""
+msgstr "盗品故買人"
 
 msgctxt "posts.fleetCommander.name"
 msgid "Fleet Commander"
-msgstr ""
+msgstr "艦隊司令"
 
 msgctxt "ranks.freedomFighter.name"
 msgid "Freedom Fighter"
-msgstr ""
+msgstr "自由の戦士"
 
 msgctxt "posts.freeAdmin.name"
 msgid "Freelance Administrator"
-msgstr ""
+msgstr "理事長"
 
 msgctxt "posts.gangster.name"
 msgid "Gangster"
-msgstr ""
+msgstr "ギャング"
 
 msgctxt "ranks.groundGeneral.name"
 msgid "General"
-msgstr ""
+msgstr "陸軍大将"
 
 msgctxt "ranks.guardHighDeputyExecutor.name"
 msgid "Guard High Deputy Executor"
-msgstr ""
+msgstr "近衛首席副執行官"
 
 msgctxt "posts.guildMaster.name"
 msgid "Guildmaster"
-msgstr ""
+msgstr "ギルド長"
 
 msgctxt "posts.hacker.name"
 msgid "Hacker"
-msgstr ""
+msgstr "ハッカー"
 
 msgctxt "posts.hermit.name"
 msgid "Hermit"
-msgstr ""
+msgstr "隠者"
 
 msgctxt "posts.factionLeader.name"
 msgid "High Commander"
-msgstr ""
+msgstr "最高司令官"
 
 msgctxt "ranks.factionLeader.name"
 msgid "High Commander"
@@ -209,127 +209,127 @@ msgstr "上級司令官"
 
 msgctxt "posts.initiate.name"
 msgid "Initiate"
-msgstr ""
+msgstr "入会者"
 
 msgctxt "posts.investor.name"
 msgid "Investor"
-msgstr ""
+msgstr "投資家"
 
 msgctxt "ranks.knightCaptain.name"
 msgid "Knight-Captain"
-msgstr ""
+msgstr "騎士団長"
 
 msgctxt "ranks.groundLieutenant.name"
 msgid "Lieutenant"
-msgstr ""
+msgstr "陸軍中尉"
 
 msgctxt "ranks.spaceLieutenant.name"
 msgid "Lieutenant"
-msgstr "中尉"
+msgstr "宙軍大尉"
 
 msgctxt "ranks.groundMajor.name"
 msgid "Major"
-msgstr ""
+msgstr "陸軍少佐"
 
 msgctxt "posts.medicalSupplier.name"
 msgid "Medical Supplier"
-msgstr ""
+msgstr "メディカルサプライヤー"
 
 msgctxt "posts.mercenary.name"
 msgid "Mercenary Officer"
-msgstr ""
+msgstr "傭兵将校"
 
 msgctxt "posts.merchant.name"
 msgid "Merchant"
-msgstr ""
+msgstr "商人"
 
 msgctxt "ranks.mother.name"
 msgid "Mother"
-msgstr ""
+msgstr "マザー"
 
 msgctxt "posts.novice.name"
 msgid "Novice"
-msgstr ""
+msgstr "新信者"
 
 msgctxt "posts.officer.name"
 msgid "Officer"
-msgstr ""
+msgstr "将校"
 
 msgctxt "posts.officer_for_hire.name"
 msgid "Officer (available for hire)"
-msgstr ""
+msgstr "将校 (雇用可)"
 
 msgctxt "posts.outpostCommander.name"
 msgid "Outpost Commander"
-msgstr ""
+msgstr "前哨司令"
 
 msgctxt "posts.patrolCommander.name"
 msgid "Patrol Commander"
-msgstr ""
+msgstr "警備隊司令"
 
 msgctxt "posts.pensioner.name"
 msgid "Pensioner"
-msgstr ""
+msgstr "年金受給者"
 
 msgctxt "posts.pilgrim.name"
 msgid "Pilgrim"
-msgstr ""
+msgstr "巡礼者"
 
 msgctxt "ranks.pilot.name"
 msgid "Pilot"
-msgstr ""
+msgstr "パイロット"
 
 msgctxt "posts.portmaster.name"
 msgid "Portmaster"
-msgstr ""
+msgstr "港長"
 
 msgctxt "ranks.groundPrivate.name"
 msgid "Private"
-msgstr ""
+msgstr "兵卒"
 
 msgctxt "posts.provost.name"
 msgid "Provost"
-msgstr ""
+msgstr "学長"
 
 msgctxt "posts.supplyOfficer.name"
 msgid "Quartermaster"
-msgstr ""
+msgstr "兵站部長"
 
 msgctxt "posts.scientist.name"
 msgid "Scientist"
-msgstr ""
+msgstr "科学者"
 
 msgctxt "posts.seniorExecutive.name"
 msgid "Senior Executive"
-msgstr ""
+msgstr "上級役員"
 
 msgctxt "ranks.groundSergeant.name"
 msgid "Sergeant"
-msgstr ""
+msgstr "軍曹"
 
 msgctxt "posts.shady.name"
 msgid "Shady Character"
-msgstr ""
+msgstr "いかがわしい人物"
 
 msgctxt "ranks.sister.name"
 msgid "Sister"
-msgstr ""
+msgstr "シスター"
 
 msgctxt "posts.minorCriminal.name"
 msgid "Small-time Criminal"
-msgstr ""
+msgstr "軽犯罪者"
 
 msgctxt "posts.smuggler.name"
 msgid "Smuggler"
-msgstr ""
+msgstr "密輸人"
 
 msgctxt "ranks.spaceMarshal.name"
 msgid "Space Marshal"
-msgstr "宇宙軍元帥"
+msgstr "宙軍元帥"
 
 msgctxt "posts.spacer.name"
 msgid "Spacer"
-msgstr ""
+msgstr "スペーサー"
 
 msgctxt "ranks.spaceSailor.name"
 msgid "Spacer"
@@ -337,44 +337,44 @@ msgstr "航宙兵"
 
 msgctxt "posts.specialAgent.name"
 msgid "Special Agent"
-msgstr ""
+msgstr "スペシャルエージェント"
 
 msgctxt "ranks.specialAgent.name"
 msgid "Special Agent"
-msgstr ""
+msgstr "スペシャルエージェント"
 
 msgctxt "posts.stationCommander.name"
 msgid "Station Commander"
-msgstr ""
+msgstr "ステーション司令"
 
 msgctxt "posts.supplyManager.name"
 msgid "Supply Manager"
-msgstr ""
+msgstr "供給係長"
 
 msgctxt "posts.synodSubcurate.name"
 msgid "Synod Subcurate"
-msgstr ""
+msgstr "教会会議助任司祭"
 
 msgctxt "posts.terrorist.name"
 msgid "Terrorist"
-msgstr ""
+msgstr "テロリスト"
 
 msgctxt "ranks.terrorist.name"
 msgid "Terrorist"
-msgstr ""
+msgstr "テロリスト"
 
 msgctxt "posts.trader.name"
 msgid "Trader"
-msgstr ""
+msgstr "トレーダー"
 
 msgctxt "posts.unknown.name"
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 msgctxt "ranks.unknown.name"
 msgid "Unknown"
-msgstr ""
+msgstr "不明"
 
 msgctxt "posts.warlord.name"
 msgid "Warlord"
-msgstr ""
+msgstr "ウォーロード"
