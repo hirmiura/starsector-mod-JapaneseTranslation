@@ -11,7 +11,7 @@ import json
 import sys
 from pathlib import Path
 
-import dirtyjson
+import hjson
 import jsonpath_ng
 from json2pot import load_config
 
@@ -57,7 +57,7 @@ def process(args: argparse.Namespace) -> None:
         is_translated = False
         output_json_obj: dict = {}
         with original_json_path.open(newline="", encoding="utf-8") as fp_read:
-            json_obj = dirtyjson.load(fp_read)
+            json_obj = hjson.load(fp_read)
         # 設定を読み込む
         for extract in config.extracts:
             ext_path = extract.path

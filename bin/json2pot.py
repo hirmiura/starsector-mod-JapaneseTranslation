@@ -14,7 +14,7 @@ import tomllib
 from pathlib import Path
 from typing import Optional
 
-import dirtyjson
+import hjson
 import jsonpath_ng.ext
 from x2pot_conf import X2PotConf, X2PotConfItem
 
@@ -105,7 +105,7 @@ def generate_pot(config: Json2PotConf) -> str:
     for file in config.input_files:
         match_dict: dict[str, dict[str, str]] = {}
         with open(file, newline="", encoding="utf-8") as fp:
-            json_obj = dirtyjson.load(fp)
+            json_obj = hjson.load(fp)
         # 設定を読み込む
         for extract in config.extracts:
             ext_path = extract.path
@@ -137,10 +137,17 @@ def generate_pot(config: Json2PotConf) -> str:
 
 
 CRE_CRLF = re.compile(r"(\r\n|\n)")
+ESC_TRANS = str.maketrans(
+    {
+        "\\": "\\\\",
+        '"': r"\"",
+    }
+)
 
 
 def escape(text: str) -> str:
     assert text is not None
+    text = text.translate(ESC_TRANS)
     text = CRE_CRLF.sub(r"\\n", text)
     return text
 

@@ -1,0 +1,1097 @@
+# Created by json2pot.py.
+msgid ""
+msgstr ""
+"Project-Id-Version: strings.json Version 0.96a-RC10\n"
+"PO-Revision-Date: 2023-11-05 04:22+0900\n"
+"Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "fleetInteractionDialog.escapeDefeat"
+msgid "$yourForcesWereOrYourSideWas able to disengage from the enemy."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.battleTotalVictory"
+msgid "$yourForcesWereOrYourSideWas able to gain a complete victory in the last engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerRecovery"
+msgid "$yourForcesWereOrYourSideWas able to recover some combat readiness as they control the battlespace and the engagement was limited."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.escapeTotalVictory"
+msgid "$yourForcesWereOrYourSideWas able to turn the tables on the pursuing enemy and crushed them utterly."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.escapeVictory"
+msgid "$yourForcesWereOrYourSideWas able to turn the tables on the pursuing enemy and hand them a defeat."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.battleDefeat"
+msgid "$yourForcesWereOrYourSideWas defeated in the last engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.battleTotalDefeat"
+msgid "$yourForcesWereOrYourSideWas utterly defeated in the last engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.battleVictory"
+msgid "$yourForcesWereOrYourSideWas victorious in the last engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingApproachDock"
+msgid "A hard dock with the enemy hull is established and the assault teams quickly override the security systems on airlocks and blast temporary access points in weakened sections of the hull."
+msgstr ""
+
+msgctxt "campaignHelp.chmWeaponGroups_action"
+msgid "Adjust weapon groups"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.cleanDisengageOpportunity"
+msgid "After a tactical victory, your forces have an opportunity to cleanly disengage from the enemy."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeSuccess"
+msgid "After overcoming all organized resistance and sweeping every compartment, the commander of the boarding party reports the enemy ship secured and ready to accept a prize crew."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeTooDamaged"
+msgid "After overcoming all organized resistance and sweeping every compartment, the commander of the boarding party reports the enemy ship secured. Unfortunately, collateral damage from the fighting has crippled core ship systems beyond repair."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.recoveryReport"
+msgid "After the battle, $crewRecovered crew and $marinesRecovered marines were rescued from lifepods and intact compartments in the wrecks."
+msgstr ""
+
+msgctxt "campaignHelp.chmAllCritCR_text"
+msgid ""
+"All of the ships in your fleet are at dangerously low combat readiness (below 20%).\n"
+"\n"
+"Deploying these ships in combat is likely to cause critical malfunctions - dealing damage, disabling some weapons and engines for the duration of the battle, and causing further critical malfunctions during the deployment.\n"
+"\n"
+"It's recommended that you let your fleet recover before engaging in combat. Ships regain combat readiness over time, and friendly stations offer a quick way to do so and effect repairs, as well as hire on additional crew if needed.\n"
+"\n"
+"You can check the combat readiness levels of your ships in the fleet screen."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipCrashMothballUnavailable"
+msgid "All of your ships are ready for combat and do not run the risk of suffering malfunctions."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.battleFleetLost"
+msgid "All of your ships were destroyed in the last engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingCasualtyReport"
+msgid "An after-action assessment indicates $boardingMarinesLost marine(s) lost during the fighting."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeSelfDestruct"
+msgid "As your assault teams start to overcome resistance inside the enemy ship, it self-destructs. Most of the men and women in the boarding party are killed by the explosion."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingApproachLaunch"
+msgid "Assault teams are launched from about a kilometer out and approach the hull in waves, using personal propulsion systems to brake on the final approach. The defenders have an opportunity to fire on the landing forces with impunity until enough teams land to push inside the hull."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingCleanEscapeMissedLaunch"
+msgid "At the last moment, the enemy ship regains propulsion and is able to alter its trajectory enough to avoid most of the incoming attackers, gaining enough time to get away. After a recovery effort, $boardingCrewLost crew and $boardingMarinesLost marine(s) remain unaccounted for."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipEngage"
+msgid ""
+"Attack the opposing fleet.\n"
+"\n"
+"If you inflict enough damage before retreating, you will be able to disengage without being pursued."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipEngageBoardable"
+msgid ""
+"Attack the ship before it has a chance to complete repairs.\n"
+"\n"
+"There is a chance that the ship will be destroyed entirely."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tootipAttemptToDisengage"
+msgid ""
+"Attempt to retreat from battle. The opposing fleet may pursue and force a battle, or may let you go.\n"
+"\n"
+"As the enemy remains in control of the battlespace, you won't be able to conduct any salvage operations.\n"
+"\n"
+"If your fleet hasn't taken any hostile actions, disengaging - without damaging any pursuing ships - will do the least damage to your standing with the opposing faction."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageFriendlyBoardableEscaped"
+msgid "Before the enemy can close in, engine repairs are completed and the ship gets away to rejoin your fleet."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.lastFriendlyBoardableEscaped"
+msgid "Before the enemy can close in, engine repairs are completed and you're able to get away!"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.bothRecovery"
+msgid "Both sides are able to recover some combat readiness as they stand down after a limited and chaotic engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.mutualDestructionRepairs"
+msgid "But, not all is lost. You take command of the $boardableShipName, organizing repair teams and focusing on regaining basic propulsion and life support. Your efforts are successful, and several hours later, you're able to get underway."
+msgstr ""
+
+msgctxt "campaignHelp.chmWingPurchase_text"
+msgid ""
+"Congratulations, you just bought a new fighter wing!\n"
+"\n"
+"Fighter wing combat readiness represents the number of replacement fighter chassis available, but these can only be used if you have a ship with a flight deck in your fleet.\n"
+"\n"
+"New fighters will take off from a nearby flight deck to replace any losses taken in combat. As long as your fleet has a ship with proper repair facilities (i.e. a flight deck), a fighter wing can not be completely lost, even if its combat readiness is reduced to zero."
+msgstr ""
+
+msgctxt "campaignHelp.chmShipPurchase_text"
+msgid ""
+"Congratulations, you just bought a new ship!\n"
+"\n"
+"It doesn't have any weapons or hullmods installed, so it's a good idea to get it outfitted.\n"
+"\n"
+"You'll also need to make sure you have enough personnel to crew it."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyDisruptedPlayerSide"
+msgid "Despite being victorious in the last engagement, the forces on your side have suffered sufficient losses to be unable to offer pursuit as the enemy disengages."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyDisruptedPlayer"
+msgid "Despite being victorious in the last engagement, your forces have suffered sufficient losses to be unable to offer pursuit as the enemy disengages."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerDisruptedEnemy"
+msgid "Despite retreating from the last engagement, your forces have disrupted the enemy, and can disengage without being pursued."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialKnowsUnique"
+msgid "Despite your $playerFleetOrShip's transponder being turned off, it appears to be aware of your identity - likely due to the presence of notable ships in your fleet."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialKnowsUniqueSide"
+msgid "Despite your $playerFleetOrShip's transponder being turned off, it appears to be aware of your identity - likely due to the presence of notable ships in your fleet."
+msgstr ""
+
+msgctxt "campaignHelp.chmAllCritCR_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmDeployCostsCR_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmEnteredHyper_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmHyperStorm_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmLootOverCapacity_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmLowFuel_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmLowSupplies_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmNewgameIron_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmNewgame_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmNotEnoughCrew_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmOpenTrade_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmOverCargoCapacity_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmOverCrewCapacity_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmOverFuelCapacity_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmRefitCRLoss_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmRefitOnStation_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmRiskOfAccidents_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmShipPurchase_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmSomeCritCR_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmSomeLowCR_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmSupplyUseAfterBattle_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "campaignHelp.chmWingPurchase_dismiss"
+msgid "Dismiss"
+msgstr "閉じる"
+
+msgctxt "fleetInteractionDialog.tooltipCleanDisengage"
+msgid ""
+"Ends the battle with no risk of being harried by the opposing fleet.\n"
+"\n"
+"As the enemy remains in control of the battlespace, you won't be able to conduct any salvage operations.\n"
+"\n"
+"If your fleet hasn't taken any hostile actions, disengaging will not do any damage to your standing with the opposing faction."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipHarrassableDisengage"
+msgid ""
+"Ends the battle without any risk of pursuit. The opposing fleet may still harry your retreat.\n"
+"\n"
+"As the enemy remains in control of the battlespace, you won't be able to conduct any salvage operations.\n"
+"\n"
+"If your fleet hasn't taken any hostile actions, disengaging will not do any damage to your standing with the opposing faction."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipPursue"
+msgid "Forces a battle in which the disengaging forces attempt to get away."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeTaskForceDamaged"
+msgid "Fortunately, none of the ships in the task force are destroyed."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.pursuitTotalDefeat"
+msgid "In a surprising turn of events, the retreating enemy forces were able to turn the tables and obtain a crushing victory."
+msgstr ""
+
+msgctxt "campaignHelp.chmOpenTrade_text"
+msgid ""
+"In the cargo/trade screen, you can:\n"
+"\n"
+"- Left-click to pick up a stack\n"
+"- Shift-click to pick up items from a stack one at a time\n"
+"- Shift-click and hold, then drag to pick up a specific quantity\n"
+"- Control-click to transfer an entire stack without picking it up"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialKnowsTOff"
+msgid "Indications are that it's aware of your identity, despite your $playerFleetOrShip's transponder being turned off, likely due to having seen you recently."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialKnowsTOffSide"
+msgid "Indications are that they're aware of your identity, despite your $playerFleetOrShip's transponder being turned off, likely due to having seen you recently."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialDoesntKnow"
+msgid "It does not appear to be certain of your identity. Any hostilities will have a reduced impact on your reputation."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerUnableToPursue"
+msgid "It looks like the opposing fleet will be able disengage without your being able to force a fight."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialKnows"
+msgid "It's aware of your identity due to your $playerFleetOrShip's transponder being turned on."
+msgstr ""
+
+msgctxt "jumpPointInteractionDialog.starAnchor"
+msgid "Jumping in through the wormhole generated by the star's gravity field is quite a feat of navigation. Only the most skilled would even consider attempting it, and even then, the results are unpredictable."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipLetShipGo"
+msgid "Let the enemy ship finish emergency repairs and withdraw."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipLetThemGo"
+msgid ""
+"Lets the other fleet leave in peace.\n"
+"\n"
+"Your fleet does not need to reorganize after the encounter and is not slowed down."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipLetThemGoNoPenalty"
+msgid ""
+"Lets the other fleet leave in peace.\n"
+"\n"
+"Your fleet does not need to reorganize after the encounter and is not slowed down."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleNoJoin"
+msgid "Neither side trusts you enough to share IFF codes or fight alongside, and you're unable to join the battle on either side."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleNoJoinTransponder"
+msgid "Neither side trusts you enough to share IFF codes, but that's likely to change if you come back with your transponder turned on."
+msgstr ""
+
+msgctxt "campaignHelp.chmWeaponGroups_dismiss"
+msgid "Never mind"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.pursuitTotalVictory"
+msgid "No enemy ships managed to escape."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipNoReadyShips"
+msgid "None of your ships are combat-ready."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerUnableToPursueNoReadyShips"
+msgid "None of your ships are in any shape to offer pursuit."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.escapeTotalDefeat"
+msgid "None of your side's ships managed to escape."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingTaskForceSelectedOneShip"
+msgid "On receiving its orders, $boardingTaskForceShips moves in to approach the enemy ship."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingTaskForceSelectedMultiple"
+msgid "On receiving their orders, $boardingTaskForceShips move in to approach the enemy ship."
+msgstr ""
+
+msgctxt "campaignHelp.chmOverCargoCapacity_action"
+msgid "Open the crew/cargo screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmOverCrewCapacity_action"
+msgid "Open the crew/cargo screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmOverFuelCapacity_action"
+msgid "Open the crew/cargo screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmAllCritCR_action"
+msgid "Open the fleet screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmLowSupplies_action"
+msgid "Open the fleet screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmNotEnoughCrew_action"
+msgid "Open the fleet screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmSomeCritCR_action"
+msgid "Open the fleet screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmSomeLowCR_action"
+msgid "Open the fleet screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmSupplyUseAfterBattle_action"
+msgid "Open the fleet screen"
+msgstr ""
+
+msgctxt "campaignHelp.chmShipPurchase_action"
+msgid "Open the refit screen"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipPursueAutoresolve"
+msgid "Orders your second-in-command to handle the pursuit. Offers no risk to your ships, but likely less effective than commanding the pursuit yourself."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipBoardingAction"
+msgid "Organize a boarding action. Requires marines and likely to result in serious personnel losses."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.casualtyReport"
+msgid "Preliminary reports indicate $crewLost crew and $marinesLost marines were lost during the last engagement."
+msgstr ""
+
+msgctxt "campaignHelp.chmDeployCritCR_action"
+msgid "Proceed with the deployment"
+msgstr ""
+
+msgctxt "campaignHelp.chmDeployLowCR_action"
+msgid "Proceed with the deployment"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipAboutBoardingAction"
+msgid "Recall the task force and cancel the boarding action, allowing the enemy ship to withdraw."
+msgstr ""
+
+msgctxt "campaignHelp.chmDeployCritCR_dismiss"
+msgid "Reconsider"
+msgstr ""
+
+msgctxt "campaignHelp.chmDeployLowCR_dismiss"
+msgid "Reconsider"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipHarassRetreat"
+msgid ""
+"Reduces the combat readiness of all disengaging ships as if they were deployed into combat.\n"
+"\n"
+"Also slows down your fleet for a while as your forces require time to reorganize after the harassing action."
+msgstr ""
+
+msgctxt "campaignHelp.chmRefitCRLoss_text"
+msgid ""
+"Refitting a ship in space will cause it to lose some combat readiness.\n"
+"\n"
+"The amount lost depends on the extent of the changes made and is indicated by the dimmed portion of the combat readiness bar.\n"
+"\n"
+"Refitting at a market or station does not reduce combat readiness."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.creditsLootedReport"
+msgid "Salvage crews are able to recover $creditsLooted credit(s) from CPU cores still active in the wreckage."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipSelectorCrew"
+msgid "Select the number of crew to assign to the assault force."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipSelectorMarines"
+msgid "Select the number of marines to assign to the assault force."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipSelectFlagship"
+msgid "Select the ship you will directly control in the upcoming engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipHardDockBoarding"
+msgid ""
+"Ships assigned to the boarding task force approach the enemy ship and dock with it.\n"
+"\n"
+"Offers the best combat odds to the assault teams and a high chance of success.\n"
+"\n"
+"If the ship being boarded self-destructs, the ships involved in the boarding action will take heavy damage and may be destroyed."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeTaskForceLostPartial"
+msgid "Some of the ships docked with the enemy ship when it exploded are destroyed, while the rest take serious damage."
+msgstr ""
+
+msgctxt "campaignHelp.chmSomeCritCR_text"
+msgid ""
+"Some of the ships in your fleet are at dangerously low combat readiness (below 20%).\n"
+"\n"
+"Deploying these ships in combat is likely to cause critical malfunctions - dealing damage, disabling some weapons and engines for the duration of the battle, and causing further critical malfunctions during the deployment.\n"
+"\n"
+"It's recommended that you let these ships recover before using them in combat. Ships regain combat readiness over time, and friendly stations offer a quick way to do so and effect repairs, as well as hire on additional crew if needed.\n"
+"\n"
+"You can check the combat readiness levels of your ships in the fleet screen."
+msgstr ""
+
+msgctxt "campaignHelp.chmSomeLowCR_text"
+msgid ""
+"Some of the ships in your fleet are at low combat readiness (below 40%).\n"
+"\n"
+"Their weapon systems and engines are likely to suffer malfunctions and become temporarily disabled during sustained use, making them less capable in combat.\n"
+"\n"
+"It's recommended that you let these ships recover before using them in combat. Ships regain combat readiness over time, and friendly stations offer a quick way to do so and effect repairs, as well as hire on additional crew if needed.\n"
+"\n"
+"You can check the combat readiness levels of your ships in the fleet screen."
+msgstr ""
+
+msgctxt "campaignHelp.chmRiskOfAccidents_text"
+msgid ""
+"Some of the ships in your fleet are in danger of suffering accidents due to having 0% combat readiness.\n"
+"\n"
+"Accidents may damage or even destroy a ship.\n"
+"\n"
+"It's recommended that you either mothball those ships or let them recover combat readiness as soon as possible."
+msgstr ""
+
+msgctxt "campaignHelp.chmDeployCritCR_text"
+msgid ""
+"Some of the ships marked for deployment are at dangerously low combat readiness (below 20%).\n"
+"\n"
+"Bringing the systems on these ships to combat power levels is likely to cause critical malfunctions - dealing damage, disabling some weapons and engines for the duration of the battle, and causing further critical malfunctions during the deployment.\n"
+"\n"
+"Running these risks - which include the outright destruction of a ship - is usually a measure of last resort."
+msgstr ""
+
+msgctxt "campaignHelp.chmDeployLowCR_text"
+msgid ""
+"Some of the ships marked for deployment are at low combat readiness (below 40%).\n"
+"\n"
+"Their weapon systems and engines are likely to suffer malfunctions and become temporarily disabled during sustained use."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipCrashMothball"
+msgid ""
+"Some of your ships suffer from low combat readiness and could experience malfunctions during battle.\n"
+"\n"
+"Their combat systems can be powered down to avoid malfunctions and allow the ships to make their best speed to escape."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleDisengage"
+msgid "The $alliedFactionAndTheirAllies are attempting to disengage from the $enemyFactionAndTheirAllies."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleStation"
+msgid "The $alliedFactionAndTheirAllies are holding their ground against the $enemyFactionAndTheirAllies."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleEngage"
+msgid "The $alliedFactionAndTheirAllies are moving in to engage the $enemyFactionAndTheirAllies."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattlePursue"
+msgid "The $alliedFactionAndTheirAllies are pursuing the retreating $enemyFactionAndTheirAllies."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleHarass"
+msgid "The $alliedFactionAndTheirAllies harass the retreating $enemyFactionAndTheirAllies, causing much disruption, but ultimately do not force a battle."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleLetGo"
+msgid "The $alliedFactionAndTheirAllies let the $enemyFactionAndTheirAllies go without further incident."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleShareIFF"
+msgid "The $alliedFactionAndTheirAllies transmit their IFF codes, which allow you to join the battle on their side if you decide to do so."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeShipLost"
+msgid "The $boardingTaskForceShipName is destroyed."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeShipDamaged"
+msgid "The $boardingTaskForceShipName is seriously damaged."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialDisengageSide"
+msgid "The $enemyFactionAndTheirAllies are attempting to disengage."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialNeutralSide"
+msgid "The $enemyFactionAndTheirAllies assume a neutral posture."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.postBattleNeutralSide"
+msgid "The $enemyFactionAndTheirAllies assume a neutral posture."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialCarefulSide"
+msgid "The $enemyFactionAndTheirAllies carefully maintain their distance, keeping ready to disengage in the event of hostilities."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.postBattleAggressiveSide"
+msgid "The $enemyFactionAndTheirAllies maneuver for another engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.postBattleDisengageSide"
+msgid "The $enemyFactionAndTheirAllies maneuver to disengage."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialAggressiveSide"
+msgid "The $enemyFactionAndTheirAllies maneuver to prevent you from disengaging easily."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialHoldVsStrongerEnemySide"
+msgid "The $enemyFactionAndTheirAllies seem ready to fight despite being faced with superior forces, but aren't likely to press the issue."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.postBattleHoldVsStrongerEnemySide"
+msgid "The $enemyFactionAndTheirAllies seem ready to fight despite being faced with superior forces, but aren't likely to press the issue."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialNeutral"
+msgid "The $faction $fleetOrShip assumes a neutral posture."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.postBattleNeutral"
+msgid "The $faction $fleetOrShip assumes a neutral posture."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialCareful"
+msgid "The $faction $fleetOrShip carefully maintains its distance, keeping ready to disengage in the event of hostilities."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialDisengage"
+msgid "The $faction $fleetOrShip is attempting to disengage."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.postBattleAggressive"
+msgid "The $faction $fleetOrShip maneuvers for another engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.postBattleDisengage"
+msgid "The $faction $fleetOrShip maneuvers to disengage."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialAggressive"
+msgid "The $faction $fleetOrShip maneuvers to prevent you from disengaging easily."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialWithStationVsLargeFleet"
+msgid "The $faction $fleetOrShip maneuvers to remain supported by the station, allowing your fleet to disengage. However, your forces are likely to be harried as they pull back."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialHoldVsStrongerEnemy"
+msgid "The $faction $fleetOrShip seems ready to fight despite being faced with superior forces, but isn't likely to press the issue."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.postBattleHoldVsStrongerEnemy"
+msgid "The $faction $fleetOrShip seems ready to fight despite being faced with superior forces, but isn't likely to press the issue."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipLaunchBoarding"
+msgid ""
+"The boarding task force maintains a safe distance and launches assault teams equipped with personal propulsion systems.\n"
+"\n"
+"Gives the defenders a significant combat advantage and a higher chance to get away, but does not risk the ships in the boarding task force."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.friendlyShipBoardable"
+msgid "The crew of one of your disabled ships has effected enough repairs for critical systems to come back online. If it's able to regain propulsion, it might be able to rejoin your fleet."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipPursueTooSlow"
+msgid "The enemy fleet is too fast for your forces to catch up to."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyPursuit"
+msgid "The enemy fleet pursues your forces."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyRecovery"
+msgid "The enemy forces are able to recover some combat readiness as they control the battlespace and the engagement was limited."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyHarass"
+msgid "The enemy forces harass your ships as they retreat, causing much disruption, but ultimately do not force a battle."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageFriendlyBoardableLetGo"
+msgid "The enemy forces stand down and let the ship complete its repairs and limp away to rejoin your fleet."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.lastFriendlyBoardableLetGo"
+msgid "The enemy forces stand down and let your ship complete repairs and limp away."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.pursuitDefeat"
+msgid "The enemy forces were able to turn the tables and hand your forces a defeat."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyUnableToPursue"
+msgid "The enemy ships are unable to offer pursuit, allowing your forces to withdraw without further incident."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyDecidesNotToPursue"
+msgid "The enemy ships make no move to pursue, allowing your forces to withdraw without further incident."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeTaskForceLost"
+msgid "The entire task force docked with the enemy ship is destroyed."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingOutcomeEscape"
+msgid "The entrenched enemy forces are able to hold back your assault teams long enough to finish engine repairs and get away."
+msgstr ""
+
+msgctxt "jumpPointInteractionDialog.noExits"
+msgid "The jump point does not appear to have any functional exits and is effectively unusable."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.finalOutcomeNoShipsLeft"
+msgid "The last thing you remember is the sudden burst of acceleration as the escape pod you're in tears away from your doomed ship."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyCleanDisengageSide"
+msgid "The opposing fleet is able to disengage cleanly as the forces on your side are unable to offer pursuit."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyCleanDisengage"
+msgid "The opposing fleet is able to disengage cleanly as your forces are unable to offer pursuit."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageMutual"
+msgid "The opposing fleet moves in to join battle."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engagePursuit"
+msgid "The opposing fleet tries to disengage, but they won't be able to get away without a fight."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.pursuitVictoryNoLosses"
+msgid "The retreating enemy forces were able to disengage without losing any ships."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.pursuitVictoryLosses"
+msgid "The retreating enemy forces were able to disengage, but not without taking losses."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.repairReport"
+msgid "The salvage crews were able to restore basic systems on $repairedShipList."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engagementMutualDestruction"
+msgid "The ships on both sides have been reduced to so much scrap metal."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipNoPersonnel"
+msgid "There are no marines available."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.friendlyFireRepLoss"
+msgid "There were significant friendly fire incidents over the course of the encounter."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.noSalvageReport"
+msgid "There's no salvage to be had."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialDoesntKnowSide"
+msgid "They do not appear to be certain of your identity. Any hostilities will have a reduced impact on your reputation."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.initialKnowsSide"
+msgid "They're aware of your identity due to your $playerFleetOrShip's transponder being turned on."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipHarassRetreatUnavailable"
+msgid "Unable to harass the retreating forces either due to standing down or not having any combat-ready ships."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageFriendlyBoardableDisabled"
+msgid "Unfortunately, enemy ships close in and fire a few well-placed shots to eliminate any chance of that."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.lastFriendlyBoardableDisabled"
+msgid "Unfortunately, enemy ships close in and fire a few well-placed shots to eliminate any chance of that."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageFriendlyBoardableDestroyed"
+msgid "Unfortunately, enemy ships close in and fire on it before further repairs could be completed. A stray shot must have collapsed the reactor containment field - the ship explodes, leaving behind a slowly expanding field of debris."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.lastFriendlyBoardableDestroyed"
+msgid "Unfortunately, enemy ships close in and fire on it before further repairs could be completed. A stray shot must have collapsed the reactor containment field - the ship explodes, leaving behind a slowly expanding field of debris."
+msgstr ""
+
+msgctxt "campaignHelp.chmLootOverCapacity_text"
+msgid ""
+"Warning: you're taking more salvage than your fleet has the capacity to carry.\n"
+"\n"
+"This will result in greatly increased daily supply consumption and a reduced travel speed.\n"
+"\n"
+"It's recommended that you either take less salvage or head for a nearby station to sell off the excess."
+msgstr ""
+
+msgctxt "campaignHelp.chmNewgameIron_text"
+msgid ""
+"Welcome to the Starsector campaign!\n"
+"\n"
+"Since you're playing in iron mode, you'll only be able to save the game when you exit, and won't be able to load another game without exiting (and saving) your current game first.\n"
+"\n"
+"Try to avoid taking on fleets much bigger than yours, or ones that have bigger ships, and please remember that it's a work-in-progress so bugs will occasionally happen.\n"
+"\n"
+"Good luck!"
+msgstr ""
+
+msgctxt "campaignHelp.chmNewgame_text"
+msgid ""
+"Welcome to the Starsector campaign!\n"
+"\n"
+"You can press F5 to quicksave and F9 to quickload.\n"
+"\n"
+"Try to avoid taking on fleets much bigger than yours, or ones that have bigger ships, and please remember that it's a work-in-progress so bugs will occasionally happen.\n"
+"\n"
+"Good luck!"
+msgstr ""
+
+msgctxt "campaignHelp.chmRefitOnStation_text"
+msgid ""
+"When refitting a ship while docked at a space station, you can mount both the weapons in your cargo hold and the ones available for purchase at the station.\n"
+"\n"
+"Undoing the changes to the ship's loadout (or simply unmounting the purchased weapons) will refund the credits used, but only if you haven't navigated away from the refit screen."
+msgstr ""
+
+msgctxt "jumpPointInteractionDialog.starAnchorUnusable"
+msgid "You are unable to use this jump point."
+msgstr ""
+
+msgctxt "campaignHelp.chmDeployCostsCR_text"
+msgid ""
+"You can select which ships to deploy at the beginning of each battle, and deploy reinforcements as the battle goes on.\n"
+"\n"
+"Deploying a ship reduces its combat readiness by a fixed amount. In addition, ships will begin to gradually lose combat readiness after their peak readiness time runs out.\n"
+"\n"
+"Recovering combat readiness takes time and consumes valuable supplies."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.cutComm"
+msgid "You cut the comm link and consider the tactical options available."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.ongoingBattleEncounter"
+msgid "You encounter an ongoing battle."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingProjection"
+msgid "You have $marines marine(s) available. According to simulations run by a gamma-level AI, a boarding operation would have a $boardingSuccessChance chance of success."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.boardingNoMarines"
+msgid "You have no marines available to conduct boarding operations. Somewhat unhelpfully, an automated system chimes in with a projection that a boarding operation would have zero chance of success."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.lastFriendlyShipRepairs"
+msgid "You take command of the $boardableShipName, quickly organizing repair teams. If it's able to regain propulsion, you might be able to get away."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.selectedFlagship"
+msgid "You transfer command to $flagship for the upcoming engagement."
+msgstr ""
+
+msgctxt "campaignHelp.chmWeaponGroups_text"
+msgid ""
+"You've made changes to the ship's loadout, but have not adjusted the weapon groups.\n"
+"\n"
+"Weapons will be automatically assigned to groups when you deploy the ship for combat, but it's a good idea to make the assignments manually."
+msgstr ""
+
+msgctxt "planetInteractionDialog.approach"
+msgid "Your $fleetOrShip approaches $planetName."
+msgstr ""
+
+msgctxt "jumpPointInteractionDialog.approach"
+msgid "Your $fleetOrShip approaches the jump point."
+msgstr ""
+
+msgctxt "jumpPointInteractionDialog.noFuel"
+msgid "Your $fleetOrShip has no fuel remaining and is unable to make a jump."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.noSalvageReportPlayerDidNothing"
+msgid "Your $playerFleetOrShip does not participate in salvage operations due to its limited contributions throughout the encounter."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.salvageReportPlayer"
+msgid "Your $playerFleetOrShip is able to participate in salvage operations due to its contributions throughout the encounter."
+msgstr ""
+
+msgctxt "campaignHelp.chmNotEnoughCrew_text"
+msgid ""
+"Your fleet does not have enough personnel to fully crew all of your ships.\n"
+"\n"
+"This results in reduced combat readiness and combat readiness recovery for the affected ships.\n"
+"\n"
+"You can concentrate the available crew on specifc ships by mothballing some ships from the fleet screen. It's recommended that you hire more crew at a nearby space station as soon as possible."
+msgstr ""
+
+msgctxt "campaignHelp.chmHyperStorm_text"
+msgid ""
+"Your fleet has been hit by a hyperspace storm! One of your ships has taken damage and its combat readiness has been reduced.\n"
+"\n"
+"Storm strikes can also knock your fleet off course, but an \"Emergency Burn\" lets your fleet to get back on course more easily and allows it to punch through storms."
+msgstr ""
+
+msgctxt "campaignHelp.chmEnteredHyper_text"
+msgid ""
+"Your fleet has entered hyperspace!\n"
+"\n"
+"Ships traveling in hyperspace use fuel in proportion to the distance travelled. Fleets that run out of fuel drift towards the nearest star system and may become stranded there."
+msgstr ""
+
+msgctxt "campaignHelp.chmOverCargoCapacity_text"
+msgid ""
+"Your fleet is carrying more cargo than it has capacity for.\n"
+"\n"
+"This will result in greatly increased daily supply consumption and a reduced travel speed.\n"
+"\n"
+"It's recommended that you either jettison some of the cargo now or head to a station quickly so you can sell off the excess. You can jettison cargo from the crew/cargo screen."
+msgstr ""
+
+msgctxt "campaignHelp.chmOverFuelCapacity_text"
+msgid ""
+"Your fleet is carrying more fuel than it has capacity for.\n"
+"\n"
+"This will result in greatly increased daily supply consumption and a reduced travel speed.\n"
+"\n"
+"It's recommended that you either jettison some of the fuel now or head to a station quickly so you can sell off the excess. You can jettison fuel from the crew/cargo screen."
+msgstr ""
+
+msgctxt "campaignHelp.chmOverCrewCapacity_text"
+msgid ""
+"Your fleet is carrying more personnel than it has capacity for.\n"
+"\n"
+"This will result in greatly increased daily supply consumption and a reduced travel speed.\n"
+"\n"
+"It's recommended that you head to a nearby market so you can drop them off there."
+msgstr ""
+
+msgctxt "campaignHelp.chmLowFuel_text"
+msgid ""
+"Your fleet is running low on fuel.\n"
+"\n"
+"If it runs out of fuel in hyperspace, it will drift towards the nearest star system and may become stranded if you're not able to acquire more fuel there."
+msgstr ""
+
+msgctxt "campaignHelp.chmLowSupplies_text"
+msgid ""
+"Your fleet is running low on supplies.\n"
+"\n"
+"If it runs out of supplies, all repairs will stop and ships will start to lose combat readiness over time. After more than a couple of days without supplies, the fleet begins to run the risk of accidents that range from minor (such as the loss of some cargo) to critical (losing a ship).\n"
+"\n"
+"It's recommended that you acquire more supplies as quickly as possible.\n"
+"\n"
+"To reduce supply consumption, you can suspend any ongoing ship repairs. A last resort way to get more supplies is to scuttle one of your ships.\n"
+"\n"
+"The commands to do so are available on the fleet screen."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerTooLargeToDisengage"
+msgid "Your fleet is too large to be able to disengage easily. Engaging the enemy and destroying, disabling, or forcing enough of their ships to retreat will allow your fleet to disengage without being pursued."
+msgstr ""
+
+msgctxt "campaignHelp.chmSupplyUseAfterBattle_text"
+msgid ""
+"Your fleet's supply consumption has just gone up!\n"
+"\n"
+"Recovering combat readiness used to deploy ships into battle costs supplies, as does repairing battle damage.\n"
+"\n"
+"To reduce supply use, repairs and CR recovery on ships can be suspended from the fleet screen."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.enemyShipBoardable"
+msgid "Your forces are preparing to begin salvage operations, when suddenly an enemy ship's systems come back online. A quick scan picks up $numLifeSigns lifesign(s) on board."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.pursuitAutoresolve"
+msgid "Your forces engage in pursuit, as ordered."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageBoardableDisabled"
+msgid "Your forces engage the enemy ship, and a few well-placed shots quickly neutralize it."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageBoardableDestroyed"
+msgid "Your forces engage the enemy ship. A huge explosion blanks out the viewscreens shortly after a few shots impact its damaged hull, and all that's left when visuals come back online is a slowly expanding ball of debris."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerHarass"
+msgid "Your forces harass the enemy ships as they retreat, causing much disruption, but ultimately do not force a battle."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerOutFirstEscapeLoss"
+msgid "Your forces leave the battlespace before all of your allies, who are able to escape shortly thereafter."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerOutFirstEscapeWin"
+msgid "Your forces leave the battlespace before all of your allies, who are nonetheless able to rout the enemy forces."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageBoardableEscaped"
+msgid "Your forces move to engage the enemy ship, but its crew is able to bring the drive field back online at the last moment and it manages to get away."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.pursue"
+msgid "Your forces pursue the enemy and manage to close in enough to force battle."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerOutFirstEngageLoss"
+msgid "Your forces retreat from the battlespace before all of your allies and have an opportunity to leave in relative safety."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerOutFirstEngageWin"
+msgid "Your forces retreat from the battlespace before your allies, who are nonetheless able to win the engagement."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerOutFirstPursuitLoss"
+msgid "Your forces retreat from the battlespace before your allies."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerOutFirstPursuitWin"
+msgid "Your forces retreat from the battlespace before your allies."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.letBoardableGo"
+msgid "Your forces stand down and let the enemy ship get away."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipPursueStoodDown"
+msgid "Your forces stood down after the last engagement and are unable to pursue."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipPursueSeriousLosses"
+msgid "Your forces took serious losses in the last engagement and are unable to pursue."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.tooltipPursueLostLast"
+msgid "Your forces were defeated in the last engagement and are unable to pursue."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.crashMothballSelectedOneShip"
+msgid "Your order $crashMothballList to power down all combat systems to avoid the risk of malfunctions during battle. The ship's crew directs all available resources to keep the engines running as smoothly as possible."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.crashMothballSelectedMultiple"
+msgid "Your order $crashMothballList to power down all combat systems to avoid the risk of malfunctions during battle. The ship's crews direct all available resources to keep the engines running as smoothly as possible."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.engageForce"
+msgid "Your order a series of maneuvers that leave the enemy commander with progressively fewer and fewer options."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerUnableToPursueStoodDown"
+msgid "Your ships are focused on regaining combat readiness and are unable to offer pursuit."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.playerLetGo"
+msgid "Your ships make no move to pursue, allowing the enemy forces to withdraw without further incident."
+msgstr ""
+
+msgctxt "fleetInteractionDialog.highlightCleanDisengage"
+msgid "cleanly disengage from the enemy"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.highlghtDisruptedEnemy"
+msgid "disengage without being pursued"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.highlightDisengage"
+msgid "disengage without being pursued"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.highlightTooLarge"
+msgid "too large to be able to disengage"
+msgstr ""
+
+msgctxt "fleetInteractionDialog.highlightDisruptedPlayer"
+msgid "unable to offer pursuit"
+msgstr ""
