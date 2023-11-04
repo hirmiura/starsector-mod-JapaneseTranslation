@@ -113,10 +113,11 @@ def generate_pot(config: Json2PotConf) -> str:
             jp_expr = jsonpath_ng.ext.parse(ext_path)
             matches = jp_expr.find(json_obj)
             for m in matches:
-                match_dict[m.full_path] = {
-                    "value": m.value,
-                    "flags_line": extract.flags_line or "",
-                }
+                if isinstance(m.value, str):
+                    match_dict[m.full_path] = {
+                        "value": m.value,
+                        "flags_line": extract.flags_line or "",
+                    }
 
     # データせ生成する
     for k, v in match_dict.items():
