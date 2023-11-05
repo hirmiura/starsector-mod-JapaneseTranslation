@@ -1,0 +1,9 @@
+# ship_names.json json2pot.py 設定ファイル
+
+input_files = [ '../../Starsector/starsector-core/data/strings/ship_names.json' ]
+output_file = 'ship_names.json.pot'
+
+pid_version = 'ship_names.json Version 0.96a-RC10'
+
+[[extracts]]
+path = '$..*[*]'

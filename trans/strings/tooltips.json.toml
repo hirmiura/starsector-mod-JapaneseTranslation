@@ -1,0 +1,9 @@
+# tooltips.json json2pot.py 設定ファイル
+
+input_files = [ '../../Starsector/starsector-core/data/strings/tooltips.json' ]
+output_file = 'tooltips.json.pot'
+
+pid_version = 'tooltips.json Version 0.96a-RC10'
+
+[[extracts]]
+path = '$..*'

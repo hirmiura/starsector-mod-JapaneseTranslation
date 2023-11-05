@@ -1,0 +1,264 @@
+# Created by json2pot.py.
+msgid ""
+msgstr ""
+"Project-Id-Version: tooltips.json Version 0.96a-RC10\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-11-05 22:02+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "fleetScreen.tooltipCrewBar.title"
+msgid ""
+msgstr ""
+
+msgctxt "fleetScreen.tooltipLogisticalPriority.body"
+msgid "%ss with logistical priority get first pick of crew and supplies available for repairs."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipAdminNonPlayer.title"
+msgid "Administrator"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipAdmin.title"
+msgid "Assign Administrator"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCaptain.title"
+msgid "Assign Captain"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCaptain.body"
+msgid "Assign a captain (yourself or an officer) to this ship. The ship will benefit from the captain's skills."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipAdmin.body"
+msgid "Assign an administrator (or yourself) to govern this colony, which will then benefit from the assigned administrator's skills."
+msgstr ""
+
+msgctxt "logistics.credits"
+msgid "Available credits."
+msgstr ""
+
+msgctxt "logistics.supplies"
+msgid "Available supplies and supply use per day."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipBuy.title"
+msgid "Buy"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipBuy.body"
+msgid "Buy this %s for %d credits."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipRefit.body"
+msgid "Change the weapons and hullmods equipped on this ship."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewBar.body"
+msgid "Crew fraction on this %s."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewGreen.body"
+msgid "Crew this %s only with green crew, if possible."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewRegular.body"
+msgid "Crew this %s with only regular crew and below, if possible."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewVeteran.body"
+msgid "Crew this %s with only veteran crew and below, if possible."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewElite.body"
+msgid "Crew this %s with the best personnel available."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewElite.title"
+msgid "Elite"
+msgstr ""
+
+msgctxt "codex.damage_energy.title"
+msgid "Energy Damage"
+msgstr ""
+
+msgctxt "codex.damage_energy.body"
+msgid "Energy damage is equally effective against shields and armor."
+msgstr ""
+
+msgctxt "codex.damage_fragmentation.title"
+msgid "Fragmentation Damage"
+msgstr ""
+
+msgctxt "codex.damage_fragmentation.body"
+msgid ""
+"Fragmentation damage is very poor against both armor and shields. However, weapons dealing fragmentation damage usually have a very high DPS, making them devastating vs lightly-armored, unshielded targets such as light fighters and missiles.\n"
+"\n"
+"It can also be highly effective against a ship whose armor is stripped away by battle damage."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewGreen.title"
+msgid "Green"
+msgstr ""
+
+msgctxt "codex.damage_highexplosive.title"
+msgid "High Explosive Damage"
+msgstr ""
+
+msgctxt "codex.damage_highexplosive.body"
+msgid "High explosive damage is great against armor, but poor against shields."
+msgstr ""
+
+msgctxt "misc.jumpPointNormal"
+msgid "Jump points can be used to transit between hyperspace and normal space. Some jump points also lead to other destinations."
+msgstr ""
+
+msgctxt "codex.damage_kinetic.title"
+msgid "Kinetic Damage"
+msgstr ""
+
+msgctxt "codex.damage_kinetic.body"
+msgid "Kinetic damage is great against shields, but poor against armor."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipLogisticalPriority.title"
+msgid "Logistical Priority"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipMothball.title"
+msgid "Mothball"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipUnmothball.title"
+msgid "Mothball"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipMothball.body"
+msgid ""
+"Mothballed %ss can't be used in combat or repaired, and do not provide any fuel, cargo, or personnel capacity.\n"
+"\n"
+"Mothballing a ship will reduce its combat readiness to zero; restoring it will require time and supplies."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipUnmothball.body"
+msgid ""
+"Mothballed %ss can't be used in combat or repaired, and do not provide any fuel, cargo, or personnel capacity.\n"
+"\n"
+"Restoring this ship's combat readiness after unmothballing it will consume %s supplies over %s day(s)."
+msgstr ""
+
+msgctxt "logistics.crew"
+msgid "Number of crew in the fleet, and the number needed to meet the minimum requirements on all ships in the fleet."
+msgstr ""
+
+msgctxt "logistics.marines"
+msgid "Number of marines in the fleet."
+msgstr ""
+
+msgctxt "codex.damage_other.title"
+msgid "Other Damage"
+msgstr ""
+
+msgctxt "warroom.pause.title"
+msgid "Pause"
+msgstr ""
+
+msgctxt "warroom.pause.body"
+msgid "Pauses the game."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipSuspendRepairs.body"
+msgid "Prevents this %s from performing repairs or recovering combat readiness. Full repairs and CR recovery will consume approximately %s supplies over %s days if allowed to proceed."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipSuspendRepairsNotNeeded.body"
+msgid "Prevents this %s from performing repairs or recovering combat readiness. This %s does not currently require repairs or CR recovery."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipRefit.title"
+msgid "Refit"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewRegular.title"
+msgid "Regular"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipScuttle.title"
+msgid "Scuttle"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipSell.title"
+msgid "Sell"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipSell.body"
+msgid "Sell this %s for %d credits."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipGive.title"
+msgid "Store"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipScuttle.body"
+msgid "Strip this %s of anything useful, gaining %d supplies, %d fuel, and %d heavy machinery."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipSuspendRepairs.title"
+msgid "Suspend Repairs & Recovery"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipSuspendRepairsNotNeeded.title"
+msgid "Suspend Repairs & Recovery"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipTake.title"
+msgid "Take"
+msgstr ""
+
+msgctxt "fleetScreen.tooltipTake.body"
+msgid "Take this %s."
+msgstr ""
+
+msgctxt "misc.jumpPointGasGiant"
+msgid "The gravity well of a gas giant is often deep enough to provide a one-way exit from hyperspace."
+msgstr ""
+
+msgctxt "misc.jumpPointStar"
+msgid "The gravity well of a star is deep enough to provide a one-way exit from hyperspace. Using one is, however, extremely difficult and dangerous."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipAdminNonPlayer.body"
+msgid "This colony is not governed by an administrator of any note."
+msgstr ""
+
+msgctxt "codex.damage_other.body"
+msgid "This weapon is special. In reality, though, if you're seeing this, it's probably a bug."
+msgstr ""
+
+msgctxt "warroom.combatTime"
+msgid ""
+"Time elapsed with both fleets in contact with each other.\n"
+"\n"
+"The peak performance time of reinforcements is reduced by half of the combat time."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipGive.body"
+msgid "Transfer this %s from your fleet. Its combat readiness will remain unchanged while it's in storage."
+msgstr ""
+
+msgctxt "warroom.play.title"
+msgid "Unpause"
+msgstr ""
+
+msgctxt "warroom.play.body"
+msgid "Unpauses the game."
+msgstr ""
+
+msgctxt "fleetScreen.tooltipCrewVeteran.title"
+msgid "Veteran"
+msgstr ""

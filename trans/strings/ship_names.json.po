@@ -1,0 +1,9848 @@
+# Created by json2pot.py.
+msgid ""
+msgstr ""
+"Project-Id-Version: ship_names.json Version 0.96a-RC10\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-11-05 22:02+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "OMEGA.[6]"
+msgid "0fa323"
+msgstr ""
+
+msgctxt "SPACE.[24]"
+msgid "10000 Lightyears"
+msgstr ""
+
+msgctxt "OMEGA.[5]"
+msgid "103d6f"
+msgstr ""
+
+msgctxt "OMEGA.[24]"
+msgid "125b0d"
+msgstr ""
+
+msgctxt "OMEGA.[7]"
+msgid "142b9f"
+msgstr ""
+
+msgctxt "OMEGA.[8]"
+msgid "17c548"
+msgstr ""
+
+msgctxt "OMEGA.[2]"
+msgid "20fe9b"
+msgstr ""
+
+msgctxt "OMEGA.[9]"
+msgid "360ca3"
+msgstr ""
+
+msgctxt "OMEGA.[17]"
+msgid "377f34"
+msgstr ""
+
+msgctxt "OMEGA.[3]"
+msgid "415240"
+msgstr ""
+
+msgctxt "OMEGA.[15]"
+msgid "457914"
+msgstr ""
+
+msgctxt "PIRATES.[136]"
+msgid "50 Rem And Counting"
+msgstr ""
+
+msgctxt "OMEGA.[20]"
+msgid "5b9c6d"
+msgstr ""
+
+msgctxt "OMEGA.[13]"
+msgid "6334d5"
+msgstr ""
+
+msgctxt "OMEGA.[1]"
+msgid "649dc3"
+msgstr ""
+
+msgctxt "SPACE.[45]"
+msgid "7000 Lightyears"
+msgstr ""
+
+msgctxt "OMEGA.[14]"
+msgid "7334d5"
+msgstr ""
+
+msgctxt "OMEGA.[22]"
+msgid "7e2489"
+msgstr ""
+
+msgctxt "OMEGA.[4]"
+msgid "85e684"
+msgstr ""
+
+msgctxt "OMEGA.[10]"
+msgid "8bdac8"
+msgstr ""
+
+msgctxt "OMEGA.[11]"
+msgid "8d8a14"
+msgstr ""
+
+msgctxt "OMEGA.[12]"
+msgid "9d8a14"
+msgstr ""
+
+msgctxt "GENERAL.[97]"
+msgid "A Lot To Live Down"
+msgstr ""
+
+msgctxt "OTHER.[13]"
+msgid "A Return to Never"
+msgstr ""
+
+msgctxt "GREEK.[0]"
+msgid "Abas"
+msgstr ""
+
+msgctxt "GREEK.[1]"
+msgid "Abderus"
+msgstr ""
+
+msgctxt "MERCANTILE.[17]"
+msgid "Abundant Returning"
+msgstr ""
+
+msgctxt "EGYPTIAN.[0]"
+msgid "Abydos"
+msgstr ""
+
+msgctxt "GREEK.[2]"
+msgid "Acacallis"
+msgstr ""
+
+msgctxt "GREEK.[3]"
+msgid "Acamas"
+msgstr ""
+
+msgctxt "GREEK.[4]"
+msgid "Acarnan"
+msgstr ""
+
+msgctxt "GREEK.[5]"
+msgid "Acastus"
+msgstr ""
+
+msgctxt "GREEK.[6]"
+msgid "Aceso"
+msgstr ""
+
+msgctxt "GREEK.[7]"
+msgid "Acestes"
+msgstr ""
+
+msgctxt "ROMAN.[0]"
+msgid "Acestes"
+msgstr ""
+
+msgctxt "GREEK.[8]"
+msgid "Achaeus"
+msgstr ""
+
+msgctxt "CELTIC.[0]"
+msgid "Achall"
+msgstr ""
+
+msgctxt "ROMAN.[1]"
+msgid "Achates"
+msgstr ""
+
+msgctxt "GREEK.[9]"
+msgid "Achelois"
+msgstr ""
+
+msgctxt "GREEK.[10]"
+msgid "Achelous"
+msgstr ""
+
+msgctxt "GREEK.[11]"
+msgid "Acheron"
+msgstr ""
+
+msgctxt "GREEK.[12]"
+msgid "Achilles"
+msgstr ""
+
+msgctxt "GREEK.[13]"
+msgid "Achlys"
+msgstr ""
+
+msgctxt "CELTIC.[1]"
+msgid "Achtan"
+msgstr ""
+
+msgctxt "CELTIC.[2]"
+msgid "Achtland"
+msgstr ""
+
+msgctxt "GREEK.[14]"
+msgid "Acis"
+msgstr ""
+
+msgctxt "ROMAN.[2]"
+msgid "Acmon"
+msgstr ""
+
+msgctxt "GREEK.[15]"
+msgid "Acoetes"
+msgstr ""
+
+msgctxt "GREEK.[16]"
+msgid "Acratopotes"
+msgstr ""
+
+msgctxt "GREEK.[17]"
+msgid "Acrisius"
+msgstr ""
+
+msgctxt "GREEK.[18]"
+msgid "Actaeon"
+msgstr ""
+
+msgctxt "GREEK.[19]"
+msgid "Actaeus"
+msgstr ""
+
+msgctxt "GREEK.[20]"
+msgid "Actor"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[1]"
+msgid "Adamant"
+msgstr ""
+
+msgctxt "GENERAL.[245]"
+msgid "Adeon Airtune"
+msgstr ""
+
+msgctxt "ROMAN.[3]"
+msgid "Adeona"
+msgstr ""
+
+msgctxt "GREEK.[21]"
+msgid "Adephagia"
+msgstr ""
+
+msgctxt "GREEK.[22]"
+msgid "Adikia"
+msgstr ""
+
+msgctxt "GREEK.[23]"
+msgid "Admetus"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[2]"
+msgid "Admirable"
+msgstr ""
+
+msgctxt "GREEK.[24]"
+msgid "Adonis"
+msgstr ""
+
+msgctxt "GREEK.[25]"
+msgid "Adrasteia"
+msgstr ""
+
+msgctxt "GREEK.[26]"
+msgid "Adrastus"
+msgstr ""
+
+msgctxt "GREEK.[27]"
+msgid "Adrestia"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[0]"
+msgid "Adriel"
+msgstr ""
+
+msgctxt "CELTIC.[3]"
+msgid "Adsullata"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[3]"
+msgid "Advantage"
+msgstr ""
+
+msgctxt "PIRATES.[18]"
+msgid "Adventure"
+msgstr ""
+
+msgctxt "GREEK.[28]"
+msgid "Aeacus"
+msgstr ""
+
+msgctxt "GREEK.[29]"
+msgid "Aeetes"
+msgstr ""
+
+msgctxt "GREEK.[30]"
+msgid "Aegeus"
+msgstr ""
+
+msgctxt "GREEK.[31]"
+msgid "Aegialeia"
+msgstr ""
+
+msgctxt "GREEK.[32]"
+msgid "Aegialeus"
+msgstr ""
+
+msgctxt "GREEK.[33]"
+msgid "Aegimius"
+msgstr ""
+
+msgctxt "GREEK.[34]"
+msgid "Aegina"
+msgstr ""
+
+msgctxt "NORSE.[0]"
+msgid "Aegir"
+msgstr ""
+
+msgctxt "GREEK.[35]"
+msgid "Aegisthus"
+msgstr ""
+
+msgctxt "GREEK.[36]"
+msgid "Aegle"
+msgstr ""
+
+msgctxt "GREEK.[37]"
+msgid "Aegyptus"
+msgstr ""
+
+msgctxt "GREEK.[38]"
+msgid "Aeneas"
+msgstr ""
+
+msgctxt "ROMAN.[4]"
+msgid "Aeneas"
+msgstr ""
+
+msgctxt "GREEK.[39]"
+msgid "Aeolus"
+msgstr ""
+
+msgctxt "GENERAL.[78]"
+msgid "Aeon Raptor"
+msgstr ""
+
+msgctxt "GREEK.[40]"
+msgid "Aepytus"
+msgstr ""
+
+msgctxt "ROMAN.[5]"
+msgid "Aequitas"
+msgstr ""
+
+msgctxt "GREEK.[41]"
+msgid "Aergia"
+msgstr ""
+
+msgctxt "GREEK.[42]"
+msgid "Aerope"
+msgstr ""
+
+msgctxt "GREEK.[43]"
+msgid "Aesacus"
+msgstr ""
+
+msgctxt "NORSE.[1]"
+msgid "Aesir"
+msgstr ""
+
+msgctxt "GREEK.[44]"
+msgid "Aeson"
+msgstr ""
+
+msgctxt "ROMAN.[6]"
+msgid "Aeternitas"
+msgstr ""
+
+msgctxt "GREEK.[45]"
+msgid "Aethalides"
+msgstr ""
+
+msgctxt "GREEK.[46]"
+msgid "Aethlius"
+msgstr ""
+
+msgctxt "GREEK.[47]"
+msgid "Aethra"
+msgstr ""
+
+msgctxt "GREEK.[48]"
+msgid "Aetna"
+msgstr ""
+
+msgctxt "GREEK.[49]"
+msgid "Aetolus"
+msgstr ""
+
+msgctxt "CELTIC.[4]"
+msgid "Aeval"
+msgstr ""
+
+msgctxt "GREEK.[50]"
+msgid "Agamedes"
+msgstr ""
+
+msgctxt "GREEK.[51]"
+msgid "Agamemnon"
+msgstr ""
+
+msgctxt "GREEK.[52]"
+msgid "Agapenor"
+msgstr ""
+
+msgctxt "GREEK.[53]"
+msgid "Agasthenes"
+msgstr ""
+
+msgctxt "GREEK.[54]"
+msgid "Agave"
+msgstr ""
+
+msgctxt "GREEK.[55]"
+msgid "Agdistis"
+msgstr ""
+
+msgctxt "GREEK.[56]"
+msgid "Agelaus"
+msgstr ""
+
+msgctxt "GREEK.[57]"
+msgid "Agenor"
+msgstr ""
+
+msgctxt "GREEK.[58]"
+msgid "Aglaea"
+msgstr ""
+
+msgctxt "GREEK.[59]"
+msgid "Aglaulus"
+msgstr ""
+
+msgctxt "KNIGHTS.[0]"
+msgid "Aglovale"
+msgstr ""
+
+msgctxt "GREEK.[60]"
+msgid "Agon"
+msgstr ""
+
+msgctxt "KNIGHTS.[1]"
+msgid "Agravain"
+msgstr ""
+
+msgctxt "GREEK.[61]"
+msgid "Agrius"
+msgstr ""
+
+msgctxt "GREEK.[62]"
+msgid "Agron"
+msgstr ""
+
+msgctxt "CELTIC.[5]"
+msgid "Aibell"
+msgstr ""
+
+msgctxt "GREEK.[63]"
+msgid "Aidos"
+msgstr ""
+
+msgctxt "CELTIC.[6]"
+msgid "Aillen"
+msgstr ""
+
+msgctxt "GENERAL.[92]"
+msgid "Aim To Please"
+msgstr ""
+
+msgctxt "CELTIC.[7]"
+msgid "Aimend"
+msgstr ""
+
+msgctxt "PIRATES.[93]"
+msgid "Ain't Having It"
+msgstr ""
+
+msgctxt "CELTIC.[8]"
+msgid "Aine"
+msgstr ""
+
+msgctxt "JAPANESE.[0]"
+msgid "Aizen"
+msgstr ""
+
+msgctxt "EGYPTIAN.[1]"
+msgid "Akert"
+msgstr ""
+
+msgctxt "EGYPTIAN.[2]"
+msgid "Akeru"
+msgstr ""
+
+msgctxt "GREEK.[64]"
+msgid "Akheilos"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[41]"
+msgid "Aladdin-San"
+msgstr ""
+
+msgctxt "GREEK.[65]"
+msgid "Alala"
+msgstr ""
+
+msgctxt "GREEK.[66]"
+msgid "Alastor"
+msgstr ""
+
+msgctxt "CELTIC.[9]"
+msgid "Albiorix"
+msgstr ""
+
+msgctxt "GREEK.[67]"
+msgid "Alcaeus"
+msgstr ""
+
+msgctxt "GREEK.[68]"
+msgid "Alcathous"
+msgstr ""
+
+msgctxt "GREEK.[69]"
+msgid "Alcestis"
+msgstr ""
+
+msgctxt "GREEK.[70]"
+msgid "Alcidice"
+msgstr ""
+
+msgctxt "GREEK.[71]"
+msgid "Alcimede"
+msgstr ""
+
+msgctxt "GREEK.[72]"
+msgid "Alcinous"
+msgstr ""
+
+msgctxt "GREEK.[73]"
+msgid "Alcmaeon"
+msgstr ""
+
+msgctxt "GREEK.[74]"
+msgid "Alcmene"
+msgstr ""
+
+msgctxt "GREEK.[75]"
+msgid "Alcyone"
+msgstr ""
+
+msgctxt "GREEK.[76]"
+msgid "Alcyoneus"
+msgstr ""
+
+msgctxt "SPACE.[54]"
+msgid "Aldebaran Rising"
+msgstr ""
+
+msgctxt "GREEK.[77]"
+msgid "Alecto"
+msgstr ""
+
+msgctxt "GREEK.[78]"
+msgid "Alectrona"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[20]"
+msgid "Aleph-Angel"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[0]"
+msgid "Alert"
+msgstr ""
+
+msgctxt "GREEK.[79]"
+msgid "Aletheia"
+msgstr ""
+
+msgctxt "GREEK.[80]"
+msgid "Aleus"
+msgstr ""
+
+msgctxt "GREEK.[81]"
+msgid "Alexiares"
+msgstr ""
+
+msgctxt "NORSE.[2]"
+msgid "Alfheim"
+msgstr ""
+
+msgctxt "GREEK.[82]"
+msgid "Algos"
+msgstr ""
+
+msgctxt "CELTIC.[10]"
+msgid "Alisanos"
+msgstr ""
+
+msgctxt "GENERAL.[66]"
+msgid "Alizarin"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[47]"
+msgid "All Are Mortal"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[32]"
+msgid "All Is Given"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[33]"
+msgid "All Is Taken"
+msgstr ""
+
+msgctxt "GENERAL.[54]"
+msgid "All Of Our Hopes"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[31]"
+msgid "Allegiance"
+msgstr ""
+
+msgctxt "DIKTAT.[18]"
+msgid "Allegiant Ultimus"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[32]"
+msgid "Alliance"
+msgstr ""
+
+msgctxt "GREEK.[83]"
+msgid "Almus"
+msgstr ""
+
+msgctxt "GREEK.[84]"
+msgid "Aloeus"
+msgstr ""
+
+msgctxt "SPACE.[67]"
+msgid "Aloft Parabolic"
+msgstr ""
+
+msgctxt "GREEK.[85]"
+msgid "Alope"
+msgstr ""
+
+msgctxt "GREEK.[86]"
+msgid "Alpheus"
+msgstr ""
+
+msgctxt "GREEK.[87]"
+msgid "Althaea"
+msgstr ""
+
+msgctxt "GREEK.[88]"
+msgid "Althaemenes"
+msgstr ""
+
+msgctxt "EGYPTIAN.[3]"
+msgid "Am-heh"
+msgstr ""
+
+msgctxt "CELTIC.[11]"
+msgid "Amaethon"
+msgstr ""
+
+msgctxt "GREEK.[89]"
+msgid "Amarynceus"
+msgstr ""
+
+msgctxt "JAPANESE.[1]"
+msgid "Amaterasu"
+msgstr ""
+
+msgctxt "EGYPTIAN.[4]"
+msgid "Amathaunta"
+msgstr ""
+
+msgctxt "JAPANESE.[2]"
+msgid "Amatsu"
+msgstr ""
+
+msgctxt "EGYPTIAN.[5]"
+msgid "Amaunet"
+msgstr ""
+
+msgctxt "GENERAL.[46]"
+msgid "Amber"
+msgstr ""
+
+msgctxt "GENERAL.[42]"
+msgid "Ambergris"
+msgstr ""
+
+msgctxt "MERCANTILE.[9]"
+msgid "Ambition"
+msgstr ""
+
+msgctxt "GENERAL.[207]"
+msgid "Ambitor"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[5]"
+msgid "Ambush"
+msgstr ""
+
+msgctxt "PIRATES.[50]"
+msgid "Ambush!"
+msgstr ""
+
+msgctxt "GREEK.[90]"
+msgid "Amechania"
+msgstr ""
+
+msgctxt "EGYPTIAN.[6]"
+msgid "Amenhotep"
+msgstr ""
+
+msgctxt "EGYPTIAN.[7]"
+msgid "Ament"
+msgstr ""
+
+msgctxt "EGYPTIAN.[8]"
+msgid "Amentet"
+msgstr ""
+
+msgctxt "EGYPTIAN.[9]"
+msgid "Amenthes"
+msgstr ""
+
+msgctxt "EGYPTIAN.[10]"
+msgid "Ammon"
+msgstr ""
+
+msgctxt "GENERAL.[213]"
+msgid "Amon Roc"
+msgstr ""
+
+msgctxt "GENERAL.[222]"
+msgid "Amon-rex"
+msgstr ""
+
+msgctxt "GENERAL.[93]"
+msgid "Amoral Quandry"
+msgstr ""
+
+msgctxt "GREEK.[91]"
+msgid "Amphiaraus"
+msgstr ""
+
+msgctxt "GREEK.[92]"
+msgid "Amphictyon"
+msgstr ""
+
+msgctxt "GREEK.[93]"
+msgid "Amphictyonis"
+msgstr ""
+
+msgctxt "GREEK.[94]"
+msgid "Amphidamas"
+msgstr ""
+
+msgctxt "GREEK.[95]"
+msgid "Amphilochus"
+msgstr ""
+
+msgctxt "GREEK.[96]"
+msgid "Amphimachus"
+msgstr ""
+
+msgctxt "GREEK.[97]"
+msgid "Amphinomus"
+msgstr ""
+
+msgctxt "GREEK.[98]"
+msgid "Amphion"
+msgstr ""
+
+msgctxt "GREEK.[99]"
+msgid "Amphithea"
+msgstr ""
+
+msgctxt "GREEK.[100]"
+msgid "Amphitrite"
+msgstr ""
+
+msgctxt "GREEK.[101]"
+msgid "Amphitryon"
+msgstr ""
+
+msgctxt "ROMAN.[7]"
+msgid "Amulius"
+msgstr ""
+
+msgctxt "EGYPTIAN.[11]"
+msgid "Amun"
+msgstr ""
+
+msgctxt "EGYPTIAN.[12]"
+msgid "Amun-Re"
+msgstr ""
+
+msgctxt "GREEK.[102]"
+msgid "Amyclas"
+msgstr ""
+
+msgctxt "GREEK.[103]"
+msgid "Amycus"
+msgstr ""
+
+msgctxt "GREEK.[104]"
+msgid "Amymone"
+msgstr ""
+
+msgctxt "GREEK.[105]"
+msgid "Amyntor"
+msgstr ""
+
+msgctxt "GREEK.[106]"
+msgid "Amythaon"
+msgstr ""
+
+msgctxt "GREEK.[107]"
+msgid "Anaideia"
+msgstr ""
+
+msgctxt "GREEK.[108]"
+msgid "Anakes"
+msgstr ""
+
+msgctxt "GREEK.[109]"
+msgid "Ananke"
+msgstr ""
+
+msgctxt "CELTIC.[12]"
+msgid "Anann"
+msgstr ""
+
+msgctxt "GREEK.[110]"
+msgid "Anaxagoras"
+msgstr ""
+
+msgctxt "GREEK.[111]"
+msgid "Anaxibia"
+msgstr ""
+
+msgctxt "GREEK.[112]"
+msgid "Anaxo"
+msgstr ""
+
+msgctxt "GREEK.[113]"
+msgid "Ancaeus"
+msgstr ""
+
+msgctxt "GREEK.[114]"
+msgid "Anchialus"
+msgstr ""
+
+msgctxt "GREEK.[115]"
+msgid "Anchises"
+msgstr ""
+
+msgctxt "ROMAN.[8]"
+msgid "Anchises"
+msgstr ""
+
+msgctxt "CELTIC.[13]"
+msgid "Andarta"
+msgstr ""
+
+msgctxt "DIKTAT.[36]"
+msgid "Andrada Invictus"
+msgstr ""
+
+msgctxt "DIKTAT.[35]"
+msgid "Andrada's Conquest"
+msgstr ""
+
+msgctxt "GREEK.[116]"
+msgid "Andraemon"
+msgstr ""
+
+msgctxt "CELTIC.[14]"
+msgid "Andraste"
+msgstr ""
+
+msgctxt "GREEK.[117]"
+msgid "Andreus"
+msgstr ""
+
+msgctxt "GREEK.[118]"
+msgid "Androgeus"
+msgstr ""
+
+msgctxt "GREEK.[119]"
+msgid "Andromache"
+msgstr ""
+
+msgctxt "GREEK.[120]"
+msgid "Andromeda"
+msgstr ""
+
+msgctxt "NORSE.[3]"
+msgid "Andvari"
+msgstr ""
+
+msgctxt "GREEK.[121]"
+msgid "Anemoi"
+msgstr ""
+
+msgctxt "CELTIC.[15]"
+msgid "Anextiomarus"
+msgstr ""
+
+msgctxt "GREEK.[122]"
+msgid "Angelia"
+msgstr ""
+
+msgctxt "ROMAN.[9]"
+msgid "Angitia"
+msgstr ""
+
+msgctxt "EGYPTIAN.[13]"
+msgid "Anhur"
+msgstr ""
+
+msgctxt "GREEK.[123]"
+msgid "Anicetus"
+msgstr ""
+
+msgctxt "GREEK.[124]"
+msgid "Anius"
+msgstr ""
+
+msgctxt "PIRATES.[9]"
+msgid "Anne Bonny's Rocket"
+msgstr ""
+
+msgctxt "ROMAN.[10]"
+msgid "Annonaria"
+msgstr ""
+
+msgctxt "EGYPTIAN.[14]"
+msgid "Anouke"
+msgstr ""
+
+msgctxt "GENERAL.[135]"
+msgid "Ant"
+msgstr ""
+
+msgctxt "GREEK.[125]"
+msgid "Antaeus"
+msgstr ""
+
+msgctxt "SPACE.[63]"
+msgid "Antares Bright"
+msgstr ""
+
+msgctxt "GREEK.[126]"
+msgid "Antenor"
+msgstr ""
+
+msgctxt "GREEK.[127]"
+msgid "Anteros"
+msgstr ""
+
+msgctxt "ROMAN.[11]"
+msgid "Antevorte"
+msgstr ""
+
+msgctxt "GREEK.[128]"
+msgid "Antheia"
+msgstr ""
+
+msgctxt "GREEK.[129]"
+msgid "Anthousai"
+msgstr ""
+
+msgctxt "GREEK.[130]"
+msgid "Anticlea"
+msgstr ""
+
+msgctxt "GREEK.[131]"
+msgid "Antigone"
+msgstr ""
+
+msgctxt "GREEK.[132]"
+msgid "Antilochus"
+msgstr ""
+
+msgctxt "GREEK.[133]"
+msgid "Antimachus"
+msgstr ""
+
+msgctxt "GREEK.[134]"
+msgid "Antinous"
+msgstr ""
+
+msgctxt "GREEK.[135]"
+msgid "Antion"
+msgstr ""
+
+msgctxt "GREEK.[136]"
+msgid "Antiope"
+msgstr ""
+
+msgctxt "GREEK.[137]"
+msgid "Antiphates"
+msgstr ""
+
+msgctxt "GREEK.[138]"
+msgid "Antiphus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[15]"
+msgid "Anubis"
+msgstr ""
+
+msgctxt "EGYPTIAN.[16]"
+msgid "Anuket"
+msgstr ""
+
+msgctxt "GREEK.[139]"
+msgid "Aoide"
+msgstr ""
+
+msgctxt "GREEK.[140]"
+msgid "Apate"
+msgstr ""
+
+msgctxt "EGYPTIAN.[17]"
+msgid "Apep"
+msgstr ""
+
+msgctxt "GREEK.[141]"
+msgid "Aphaea"
+msgstr ""
+
+msgctxt "GREEK.[142]"
+msgid "Aphareus"
+msgstr ""
+
+msgctxt "GREEK.[143]"
+msgid "Apheidas"
+msgstr ""
+
+msgctxt "GREEK.[144]"
+msgid "Apis"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[22]"
+msgid "Apocalypse"
+msgstr ""
+
+msgctxt "GREEK.[145]"
+msgid "Aporia"
+msgstr ""
+
+msgctxt "GENERAL.[153]"
+msgid "Appa-Duke"
+msgstr ""
+
+msgctxt "ROMAN.[12]"
+msgid "Appiades"
+msgstr ""
+
+msgctxt "GREEK.[146]"
+msgid "Apsyrtus"
+msgstr ""
+
+msgctxt "GENERAL.[63]"
+msgid "Aquilius"
+msgstr ""
+
+msgctxt "ROMAN.[13]"
+msgid "Aquilo"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[33]"
+msgid "Aquilon"
+msgstr ""
+
+msgctxt "GENERAL.[198]"
+msgid "Aquilon-Echet"
+msgstr ""
+
+msgctxt "GREEK.[147]"
+msgid "Arachne"
+msgstr ""
+
+msgctxt "CELTIC.[16]"
+msgid "Arawn"
+msgstr ""
+
+msgctxt "GREEK.[148]"
+msgid "Arcas"
+msgstr ""
+
+msgctxt "GREEK.[149]"
+msgid "Arcesius"
+msgstr ""
+
+msgctxt "GENERAL.[166]"
+msgid "Ard Arrow"
+msgstr ""
+
+msgctxt "CELTIC.[17]"
+msgid "Arduinna"
+msgstr ""
+
+msgctxt "EGYPTIAN.[18]"
+msgid "Arensnuphis"
+msgstr ""
+
+msgctxt "GREEK.[150]"
+msgid "Arete"
+msgstr ""
+
+msgctxt "GREEK.[151]"
+msgid "Arete"
+msgstr ""
+
+msgctxt "GREEK.[152]"
+msgid "Arethusa"
+msgstr ""
+
+msgctxt "GREEK.[153]"
+msgid "Argea"
+msgstr ""
+
+msgctxt "GREEK.[154]"
+msgid "Argeius"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[27]"
+msgid "Argo"
+msgstr ""
+
+msgctxt "GREEK.[155]"
+msgid "Argos"
+msgstr ""
+
+msgctxt "GREEK.[156]"
+msgid "Ariadne"
+msgstr ""
+
+msgctxt "BEASTS.[26]"
+msgid "Arion"
+msgstr ""
+
+msgctxt "GREEK.[157]"
+msgid "Arion"
+msgstr ""
+
+msgctxt "SPACE.[68]"
+msgid "Arising Hyperbolic"
+msgstr ""
+
+msgctxt "GREEK.[158]"
+msgid "Aristaeus"
+msgstr ""
+
+msgctxt "GREEK.[159]"
+msgid "Aristodemus"
+msgstr ""
+
+msgctxt "GREEK.[160]"
+msgid "Aristomachus"
+msgstr ""
+
+msgctxt "GENERAL.[197]"
+msgid "Ark Matet"
+msgstr ""
+
+msgctxt "GENERAL.[75]"
+msgid "Arkady Sent Me"
+msgstr ""
+
+msgctxt "GREEK.[161]"
+msgid "Arke"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[26]"
+msgid "Arkon"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[21]"
+msgid "Armageddon"
+msgstr ""
+
+msgctxt "GREEK.[162]"
+msgid "Arsinoe"
+msgstr ""
+
+msgctxt "CELTIC.[18]"
+msgid "Artio"
+msgstr ""
+
+msgctxt "GREEK.[163]"
+msgid "Ascalaphus"
+msgstr ""
+
+msgctxt "ROMAN.[14]"
+msgid "Ascanius"
+msgstr ""
+
+msgctxt "DIKTAT.[22]"
+msgid "Ascendant Command"
+msgstr ""
+
+msgctxt "DIKTAT.[42]"
+msgid "Ascension of Destiny"
+msgstr ""
+
+msgctxt "GREEK.[164]"
+msgid "Asclepius"
+msgstr ""
+
+msgctxt "NORSE.[4]"
+msgid "Asgard"
+msgstr ""
+
+msgctxt "JAPANESE.[3]"
+msgid "Ashuku-Nyorai"
+msgstr ""
+
+msgctxt "GREEK.[165]"
+msgid "Asius"
+msgstr ""
+
+msgctxt "GREEK.[166]"
+msgid "Asopus"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[34]"
+msgid "Asp"
+msgstr ""
+
+msgctxt "GREEK.[167]"
+msgid "Assaracus"
+msgstr ""
+
+msgctxt "GREEK.[168]"
+msgid "Astacus"
+msgstr ""
+
+msgctxt "GENERAL.[193]"
+msgid "Astene Key"
+msgstr ""
+
+msgctxt "EGYPTIAN.[19]"
+msgid "Astennu"
+msgstr ""
+
+msgctxt "GREEK.[169]"
+msgid "Asteria"
+msgstr ""
+
+msgctxt "GREEK.[170]"
+msgid "Asterius"
+msgstr ""
+
+msgctxt "PIRATES.[114]"
+msgid "Asteroid-breaker"
+msgstr ""
+
+msgctxt "GENERAL.[143]"
+msgid "Astop Untire"
+msgstr ""
+
+msgctxt "MERCANTILE.[12]"
+msgid "Astorian"
+msgstr ""
+
+msgctxt "GREEK.[171]"
+msgid "Astraea"
+msgstr ""
+
+msgctxt "GREEK.[172]"
+msgid "Astraeus"
+msgstr ""
+
+msgctxt "NORSE.[5]"
+msgid "Astrild"
+msgstr ""
+
+msgctxt "BEASTS.[1]"
+msgid "Astrovore"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[4]"
+msgid "Astute"
+msgstr ""
+
+msgctxt "GREEK.[173]"
+msgid "Astyanax"
+msgstr ""
+
+msgctxt "GREEK.[174]"
+msgid "Astydameia"
+msgstr ""
+
+msgctxt "GREEK.[175]"
+msgid "Astyoche"
+msgstr ""
+
+msgctxt "GREEK.[176]"
+msgid "Astypalaea"
+msgstr ""
+
+msgctxt "PIRATES.[169]"
+msgid "At Least It's An Ethos"
+msgstr ""
+
+msgctxt "GENERAL.[53]"
+msgid "At Long Last"
+msgstr ""
+
+msgctxt "GREEK.[177]"
+msgid "Atalanta"
+msgstr ""
+
+msgctxt "GREEK.[178]"
+msgid "Athamas"
+msgstr ""
+
+msgctxt "AZTEC.[0]"
+msgid "Atlacamani"
+msgstr ""
+
+msgctxt "AZTEC.[1]"
+msgid "Atlacoya"
+msgstr ""
+
+msgctxt "AZTEC.[2]"
+msgid "Atlatonin"
+msgstr ""
+
+msgctxt "GREEK.[179]"
+msgid "Atreus"
+msgstr ""
+
+msgctxt "GREEK.[180]"
+msgid "Atropos"
+msgstr ""
+
+msgctxt "GREEK.[181]"
+msgid "Attis"
+msgstr ""
+
+msgctxt "EGYPTIAN.[20]"
+msgid "Atum"
+msgstr ""
+
+msgctxt "GREEK.[182]"
+msgid "Atymnius"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[28]"
+msgid "Audacious"
+msgstr ""
+
+msgctxt "GREEK.[183]"
+msgid "Auge"
+msgstr ""
+
+msgctxt "GREEK.[184]"
+msgid "Augeas"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[29]"
+msgid "Augustus"
+msgstr ""
+
+msgctxt "GREEK.[185]"
+msgid "Aurai"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[30]"
+msgid "Aurochs"
+msgstr ""
+
+msgctxt "GENERAL.[250]"
+msgid "Auror"
+msgstr ""
+
+msgctxt "ROMAN.[15]"
+msgid "Aurora"
+msgstr ""
+
+msgctxt "ROMAN.[16]"
+msgid "Ausonia"
+msgstr ""
+
+msgctxt "MERCANTILE.[23]"
+msgid "Auspicious Jump"
+msgstr ""
+
+msgctxt "GENERAL.[284]"
+msgid "Auster"
+msgstr ""
+
+msgctxt "GENERAL.[34]"
+msgid "Auster"
+msgstr ""
+
+msgctxt "GREEK.[186]"
+msgid "Autesion"
+msgstr ""
+
+msgctxt "GREEK.[187]"
+msgid "Autolycus"
+msgstr ""
+
+msgctxt "GREEK.[188]"
+msgid "Automedon"
+msgstr ""
+
+msgctxt "GREEK.[189]"
+msgid "Autonoe"
+msgstr ""
+
+msgctxt "GREEK.[190]"
+msgid "Auxo"
+msgstr ""
+
+msgctxt "CELTIC.[19]"
+msgid "Avalloc"
+msgstr ""
+
+msgctxt "BEASTS.[0]"
+msgid "Avanc"
+msgstr ""
+
+msgctxt "MERCANTILE.[7]"
+msgid "Avarus"
+msgstr ""
+
+msgctxt "ROMAN.[17]"
+msgid "Averna"
+msgstr ""
+
+msgctxt "ROMAN.[18]"
+msgid "Avernus"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[41]"
+msgid "Away Our Fear"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[40]"
+msgid "Away Our Sorrow"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[33]"
+msgid "Ayin-Buster"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[2]"
+msgid "Azazel"
+msgstr ""
+
+msgctxt "PERSIAN.[17]"
+msgid "Azhi"
+msgstr ""
+
+msgctxt "PERSIAN.[19]"
+msgid "Azhi Dahaka"
+msgstr ""
+
+msgctxt "GENERAL.[140]"
+msgid "Azhi Damaeters"
+msgstr ""
+
+msgctxt "PERSIAN.[20]"
+msgid "Azhi Sruvara"
+msgstr ""
+
+msgctxt "GENERAL.[199]"
+msgid "Azimute"
+msgstr ""
+
+msgctxt "SPACE.[0]"
+msgid "Azimuth"
+msgstr ""
+
+msgctxt "SPACE.[69]"
+msgid "Azimyth"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[1]"
+msgid "Azrael"
+msgstr ""
+
+msgctxt "GENERAL.[40]"
+msgid "Babylonian"
+msgstr ""
+
+msgctxt "GENERAL.[157]"
+msgid "Babylonian Raven"
+msgstr ""
+
+msgctxt "GENERAL.[266]"
+msgid "Badmark"
+msgstr ""
+
+msgctxt "KNIGHTS.[2]"
+msgid "Bagdemagus"
+msgstr ""
+
+msgctxt "JAPANESE.[4]"
+msgid "Bakemono"
+msgstr ""
+
+msgctxt "EGYPTIAN.[21]"
+msgid "Bakha"
+msgstr ""
+
+msgctxt "JAPANESE.[5]"
+msgid "Baku"
+msgstr ""
+
+msgctxt "NORSE.[6]"
+msgid "Balmung"
+msgstr ""
+
+msgctxt "CELTIC.[20]"
+msgid "Balor"
+msgstr ""
+
+msgctxt "PIRATES.[74]"
+msgid "Balor One-Eye"
+msgstr ""
+
+msgctxt "EGYPTIAN.[22]"
+msgid "Banebdjetet"
+msgstr ""
+
+msgctxt "MERCANTILE.[16]"
+msgid "Baron"
+msgstr ""
+
+msgctxt "BEASTS.[2]"
+msgid "Basilisk"
+msgstr ""
+
+msgctxt "GENERAL.[168]"
+msgid "Basilon-Dukemona"
+msgstr ""
+
+msgctxt "EGYPTIAN.[23]"
+msgid "Bastet"
+msgstr ""
+
+msgctxt "GREEK.[191]"
+msgid "Bateia"
+msgstr ""
+
+msgctxt "PIRATES.[127]"
+msgid "Battering Ram"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[37]"
+msgid "Battle"
+msgstr ""
+
+msgctxt "DIKTAT.[2]"
+msgid "Battle of Sindria"
+msgstr ""
+
+msgctxt "GREEK.[192]"
+msgid "Battus"
+msgstr ""
+
+msgctxt "GREEK.[193]"
+msgid "Baucis"
+msgstr ""
+
+msgctxt "GREEK.[194]"
+msgid "Baucis and Philemon"
+msgstr ""
+
+msgctxt "OTHER.[10]"
+msgid "Be Fullsome Void"
+msgstr ""
+
+msgctxt "CELTIC.[21]"
+msgid "Bebhionn"
+msgstr ""
+
+msgctxt "KNIGHTS.[3]"
+msgid "Bedivere"
+msgstr ""
+
+msgctxt "EGYPTIAN.[24]"
+msgid "Behedti"
+msgstr ""
+
+msgctxt "BEASTS.[3]"
+msgid "Behemoth"
+msgstr ""
+
+msgctxt "CELTIC.[22]"
+msgid "Belatu-Cadros"
+msgstr ""
+
+msgctxt "CELTIC.[23]"
+msgid "Belisama"
+msgstr ""
+
+msgctxt "GREEK.[195]"
+msgid "Bellerophon"
+msgstr ""
+
+msgctxt "GREEK.[196]"
+msgid "Belus"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[3]"
+msgid "Bene Elohim"
+msgstr ""
+
+msgctxt "JAPANESE.[6]"
+msgid "Benkei"
+msgstr ""
+
+msgctxt "JAPANESE.[7]"
+msgid "Benten"
+msgstr ""
+
+msgctxt "EGYPTIAN.[25]"
+msgid "Benu"
+msgstr ""
+
+msgctxt "CELTIC.[24]"
+msgid "Berecyntia"
+msgstr ""
+
+msgctxt "NORSE.[7]"
+msgid "Bergelmir"
+msgstr ""
+
+msgctxt "GREEK.[197]"
+msgid "Beroe"
+msgstr ""
+
+msgctxt "EGYPTIAN.[26]"
+msgid "Bes"
+msgstr ""
+
+msgctxt "EGYPTIAN.[27]"
+msgid "Beset"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[21]"
+msgid "Beth-Winston"
+msgstr ""
+
+msgctxt "PIRATES.[151]"
+msgid "Better Luck Next Time"
+msgstr ""
+
+msgctxt "NORSE.[8]"
+msgid "Beyla"
+msgstr ""
+
+msgctxt "GREEK.[198]"
+msgid "Bia"
+msgstr ""
+
+msgctxt "GREEK.[199]"
+msgid "Bias"
+msgstr ""
+
+msgctxt "HEGEMONY.[10]"
+msgid "Bicentennial"
+msgstr ""
+
+msgctxt "NORSE.[9]"
+msgid "Bifrost"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[18]"
+msgid "Big Bill's Ghost"
+msgstr ""
+
+msgctxt "MERCANTILE.[26]"
+msgid "Big Break"
+msgstr ""
+
+msgctxt "GENERAL.[204]"
+msgid "Big Breg"
+msgstr ""
+
+msgctxt "GENERAL.[265]"
+msgid "Big News"
+msgstr ""
+
+msgctxt "PIRATES.[111]"
+msgid "Big Ol' Bucka"
+msgstr ""
+
+msgctxt "GENERAL.[228]"
+msgid "Big Troope"
+msgstr ""
+
+msgctxt "GENERAL.[271]"
+msgid "Billiatee"
+msgstr ""
+
+msgctxt "NORSE.[10]"
+msgid "Billing"
+msgstr ""
+
+msgctxt "JAPANESE.[8]"
+msgid "Binzuru-Sonja"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[36]"
+msgid "Bird"
+msgstr ""
+
+msgctxt "GENERAL.[150]"
+msgid "Black Agata"
+msgstr ""
+
+msgctxt "PIRATES.[12]"
+msgid "Black Bart"
+msgstr ""
+
+msgctxt "PIRATES.[39]"
+msgid "Black Caesar's Revenge"
+msgstr ""
+
+msgctxt "PIRATES.[140]"
+msgid "Black Dagger"
+msgstr ""
+
+msgctxt "PIRATES.[170]"
+msgid "Black Goat"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[12]"
+msgid "Black Nova"
+msgstr ""
+
+msgctxt "SPACE.[2]"
+msgid "Black Sun"
+msgstr ""
+
+msgctxt "GENERAL.[110]"
+msgid "Black Swan"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[33]"
+msgid "Black and Red"
+msgstr ""
+
+msgctxt "PIRATES.[7]"
+msgid "Blackbeard's Head"
+msgstr ""
+
+msgctxt "PIRATES.[122]"
+msgid "Blackflag"
+msgstr ""
+
+msgctxt "PIRATES.[147]"
+msgid "Blackhat"
+msgstr ""
+
+msgctxt "PIRATES.[152]"
+msgid "Blast Target"
+msgstr ""
+
+msgctxt "PIRATES.[0]"
+msgid "Blast Tyrant"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[63]"
+msgid "Blessed Muir"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[45]"
+msgid "Blest The Righteous"
+msgstr ""
+
+msgctxt "PIRATES.[73]"
+msgid "Blood and Plunder"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[39]"
+msgid "Blood of Martyrs"
+msgstr ""
+
+msgctxt "PIRATES.[173]"
+msgid "Bloodcurdler"
+msgstr ""
+
+msgctxt "PIRATES.[124]"
+msgid "Bloodrocket"
+msgstr ""
+
+msgctxt "PIRATES.[69]"
+msgid "Bloody Rictus"
+msgstr ""
+
+msgctxt "PIRATES.[100]"
+msgid "Bloody Space-can"
+msgstr ""
+
+msgctxt "GENERAL.[262]"
+msgid "Blue Mars"
+msgstr ""
+
+msgctxt "GENERAL.[163]"
+msgid "Blue Sphinx"
+msgstr ""
+
+msgctxt "SPACE.[3]"
+msgid "Blue Star"
+msgstr ""
+
+msgctxt "SPACE.[6]"
+msgid "Blueshift"
+msgstr ""
+
+msgctxt "CELTIC.[25]"
+msgid "Boann"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[19]"
+msgid "Bogdanov"
+msgstr ""
+
+msgctxt "SPACE.[44]"
+msgid "Bon Comet"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[39]"
+msgid "Borage"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[24]"
+msgid "Boramander"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[38]"
+msgid "Border"
+msgstr ""
+
+msgctxt "GENERAL.[282]"
+msgid "Boreas"
+msgstr ""
+
+msgctxt "GENERAL.[32]"
+msgid "Boreas"
+msgstr ""
+
+msgctxt "GREEK.[200]"
+msgid "Boreas"
+msgstr ""
+
+msgctxt "NORSE.[11]"
+msgid "Borghild"
+msgstr ""
+
+msgctxt "CELTIC.[26]"
+msgid "Bormanico"
+msgstr ""
+
+msgctxt "KNIGHTS.[4]"
+msgid "Bors"
+msgstr ""
+
+msgctxt "GREEK.[201]"
+msgid "Borus"
+msgstr ""
+
+msgctxt "CELTIC.[27]"
+msgid "Borvo"
+msgstr ""
+
+msgctxt "MERCANTILE.[20]"
+msgid "Bountiful"
+msgstr ""
+
+msgctxt "PIRATES.[3]"
+msgid "Bounty"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[35]"
+msgid "Boxer"
+msgstr ""
+
+msgctxt "NORSE.[12]"
+msgid "Bragi"
+msgstr ""
+
+msgctxt "GENERAL.[145]"
+msgid "Branising Laserq"
+msgstr ""
+
+msgctxt "CELTIC.[28]"
+msgid "Branwen"
+msgstr ""
+
+msgctxt "CELTIC.[29]"
+msgid "Brea"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[30]"
+msgid "Bread and Roses"
+msgstr ""
+
+msgctxt "CELTIC.[30]"
+msgid "Breg"
+msgstr ""
+
+msgctxt "CELTIC.[31]"
+msgid "Bres"
+msgstr ""
+
+msgctxt "PIRATES.[28]"
+msgid "Brigand"
+msgstr ""
+
+msgctxt "SPACE.[64]"
+msgid "Bright Burn"
+msgstr ""
+
+msgctxt "MERCANTILE.[29]"
+msgid "Bright Future"
+msgstr ""
+
+msgctxt "GENERAL.[16]"
+msgid "Bright Spark"
+msgstr ""
+
+msgctxt "SPACE.[48]"
+msgid "Bright Spark"
+msgstr ""
+
+msgctxt "GENERAL.[49]"
+msgid "Bright Tide"
+msgstr ""
+
+msgctxt "GENERAL.[137]"
+msgid "Brightspar"
+msgstr ""
+
+msgctxt "GENERAL.[202]"
+msgid "Brightwitch"
+msgstr ""
+
+msgctxt "GREEK.[202]"
+msgid "Briseis"
+msgstr ""
+
+msgctxt "GREEK.[203]"
+msgid "Briseus"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[62]"
+msgid "Bristlecone"
+msgstr ""
+
+msgctxt "CELTIC.[32]"
+msgid "Britannia"
+msgstr ""
+
+msgctxt "GREEK.[204]"
+msgid "Britomartis"
+msgstr ""
+
+msgctxt "GREEK.[205]"
+msgid "Brizo"
+msgstr ""
+
+msgctxt "PIRATES.[6]"
+msgid "Broadside"
+msgstr ""
+
+msgctxt "PIRATES.[123]"
+msgid "Broken Trident"
+msgstr ""
+
+msgctxt "CELTIC.[33]"
+msgid "Bronach"
+msgstr ""
+
+msgctxt "NORSE.[13]"
+msgid "Brono"
+msgstr ""
+
+msgctxt "GREEK.[206]"
+msgid "Broteas"
+msgstr ""
+
+msgctxt "NORSE.[14]"
+msgid "Brunhilde"
+msgstr ""
+
+msgctxt "KNIGHTS.[5]"
+msgid "Brunor"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[22]"
+msgid "Brutus"
+msgstr ""
+
+msgctxt "CELTIC.[34]"
+msgid "Buanann"
+msgstr ""
+
+msgctxt "EGYPTIAN.[28]"
+msgid "Buchis"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[6]"
+msgid "Bulwark"
+msgstr ""
+
+msgctxt "GREEK.[207]"
+msgid "Bunus"
+msgstr ""
+
+msgctxt "BEASTS.[27]"
+msgid "Buraq"
+msgstr ""
+
+msgctxt "NORSE.[15]"
+msgid "Buri"
+msgstr ""
+
+msgctxt "PIRATES.[92]"
+msgid "Burned Old Spacer"
+msgstr ""
+
+msgctxt "PIRATES.[113]"
+msgid "Burned Once"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[18]"
+msgid "Burnt Offering"
+msgstr ""
+
+msgctxt "GREEK.[208]"
+msgid "Busiris"
+msgstr ""
+
+msgctxt "CELTIC.[35]"
+msgid "Bussumarus"
+msgstr ""
+
+msgctxt "GREEK.[209]"
+msgid "Butes"
+msgstr ""
+
+msgctxt "JAPANESE.[9]"
+msgid "Butsudan"
+msgstr ""
+
+msgctxt "JAPANESE.[10]"
+msgid "Butsudo"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[40]"
+msgid "Buzzard"
+msgstr ""
+
+msgctxt "OTHER.[3]"
+msgid "By Living as Becoming"
+msgstr ""
+
+msgctxt "GREEK.[210]"
+msgid "Byblis"
+msgstr ""
+
+msgctxt "NORSE.[16]"
+msgid "Bylgia"
+msgstr ""
+
+msgctxt "GREEK.[211]"
+msgid "Cabeiri"
+msgstr ""
+
+msgctxt "GREEK.[212]"
+msgid "Cadmus"
+msgstr ""
+
+msgctxt "KNIGHTS.[6]"
+msgid "Cador"
+msgstr ""
+
+msgctxt "ROMAN.[19]"
+msgid "Caeculus"
+msgstr ""
+
+msgctxt "GREEK.[213]"
+msgid "Caeneus"
+msgstr ""
+
+msgctxt "CELTIC.[36]"
+msgid "Caer"
+msgstr ""
+
+msgctxt "GREEK.[214]"
+msgid "Caerus"
+msgstr ""
+
+msgctxt "CELTIC.[37]"
+msgid "Cailleach"
+msgstr ""
+
+msgctxt "GREEK.[215]"
+msgid "Calchas"
+msgstr ""
+
+msgctxt "GENERAL.[11]"
+msgid "Caledon"
+msgstr ""
+
+msgctxt "GENERAL.[230]"
+msgid "Calertemper Goddard"
+msgstr ""
+
+msgctxt "PIRATES.[164]"
+msgid "Calibrate Weapons Here"
+msgstr ""
+
+msgctxt "PIRATES.[14]"
+msgid "Calico Jack"
+msgstr ""
+
+msgctxt "GREEK.[216]"
+msgid "Calliope"
+msgstr ""
+
+msgctxt "GREEK.[217]"
+msgid "Callirhoe"
+msgstr ""
+
+msgctxt "GREEK.[218]"
+msgid "Callisto"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[37]"
+msgid "Callisto Commune"
+msgstr ""
+
+msgctxt "KNIGHTS.[7]"
+msgid "Calogrenant"
+msgstr ""
+
+msgctxt "SPACE.[51]"
+msgid "Caloris Born"
+msgstr ""
+
+msgctxt "GREEK.[219]"
+msgid "Calyce"
+msgstr ""
+
+msgctxt "GREEK.[220]"
+msgid "Calydon"
+msgstr ""
+
+msgctxt "GREEK.[221]"
+msgid "Calypso"
+msgstr ""
+
+msgctxt "AZTEC.[3]"
+msgid "Camaxtli"
+msgstr ""
+
+msgctxt "ROMAN.[20]"
+msgid "Camenae"
+msgstr ""
+
+msgctxt "ROMAN.[21]"
+msgid "Camilla"
+msgstr ""
+
+msgctxt "CELTIC.[38]"
+msgid "Camma"
+msgstr ""
+
+msgctxt "GREEK.[222]"
+msgid "Canace"
+msgstr ""
+
+msgctxt "ROMAN.[22]"
+msgid "Candelifera"
+msgstr ""
+
+msgctxt "GREEK.[223]"
+msgid "Canthus"
+msgstr ""
+
+msgctxt "GREEK.[224]"
+msgid "Capaneus"
+msgstr ""
+
+msgctxt "GREEK.[225]"
+msgid "Capys"
+msgstr ""
+
+msgctxt "KNIGHTS.[8]"
+msgid "Caradoc"
+msgstr ""
+
+msgctxt "GREEK.[226]"
+msgid "Carcinus"
+msgstr ""
+
+msgctxt "GREEK.[227]"
+msgid "Carmanor"
+msgstr ""
+
+msgctxt "GREEK.[228]"
+msgid "Carme"
+msgstr ""
+
+msgctxt "GREEK.[229]"
+msgid "Carme"
+msgstr ""
+
+msgctxt "ROMAN.[23]"
+msgid "Carmenta"
+msgstr ""
+
+msgctxt "GREEK.[230]"
+msgid "Carnabon"
+msgstr ""
+
+msgctxt "GREEK.[231]"
+msgid "Carpo"
+msgstr ""
+
+msgctxt "SPACE.[50]"
+msgid "Caspian Sky"
+msgstr ""
+
+msgctxt "GREEK.[232]"
+msgid "Cassandra"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[37]"
+msgid "Cast Down The Idols"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[38]"
+msgid "Cast Out The Sinners"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[65]"
+msgid "Cast-out Sin"
+msgstr ""
+
+msgctxt "GREEK.[233]"
+msgid "Castor"
+msgstr ""
+
+msgctxt "ROMAN.[24]"
+msgid "Castores"
+msgstr ""
+
+msgctxt "CELTIC.[39]"
+msgid "Caswallawn"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[25]"
+msgid "Catalonia"
+msgstr ""
+
+msgctxt "ROMAN.[25]"
+msgid "Catamitus"
+msgstr ""
+
+msgctxt "ROMAN.[26]"
+msgid "Catillus"
+msgstr ""
+
+msgctxt "GREEK.[234]"
+msgid "Catreus"
+msgstr ""
+
+msgctxt "GREEK.[235]"
+msgid "Cebriones"
+msgstr ""
+
+msgctxt "GREEK.[236]"
+msgid "Cecrops"
+msgstr ""
+
+msgctxt "GREEK.[237]"
+msgid "Ceisus"
+msgstr ""
+
+msgctxt "GREEK.[238]"
+msgid "Celaeno"
+msgstr ""
+
+msgctxt "GREEK.[239]"
+msgid "Celeus"
+msgstr ""
+
+msgctxt "CELTIC.[40]"
+msgid "Cenn Cruaich"
+msgstr ""
+
+msgctxt "BEASTS.[4]"
+msgid "Centaur"
+msgstr ""
+
+msgctxt "GREEK.[240]"
+msgid "Centaur"
+msgstr ""
+
+msgctxt "AZTEC.[4]"
+msgid "Centeotl"
+msgstr ""
+
+msgctxt "GREEK.[241]"
+msgid "Cephalus"
+msgstr ""
+
+msgctxt "GREEK.[242]"
+msgid "Cepheus"
+msgstr ""
+
+msgctxt "GREEK.[243]"
+msgid "Ceraon"
+msgstr ""
+
+msgctxt "GREEK.[244]"
+msgid "Cerberus"
+msgstr ""
+
+msgctxt "GREEK.[245]"
+msgid "Cercopes"
+msgstr ""
+
+msgctxt "GREEK.[246]"
+msgid "Cerdo"
+msgstr ""
+
+msgctxt "ROMAN.[27]"
+msgid "Ceres"
+msgstr ""
+
+msgctxt "CELTIC.[41]"
+msgid "Ceridwen"
+msgstr ""
+
+msgctxt "CELTIC.[42]"
+msgid "Cessair"
+msgstr ""
+
+msgctxt "GREEK.[247]"
+msgid "Cestrinus"
+msgstr ""
+
+msgctxt "CELTIC.[43]"
+msgid "Cethlenn"
+msgstr ""
+
+msgctxt "CELTIC.[44]"
+msgid "Cethlion"
+msgstr ""
+
+msgctxt "GREEK.[248]"
+msgid "Ceto"
+msgstr ""
+
+msgctxt "GREEK.[249]"
+msgid "Ceyx"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[8]"
+msgid "Chainbreaker"
+msgstr ""
+
+msgctxt "GREEK.[250]"
+msgid "Chalciope"
+msgstr ""
+
+msgctxt "GREEK.[251]"
+msgid "Chalcodon"
+msgstr ""
+
+msgctxt "AZTEC.[5]"
+msgid "Chalmecacihuilt"
+msgstr ""
+
+msgctxt "AZTEC.[6]"
+msgid "Chalmecatl"
+msgstr ""
+
+msgctxt "PERSIAN.[18]"
+msgid "Chamrosh"
+msgstr ""
+
+msgctxt "GENERAL.[18]"
+msgid "Chance"
+msgstr ""
+
+msgctxt "GENERAL.[159]"
+msgid "Chandragone Per"
+msgstr ""
+
+msgctxt "AZTEC.[7]"
+msgid "Chantico"
+msgstr ""
+
+msgctxt "GREEK.[252]"
+msgid "Chariclo"
+msgstr ""
+
+msgctxt "GREEK.[253]"
+msgid "Charites"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[4]"
+msgid "Charity"
+msgstr ""
+
+msgctxt "GREEK.[254]"
+msgid "Charon"
+msgstr ""
+
+msgctxt "GREEK.[255]"
+msgid "Charybdis"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[16]"
+msgid "Chastisement"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[2]"
+msgid "Chastity"
+msgstr ""
+
+msgctxt "EGYPTIAN.[29]"
+msgid "Chensit"
+msgstr ""
+
+msgctxt "EGYPTIAN.[30]"
+msgid "Chentamentet"
+msgstr ""
+
+msgctxt "EGYPTIAN.[31]"
+msgid "Chenti-cheti"
+msgstr ""
+
+msgctxt "EGYPTIAN.[32]"
+msgid "Chenti-irti"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[34]"
+msgid "Cherished Devotion"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[33]"
+msgid "Cherished Duty"
+msgstr ""
+
+msgctxt "EGYPTIAN.[33]"
+msgid "Cherti"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[8]"
+msgid "Cherubim"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[18]"
+msgid "Chi-Prince"
+msgstr ""
+
+msgctxt "HEGEMONY.[9]"
+msgid "Chicomoztoc Metroplex IIIL"
+msgstr ""
+
+msgctxt "HEGEMONY.[6]"
+msgid "Chicomoztoc Metroplex IV"
+msgstr ""
+
+msgctxt "HEGEMONY.[8]"
+msgid "Chicomoztoc Metroplex VXI"
+msgstr ""
+
+msgctxt "HEGEMONY.[7]"
+msgid "Chicomoztoc Metroplex XII"
+msgstr ""
+
+msgctxt "HEGEMONY.[5]"
+msgid "Chicomoztoc Metroplex XXI"
+msgstr ""
+
+msgctxt "BEASTS.[5]"
+msgid "Chimera"
+msgstr ""
+
+msgctxt "PIRATES.[15]"
+msgid "Ching Shih's Revenge"
+msgstr ""
+
+msgctxt "GREEK.[256]"
+msgid "Chione"
+msgstr ""
+
+msgctxt "GREEK.[257]"
+msgid "Chiron"
+msgstr ""
+
+msgctxt "GREEK.[258]"
+msgid "Chloris"
+msgstr ""
+
+msgctxt "EGYPTIAN.[34]"
+msgid "Chnum"
+msgstr ""
+
+msgctxt "GENERAL.[160]"
+msgid "Chon-Echo"
+msgstr ""
+
+msgctxt "EGYPTIAN.[35]"
+msgid "Chontamenti"
+msgstr ""
+
+msgctxt "GENERAL.[267]"
+msgid "Chromolith"
+msgstr ""
+
+msgctxt "GREEK.[259]"
+msgid "Chryseis"
+msgstr ""
+
+msgctxt "GREEK.[260]"
+msgid "Chryses"
+msgstr ""
+
+msgctxt "GREEK.[261]"
+msgid "Chrysippus"
+msgstr ""
+
+msgctxt "GREEK.[262]"
+msgid "Chrysothemis"
+msgstr ""
+
+msgctxt "GREEK.[263]"
+msgid "Chrysus"
+msgstr ""
+
+msgctxt "GREEK.[264]"
+msgid "Chthonius"
+msgstr ""
+
+msgctxt "JAPANESE.[11]"
+msgid "Chujo Hime"
+msgstr ""
+
+msgctxt "AZTEC.[8]"
+msgid "Cihuacoatl"
+msgstr ""
+
+msgctxt "GREEK.[265]"
+msgid "Cilix"
+msgstr ""
+
+msgctxt "ROMAN.[28]"
+msgid "Cinxia"
+msgstr ""
+
+msgctxt "GREEK.[266]"
+msgid "Cinyras"
+msgstr ""
+
+msgctxt "AZTEC.[9]"
+msgid "Cipactli"
+msgstr ""
+
+msgctxt "GREEK.[267]"
+msgid "Circe"
+msgstr ""
+
+msgctxt "AZTEC.[10]"
+msgid "Ciucoatl"
+msgstr ""
+
+msgctxt "AZTEC.[11]"
+msgid "Ciuteoteo"
+msgstr ""
+
+msgctxt "GREEK.[268]"
+msgid "Cladeus"
+msgstr ""
+
+msgctxt "KNIGHTS.[9]"
+msgid "Claudin"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[40]"
+msgid "Cleansing Light"
+msgstr ""
+
+msgctxt "GREEK.[269]"
+msgid "Cleite"
+msgstr ""
+
+msgctxt "ROMAN.[29]"
+msgid "Clementia"
+msgstr ""
+
+msgctxt "GREEK.[270]"
+msgid "Cleochareia"
+msgstr ""
+
+msgctxt "GREEK.[271]"
+msgid "Cleodaeus"
+msgstr ""
+
+msgctxt "GREEK.[272]"
+msgid "Cleopatra"
+msgstr ""
+
+msgctxt "KNIGHTS.[10]"
+msgid "Cliges"
+msgstr ""
+
+msgctxt "GREEK.[273]"
+msgid "Clio"
+msgstr ""
+
+msgctxt "CELTIC.[45]"
+msgid "Cliodhna"
+msgstr ""
+
+msgctxt "PIRATES.[155]"
+msgid "Close Shave"
+msgstr ""
+
+msgctxt "PIRATES.[153]"
+msgid "Closer Than It Appears"
+msgstr ""
+
+msgctxt "GREEK.[274]"
+msgid "Clotho"
+msgstr ""
+
+msgctxt "PIRATES.[115]"
+msgid "Clotilde's Baluties"
+msgstr ""
+
+msgctxt "GREEK.[275]"
+msgid "Clymene"
+msgstr ""
+
+msgctxt "GREEK.[276]"
+msgid "Clymenus"
+msgstr ""
+
+msgctxt "GREEK.[277]"
+msgid "Clytemnestra"
+msgstr ""
+
+msgctxt "GREEK.[278]"
+msgid "Clytie"
+msgstr ""
+
+msgctxt "GREEK.[279]"
+msgid "Clytius"
+msgstr ""
+
+msgctxt "HEGEMONY.[25]"
+msgid "Coatl"
+msgstr ""
+
+msgctxt "AZTEC.[12]"
+msgid "Coatlicue"
+msgstr ""
+
+msgctxt "AZTEC.[13]"
+msgid "Cochimetl"
+msgstr ""
+
+msgctxt "CELTIC.[46]"
+msgid "Cocidius"
+msgstr ""
+
+msgctxt "GREEK.[280]"
+msgid "Cocytus"
+msgstr ""
+
+msgctxt "GREEK.[281]"
+msgid "Codrus"
+msgstr ""
+
+msgctxt "ROMAN.[30]"
+msgid "Coelus"
+msgstr ""
+
+msgctxt "SPACE.[16]"
+msgid "Coeurl"
+msgstr ""
+
+msgctxt "GREEK.[282]"
+msgid "Coeus"
+msgstr ""
+
+msgctxt "GENERAL.[111]"
+msgid "Cold Blossom"
+msgstr ""
+
+msgctxt "PIRATES.[143]"
+msgid "Cold Logic"
+msgstr ""
+
+msgctxt "GREEK.[283]"
+msgid "Comaetho"
+msgstr ""
+
+msgctxt "GENERAL.[85]"
+msgid "Come And Gone"
+msgstr ""
+
+msgctxt "GENERAL.[235]"
+msgid "Come Celessity"
+msgstr ""
+
+msgctxt "GENERAL.[239]"
+msgid "Come Ending"
+msgstr ""
+
+msgctxt "SPACE.[1]"
+msgid "Comet"
+msgstr ""
+
+msgctxt "GREEK.[284]"
+msgid "Comus"
+msgstr ""
+
+msgctxt "GENERAL.[122]"
+msgid "Concharaken Glory"
+msgstr ""
+
+msgctxt "CELTIC.[48]"
+msgid "Conchobar"
+msgstr ""
+
+msgctxt "ROMAN.[31]"
+msgid "Concordia"
+msgstr ""
+
+msgctxt "PIRATES.[110]"
+msgid "Condemned"
+msgstr ""
+
+msgctxt "CELTIC.[47]"
+msgid "Conn-ghall"
+msgstr ""
+
+msgctxt "GENERAL.[189]"
+msgid "Conny's Heart"
+msgstr ""
+
+msgctxt "ROMAN.[32]"
+msgid "Consus"
+msgstr ""
+
+msgctxt "CELTIC.[49]"
+msgid "Contrebis"
+msgstr ""
+
+msgctxt "ROMAN.[33]"
+msgid "Convector"
+msgstr ""
+
+msgctxt "GENERAL.[232]"
+msgid "Convectorea"
+msgstr ""
+
+msgctxt "GREEK.[285]"
+msgid "Copreus"
+msgstr ""
+
+msgctxt "CELTIC.[50]"
+msgid "Corb"
+msgstr ""
+
+msgctxt "GREEK.[286]"
+msgid "Corcyra"
+msgstr ""
+
+msgctxt "GREEK.[287]"
+msgid "Corinthus"
+msgstr ""
+
+msgctxt "CELTIC.[51]"
+msgid "Cormac"
+msgstr ""
+
+msgctxt "GREEK.[288]"
+msgid "Coronis"
+msgstr ""
+
+msgctxt "GREEK.[289]"
+msgid "Coronus"
+msgstr ""
+
+msgctxt "ROMAN.[34]"
+msgid "Corus"
+msgstr ""
+
+msgctxt "GREEK.[290]"
+msgid "Corymbus"
+msgstr ""
+
+msgctxt "GENERAL.[247]"
+msgid "Cosmic Monarch"
+msgstr ""
+
+msgctxt "GENERAL.[139]"
+msgid "Cosmosiris"
+msgstr ""
+
+msgctxt "SPACE.[15]"
+msgid "Cosmosis"
+msgstr ""
+
+msgctxt "GREEK.[291]"
+msgid "Cranaus"
+msgstr ""
+
+msgctxt "MERCANTILE.[5]"
+msgid "Crassus"
+msgstr ""
+
+msgctxt "CELTIC.[52]"
+msgid "Creidhne"
+msgstr ""
+
+msgctxt "GREEK.[292]"
+msgid "Creon"
+msgstr ""
+
+msgctxt "GREEK.[293]"
+msgid "Cresphontes"
+msgstr ""
+
+msgctxt "GREEK.[294]"
+msgid "Crete"
+msgstr ""
+
+msgctxt "GREEK.[295]"
+msgid "Cretheus"
+msgstr ""
+
+msgctxt "GREEK.[296]"
+msgid "Creusa"
+msgstr ""
+
+msgctxt "GREEK.[297]"
+msgid "Crisus"
+msgstr ""
+
+msgctxt "GREEK.[298]"
+msgid "Crius"
+msgstr ""
+
+msgctxt "GREEK.[299]"
+msgid "Croesus"
+msgstr ""
+
+msgctxt "CELTIC.[53]"
+msgid "Crom Cruach"
+msgstr ""
+
+msgctxt "GENERAL.[176]"
+msgid "Cromo"
+msgstr ""
+
+msgctxt "GREEK.[300]"
+msgid "Cronus"
+msgstr ""
+
+msgctxt "GENERAL.[56]"
+msgid "Crowning Glory"
+msgstr ""
+
+msgctxt "PIRATES.[139]"
+msgid "Cruel Domain's Thesis"
+msgstr ""
+
+msgctxt "PIRATES.[132]"
+msgid "Cruel Griddle"
+msgstr ""
+
+msgctxt "PIRATES.[166]"
+msgid "Cruel Vacuum"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[0]"
+msgid "Crusade"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[35]"
+msgid "Crusadeon Rem"
+msgstr ""
+
+msgctxt "CELTIC.[54]"
+msgid "Cu Roi"
+msgstr ""
+
+msgctxt "CELTIC.[55]"
+msgid "Cuchulainn"
+msgstr ""
+
+msgctxt "CELTIC.[56]"
+msgid "Curoi mac Daire"
+msgstr ""
+
+msgctxt "ROMAN.[35]"
+msgid "Curtius"
+msgstr ""
+
+msgctxt "PIRATES.[109]"
+msgid "Cut 'Em Down"
+msgstr ""
+
+msgctxt "GREEK.[301]"
+msgid "Cyamites"
+msgstr ""
+
+msgctxt "GREEK.[302]"
+msgid "Cybele"
+msgstr ""
+
+msgctxt "GREEK.[303]"
+msgid "Cychreus"
+msgstr ""
+
+msgctxt "BEASTS.[32]"
+msgid "Cyclopes"
+msgstr ""
+
+msgctxt "GREEK.[304]"
+msgid "Cycnus"
+msgstr ""
+
+msgctxt "CELTIC.[57]"
+msgid "Cyhiraeth"
+msgstr ""
+
+msgctxt "GREEK.[305]"
+msgid "Cylla"
+msgstr ""
+
+msgctxt "GREEK.[306]"
+msgid "Cymopoleia"
+msgstr ""
+
+msgctxt "GREEK.[307]"
+msgid "Cynortas"
+msgstr ""
+
+msgctxt "GREEK.[308]"
+msgid "Cyparissus"
+msgstr ""
+
+msgctxt "GREEK.[309]"
+msgid "Cypselus"
+msgstr ""
+
+msgctxt "GREEK.[310]"
+msgid "Cytisorus"
+msgstr ""
+
+msgctxt "GREEK.[311]"
+msgid "Cyzicus"
+msgstr ""
+
+msgctxt "PIRATES.[131]"
+msgid "Dadachuck"
+msgstr ""
+
+msgctxt "PIRATES.[130]"
+msgid "Dadachum"
+msgstr ""
+
+msgctxt "GREEK.[312]"
+msgid "Daedalion"
+msgstr ""
+
+msgctxt "GREEK.[313]"
+msgid "Daedalus"
+msgstr ""
+
+msgctxt "KNIGHTS.[11]"
+msgid "Dagonet"
+msgstr ""
+
+msgctxt "JAPANESE.[12]"
+msgid "Daibosatsu"
+msgstr ""
+
+msgctxt "JAPANESE.[13]"
+msgid "Daikoku"
+msgstr ""
+
+msgctxt "JAPANESE.[14]"
+msgid "Dainichi"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[23]"
+msgid "Daleth-Tucker"
+msgstr ""
+
+msgctxt "CELTIC.[58]"
+msgid "Damara"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[12]"
+msgid "Damnation"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[13]"
+msgid "Damnation-to-sin"
+msgstr ""
+
+msgctxt "GREEK.[314]"
+msgid "Damocles"
+msgstr ""
+
+msgctxt "CELTIC.[59]"
+msgid "Damona"
+msgstr ""
+
+msgctxt "GREEK.[315]"
+msgid "Danaus"
+msgstr ""
+
+msgctxt "KNIGHTS.[12]"
+msgid "Daniel"
+msgstr ""
+
+msgctxt "CELTIC.[60]"
+msgid "Danu"
+msgstr ""
+
+msgctxt "GREEK.[316]"
+msgid "Daphne"
+msgstr ""
+
+msgctxt "GREEK.[317]"
+msgid "Dardanus"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[7]"
+msgid "Daring"
+msgstr ""
+
+msgctxt "SPACE.[20]"
+msgid "Dark Matters"
+msgstr ""
+
+msgctxt "GREEK.[318]"
+msgid "Dascylus"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[8]"
+msgid "Dauntless"
+msgstr ""
+
+msgctxt "PIRATES.[2]"
+msgid "Daunty Jack"
+msgstr ""
+
+msgctxt "GENERAL.[205]"
+msgid "Dawn Taken"
+msgstr ""
+
+msgctxt "GENERAL.[70]"
+msgid "Dawn Trekker"
+msgstr ""
+
+msgctxt "DIKTAT.[6]"
+msgid "Dawn of Empire"
+msgstr ""
+
+msgctxt "DIKTAT.[41]"
+msgid "Dawn of the Final Era"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[48]"
+msgid "Day Of Thanks Giving"
+msgstr ""
+
+msgctxt "PIRATES.[96]"
+msgid "Death Before Surrender"
+msgstr ""
+
+msgctxt "PIRATES.[83]"
+msgid "Death To The Eagle"
+msgstr ""
+
+msgctxt "CELTIC.[61]"
+msgid "Dechtere"
+msgstr ""
+
+msgctxt "ROMAN.[36]"
+msgid "Decima"
+msgstr ""
+
+msgctxt "GENERAL.[264]"
+msgid "Dedekind Cutter"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[26]"
+msgid "Defiant"
+msgstr ""
+
+msgctxt "GREEK.[319]"
+msgid "Deianeira"
+msgstr ""
+
+msgctxt "GREEK.[320]"
+msgid "Deimachus"
+msgstr ""
+
+msgctxt "GREEK.[321]"
+msgid "Deimos"
+msgstr ""
+
+msgctxt "GREEK.[322]"
+msgid "Deioneus"
+msgstr ""
+
+msgctxt "GREEK.[323]"
+msgid "Deiphobus"
+msgstr ""
+
+msgctxt "GREEK.[324]"
+msgid "Deipneus"
+msgstr ""
+
+msgctxt "GREEK.[325]"
+msgid "Deipyle"
+msgstr ""
+
+msgctxt "CELTIC.[62]"
+msgid "Deirdre"
+msgstr ""
+
+msgctxt "GENERAL.[173]"
+msgid "Delta-Dusker"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[0]"
+msgid "Delta-Max"
+msgstr ""
+
+msgctxt "GREEK.[326]"
+msgid "Demeter"
+msgstr ""
+
+msgctxt "GREEK.[327]"
+msgid "Demonassa"
+msgstr ""
+
+msgctxt "GREEK.[328]"
+msgid "Demonice"
+msgstr ""
+
+msgctxt "GREEK.[329]"
+msgid "Demophon"
+msgstr ""
+
+msgctxt "GREEK.[330]"
+msgid "Despoine"
+msgstr ""
+
+msgctxt "GREEK.[331]"
+msgid "Deucalion"
+msgstr ""
+
+msgctxt "PERSIAN.[7]"
+msgid "Dev"
+msgstr ""
+
+msgctxt "ROMAN.[37]"
+msgid "Deverra"
+msgstr ""
+
+msgctxt "GREEK.[332]"
+msgid "Dexamenus"
+msgstr ""
+
+msgctxt "GREEK.[333]"
+msgid "Dia"
+msgstr ""
+
+msgctxt "ROMAN.[38]"
+msgid "Diana"
+msgstr ""
+
+msgctxt "GREEK.[334]"
+msgid "Dictys"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[5]"
+msgid "Diligence"
+msgstr ""
+
+msgctxt "KNIGHTS.[13]"
+msgid "Dinadan"
+msgstr ""
+
+msgctxt "GREEK.[335]"
+msgid "Diomedes"
+msgstr ""
+
+msgctxt "GREEK.[336]"
+msgid "Diores"
+msgstr ""
+
+msgctxt "GREEK.[337]"
+msgid "Dioscuri"
+msgstr ""
+
+msgctxt "GREEK.[338]"
+msgid "Dirce"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[15]"
+msgid "Direct Action"
+msgstr ""
+
+msgctxt "ROMAN.[39]"
+msgid "Discordia"
+msgstr ""
+
+msgctxt "GREEK.[339]"
+msgid "Dius"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[11]"
+msgid "Divine Judgement"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[22]"
+msgid "Divine Will"
+msgstr ""
+
+msgctxt "GENERAL.[212]"
+msgid "Diviner"
+msgstr ""
+
+msgctxt "EGYPTIAN.[36]"
+msgid "Djebauti"
+msgstr ""
+
+msgctxt "GREEK.[340]"
+msgid "Dolius"
+msgstr ""
+
+msgctxt "GREEK.[341]"
+msgid "Dolon"
+msgstr ""
+
+msgctxt "DIKTAT.[11]"
+msgid "Dominance of Will"
+msgstr ""
+
+msgctxt "ROMAN.[40]"
+msgid "Domitius"
+msgstr ""
+
+msgctxt "GENERAL.[88]"
+msgid "Don't Mind If I Do"
+msgstr ""
+
+msgctxt "GENERAL.[251]"
+msgid "Don't Mind It"
+msgstr ""
+
+msgctxt "PIRATES.[86]"
+msgid "Don't Shoot Now"
+msgstr ""
+
+msgctxt "SPACE.[17]"
+msgid "Don't Stop Until C"
+msgstr ""
+
+msgctxt "GENERAL.[279]"
+msgid "Dorion"
+msgstr ""
+
+msgctxt "GREEK.[342]"
+msgid "Dorus"
+msgstr ""
+
+msgctxt "JAPANESE.[15]"
+msgid "Dosojin"
+msgstr ""
+
+msgctxt "PIRATES.[129]"
+msgid "Doul's Odds"
+msgstr ""
+
+msgctxt "GENERAL.[101]"
+msgid "Downcast Ascension"
+msgstr ""
+
+msgctxt "JAPANESE.[16]"
+msgid "Dozoku"
+msgstr ""
+
+msgctxt "PIRATES.[13]"
+msgid "Drake's Ghost"
+msgstr ""
+
+msgctxt "GENERAL.[76]"
+msgid "Drifter"
+msgstr ""
+
+msgctxt "PIRATES.[46]"
+msgid "Drunken Spacer"
+msgstr ""
+
+msgctxt "GREEK.[343]"
+msgid "Dryope"
+msgstr ""
+
+msgctxt "EGYPTIAN.[37]"
+msgid "Dua"
+msgstr ""
+
+msgctxt "EGYPTIAN.[38]"
+msgid "Duamutef"
+msgstr ""
+
+msgctxt "EGYPTIAN.[39]"
+msgid "Duat"
+msgstr ""
+
+msgctxt "ROMAN.[41]"
+msgid "Duellona"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[43]"
+msgid "Dust To Dust"
+msgstr ""
+
+msgctxt "GENERAL.[165]"
+msgid "Duty Crash"
+msgstr ""
+
+msgctxt "CELTIC.[63]"
+msgid "Dwyn"
+msgstr ""
+
+msgctxt "CELTIC.[64]"
+msgid "Dylan"
+msgstr ""
+
+msgctxt "GREEK.[344]"
+msgid "Echemus"
+msgstr ""
+
+msgctxt "GREEK.[345]"
+msgid "Echetus"
+msgstr ""
+
+msgctxt "GREEK.[346]"
+msgid "Echion"
+msgstr ""
+
+msgctxt "GREEK.[347]"
+msgid "Echo"
+msgstr ""
+
+msgctxt "CELTIC.[65]"
+msgid "Edain"
+msgstr ""
+
+msgctxt "GREEK.[348]"
+msgid "Eetion"
+msgstr ""
+
+msgctxt "GREEK.[349]"
+msgid "Efreisone"
+msgstr ""
+
+msgctxt "ROMAN.[42]"
+msgid "Egeria"
+msgstr ""
+
+msgctxt "ROMAN.[43]"
+msgid "Egestes"
+msgstr ""
+
+msgctxt "AZTEC.[14]"
+msgid "Ehecatl"
+msgstr ""
+
+msgctxt "GREEK.[350]"
+msgid "Eidothea"
+msgstr ""
+
+msgctxt "GREEK.[351]"
+msgid "Eidyia"
+msgstr ""
+
+msgctxt "GREEK.[352]"
+msgid "Eileithyia"
+msgstr ""
+
+msgctxt "NORSE.[17]"
+msgid "Einherjar"
+msgstr ""
+
+msgctxt "NORSE.[18]"
+msgid "Einmyria"
+msgstr ""
+
+msgctxt "SPACE.[19]"
+msgid "Einstein's Demon"
+msgstr ""
+
+msgctxt "NORSE.[19]"
+msgid "Eisa"
+msgstr ""
+
+msgctxt "GREEK.[353]"
+msgid "Ekecheiria"
+msgstr ""
+
+msgctxt "JAPANESE.[17]"
+msgid "Ekibiogami"
+msgstr ""
+
+msgctxt "GREEK.[354]"
+msgid "Elatus"
+msgstr ""
+
+msgctxt "GREEK.[355]"
+msgid "Electra"
+msgstr ""
+
+msgctxt "GREEK.[356]"
+msgid "Electra"
+msgstr ""
+
+msgctxt "GREEK.[357]"
+msgid "Electryon"
+msgstr ""
+
+msgctxt "GREEK.[358]"
+msgid "Eleius"
+msgstr ""
+
+msgctxt "CELTIC.[66]"
+msgid "Elen"
+msgstr ""
+
+msgctxt "GREEK.[359]"
+msgid "Eleos"
+msgstr ""
+
+msgctxt "GREEK.[360]"
+msgid "Elephenor"
+msgstr ""
+
+msgctxt "GREEK.[361]"
+msgid "Eleusis"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[7]"
+msgid "Elohim"
+msgstr ""
+
+msgctxt "CELTIC.[67]"
+msgid "Eloi"
+msgstr ""
+
+msgctxt "GREEK.[362]"
+msgid "Elpenor"
+msgstr ""
+
+msgctxt "GREEK.[363]"
+msgid "Elpis"
+msgstr ""
+
+msgctxt "KNIGHTS.[14]"
+msgid "Elyan the White"
+msgstr ""
+
+msgctxt "GREEK.[364]"
+msgid "Elymus"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[21]"
+msgid "Emancipator"
+msgstr ""
+
+msgctxt "CELTIC.[68]"
+msgid "Emer"
+msgstr ""
+
+msgctxt "DIKTAT.[15]"
+msgid "Emperor of Salus"
+msgstr ""
+
+msgctxt "GREEK.[365]"
+msgid "Empusa"
+msgstr ""
+
+msgctxt "GREEK.[366]"
+msgid "Enceladus"
+msgstr ""
+
+msgctxt "DIKTAT.[39]"
+msgid "End of History"
+msgstr ""
+
+msgctxt "GREEK.[367]"
+msgid "Endeis"
+msgstr ""
+
+msgctxt "ROMAN.[44]"
+msgid "Endovelicus"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[9]"
+msgid "Endurance"
+msgstr ""
+
+msgctxt "GREEK.[368]"
+msgid "Endymion"
+msgstr ""
+
+msgctxt "GENERAL.[47]"
+msgid "Enigmata"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[10]"
+msgid "Enterprise"
+msgstr ""
+
+msgctxt "GREEK.[369]"
+msgid "Enyalius"
+msgstr ""
+
+msgctxt "GREEK.[370]"
+msgid "Enyo"
+msgstr ""
+
+msgctxt "GREEK.[371]"
+msgid "Eosphorus"
+msgstr ""
+
+msgctxt "GREEK.[372]"
+msgid "Epaphus"
+msgstr ""
+
+msgctxt "GREEK.[373]"
+msgid "Epeius"
+msgstr ""
+
+msgctxt "GREEK.[374]"
+msgid "Epiales"
+msgstr ""
+
+msgctxt "GREEK.[375]"
+msgid "Epicasta"
+msgstr ""
+
+msgctxt "GREEK.[376]"
+msgid "Epidaurus"
+msgstr ""
+
+msgctxt "GREEK.[377]"
+msgid "Epimeliad"
+msgstr ""
+
+msgctxt "GREEK.[378]"
+msgid "Epimetheus"
+msgstr ""
+
+msgctxt "GREEK.[379]"
+msgid "Epione"
+msgstr ""
+
+msgctxt "GREEK.[380]"
+msgid "Epiphron"
+msgstr ""
+
+msgctxt "CELTIC.[69]"
+msgid "Epona"
+msgstr ""
+
+msgctxt "GREEK.[381]"
+msgid "Epopeus"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[1]"
+msgid "Epsilon-Lucy"
+msgstr ""
+
+msgctxt "GREEK.[382]"
+msgid "Erato"
+msgstr ""
+
+msgctxt "GREEK.[383]"
+msgid "Erebus"
+msgstr ""
+
+msgctxt "KNIGHTS.[15]"
+msgid "Erec"
+msgstr ""
+
+msgctxt "GREEK.[384]"
+msgid "Erechtheus"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[5]"
+msgid "Erelim"
+msgstr ""
+
+msgctxt "GREEK.[385]"
+msgid "Erginus"
+msgstr ""
+
+msgctxt "CELTIC.[70]"
+msgid "Eri"
+msgstr ""
+
+msgctxt "GREEK.[386]"
+msgid "Erichthonius"
+msgstr ""
+
+msgctxt "BEASTS.[33]"
+msgid "Erinyes"
+msgstr ""
+
+msgctxt "GREEK.[387]"
+msgid "Erinyes"
+msgstr ""
+
+msgctxt "GREEK.[388]"
+msgid "Eriphyle"
+msgstr ""
+
+msgctxt "CELTIC.[71]"
+msgid "Eriu"
+msgstr ""
+
+msgctxt "GREEK.[389]"
+msgid "Erotes"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[48]"
+msgid "Erroll-Shi"
+msgstr ""
+
+msgctxt "ROMAN.[45]"
+msgid "Erycina"
+msgstr ""
+
+msgctxt "KNIGHTS.[16]"
+msgid "Esclabor"
+msgstr ""
+
+msgctxt "EGYPTIAN.[40]"
+msgid "Esenchebis"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[3]"
+msgid "Eta-Daisy"
+msgstr ""
+
+msgctxt "CELTIC.[72]"
+msgid "Etain"
+msgstr ""
+
+msgctxt "GREEK.[390]"
+msgid "Eteocles"
+msgstr ""
+
+msgctxt "DIKTAT.[19]"
+msgid "Eternal Loyalty"
+msgstr ""
+
+msgctxt "CELTIC.[73]"
+msgid "Ethne"
+msgstr ""
+
+msgctxt "GREEK.[391]"
+msgid "Eucleia"
+msgstr ""
+
+msgctxt "GREEK.[392]"
+msgid "Eumaeus"
+msgstr ""
+
+msgctxt "GREEK.[393]"
+msgid "Eumelus"
+msgstr ""
+
+msgctxt "GREEK.[394]"
+msgid "Eunomia"
+msgstr ""
+
+msgctxt "GREEK.[395]"
+msgid "Eunostus"
+msgstr ""
+
+msgctxt "GREEK.[396]"
+msgid "Eupheme"
+msgstr ""
+
+msgctxt "GREEK.[397]"
+msgid "Euphrosyne"
+msgstr ""
+
+msgctxt "GREEK.[398]"
+msgid "Europa"
+msgstr ""
+
+msgctxt "GREEK.[399]"
+msgid "Eurotas"
+msgstr ""
+
+msgctxt "GREEK.[400]"
+msgid "Eurotas"
+msgstr ""
+
+msgctxt "GENERAL.[283]"
+msgid "Eurus"
+msgstr ""
+
+msgctxt "GREEK.[401]"
+msgid "Euryale"
+msgstr ""
+
+msgctxt "GREEK.[402]"
+msgid "Euryalus"
+msgstr ""
+
+msgctxt "GREEK.[403]"
+msgid "Eurybia"
+msgstr ""
+
+msgctxt "GREEK.[404]"
+msgid "Eurycleia"
+msgstr ""
+
+msgctxt "GREEK.[405]"
+msgid "Eurylochus"
+msgstr ""
+
+msgctxt "GREEK.[406]"
+msgid "Eurymachus"
+msgstr ""
+
+msgctxt "GREEK.[407]"
+msgid "Eurynome"
+msgstr ""
+
+msgctxt "GREEK.[408]"
+msgid "Eurypylus"
+msgstr ""
+
+msgctxt "GREEK.[409]"
+msgid "Eurystheus"
+msgstr ""
+
+msgctxt "GREEK.[410]"
+msgid "Eurytion"
+msgstr ""
+
+msgctxt "GREEK.[411]"
+msgid "Eurytus"
+msgstr ""
+
+msgctxt "GREEK.[412]"
+msgid "Eusebeia"
+msgstr ""
+
+msgctxt "GREEK.[413]"
+msgid "Euterpe"
+msgstr ""
+
+msgctxt "GREEK.[414]"
+msgid "Euthenia"
+msgstr ""
+
+msgctxt "ROMAN.[46]"
+msgid "Evander"
+msgstr ""
+
+msgctxt "OTHER.[0]"
+msgid "Ever To Apex-Nadir"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[5]"
+msgid "Excommunication"
+msgstr ""
+
+msgctxt "DIKTAT.[0]"
+msgid "Executioner"
+msgstr ""
+
+msgctxt "MERCANTILE.[34]"
+msgid "Expedition"
+msgstr ""
+
+msgctxt "MERCANTILE.[2]"
+msgid "Externality"
+msgstr ""
+
+msgctxt "GENERAL.[1]"
+msgid "Eyes Like Nuclear Fire"
+msgstr ""
+
+msgctxt "ROMAN.[47]"
+msgid "Fabulinus"
+msgstr ""
+
+msgctxt "ROMAN.[48]"
+msgid "Facunditas"
+msgstr ""
+
+msgctxt "NORSE.[20]"
+msgid "Fafnir"
+msgstr ""
+
+msgctxt "GENERAL.[100]"
+msgid "Failure of Imagination"
+msgstr ""
+
+msgctxt "MERCANTILE.[31]"
+msgid "Fair Trade"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[14]"
+msgid "Faith"
+msgstr ""
+
+msgctxt "PIRATES.[17]"
+msgid "Fancy Star"
+msgstr ""
+
+msgctxt "CELTIC.[74]"
+msgid "Fand"
+msgstr ""
+
+msgctxt "GENERAL.[28]"
+msgid "Faraway And Gone"
+msgstr ""
+
+msgctxt "PIRATES.[157]"
+msgid "Faster Than Fight"
+msgstr ""
+
+msgctxt "PIRATES.[29]"
+msgid "Fat Chance"
+msgstr ""
+
+msgctxt "PIRATES.[64]"
+msgid "Fat Lon-Duket"
+msgstr ""
+
+msgctxt "GENERAL.[3]"
+msgid "Fated Death"
+msgstr ""
+
+msgctxt "ROMAN.[49]"
+msgid "Faustulus"
+msgstr ""
+
+msgctxt "ROMAN.[50]"
+msgid "Favonius"
+msgstr ""
+
+msgctxt "HEGEMONY.[23]"
+msgid "Feather of the Phoenix"
+msgstr ""
+
+msgctxt "NORSE.[21]"
+msgid "Fenris"
+msgstr ""
+
+msgctxt "CELTIC.[75]"
+msgid "Ferdiad"
+msgstr ""
+
+msgctxt "ROMAN.[51]"
+msgid "Ferentina"
+msgstr ""
+
+msgctxt "GENERAL.[158]"
+msgid "Fern"
+msgstr ""
+
+msgctxt "ROMAN.[52]"
+msgid "Feronia"
+msgstr ""
+
+msgctxt "CELTIC.[76]"
+msgid "Fianna"
+msgstr ""
+
+msgctxt "GENERAL.[170]"
+msgid "Fidelis"
+msgstr ""
+
+msgctxt "ROMAN.[53]"
+msgid "Fides"
+msgstr ""
+
+msgctxt "PIRATES.[23]"
+msgid "Fifty Rem And Counting"
+msgstr ""
+
+msgctxt "DIKTAT.[13]"
+msgid "Final Authority"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[44]"
+msgid "Final Redemption"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[0]"
+msgid "Final Revolution"
+msgstr ""
+
+msgctxt "CELTIC.[77]"
+msgid "Finn"
+msgstr ""
+
+msgctxt "CELTIC.[78]"
+msgid "Firbolg"
+msgstr ""
+
+msgctxt "HEGEMONY.[22]"
+msgid "Fire of the Phoenix"
+msgstr ""
+
+msgctxt "PIRATES.[181]"
+msgid "Fireblue"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[9]"
+msgid "Flaggelant"
+msgstr ""
+
+msgctxt "GENERAL.[259]"
+msgid "Flatlander Woman"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[47]"
+msgid "Florus-Jiu"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[35]"
+msgid "Flowering of Creation"
+msgstr ""
+
+msgctxt "PIRATES.[101]"
+msgid "Flyin' Coffin"
+msgstr ""
+
+msgctxt "CELTIC.[79]"
+msgid "Fodla"
+msgstr ""
+
+msgctxt "CELTIC.[80]"
+msgid "Fomorian"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[42]"
+msgid "Fontane-Si"
+msgstr ""
+
+msgctxt "ROMAN.[54]"
+msgid "Fontus"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[36]"
+msgid "For The Many"
+msgstr ""
+
+msgctxt "GENERAL.[241]"
+msgid "Foravenger"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[9]"
+msgid "Forbearance"
+msgstr ""
+
+msgctxt "GENERAL.[106]"
+msgid "Forever Wandering"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[49]"
+msgid "Forget Not Earth"
+msgstr ""
+
+msgctxt "SPACE.[65]"
+msgid "Forgive Us Enos"
+msgstr ""
+
+msgctxt "ROMAN.[55]"
+msgid "Fornax"
+msgstr ""
+
+msgctxt "MERCANTILE.[22]"
+msgid "Fortuitous"
+msgstr ""
+
+msgctxt "GENERAL.[60]"
+msgid "Fortuitous Voyager"
+msgstr ""
+
+msgctxt "ROMAN.[56]"
+msgid "Fraus"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[32]"
+msgid "Free Ceres"
+msgstr ""
+
+msgctxt "MERCANTILE.[10]"
+msgid "Free Enterprise"
+msgstr ""
+
+msgctxt "GENERAL.[242]"
+msgid "Free Evenus"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[2]"
+msgid "Freedom or Death"
+msgstr ""
+
+msgctxt "GENERAL.[169]"
+msgid "Freedon't"
+msgstr ""
+
+msgctxt "GENERAL.[94]"
+msgid "Frequently Modulated"
+msgstr ""
+
+msgctxt "NORSE.[22]"
+msgid "Freya"
+msgstr ""
+
+msgctxt "NORSE.[23]"
+msgid "Freyr"
+msgstr ""
+
+msgctxt "PIRATES.[58]"
+msgid "Friday's Folly"
+msgstr ""
+
+msgctxt "JAPANESE.[18]"
+msgid "Fujin"
+msgstr ""
+
+msgctxt "JAPANESE.[19]"
+msgid "Fuku-Nyorai"
+msgstr ""
+
+msgctxt "JAPANESE.[20]"
+msgid "Fukurokuju"
+msgstr ""
+
+msgctxt "PERSIAN.[12]"
+msgid "Fulad-zereh"
+msgstr ""
+
+msgctxt "ROMAN.[57]"
+msgid "Fulgora"
+msgstr ""
+
+msgctxt "GENERAL.[221]"
+msgid "Fumbleglory"
+msgstr ""
+
+msgctxt "GENERAL.[275]"
+msgid "Fusion Flash"
+msgstr ""
+
+msgctxt "SPACE.[34]"
+msgid "Gagarin's Dream"
+msgstr ""
+
+msgctxt "KNIGHTS.[17]"
+msgid "Gaheris"
+msgstr ""
+
+msgctxt "JAPANESE.[21]"
+msgid "Gakido"
+msgstr ""
+
+msgctxt "KNIGHTS.[18]"
+msgid "Galahad"
+msgstr ""
+
+msgctxt "KNIGHTS.[19]"
+msgid "Galehaut"
+msgstr ""
+
+msgctxt "GREEK.[415]"
+msgid "Galene"
+msgstr ""
+
+msgctxt "KNIGHTS.[20]"
+msgid "Galeschin"
+msgstr ""
+
+msgctxt "PERSIAN.[21]"
+msgid "Gandareva"
+msgstr ""
+
+msgctxt "GREEK.[416]"
+msgid "Ganymede"
+msgstr ""
+
+msgctxt "KNIGHTS.[21]"
+msgid "Gareth"
+msgstr ""
+
+msgctxt "NORSE.[24]"
+msgid "Garm"
+msgstr ""
+
+msgctxt "PIRATES.[105]"
+msgid "Gatecrasher"
+msgstr ""
+
+msgctxt "KNIGHTS.[22]"
+msgid "Gawain"
+msgstr ""
+
+msgctxt "EGYPTIAN.[41]"
+msgid "Geb"
+msgstr ""
+
+msgctxt "GREEK.[417]"
+msgid "Gegenees"
+msgstr ""
+
+msgctxt "SPACE.[55]"
+msgid "Gegenschein"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[20]"
+msgid "Gehenna"
+msgstr ""
+
+msgctxt "JAPANESE.[22]"
+msgid "Gekka"
+msgstr ""
+
+msgctxt "ROMAN.[58]"
+msgid "Geminus"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[44]"
+msgid "Gentle Shepherd"
+msgstr ""
+
+msgctxt "KNIGHTS.[23]"
+msgid "Geraint"
+msgstr ""
+
+msgctxt "GREEK.[418]"
+msgid "Geryon"
+msgstr ""
+
+msgctxt "PIRATES.[94]"
+msgid "Gets Away With It"
+msgstr ""
+
+msgctxt "PERSIAN.[11]"
+msgid "Ghul"
+msgstr ""
+
+msgctxt "GENERAL.[142]"
+msgid "Gift"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[25]"
+msgid "Gift of Ludd"
+msgstr ""
+
+msgctxt "GENERAL.[268]"
+msgid "Gigue"
+msgstr ""
+
+msgctxt "MERCANTILE.[11]"
+msgid "Gilden Good"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[22]"
+msgid "Gimel-Lucky"
+msgstr ""
+
+msgctxt "KNIGHTS.[24]"
+msgid "Gingalain"
+msgstr ""
+
+msgctxt "GENERAL.[82]"
+msgid "Give It A Go"
+msgstr ""
+
+msgctxt "GREEK.[419]"
+msgid "Glaucus"
+msgstr ""
+
+msgctxt "SPACE.[12]"
+msgid "Glory of the Stars"
+msgstr ""
+
+msgctxt "GENERAL.[133]"
+msgid "Glower"
+msgstr ""
+
+msgctxt "PIRATES.[148]"
+msgid "Glowy Lucre"
+msgstr ""
+
+msgctxt "GENERAL.[105]"
+msgid "Go Home Ezra"
+msgstr ""
+
+msgctxt "GENERAL.[86]"
+msgid "Go On Take A Good Look"
+msgstr ""
+
+msgctxt "NORSE.[25]"
+msgid "Goetterdaemmerung"
+msgstr ""
+
+msgctxt "JAPANESE.[23]"
+msgid "Gohei"
+msgstr ""
+
+msgctxt "MERCANTILE.[28]"
+msgid "Gold Fortune"
+msgstr ""
+
+msgctxt "GENERAL.[15]"
+msgid "Golden Arrow"
+msgstr ""
+
+msgctxt "GENERAL.[62]"
+msgid "Golden Glow"
+msgstr ""
+
+msgctxt "PIRATES.[21]"
+msgid "Golden Sun"
+msgstr ""
+
+msgctxt "PIRATES.[20]"
+msgid "Good Fortune"
+msgstr ""
+
+msgctxt "PIRATES.[45]"
+msgid "Good Ship Venus"
+msgstr ""
+
+msgctxt "GENERAL.[127]"
+msgid "Good Sunrise"
+msgstr ""
+
+msgctxt "GREEK.[420]"
+msgid "Gorgons"
+msgstr ""
+
+msgctxt "KNIGHTS.[25]"
+msgid "Gornemant"
+msgstr ""
+
+msgctxt "CELTIC.[81]"
+msgid "Govannon"
+msgstr ""
+
+msgctxt "GREEK.[421]"
+msgid "Graeae"
+msgstr ""
+
+msgctxt "DIKTAT.[9]"
+msgid "Grand Duke"
+msgstr ""
+
+msgctxt "CELTIC.[82]"
+msgid "Grannus"
+msgstr ""
+
+msgctxt "GENERAL.[249]"
+msgid "Gravity Rental"
+msgstr ""
+
+msgctxt "GENERAL.[273]"
+msgid "Gray Area"
+msgstr ""
+
+msgctxt "DIKTAT.[7]"
+msgid "Great Dictator"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[26]"
+msgid "Great Leader Is Dead"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[56]"
+msgid "Green Mars"
+msgstr ""
+
+msgctxt "SPACE.[43]"
+msgid "Green Moon"
+msgstr ""
+
+msgctxt "KNIGHTS.[26]"
+msgid "Griflet"
+msgstr ""
+
+msgctxt "PIRATES.[179]"
+msgid "Grindylow"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[14]"
+msgid "Guernica"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[3]"
+msgid "Guillotine"
+msgstr ""
+
+msgctxt "NORSE.[26]"
+msgid "Gullveig"
+msgstr ""
+
+msgctxt "NORSE.[27]"
+msgid "Gunnar"
+msgstr ""
+
+msgctxt "PIRATES.[107]"
+msgid "Gunrunner"
+msgstr ""
+
+msgctxt "PIRATES.[56]"
+msgid "Gutterflash"
+msgstr ""
+
+msgctxt "CELTIC.[83]"
+msgid "Gwenn"
+msgstr ""
+
+msgctxt "CELTIC.[84]"
+msgid "Gwydion"
+msgstr ""
+
+msgctxt "CELTIC.[85]"
+msgid "Gwynn"
+msgstr ""
+
+msgctxt "JAPANESE.[24]"
+msgid "Hachiman"
+msgstr ""
+
+msgctxt "PERSIAN.[13]"
+msgid "Hadhoyosh"
+msgstr ""
+
+msgctxt "GREEK.[422]"
+msgid "Haemon"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[14]"
+msgid "Hafaza"
+msgstr ""
+
+msgctxt "CELTIC.[86]"
+msgid "Hafgan"
+msgstr ""
+
+msgctxt "PIRATES.[55]"
+msgid "Hairtrigger"
+msgstr ""
+
+msgctxt "MERCANTILE.[27]"
+msgid "Halcyon On And On"
+msgstr ""
+
+msgctxt "PIRATES.[75]"
+msgid "Half-A-Prayer"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[6]"
+msgid "Hammer of Ludd"
+msgstr ""
+
+msgctxt "PIRATES.[53]"
+msgid "Handsome Chuck"
+msgstr ""
+
+msgctxt "JAPANESE.[25]"
+msgid "Haniyasu"
+msgstr ""
+
+msgctxt "EGYPTIAN.[42]"
+msgid "Harakhti"
+msgstr ""
+
+msgctxt "GENERAL.[255]"
+msgid "Haring Shiff"
+msgstr ""
+
+msgctxt "EGYPTIAN.[43]"
+msgid "Harmerti"
+msgstr ""
+
+msgctxt "GREEK.[423]"
+msgid "Harpocrates"
+msgstr ""
+
+msgctxt "GREEK.[424]"
+msgid "Harpy"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[10]"
+msgid "Hashmallim"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[36]"
+msgid "Hate-sin"
+msgstr ""
+
+msgctxt "EGYPTIAN.[44]"
+msgid "Hathor"
+msgstr ""
+
+msgctxt "EGYPTIAN.[45]"
+msgid "Hatmehit"
+msgstr ""
+
+msgctxt "EGYPTIAN.[46]"
+msgid "Hauhet"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[11]"
+msgid "Hayot Ha Kodesh"
+msgstr ""
+
+msgctxt "GENERAL.[13]"
+msgid "Heart of Darkness"
+msgstr ""
+
+msgctxt "GENERAL.[6]"
+msgid "Heart of Gold"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[55]"
+msgid "Heaven's Gate"
+msgstr ""
+
+msgctxt "GREEK.[425]"
+msgid "Hecate"
+msgstr ""
+
+msgctxt "GREEK.[426]"
+msgid "Hecaterus"
+msgstr ""
+
+msgctxt "GREEK.[427]"
+msgid "Hector"
+msgstr ""
+
+msgctxt "KNIGHTS.[27]"
+msgid "Hector de Maris"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[39]"
+msgid "Hector-Yi"
+msgstr ""
+
+msgctxt "GREEK.[428]"
+msgid "Hecuba"
+msgstr ""
+
+msgctxt "EGYPTIAN.[47]"
+msgid "Hedetet"
+msgstr ""
+
+msgctxt "GREEK.[429]"
+msgid "Hedone"
+msgstr ""
+
+msgctxt "GREEK.[430]"
+msgid "Hedylogos"
+msgstr ""
+
+msgctxt "PIRATES.[67]"
+msgid "Heimdal's Wreck"
+msgstr ""
+
+msgctxt "NORSE.[28]"
+msgid "Heimdall"
+msgstr ""
+
+msgctxt "EGYPTIAN.[48]"
+msgid "Heket"
+msgstr ""
+
+msgctxt "GREEK.[431]"
+msgid "Helen"
+msgstr ""
+
+msgctxt "GREEK.[432]"
+msgid "Helenus"
+msgstr ""
+
+msgctxt "NORSE.[29]"
+msgid "Helheim"
+msgstr ""
+
+msgctxt "GREEK.[433]"
+msgid "Helle"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[41]"
+msgid "Hellfire Awaits"
+msgstr ""
+
+msgctxt "GENERAL.[84]"
+msgid "Hello And Goodbye"
+msgstr ""
+
+msgctxt "EGYPTIAN.[49]"
+msgid "Hemen"
+msgstr ""
+
+msgctxt "GREEK.[434]"
+msgid "Hemera"
+msgstr ""
+
+msgctxt "GREEK.[435]"
+msgid "Hemithea"
+msgstr ""
+
+msgctxt "EGYPTIAN.[50]"
+msgid "Hemsut"
+msgstr ""
+
+msgctxt "GREEK.[436]"
+msgid "Heracles"
+msgstr ""
+
+msgctxt "PIRATES.[63]"
+msgid "Here A-viking"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[4]"
+msgid "Herem"
+msgstr ""
+
+msgctxt "GENERAL.[126]"
+msgid "Hermanichi-Rockettte"
+msgstr ""
+
+msgctxt "EGYPTIAN.[51]"
+msgid "Hermanubis"
+msgstr ""
+
+msgctxt "GREEK.[437]"
+msgid "Hermaphroditus"
+msgstr ""
+
+msgctxt "GREEK.[438]"
+msgid "Hermione"
+msgstr ""
+
+msgctxt "NORSE.[30]"
+msgid "Hermod"
+msgstr ""
+
+msgctxt "HEGEMONY.[4]"
+msgid "Hero of Eventide"
+msgstr ""
+
+msgctxt "EGYPTIAN.[52]"
+msgid "Heron"
+msgstr ""
+
+msgctxt "GREEK.[439]"
+msgid "Herse"
+msgstr ""
+
+msgctxt "ROMAN.[59]"
+msgid "Hersilia"
+msgstr ""
+
+msgctxt "ROMAN.[60]"
+msgid "Herulus"
+msgstr ""
+
+msgctxt "CELTIC.[87]"
+msgid "Herve"
+msgstr ""
+
+msgctxt "EGYPTIAN.[53]"
+msgid "Heryshaf"
+msgstr ""
+
+msgctxt "EGYPTIAN.[54]"
+msgid "Hesat"
+msgstr ""
+
+msgctxt "GREEK.[440]"
+msgid "Hesperides"
+msgstr ""
+
+msgctxt "GREEK.[441]"
+msgid "Hesperus"
+msgstr ""
+
+msgctxt "GREEK.[442]"
+msgid "Hestia"
+msgstr ""
+
+msgctxt "EGYPTIAN.[55]"
+msgid "Hetepet"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[26]"
+msgid "Heth-November"
+msgstr ""
+
+msgctxt "EGYPTIAN.[56]"
+msgid "Hez-ur"
+msgstr ""
+
+msgctxt "JAPANESE.[26]"
+msgid "Hidari"
+msgstr ""
+
+msgctxt "JAPANESE.[27]"
+msgid "Hidesato"
+msgstr ""
+
+msgctxt "SPACE.[27]"
+msgid "High Moon"
+msgstr ""
+
+msgctxt "PIRATES.[43]"
+msgid "High Over Barbary"
+msgstr ""
+
+msgctxt "GENERAL.[61]"
+msgid "Highest High"
+msgstr ""
+
+msgctxt "GREEK.[443]"
+msgid "Hilaeira"
+msgstr ""
+
+msgctxt "GREEK.[444]"
+msgid "Hippocoon"
+msgstr ""
+
+msgctxt "GREEK.[445]"
+msgid "Hippodamia"
+msgstr ""
+
+msgctxt "GREEK.[446]"
+msgid "Hippolyta"
+msgstr ""
+
+msgctxt "GREEK.[447]"
+msgid "Hippolytus"
+msgstr ""
+
+msgctxt "GREEK.[448]"
+msgid "Hippomedon"
+msgstr ""
+
+msgctxt "GREEK.[449]"
+msgid "Hippomenes"
+msgstr ""
+
+msgctxt "JAPANESE.[28]"
+msgid "Hiruko"
+msgstr ""
+
+msgctxt "GENERAL.[52]"
+msgid "His Eyes Black"
+msgstr ""
+
+msgctxt "GENERAL.[218]"
+msgid "His Timelense"
+msgstr ""
+
+msgctxt "PIRATES.[91]"
+msgid "Hivescum"
+msgstr ""
+
+msgctxt "GENERAL.[200]"
+msgid "Hlad-Zero"
+msgstr ""
+
+msgctxt "NORSE.[31]"
+msgid "Hladgunnr"
+msgstr ""
+
+msgctxt "JAPANESE.[29]"
+msgid "Hoderi"
+msgstr ""
+
+msgctxt "KNIGHTS.[28]"
+msgid "Hoel"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[31]"
+msgid "Holy Battle"
+msgstr ""
+
+msgctxt "GENERAL.[51]"
+msgid "Home Away"
+msgstr ""
+
+msgctxt "NORSE.[32]"
+msgid "Honir"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[10]"
+msgid "Hope"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[11]"
+msgid "Hope in Faith"
+msgstr ""
+
+msgctxt "EGYPTIAN.[57]"
+msgid "Hor-Hekenu"
+msgstr ""
+
+msgctxt "GREEK.[450]"
+msgid "Horae"
+msgstr ""
+
+msgctxt "GENERAL.[154]"
+msgid "Horious"
+msgstr ""
+
+msgctxt "GREEK.[451]"
+msgid "Horkos"
+msgstr ""
+
+msgctxt "GREEK.[452]"
+msgid "Horme"
+msgstr ""
+
+msgctxt "EGYPTIAN.[58]"
+msgid "Horus"
+msgstr ""
+
+msgctxt "GENERAL.[23]"
+msgid "Hot Pursuit"
+msgstr ""
+
+msgctxt "GENERAL.[107]"
+msgid "Hot To Trot"
+msgstr ""
+
+msgctxt "JAPANESE.[30]"
+msgid "Hotoke"
+msgstr ""
+
+msgctxt "PIRATES.[118]"
+msgid "How's My Piloting?"
+msgstr ""
+
+msgctxt "PERSIAN.[1]"
+msgid "Huma"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[29]"
+msgid "Humble Submission"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[8]"
+msgid "Humility"
+msgstr ""
+
+msgctxt "PIRATES.[47]"
+msgid "Hungry Raven"
+msgstr ""
+
+msgctxt "PIRATES.[144]"
+msgid "Hunter's Ethic"
+msgstr ""
+
+msgctxt "BEASTS.[6]"
+msgid "Hydra"
+msgstr ""
+
+msgctxt "GREEK.[453]"
+msgid "Hygieia"
+msgstr ""
+
+msgctxt "GREEK.[454]"
+msgid "Hylas"
+msgstr ""
+
+msgctxt "GREEK.[455]"
+msgid "Hymenaios"
+msgstr ""
+
+msgctxt "NORSE.[34]"
+msgid "Hymir"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[39]"
+msgid "Hymn Of Old Earth"
+msgstr ""
+
+msgctxt "GENERAL.[180]"
+msgid "Hypericity"
+msgstr ""
+
+msgctxt "GENERAL.[194]"
+msgid "Hyperitas"
+msgstr ""
+
+msgctxt "GENERAL.[117]"
+msgid "Hypermarine"
+msgstr ""
+
+msgctxt "GENERAL.[80]"
+msgid "Hyperparabolic"
+msgstr ""
+
+msgctxt "SPACE.[13]"
+msgid "Hyperspace Dreaming"
+msgstr ""
+
+msgctxt "GREEK.[456]"
+msgid "Hypnos"
+msgstr ""
+
+msgctxt "GREEK.[457]"
+msgid "Hysminai"
+msgstr ""
+
+msgctxt "PIRATES.[85]"
+msgid "I'm A Torpedo"
+msgstr ""
+
+msgctxt "GREEK.[458]"
+msgid "Iambe"
+msgstr ""
+
+msgctxt "GREEK.[459]"
+msgid "Iapetus"
+msgstr ""
+
+msgctxt "GREEK.[460]"
+msgid "Iaso"
+msgstr ""
+
+msgctxt "GREEK.[461]"
+msgid "Icarius"
+msgstr ""
+
+msgctxt "GREEK.[462]"
+msgid "Icarus"
+msgstr ""
+
+msgctxt "GREEK.[463]"
+msgid "Ichnaea"
+msgstr ""
+
+msgctxt "JAPANESE.[31]"
+msgid "Ida-Ten"
+msgstr ""
+
+msgctxt "GENERAL.[104]"
+msgid "Ideal Parameters"
+msgstr ""
+
+msgctxt "GREEK.[464]"
+msgid "Idomeneus"
+msgstr ""
+
+msgctxt "NORSE.[35]"
+msgid "Idun"
+msgstr ""
+
+msgctxt "JAPANESE.[32]"
+msgid "Idzumo"
+msgstr ""
+
+msgctxt "OTHER.[12]"
+msgid "If Not Refuge"
+msgstr ""
+
+msgctxt "EGYPTIAN.[59]"
+msgid "Ihu"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[12]"
+msgid "Illustrious"
+msgstr ""
+
+msgctxt "SPACE.[52]"
+msgid "Imbrium Flyer"
+msgstr ""
+
+msgctxt "EGYPTIAN.[60]"
+msgid "Imhotep"
+msgstr ""
+
+msgctxt "EGYPTIAN.[61]"
+msgid "Imiut"
+msgstr ""
+
+msgctxt "GENERAL.[68]"
+msgid "Immaculate Vessel"
+msgstr ""
+
+msgctxt "DIKTAT.[43]"
+msgid "Immortal Emperor"
+msgstr ""
+
+msgctxt "GENERAL.[95]"
+msgid "Impartial Eclipse"
+msgstr ""
+
+msgctxt "ROMAN.[61]"
+msgid "Imporcitor"
+msgstr ""
+
+msgctxt "EGYPTIAN.[62]"
+msgid "Imset"
+msgstr ""
+
+msgctxt "GENERAL.[206]"
+msgid "In Calizard"
+msgstr ""
+
+msgctxt "GENERAL.[201]"
+msgid "In Duty"
+msgstr ""
+
+msgctxt "MERCANTILE.[3]"
+msgid "In The Black"
+msgstr ""
+
+msgctxt "OTHER.[4]"
+msgid "In Undeath-nonlife"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[14]"
+msgid "Indefatigable"
+msgstr ""
+
+msgctxt "GENERAL.[44]"
+msgid "Indigo"
+msgstr ""
+
+msgctxt "ROMAN.[62]"
+msgid "Indivia"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[13]"
+msgid "Inevitable"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[14]"
+msgid "Inferno"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[15]"
+msgid "Inferno-for-heresy"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[21]"
+msgid "Infinite Sublime"
+msgstr ""
+
+msgctxt "CELTIC.[88]"
+msgid "Inghean"
+msgstr ""
+
+msgctxt "PIRATES.[174]"
+msgid "Iniquitous Spoilsport"
+msgstr ""
+
+msgctxt "EGYPTIAN.[63]"
+msgid "Inmutef"
+msgstr ""
+
+msgctxt "GREEK.[465]"
+msgid "Ino"
+msgstr ""
+
+msgctxt "PIRATES.[52]"
+msgid "Instant Death"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[24]"
+msgid "Interceptor"
+msgstr ""
+
+msgctxt "SPACE.[49]"
+msgid "Interstellaration"
+msgstr ""
+
+msgctxt "SPACE.[14]"
+msgid "Interstitial Breeze"
+msgstr ""
+
+msgctxt "ROMAN.[63]"
+msgid "Inuus"
+msgstr ""
+
+msgctxt "MERCANTILE.[0]"
+msgid "Invisible Hand"
+msgstr ""
+
+msgctxt "GREEK.[466]"
+msgid "Io"
+msgstr ""
+
+msgctxt "GREEK.[467]"
+msgid "Iolaus"
+msgstr ""
+
+msgctxt "GREEK.[468]"
+msgid "Iole"
+msgstr ""
+
+msgctxt "GENERAL.[57]"
+msgid "Ionian Regent"
+msgstr ""
+
+msgctxt "GENERAL.[196]"
+msgid "Iota-Max"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[5]"
+msgid "Iota-Rocky"
+msgstr ""
+
+msgctxt "EGYPTIAN.[64]"
+msgid "Ipet"
+msgstr ""
+
+msgctxt "GREEK.[469]"
+msgid "Iphicles"
+msgstr ""
+
+msgctxt "GREEK.[470]"
+msgid "Iphigenia"
+msgstr ""
+
+msgctxt "GREEK.[471]"
+msgid "Iphthime"
+msgstr ""
+
+msgctxt "GENERAL.[58]"
+msgid "Iridescence"
+msgstr ""
+
+msgctxt "GREEK.[472]"
+msgid "Iris"
+msgstr ""
+
+msgctxt "DIKTAT.[26]"
+msgid "Iron Fist"
+msgstr ""
+
+msgctxt "DIKTAT.[12]"
+msgid "Iron Superiority"
+msgstr ""
+
+msgctxt "PIRATES.[102]"
+msgid "Iron Tomb"
+msgstr ""
+
+msgctxt "GREEK.[473]"
+msgid "Irus"
+msgstr ""
+
+msgctxt "OTHER.[6]"
+msgid "Is And All"
+msgstr ""
+
+msgctxt "EGYPTIAN.[65]"
+msgid "Isdes"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[9]"
+msgid "Ishim"
+msgstr ""
+
+msgctxt "EGYPTIAN.[66]"
+msgid "Isis"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[43]"
+msgid "Ismael-Wu"
+msgstr ""
+
+msgctxt "GREEK.[474]"
+msgid "Ismene"
+msgstr ""
+
+msgctxt "JAPANESE.[33]"
+msgid "Isora"
+msgstr ""
+
+msgctxt "EGYPTIAN.[67]"
+msgid "Isten"
+msgstr ""
+
+msgctxt "AZTEC.[15]"
+msgid "Itzli"
+msgstr ""
+
+msgctxt "AZTEC.[16]"
+msgid "Itzpapalotl"
+msgstr ""
+
+msgctxt "GREEK.[475]"
+msgid "Ixion"
+msgstr ""
+
+msgctxt "AZTEC.[17]"
+msgid "Ixtlilton"
+msgstr ""
+
+msgctxt "GREEK.[476]"
+msgid "Iynx"
+msgstr ""
+
+msgctxt "JAPANESE.[34]"
+msgid "Izanagi"
+msgstr ""
+
+msgctxt "JAPANESE.[35]"
+msgid "Izanami"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[28]"
+msgid "Jack Goodfellow"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[13]"
+msgid "Jacquerie"
+msgstr ""
+
+msgctxt "ROMAN.[64]"
+msgid "Janus"
+msgstr ""
+
+msgctxt "GENERAL.[269]"
+msgid "Jarvee"
+msgstr ""
+
+msgctxt "GREEK.[477]"
+msgid "Jason"
+msgstr ""
+
+msgctxt "JAPANESE.[36]"
+msgid "Jigami"
+msgstr ""
+
+msgctxt "JAPANESE.[37]"
+msgid "Jigoku"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[1]"
+msgid "Jihad"
+msgstr ""
+
+msgctxt "JAPANESE.[38]"
+msgid "Jingu"
+msgstr ""
+
+msgctxt "GREEK.[478]"
+msgid "Jocasta"
+msgstr ""
+
+msgctxt "PIRATES.[70]"
+msgid "Jolly Skull"
+msgstr ""
+
+msgctxt "NORSE.[36]"
+msgid "Jord"
+msgstr ""
+
+msgctxt "NORSE.[37]"
+msgid "Jotun"
+msgstr ""
+
+msgctxt "GENERAL.[191]"
+msgid "Jotus"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[12]"
+msgid "Joy"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[13]"
+msgid "Joy in Faith"
+msgstr ""
+
+msgctxt "DIKTAT.[37]"
+msgid "Judgement of Andrada"
+msgstr ""
+
+msgctxt "PIRATES.[178]"
+msgid "Judith's Knife"
+msgstr ""
+
+msgctxt "ROMAN.[65]"
+msgid "Juno"
+msgstr ""
+
+msgctxt "ROMAN.[66]"
+msgid "Jupiter"
+msgstr ""
+
+msgctxt "GENERAL.[253]"
+msgid "Juroi Mars"
+msgstr ""
+
+msgctxt "JAPANESE.[39]"
+msgid "Jurojin"
+msgstr ""
+
+msgctxt "PIRATES.[98]"
+msgid "Just A Laugh"
+msgstr ""
+
+msgctxt "PIRATES.[128]"
+msgid "Just Asteroids Here"
+msgstr ""
+
+msgctxt "ROMAN.[67]"
+msgid "Juturna"
+msgstr ""
+
+msgctxt "JAPANESE.[40]"
+msgid "Kagutsuchi"
+msgstr ""
+
+msgctxt "HEGEMONY.[3]"
+msgid "Kali Molina"
+msgstr ""
+
+msgctxt "GREEK.[479]"
+msgid "Kallidike"
+msgstr ""
+
+msgctxt "JAPANESE.[41]"
+msgid "Kamaitachi"
+msgstr ""
+
+msgctxt "JAPANESE.[42]"
+msgid "Kami"
+msgstr ""
+
+msgctxt "JAPANESE.[43]"
+msgid "Kamidana"
+msgstr ""
+
+msgctxt "JAPANESE.[44]"
+msgid "Kaminari"
+msgstr ""
+
+msgctxt "GENERAL.[147]"
+msgid "Kamiture Anos"
+msgstr ""
+
+msgctxt "JAPANESE.[45]"
+msgid "Kamui"
+msgstr ""
+
+msgctxt "GENERAL.[210]"
+msgid "Kamulus"
+msgstr ""
+
+msgctxt "JAPANESE.[46]"
+msgid "Kanayama"
+msgstr ""
+
+msgctxt "HEGEMONY.[16]"
+msgid "Kane Gleise"
+msgstr ""
+
+msgctxt "PIRATES.[40]"
+msgid "Kanhoji's Ghost"
+msgstr ""
+
+msgctxt "PIRATES.[160]"
+msgid "Kanta's Left Boot"
+msgstr ""
+
+msgctxt "PIRATES.[90]"
+msgid "Kanta's Right Boot"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[29]"
+msgid "Kaph-Zulu"
+msgstr ""
+
+msgctxt "GENERAL.[233]"
+msgid "Kappa-Daisy"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[6]"
+msgid "Kappa-Dusker"
+msgstr ""
+
+msgctxt "SPACE.[21]"
+msgid "Kardashevian"
+msgstr ""
+
+msgctxt "BEASTS.[28]"
+msgid "Karkadann"
+msgstr ""
+
+msgctxt "PERSIAN.[6]"
+msgid "Karkadann"
+msgstr ""
+
+msgctxt "BEASTS.[18]"
+msgid "Karkinos"
+msgstr ""
+
+msgctxt "EGYPTIAN.[68]"
+msgid "Kauket"
+msgstr ""
+
+msgctxt "GREEK.[480]"
+msgid "Kaunos"
+msgstr ""
+
+msgctxt "JAPANESE.[47]"
+msgid "Kawaya"
+msgstr ""
+
+msgctxt "KNIGHTS.[29]"
+msgid "Kay"
+msgstr ""
+
+msgctxt "EGYPTIAN.[69]"
+msgid "Kebechet"
+msgstr ""
+
+msgctxt "EGYPTIAN.[70]"
+msgid "Kebechsenef"
+msgstr ""
+
+msgctxt "GENERAL.[5]"
+msgid "Kelos"
+msgstr ""
+
+msgctxt "BEASTS.[7]"
+msgid "Kelpie"
+msgstr ""
+
+msgctxt "EGYPTIAN.[71]"
+msgid "Kematef"
+msgstr ""
+
+msgctxt "EGYPTIAN.[72]"
+msgid "Kemwer"
+msgstr ""
+
+msgctxt "GENERAL.[156]"
+msgid "Kemwer One"
+msgstr ""
+
+msgctxt "GREEK.[481]"
+msgid "Keres"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[12]"
+msgid "Keter"
+msgstr ""
+
+msgctxt "GREEK.[482]"
+msgid "Keuthonymos"
+msgstr ""
+
+msgctxt "GREEK.[483]"
+msgid "Kharites"
+msgstr ""
+
+msgctxt "EGYPTIAN.[73]"
+msgid "Khem"
+msgstr ""
+
+msgctxt "EGYPTIAN.[74]"
+msgid "Khentamenti"
+msgstr ""
+
+msgctxt "EGYPTIAN.[75]"
+msgid "Khepri"
+msgstr ""
+
+msgctxt "EGYPTIAN.[76]"
+msgid "Khnum"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[7]"
+msgid "Kindness"
+msgstr ""
+
+msgctxt "DIKTAT.[8]"
+msgid "King Cygnus"
+msgstr ""
+
+msgctxt "DIKTAT.[16]"
+msgid "King of Andromeda"
+msgstr ""
+
+msgctxt "JAPANESE.[48]"
+msgid "Kintaro"
+msgstr ""
+
+msgctxt "JAPANESE.[49]"
+msgid "Kishimo"
+msgstr ""
+
+msgctxt "GREEK.[484]"
+msgid "Koalemos"
+msgstr ""
+
+msgctxt "JAPANESE.[50]"
+msgid "Kojiki"
+msgstr ""
+
+msgctxt "JAPANESE.[51]"
+msgid "Kojin"
+msgstr ""
+
+msgctxt "JAPANESE.[52]"
+msgid "Komoku"
+msgstr ""
+
+msgctxt "JAPANESE.[53]"
+msgid "Konaki"
+msgstr ""
+
+msgctxt "GENERAL.[220]"
+msgid "Koroleth"
+msgstr ""
+
+msgctxt "SPACE.[23]"
+msgid "Korolev Dreaming"
+msgstr ""
+
+msgctxt "GREEK.[485]"
+msgid "Korybantes"
+msgstr ""
+
+msgctxt "JAPANESE.[54]"
+msgid "Koshin"
+msgstr ""
+
+msgctxt "GENERAL.[246]"
+msgid "Kosmonara"
+msgstr ""
+
+msgctxt "SPACE.[32]"
+msgid "Kosmonaut"
+msgstr ""
+
+msgctxt "SPACE.[56]"
+msgid "Kosmoskva"
+msgstr ""
+
+msgctxt "BEASTS.[8]"
+msgid "Kraken"
+msgstr ""
+
+msgctxt "GREEK.[486]"
+msgid "Kronos"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[20]"
+msgid "Kronstadt Redux"
+msgstr ""
+
+msgctxt "GREEK.[487]"
+msgid "Krotos"
+msgstr ""
+
+msgctxt "JAPANESE.[55]"
+msgid "Kunitsu"
+msgstr ""
+
+msgctxt "JAPANESE.[56]"
+msgid "Kuruma"
+msgstr ""
+
+msgctxt "GREEK.[488]"
+msgid "Kydoimos"
+msgstr ""
+
+msgctxt "GREEK.[489]"
+msgid "Labdacus"
+msgstr ""
+
+msgctxt "GREEK.[490]"
+msgid "Lachesis"
+msgstr ""
+
+msgctxt "GREEK.[491]"
+msgid "Ladon"
+msgstr ""
+
+msgctxt "SPACE.[46]"
+msgid "Laika"
+msgstr ""
+
+msgctxt "GREEK.[492]"
+msgid "Laius"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[7]"
+msgid "Lambda-Jake"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[30]"
+msgid "Lamedh-Bear"
+msgstr ""
+
+msgctxt "GENERAL.[208]"
+msgid "Lamentite"
+msgstr ""
+
+msgctxt "BEASTS.[31]"
+msgid "Lamia"
+msgstr ""
+
+msgctxt "GREEK.[493]"
+msgid "Lamia"
+msgstr ""
+
+msgctxt "KNIGHTS.[30]"
+msgid "Lamorak"
+msgstr ""
+
+msgctxt "GREEK.[494]"
+msgid "Lampads"
+msgstr ""
+
+msgctxt "KNIGHTS.[31]"
+msgid "Lancelot"
+msgstr ""
+
+msgctxt "SPACE.[70]"
+msgid "Laniakea Traveller"
+msgstr ""
+
+msgctxt "KNIGHTS.[32]"
+msgid "Lanval"
+msgstr ""
+
+msgctxt "GREEK.[495]"
+msgid "Laodamas"
+msgstr ""
+
+msgctxt "GREEK.[496]"
+msgid "Laomedon"
+msgstr ""
+
+msgctxt "GENERAL.[258]"
+msgid "Laputan Machine"
+msgstr ""
+
+msgctxt "ROMAN.[68]"
+msgid "Larenta"
+msgstr ""
+
+msgctxt "ROMAN.[69]"
+msgid "Lares"
+msgstr ""
+
+msgctxt "PIRATES.[41]"
+msgid "Lark of Awilda"
+msgstr ""
+
+msgctxt "CELTIC.[89]"
+msgid "Lasair"
+msgstr ""
+
+msgctxt "PIRATES.[163]"
+msgid "Laser Light-show"
+msgstr ""
+
+msgctxt "GENERAL.[9]"
+msgid "Laserhawk"
+msgstr ""
+
+msgctxt "PIRATES.[180]"
+msgid "Lasermaker"
+msgstr ""
+
+msgctxt "PIRATES.[145]"
+msgid "Lasers And Feelings"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[8]"
+msgid "Lash Of Perdition"
+msgstr ""
+
+msgctxt "PIRATES.[158]"
+msgid "Last Call"
+msgstr ""
+
+msgctxt "GENERAL.[0]"
+msgid "Last Rains of Sestramor"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[29]"
+msgid "Last Strike"
+msgstr ""
+
+msgctxt "ROMAN.[70]"
+msgid "Latarius"
+msgstr ""
+
+msgctxt "CELTIC.[90]"
+msgid "Latiaran"
+msgstr ""
+
+msgctxt "ROMAN.[71]"
+msgid "Lavinia"
+msgstr ""
+
+msgctxt "PIRATES.[119]"
+msgid "Lazerpunk"
+msgstr ""
+
+msgctxt "PIRATES.[11]"
+msgid "Le Grand"
+msgstr ""
+
+msgctxt "DIKTAT.[24]"
+msgid "Leader's Will"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[66]"
+msgid "Leaflight"
+msgstr ""
+
+msgctxt "GREEK.[497]"
+msgid "Leda"
+msgstr ""
+
+msgctxt "PIRATES.[80]"
+msgid "Left My Heart On Maxios"
+msgstr ""
+
+msgctxt "HEGEMONY.[0]"
+msgid "Legacy of the Domain"
+msgstr ""
+
+msgctxt "HEGEMONY.[1]"
+msgid "Legionnaire"
+msgstr ""
+
+msgctxt "GREEK.[498]"
+msgid "Lelantos"
+msgstr ""
+
+msgctxt "GREEK.[499]"
+msgid "Lelex"
+msgstr ""
+
+msgctxt "DIKTAT.[30]"
+msgid "Leo Rex"
+msgstr ""
+
+msgctxt "GENERAL.[91]"
+msgid "Let's Give It Another Go"
+msgstr ""
+
+msgctxt "GREEK.[500]"
+msgid "Lethe"
+msgstr ""
+
+msgctxt "GREEK.[501]"
+msgid "Leto"
+msgstr ""
+
+msgctxt "ROMAN.[72]"
+msgid "Letum"
+msgstr ""
+
+msgctxt "CELTIC.[91]"
+msgid "Leucetios"
+msgstr ""
+
+msgctxt "GREEK.[502]"
+msgid "Leucothea"
+msgstr ""
+
+msgctxt "BEASTS.[9]"
+msgid "Leviathan"
+msgstr ""
+
+msgctxt "SPACE.[18]"
+msgid "Lightspeed+"
+msgstr ""
+
+msgctxt "GENERAL.[149]"
+msgid "Lightwitch"
+msgstr ""
+
+msgctxt "GENERAL.[89]"
+msgid "Limit One Per Customer"
+msgstr ""
+
+msgctxt "GREEK.[503]"
+msgid "Limos"
+msgstr ""
+
+msgctxt "BEASTS.[24]"
+msgid "Lindwurm"
+msgstr ""
+
+msgctxt "DIKTAT.[27]"
+msgid "Lion's Pride"
+msgstr ""
+
+msgctxt "KNIGHTS.[33]"
+msgid "Lionel"
+msgstr ""
+
+msgctxt "PIRATES.[82]"
+msgid "Lionhunter"
+msgstr ""
+
+msgctxt "GREEK.[504]"
+msgid "Litae"
+msgstr ""
+
+msgctxt "CELTIC.[92]"
+msgid "Llew"
+msgstr ""
+
+msgctxt "CELTIC.[93]"
+msgid "Llyr"
+msgstr ""
+
+msgctxt "PIRATES.[16]"
+msgid "Lo Hon-cho"
+msgstr ""
+
+msgctxt "NORSE.[38]"
+msgid "Loki"
+msgstr ""
+
+msgctxt "GENERAL.[123]"
+msgid "Lone Pig"
+msgstr ""
+
+msgctxt "GENERAL.[81]"
+msgid "Lone Star"
+msgstr ""
+
+msgctxt "GENERAL.[25]"
+msgid "Lonely Rover"
+msgstr ""
+
+msgctxt "MERCANTILE.[33]"
+msgid "Long Haul"
+msgstr ""
+
+msgctxt "GENERAL.[83]"
+msgid "Long Shot"
+msgstr ""
+
+msgctxt "OTHER.[14]"
+msgid "Look, Unchosen"
+msgstr ""
+
+msgctxt "PIRATES.[34]"
+msgid "Loot'n'Plunder"
+msgstr ""
+
+msgctxt "PIRATES.[62]"
+msgid "Lootfarer"
+msgstr ""
+
+msgctxt "PIRATES.[60]"
+msgid "Loothoper"
+msgstr ""
+
+msgctxt "GENERAL.[261]"
+msgid "Lord Scarlet"
+msgstr ""
+
+msgctxt "GENERAL.[278]"
+msgid "Lorimier's Hand"
+msgstr ""
+
+msgctxt "GENERAL.[37]"
+msgid "Lotus-eater"
+msgstr ""
+
+msgctxt "PIRATES.[162]"
+msgid "Low Orbit Loot"
+msgstr ""
+
+msgctxt "GENERAL.[263]"
+msgid "Loyal To The Seventeen"
+msgstr ""
+
+msgctxt "KNIGHTS.[34]"
+msgid "Lucan"
+msgstr ""
+
+msgctxt "ROMAN.[73]"
+msgid "Lucina"
+msgstr ""
+
+msgctxt "GENERAL.[152]"
+msgid "Lucky"
+msgstr ""
+
+msgctxt "GENERAL.[59]"
+msgid "Lucky Dragon"
+msgstr ""
+
+msgctxt "PIRATES.[156]"
+msgid "Lucky Shot"
+msgstr ""
+
+msgctxt "MERCANTILE.[25]"
+msgid "Lucky Strike"
+msgstr ""
+
+msgctxt "GENERAL.[134]"
+msgid "Lucky Stroopedux"
+msgstr ""
+
+msgctxt "GENERAL.[167]"
+msgid "Lucy"
+msgstr ""
+
+msgctxt "CELTIC.[94]"
+msgid "Lud"
+msgstr ""
+
+msgctxt "PIRATES.[84]"
+msgid "Ludd's Computer"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[50]"
+msgid "Ludd's Left Shoe"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[51]"
+msgid "Ludd's Right Shoe"
+msgstr ""
+
+msgctxt "CELTIC.[95]"
+msgid "Lugh"
+msgstr ""
+
+msgctxt "CELTIC.[96]"
+msgid "Lugos"
+msgstr ""
+
+msgctxt "ROMAN.[74]"
+msgid "Lupercus"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[64]"
+msgid "Lustral"
+msgstr ""
+
+msgctxt "CELTIC.[97]"
+msgid "Luxovius"
+msgstr ""
+
+msgctxt "GREEK.[505]"
+msgid "Lycaon"
+msgstr ""
+
+msgctxt "GREEK.[506]"
+msgid "Lycus"
+msgstr ""
+
+msgctxt "GREEK.[507]"
+msgid "Lyssa"
+msgstr ""
+
+msgctxt "EGYPTIAN.[78]"
+msgid "Ma'at"
+msgstr ""
+
+msgctxt "EGYPTIAN.[77]"
+msgid "Maahes"
+msgstr ""
+
+msgctxt "CELTIC.[98]"
+msgid "Mabon"
+msgstr ""
+
+msgctxt "CELTIC.[99]"
+msgid "Macha"
+msgstr ""
+
+msgctxt "GREEK.[508]"
+msgid "Machaon"
+msgstr ""
+
+msgctxt "GREEK.[509]"
+msgid "Maenad"
+msgstr ""
+
+msgctxt "CELTIC.[100]"
+msgid "Mag Mell"
+msgstr ""
+
+msgctxt "JAPANESE.[57]"
+msgid "Magatama"
+msgstr ""
+
+msgctxt "DIKTAT.[25]"
+msgid "Magister"
+msgstr ""
+
+msgctxt "MERCANTILE.[13]"
+msgid "Magnate"
+msgstr ""
+
+msgctxt "NORSE.[39]"
+msgid "Magnus"
+msgstr ""
+
+msgctxt "GREEK.[510]"
+msgid "Maia"
+msgstr ""
+
+msgctxt "ROMAN.[75]"
+msgid "Maiesta"
+msgstr ""
+
+msgctxt "GREEK.[511]"
+msgid "Makaria"
+msgstr ""
+
+msgctxt "GREEK.[512]"
+msgid "Makhai"
+msgstr ""
+
+msgctxt "GENERAL.[55]"
+msgid "Malfeasant"
+msgstr ""
+
+msgctxt "CELTIC.[101]"
+msgid "Manawydan"
+msgstr ""
+
+msgctxt "GREEK.[513]"
+msgid "Maniae"
+msgstr ""
+
+msgctxt "CELTIC.[102]"
+msgid "Mannan"
+msgstr ""
+
+msgctxt "GENERAL.[188]"
+msgid "Manti-Irtius"
+msgstr ""
+
+msgctxt "CELTIC.[103]"
+msgid "Maponos"
+msgstr ""
+
+msgctxt "PIRATES.[149]"
+msgid "Marco's Missile"
+msgstr ""
+
+msgctxt "MERCANTILE.[4]"
+msgid "Margin Call"
+msgstr ""
+
+msgctxt "ROMAN.[76]"
+msgid "Mars"
+msgstr ""
+
+msgctxt "GREEK.[514]"
+msgid "Marsyas"
+msgstr ""
+
+msgctxt "PERSIAN.[3]"
+msgid "Martyaxwar"
+msgstr ""
+
+msgctxt "CELTIC.[104]"
+msgid "Matres"
+msgstr ""
+
+msgctxt "GREEK.[515]"
+msgid "Matton"
+msgstr ""
+
+msgctxt "AZTEC.[18]"
+msgid "Mayahuel"
+msgstr ""
+
+msgctxt "GREEK.[516]"
+msgid "Medea"
+msgstr ""
+
+msgctxt "GREEK.[517]"
+msgid "Medusa"
+msgstr ""
+
+msgctxt "GREEK.[518]"
+msgid "Megaera"
+msgstr ""
+
+msgctxt "EGYPTIAN.[79]"
+msgid "Mehen"
+msgstr ""
+
+msgctxt "EGYPTIAN.[80]"
+msgid "Mehturt"
+msgstr ""
+
+msgctxt "GREEK.[519]"
+msgid "Melampus"
+msgstr ""
+
+msgctxt "GREEK.[520]"
+msgid "Melanthus"
+msgstr ""
+
+msgctxt "GREEK.[521]"
+msgid "Meleager"
+msgstr ""
+
+msgctxt "GREEK.[522]"
+msgid "Melete"
+msgstr ""
+
+msgctxt "GREEK.[523]"
+msgid "Meliae"
+msgstr ""
+
+msgctxt "KNIGHTS.[35]"
+msgid "Meliant de Lis"
+msgstr ""
+
+msgctxt "GREEK.[524]"
+msgid "Melinoe"
+msgstr ""
+
+msgctxt "GREEK.[525]"
+msgid "Melpomene"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[31]"
+msgid "Mem-Zero"
+msgstr ""
+
+msgctxt "GREEK.[526]"
+msgid "Memnon"
+msgstr ""
+
+msgctxt "PIRATES.[81]"
+msgid "Memory Of Mairaath"
+msgstr ""
+
+msgctxt "HEGEMONY.[14]"
+msgid "Memory of Hana Pacha"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[38]"
+msgid "Memory of Light"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[1]"
+msgid "Memory of the Maillotins"
+msgstr ""
+
+msgctxt "GREEK.[527]"
+msgid "Menae"
+msgstr ""
+
+msgctxt "GREEK.[528]"
+msgid "Menelaus"
+msgstr ""
+
+msgctxt "GREEK.[529]"
+msgid "Menestheus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[81]"
+msgid "Menhit"
+msgstr ""
+
+msgctxt "GREEK.[530]"
+msgid "Menoetes"
+msgstr ""
+
+msgctxt "GREEK.[531]"
+msgid "Menoetius"
+msgstr ""
+
+msgctxt "EGYPTIAN.[82]"
+msgid "Menthu"
+msgstr ""
+
+msgctxt "EGYPTIAN.[83]"
+msgid "Mentu"
+msgstr ""
+
+msgctxt "ROMAN.[77]"
+msgid "Mephitis"
+msgstr ""
+
+msgctxt "SPACE.[33]"
+msgid "Mercurial"
+msgstr ""
+
+msgctxt "GENERAL.[2]"
+msgid "Mercurial Scythe"
+msgstr ""
+
+msgctxt "ROMAN.[78]"
+msgid "Mercury"
+msgstr ""
+
+msgctxt "EGYPTIAN.[84]"
+msgid "Meret"
+msgstr ""
+
+msgctxt "GREEK.[532]"
+msgid "Merope"
+msgstr ""
+
+msgctxt "EGYPTIAN.[85]"
+msgid "Mesenet"
+msgstr ""
+
+msgctxt "EGYPTIAN.[86]"
+msgid "Meskhenet"
+msgstr ""
+
+msgctxt "GREEK.[533]"
+msgid "Messene"
+msgstr ""
+
+msgctxt "SPACE.[7]"
+msgid "Meteor"
+msgstr ""
+
+msgctxt "GREEK.[534]"
+msgid "Methe"
+msgstr ""
+
+msgctxt "GREEK.[535]"
+msgid "Metis"
+msgstr ""
+
+msgctxt "GREEK.[536]"
+msgid "Metope"
+msgstr ""
+
+msgctxt "AZTEC.[19]"
+msgid "Mextli"
+msgstr ""
+
+msgctxt "ROMAN.[79]"
+msgid "Mezentius"
+msgstr ""
+
+msgctxt "GREEK.[537]"
+msgid "Midas"
+msgstr ""
+
+msgctxt "MERCANTILE.[6]"
+msgid "Midas"
+msgstr ""
+
+msgctxt "GENERAL.[161]"
+msgid "Miday's Les"
+msgstr ""
+
+msgctxt "NORSE.[40]"
+msgid "Midgard"
+msgstr ""
+
+msgctxt "GENERAL.[179]"
+msgid "Midgardian Cog"
+msgstr ""
+
+msgctxt "CELTIC.[105]"
+msgid "Midir"
+msgstr ""
+
+msgctxt "PIRATES.[108]"
+msgid "Midnight Rider"
+msgstr ""
+
+msgctxt "EGYPTIAN.[87]"
+msgid "Mihos"
+msgstr ""
+
+msgctxt "CELTIC.[106]"
+msgid "Milesian"
+msgstr ""
+
+msgctxt "EGYPTIAN.[88]"
+msgid "Min"
+msgstr ""
+
+msgctxt "ROMAN.[80]"
+msgid "Minerva"
+msgstr ""
+
+msgctxt "GREEK.[538]"
+msgid "Minos"
+msgstr ""
+
+msgctxt "BEASTS.[10]"
+msgid "Minotaur"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[17]"
+msgid "Miracle"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[18]"
+msgid "Miracle of Life"
+msgstr ""
+
+msgctxt "GENERAL.[71]"
+msgid "Miraculux"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[57]"
+msgid "Miriam's Reprise"
+msgstr ""
+
+msgctxt "GENERAL.[257]"
+msgid "Misirlou"
+msgstr ""
+
+msgctxt "JAPANESE.[58]"
+msgid "Misogi"
+msgstr ""
+
+msgctxt "PIRATES.[167]"
+msgid "Mistakes Were Made"
+msgstr ""
+
+msgctxt "AZTEC.[20]"
+msgid "Mixcoatl"
+msgstr ""
+
+msgctxt "JAPANESE.[59]"
+msgid "Miyazu"
+msgstr ""
+
+msgctxt "JAPANESE.[60]"
+msgid "Mizuhame"
+msgstr ""
+
+msgctxt "NORSE.[41]"
+msgid "Mjollnir"
+msgstr ""
+
+msgctxt "GREEK.[539]"
+msgid "Mneme"
+msgstr ""
+
+msgctxt "EGYPTIAN.[89]"
+msgid "Mnewer"
+msgstr ""
+
+msgctxt "JAPANESE.[61]"
+msgid "Mochi"
+msgstr ""
+
+msgctxt "CELTIC.[107]"
+msgid "Modron"
+msgstr ""
+
+msgctxt "GENERAL.[244]"
+msgid "Mog Ruitas"
+msgstr ""
+
+msgctxt "CELTIC.[108]"
+msgid "Mog Ruith"
+msgstr ""
+
+msgctxt "MERCANTILE.[15]"
+msgid "Mogul"
+msgstr ""
+
+msgctxt "GENERAL.[141]"
+msgid "Mogularer"
+msgstr ""
+
+msgctxt "GREEK.[540]"
+msgid "Moirae"
+msgstr ""
+
+msgctxt "GREEK.[541]"
+msgid "Momus"
+msgstr ""
+
+msgctxt "GENERAL.[98]"
+msgid "Monkey Tank"
+msgstr ""
+
+msgctxt "PIRATES.[120]"
+msgid "Moondrunk Monster"
+msgstr ""
+
+msgctxt "PIRATES.[142]"
+msgid "Moral Ambivalence"
+msgstr ""
+
+msgctxt "KNIGHTS.[36]"
+msgid "Mordred"
+msgstr ""
+
+msgctxt "GENERAL.[186]"
+msgid "Morgoyle"
+msgstr ""
+
+msgctxt "KNIGHTS.[38]"
+msgid "Morholt"
+msgstr ""
+
+msgctxt "KNIGHTS.[37]"
+msgid "Moriaen"
+msgstr ""
+
+msgctxt "GREEK.[542]"
+msgid "Mormo"
+msgstr ""
+
+msgctxt "GREEK.[543]"
+msgid "Moros"
+msgstr ""
+
+msgctxt "CELTIC.[109]"
+msgid "Morrigan"
+msgstr ""
+
+msgctxt "GENERAL.[64]"
+msgid "Moskva-Kassiopeya"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[61]"
+msgid "Mother Sequoia"
+msgstr ""
+
+msgctxt "PIRATES.[137]"
+msgid "Motomar"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[8]"
+msgid "Mu-Buddy"
+msgstr ""
+
+msgctxt "JAPANESE.[62]"
+msgid "Mujinto"
+msgstr ""
+
+msgctxt "ROMAN.[81]"
+msgid "Mulciber"
+msgstr ""
+
+msgctxt "NORSE.[33]"
+msgid "Muninn"
+msgstr ""
+
+msgctxt "GREEK.[544]"
+msgid "Munippus"
+msgstr ""
+
+msgctxt "PIRATES.[121]"
+msgid "Murderess"
+msgstr ""
+
+msgctxt "CELTIC.[110]"
+msgid "Murigen"
+msgstr ""
+
+msgctxt "GREEK.[545]"
+msgid "Muses"
+msgstr ""
+
+msgctxt "NORSE.[42]"
+msgid "Muspell"
+msgstr ""
+
+msgctxt "JAPANESE.[63]"
+msgid "Musubi"
+msgstr ""
+
+msgctxt "GENERAL.[252]"
+msgid "Muteor"
+msgstr ""
+
+msgctxt "PIRATES.[4]"
+msgid "Mutineer"
+msgstr ""
+
+msgctxt "OTHER.[9]"
+msgid "My Limb of Thought"
+msgstr ""
+
+msgctxt "GREEK.[546]"
+msgid "Myles"
+msgstr ""
+
+msgctxt "GREEK.[547]"
+msgid "Myrrha"
+msgstr ""
+
+msgctxt "GREEK.[548]"
+msgid "Myrtilus"
+msgstr ""
+
+msgctxt "GREEK.[549]"
+msgid "Naiad"
+msgstr ""
+
+msgctxt "JAPANESE.[64]"
+msgid "Nakatsu"
+msgstr ""
+
+msgctxt "JAPANESE.[65]"
+msgid "Nakisawame"
+msgstr ""
+
+msgctxt "GENERAL.[74]"
+msgid "Nameless"
+msgstr ""
+
+msgctxt "GENERAL.[190]"
+msgid "Naminal Quan"
+msgstr ""
+
+msgctxt "AZTEC.[21]"
+msgid "Nanauatzin"
+msgstr ""
+
+msgctxt "GENERAL.[214]"
+msgid "Nanna"
+msgstr ""
+
+msgctxt "CELTIC.[111]"
+msgid "Nantosvelta"
+msgstr ""
+
+msgctxt "PERSIAN.[8]"
+msgid "Narah"
+msgstr ""
+
+msgctxt "GREEK.[550]"
+msgid "Narcissus"
+msgstr ""
+
+msgctxt "GREEK.[551]"
+msgid "Nausicaa"
+msgstr ""
+
+msgctxt "PIRATES.[154]"
+msgid "Near Miss"
+msgstr ""
+
+msgctxt "EGYPTIAN.[90]"
+msgid "Nebtuu"
+msgstr ""
+
+msgctxt "MERCANTILE.[8]"
+msgid "Necessity"
+msgstr ""
+
+msgctxt "CELTIC.[112]"
+msgid "Nechtan"
+msgstr ""
+
+msgctxt "GENERAL.[132]"
+msgid "Necromancer"
+msgstr ""
+
+msgctxt "EGYPTIAN.[91]"
+msgid "Neferhor"
+msgstr ""
+
+msgctxt "EGYPTIAN.[92]"
+msgid "Nefertem"
+msgstr ""
+
+msgctxt "EGYPTIAN.[93]"
+msgid "Neheb-ka"
+msgstr ""
+
+msgctxt "EGYPTIAN.[94]"
+msgid "Nehebkau"
+msgstr ""
+
+msgctxt "EGYPTIAN.[95]"
+msgid "Neith"
+msgstr ""
+
+msgctxt "EGYPTIAN.[96]"
+msgid "Nekhbet"
+msgstr ""
+
+msgctxt "GREEK.[552]"
+msgid "Neleus"
+msgstr ""
+
+msgctxt "CELTIC.[113]"
+msgid "Nemausus"
+msgstr ""
+
+msgctxt "GREEK.[553]"
+msgid "Nemesis"
+msgstr ""
+
+msgctxt "ROMAN.[82]"
+msgid "Nemestrinus"
+msgstr ""
+
+msgctxt "CELTIC.[114]"
+msgid "Nemetona"
+msgstr ""
+
+msgctxt "EGYPTIAN.[97]"
+msgid "Nenun"
+msgstr ""
+
+msgctxt "GREEK.[554]"
+msgid "Neoptolemus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[98]"
+msgid "Neper"
+msgstr ""
+
+msgctxt "GREEK.[555]"
+msgid "Nephelai"
+msgstr ""
+
+msgctxt "GREEK.[556]"
+msgid "Nephele"
+msgstr ""
+
+msgctxt "GENERAL.[172]"
+msgid "Nephi-Prizon"
+msgstr ""
+
+msgctxt "EGYPTIAN.[99]"
+msgid "Nephthys"
+msgstr ""
+
+msgctxt "EGYPTIAN.[100]"
+msgid "Nepit"
+msgstr ""
+
+msgctxt "ROMAN.[83]"
+msgid "Neptune"
+msgstr ""
+
+msgctxt "GREEK.[557]"
+msgid "Nereid"
+msgstr ""
+
+msgctxt "GREEK.[558]"
+msgid "Nereus"
+msgstr ""
+
+msgctxt "GREEK.[559]"
+msgid "Nerites"
+msgstr ""
+
+msgctxt "GREEK.[560]"
+msgid "Nesoi"
+msgstr ""
+
+msgctxt "GREEK.[561]"
+msgid "Nestor"
+msgstr ""
+
+msgctxt "EGYPTIAN.[101]"
+msgid "Neter-khertet"
+msgstr ""
+
+msgctxt "DIKTAT.[40]"
+msgid "New Persean Sun"
+msgstr ""
+
+msgctxt "PIRATES.[8]"
+msgid "New Wakou"
+msgstr ""
+
+msgctxt "CELTIC.[115]"
+msgid "Niamh"
+msgstr ""
+
+msgctxt "NORSE.[43]"
+msgid "Nidhogg"
+msgstr ""
+
+msgctxt "NORSE.[44]"
+msgid "Niflheim"
+msgstr ""
+
+msgctxt "SPACE.[47]"
+msgid "Nightrunner"
+msgstr ""
+
+msgctxt "GENERAL.[20]"
+msgid "Nightwitch"
+msgstr ""
+
+msgctxt "JAPANESE.[66]"
+msgid "Nikobo"
+msgstr ""
+
+msgctxt "GREEK.[562]"
+msgid "Nimrit"
+msgstr ""
+
+msgctxt "GENERAL.[174]"
+msgid "Ning Shim"
+msgstr ""
+
+msgctxt "JAPANESE.[67]"
+msgid "Ningyo"
+msgstr ""
+
+msgctxt "GREEK.[563]"
+msgid "Niobe"
+msgstr ""
+
+msgctxt "CELTIC.[116]"
+msgid "Nisien"
+msgstr ""
+
+msgctxt "GENERAL.[226]"
+msgid "Nivek Ogre"
+msgstr ""
+
+msgctxt "NORSE.[45]"
+msgid "Njord"
+msgstr ""
+
+msgctxt "PIRATES.[134]"
+msgid "No Retros"
+msgstr ""
+
+msgctxt "CELTIC.[117]"
+msgid "Nodens"
+msgstr ""
+
+msgctxt "GENERAL.[38]"
+msgid "Nomad"
+msgstr ""
+
+msgctxt "GREEK.[564]"
+msgid "Nomos"
+msgstr ""
+
+msgctxt "NORSE.[46]"
+msgid "Norn"
+msgstr ""
+
+msgctxt "GENERAL.[7]"
+msgid "Nostos"
+msgstr ""
+
+msgctxt "GENERAL.[8]"
+msgid "Nostromo"
+msgstr ""
+
+msgctxt "GENERAL.[87]"
+msgid "Not A Peep Of This"
+msgstr ""
+
+msgctxt "PIRATES.[104]"
+msgid "Not Worth Salvaging"
+msgstr ""
+
+msgctxt "GENERAL.[285]"
+msgid "Notos"
+msgstr ""
+
+msgctxt "GENERAL.[33]"
+msgid "Notos"
+msgstr ""
+
+msgctxt "SPACE.[11]"
+msgid "Nova"
+msgstr ""
+
+msgctxt "ROMAN.[84]"
+msgid "Novensilus"
+msgstr ""
+
+msgctxt "GENERAL.[203]"
+msgid "Novenu"
+msgstr ""
+
+msgctxt "GENERAL.[129]"
+msgid "Novernus"
+msgstr ""
+
+msgctxt "DIKTAT.[3]"
+msgid "Novus Alexander"
+msgstr ""
+
+msgctxt "DIKTAT.[4]"
+msgid "Novus Napoleon"
+msgstr ""
+
+msgctxt "DIKTAT.[5]"
+msgid "Novus Temujin"
+msgstr ""
+
+msgctxt "ROMAN.[85]"
+msgid "Nox"
+msgstr ""
+
+msgctxt "PIRATES.[133]"
+msgid "Nozzala"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[9]"
+msgid "Nu-Rusty"
+msgstr ""
+
+msgctxt "CELTIC.[118]"
+msgid "Nuada"
+msgstr ""
+
+msgctxt "MERCANTILE.[1]"
+msgid "Nullifier"
+msgstr ""
+
+msgctxt "ROMAN.[86]"
+msgid "Numitor"
+msgstr ""
+
+msgctxt "ROMAN.[87]"
+msgid "Nundia"
+msgstr ""
+
+msgctxt "EGYPTIAN.[102]"
+msgid "Nunet"
+msgstr ""
+
+msgctxt "JAPANESE.[68]"
+msgid "Nurikabe"
+msgstr ""
+
+msgctxt "GREEK.[565]"
+msgid "Nycteus"
+msgstr ""
+
+msgctxt "GREEK.[566]"
+msgid "Nyx"
+msgstr ""
+
+msgctxt "ROMAN.[88]"
+msgid "Obarator"
+msgstr ""
+
+msgctxt "PIRATES.[171]"
+msgid "Obnoxious Killjoy"
+msgstr ""
+
+msgctxt "GENERAL.[254]"
+msgid "Occaton"
+msgstr ""
+
+msgctxt "ROMAN.[89]"
+msgid "Occator"
+msgstr ""
+
+msgctxt "ROMAN.[90]"
+msgid "Ocnus"
+msgstr ""
+
+msgctxt "NORSE.[47]"
+msgid "Odin"
+msgstr ""
+
+msgctxt "GREEK.[567]"
+msgid "Odysseus"
+msgstr ""
+
+msgctxt "GREEK.[568]"
+msgid "Oebalus"
+msgstr ""
+
+msgctxt "GREEK.[569]"
+msgid "Oedipus"
+msgstr ""
+
+msgctxt "GREEK.[570]"
+msgid "Oeneus"
+msgstr ""
+
+msgctxt "CELTIC.[119]"
+msgid "Oengus"
+msgstr ""
+
+msgctxt "GREEK.[571]"
+msgid "Oenomaus"
+msgstr ""
+
+msgctxt "OTHER.[8]"
+msgid "Of Many of One"
+msgstr ""
+
+msgctxt "CELTIC.[120]"
+msgid "Ogma"
+msgstr ""
+
+msgctxt "CELTIC.[121]"
+msgid "Ogmios"
+msgstr ""
+
+msgctxt "GREEK.[572]"
+msgid "Ogygus"
+msgstr ""
+
+msgctxt "CELTIC.[122]"
+msgid "Ogyruan"
+msgstr ""
+
+msgctxt "PIRATES.[33]"
+msgid "Oh See The Fireworks"
+msgstr ""
+
+msgctxt "GENERAL.[231]"
+msgid "Oh, Raptor"
+msgstr ""
+
+msgctxt "GREEK.[573]"
+msgid "Oileus"
+msgstr ""
+
+msgctxt "GREEK.[574]"
+msgid "Oizys"
+msgstr ""
+
+msgctxt "JAPANESE.[69]"
+msgid "Ojin"
+msgstr ""
+
+msgctxt "SPACE.[37]"
+msgid "Old Earth Or Bust"
+msgstr ""
+
+msgctxt "GENERAL.[211]"
+msgid "Old Forgoyle"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[58]"
+msgid "Old Oak"
+msgstr ""
+
+msgctxt "GENERAL.[112]"
+msgid "Old Zodiac"
+msgstr ""
+
+msgctxt "GENERAL.[217]"
+msgid "Oldensilent"
+msgstr ""
+
+msgctxt "GREEK.[575]"
+msgid "Olenus"
+msgstr ""
+
+msgctxt "CELTIC.[123]"
+msgid "Olwen"
+msgstr ""
+
+msgctxt "AZTEC.[22]"
+msgid "Omacatl"
+msgstr ""
+
+msgctxt "JAPANESE.[70]"
+msgid "Omitsunu"
+msgstr ""
+
+msgctxt "GENERAL.[67]"
+msgid "Omnichrome"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[11]"
+msgid "Omnicron-Echo"
+msgstr ""
+
+msgctxt "JAPANESE.[71]"
+msgid "Omokage"
+msgstr ""
+
+msgctxt "JAPANESE.[72]"
+msgid "Onamuji"
+msgstr ""
+
+msgctxt "GENERAL.[227]"
+msgid "One Blahcalypse"
+msgstr ""
+
+msgctxt "GENERAL.[103]"
+msgid "One Key Detail Forgotten"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[35]"
+msgid "One Million Strong"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[15]"
+msgid "Onward Faithful!"
+msgstr ""
+
+msgctxt "PIRATES.[32]"
+msgid "Onward Me China"
+msgstr ""
+
+msgctxt "GENERAL.[192]"
+msgid "Oph-Bellar Rock"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[4]"
+msgid "Ophanim"
+msgstr ""
+
+msgctxt "GREEK.[576]"
+msgid "Ophion"
+msgstr ""
+
+msgctxt "AZTEC.[23]"
+msgid "Opochtli"
+msgstr ""
+
+msgctxt "GREEK.[577]"
+msgid "Oread"
+msgstr ""
+
+msgctxt "GREEK.[578]"
+msgid "Orestes"
+msgstr ""
+
+msgctxt "GREEK.[579]"
+msgid "Orithyia"
+msgstr ""
+
+msgctxt "SPACE.[28]"
+msgid "Orphan of Earth"
+msgstr ""
+
+msgctxt "GREEK.[580]"
+msgid "Orpheus"
+msgstr ""
+
+msgctxt "GREEK.[581]"
+msgid "Orphics"
+msgstr ""
+
+msgctxt "GREEK.[582]"
+msgid "Orphne"
+msgstr ""
+
+msgctxt "EGYPTIAN.[103]"
+msgid "Osiris"
+msgstr ""
+
+msgctxt "JAPANESE.[73]"
+msgid "Otohime"
+msgstr ""
+
+msgctxt "GREEK.[583]"
+msgid "Ouranos"
+msgstr ""
+
+msgctxt "GREEK.[584]"
+msgid "Ourea"
+msgstr ""
+
+msgctxt "PIRATES.[19]"
+msgid "Out-The-Airlock"
+msgstr ""
+
+msgctxt "GENERAL.[14]"
+msgid "Outcast"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[38]"
+msgid "Oxygen And Roses Too"
+msgstr ""
+
+msgctxt "GREEK.[585]"
+msgid "Oxyntes"
+msgstr ""
+
+msgctxt "EGYPTIAN.[104]"
+msgid "Pachet"
+msgstr ""
+
+msgctxt "GREEK.[586]"
+msgid "Paeon"
+msgstr ""
+
+msgctxt "GREEK.[587]"
+msgid "Palaemon"
+msgstr ""
+
+msgctxt "KNIGHTS.[39]"
+msgid "Palamedes"
+msgstr ""
+
+msgctxt "GREEK.[588]"
+msgid "Palici"
+msgstr ""
+
+msgctxt "ROMAN.[91]"
+msgid "Palinurus"
+msgstr ""
+
+msgctxt "GREEK.[589]"
+msgid "Palioxis"
+msgstr ""
+
+msgctxt "GREEK.[590]"
+msgid "Pallas"
+msgstr ""
+
+msgctxt "GREEK.[591]"
+msgid "Pan"
+msgstr ""
+
+msgctxt "GREEK.[592]"
+msgid "Panacea"
+msgstr ""
+
+msgctxt "GREEK.[593]"
+msgid "Pandarus"
+msgstr ""
+
+msgctxt "PIRATES.[175]"
+msgid "Pandemonitron"
+msgstr ""
+
+msgctxt "GREEK.[594]"
+msgid "Pandia"
+msgstr ""
+
+msgctxt "GREEK.[595]"
+msgid "Pandion"
+msgstr ""
+
+msgctxt "GREEK.[596]"
+msgid "Pandora"
+msgstr ""
+
+msgctxt "GREEK.[597]"
+msgid "Panoptes"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[20]"
+msgid "Paradise Awaits"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[19]"
+msgid "Paradise Is Promised"
+msgstr ""
+
+msgctxt "ROMAN.[92]"
+msgid "Parcae"
+msgstr ""
+
+msgctxt "GENERAL.[39]"
+msgid "Pariah"
+msgstr ""
+
+msgctxt "GREEK.[598]"
+msgid "Parthenopeus"
+msgstr ""
+
+msgctxt "PIRATES.[116]"
+msgid "Partybus"
+msgstr ""
+
+msgctxt "GREEK.[599]"
+msgid "Pasithea"
+msgstr ""
+
+msgctxt "ROMAN.[93]"
+msgid "Patalena"
+msgstr ""
+
+msgctxt "AZTEC.[24]"
+msgid "Patecatl"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[6]"
+msgid "Patience"
+msgstr ""
+
+msgctxt "GENERAL.[136]"
+msgid "Patorious Jump"
+msgstr ""
+
+msgctxt "GREEK.[600]"
+msgid "Patroclus"
+msgstr ""
+
+msgctxt "ROMAN.[94]"
+msgid "Pax"
+msgstr ""
+
+msgctxt "GREEK.[601]"
+msgid "Peitho"
+msgstr ""
+
+msgctxt "GREEK.[602]"
+msgid "Peleus"
+msgstr ""
+
+msgctxt "GREEK.[603]"
+msgid "Pelias"
+msgstr ""
+
+msgctxt "KNIGHTS.[40]"
+msgid "Pelleas"
+msgstr ""
+
+msgctxt "KNIGHTS.[41]"
+msgid "Pellinore"
+msgstr ""
+
+msgctxt "GREEK.[604]"
+msgid "Pelopia"
+msgstr ""
+
+msgctxt "GREEK.[605]"
+msgid "Pelops"
+msgstr ""
+
+msgctxt "GREEK.[606]"
+msgid "Peneus"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[37]"
+msgid "Penitence Of Labour"
+msgstr ""
+
+msgctxt "GREEK.[607]"
+msgid "Penthesilea"
+msgstr ""
+
+msgctxt "GREEK.[608]"
+msgid "Pentheus"
+msgstr ""
+
+msgctxt "GREEK.[609]"
+msgid "Penthus"
+msgstr ""
+
+msgctxt "GENERAL.[10]"
+msgid "Pequod"
+msgstr ""
+
+msgctxt "KNIGHTS.[42]"
+msgid "Percival"
+msgstr ""
+
+msgctxt "GENERAL.[26]"
+msgid "Perdido"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[53]"
+msgid "Perdition Awaits Sin"
+msgstr ""
+
+msgctxt "PIRATES.[176]"
+msgid "Perfect Hatred"
+msgstr ""
+
+msgctxt "PERSIAN.[4]"
+msgid "Peri"
+msgstr ""
+
+msgctxt "GREEK.[610]"
+msgid "Periphetes"
+msgstr ""
+
+msgctxt "GREEK.[611]"
+msgid "Persephone"
+msgstr ""
+
+msgctxt "GREEK.[612]"
+msgid "Perseus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[105]"
+msgid "Petbe"
+msgstr ""
+
+msgctxt "EGYPTIAN.[106]"
+msgid "Petesuchos"
+msgstr ""
+
+msgctxt "GREEK.[613]"
+msgid "Phaenon"
+msgstr ""
+
+msgctxt "GREEK.[614]"
+msgid "Phaethon"
+msgstr ""
+
+msgctxt "GREEK.[615]"
+msgid "Phanes"
+msgstr ""
+
+msgctxt "GREEK.[616]"
+msgid "Phegeus"
+msgstr ""
+
+msgctxt "GREEK.[617]"
+msgid "Pheme"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[17]"
+msgid "Phi-Rex"
+msgstr ""
+
+msgctxt "GREEK.[618]"
+msgid "Philoctetes"
+msgstr ""
+
+msgctxt "GREEK.[619]"
+msgid "Philomelus"
+msgstr ""
+
+msgctxt "GREEK.[620]"
+msgid "Philophrosyne"
+msgstr ""
+
+msgctxt "GREEK.[621]"
+msgid "Philotes"
+msgstr ""
+
+msgctxt "GREEK.[622]"
+msgid "Phineas"
+msgstr ""
+
+msgctxt "GREEK.[623]"
+msgid "Phineus"
+msgstr ""
+
+msgctxt "GREEK.[624]"
+msgid "Phlegethon"
+msgstr ""
+
+msgctxt "GREEK.[625]"
+msgid "Phobetor"
+msgstr ""
+
+msgctxt "GREEK.[626]"
+msgid "Phobos"
+msgstr ""
+
+msgctxt "GREEK.[627]"
+msgid "Phocus"
+msgstr ""
+
+msgctxt "GREEK.[628]"
+msgid "Phoebe"
+msgstr ""
+
+msgctxt "GREEK.[629]"
+msgid "Phoebe"
+msgstr ""
+
+msgctxt "BEASTS.[11]"
+msgid "Phoenix"
+msgstr ""
+
+msgctxt "GREEK.[630]"
+msgid "Phoenix"
+msgstr ""
+
+msgctxt "GREEK.[631]"
+msgid "Phonoi"
+msgstr ""
+
+msgctxt "GREEK.[632]"
+msgid "Phorcys"
+msgstr ""
+
+msgctxt "GREEK.[633]"
+msgid "Phrike"
+msgstr ""
+
+msgctxt "GREEK.[634]"
+msgid "Phrixus"
+msgstr ""
+
+msgctxt "GREEK.[635]"
+msgid "Phthonus"
+msgstr ""
+
+msgctxt "GREEK.[636]"
+msgid "Phyleus"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[12]"
+msgid "Pi-Rover"
+msgstr ""
+
+msgctxt "ROMAN.[95]"
+msgid "Picus"
+msgstr ""
+
+msgctxt "ROMAN.[96]"
+msgid "Pietas"
+msgstr ""
+
+msgctxt "PIRATES.[25]"
+msgid "Pillager"
+msgstr ""
+
+msgctxt "PERSIAN.[9]"
+msgid "Piri"
+msgstr ""
+
+msgctxt "GREEK.[637]"
+msgid "Pirithous"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[38]"
+msgid "Pistol-Ling"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[28]"
+msgid "Pitiable Offering"
+msgstr ""
+
+msgctxt "GREEK.[638]"
+msgid "Pittheus"
+msgstr ""
+
+msgctxt "GREEK.[639]"
+msgid "Pleiades"
+msgstr ""
+
+msgctxt "PIRATES.[35]"
+msgid "Plunder'n'Pillage"
+msgstr ""
+
+msgctxt "PIRATES.[61]"
+msgid "Plunderbound"
+msgstr ""
+
+msgctxt "PIRATES.[5]"
+msgid "Plunderer"
+msgstr ""
+
+msgctxt "PIRATES.[89]"
+msgid "Plunderrunner"
+msgstr ""
+
+msgctxt "PIRATES.[68]"
+msgid "Plundiva"
+msgstr ""
+
+msgctxt "CELTIC.[124]"
+msgid "Plur"
+msgstr ""
+
+msgctxt "ROMAN.[97]"
+msgid "Pluto"
+msgstr ""
+
+msgctxt "GENERAL.[276]"
+msgid "Plutonium Mother"
+msgstr ""
+
+msgctxt "GREEK.[640]"
+msgid "Plutus"
+msgstr ""
+
+msgctxt "GREEK.[641]"
+msgid "Podalirius"
+msgstr ""
+
+msgctxt "SPACE.[62]"
+msgid "Polaris Traveller"
+msgstr ""
+
+msgctxt "GREEK.[642]"
+msgid "Polites"
+msgstr ""
+
+msgctxt "GREEK.[643]"
+msgid "Polycaon"
+msgstr ""
+
+msgctxt "GREEK.[644]"
+msgid "Polydeuces"
+msgstr ""
+
+msgctxt "GREEK.[645]"
+msgid "Polydorus"
+msgstr ""
+
+msgctxt "GREEK.[646]"
+msgid "Polyhymnia"
+msgstr ""
+
+msgctxt "GREEK.[647]"
+msgid "Polynices"
+msgstr ""
+
+msgctxt "GREEK.[648]"
+msgid "Polyphemus"
+msgstr ""
+
+msgctxt "GREEK.[649]"
+msgid "Polyxena"
+msgstr ""
+
+msgctxt "ROMAN.[98]"
+msgid "Pomona"
+msgstr ""
+
+msgctxt "GREEK.[650]"
+msgid "Pontus"
+msgstr ""
+
+msgctxt "BEASTS.[29]"
+msgid "Pooka"
+msgstr ""
+
+msgctxt "PIRATES.[87]"
+msgid "Poor Target"
+msgstr ""
+
+msgctxt "GENERAL.[41]"
+msgid "Porphyra"
+msgstr ""
+
+msgctxt "GREEK.[651]"
+msgid "Porphyrion"
+msgstr ""
+
+msgctxt "ROMAN.[99]"
+msgid "Portunes"
+msgstr ""
+
+msgctxt "GREEK.[652]"
+msgid "Priam"
+msgstr ""
+
+msgctxt "KNIGHTS.[43]"
+msgid "Priamus"
+msgstr ""
+
+msgctxt "GREEK.[653]"
+msgid "Priapus"
+msgstr ""
+
+msgctxt "ROMAN.[100]"
+msgid "Priapus"
+msgstr ""
+
+msgctxt "DIKTAT.[28]"
+msgid "Pride of Sindria"
+msgstr ""
+
+msgctxt "DIKTAT.[21]"
+msgid "Primis Prepotence"
+msgstr ""
+
+msgctxt "DIKTAT.[17]"
+msgid "Prince Regent"
+msgstr ""
+
+msgctxt "DIKTAT.[14]"
+msgid "Prince of Orion"
+msgstr ""
+
+msgctxt "DIKTAT.[10]"
+msgid "Prince of Perseus"
+msgstr ""
+
+msgctxt "SPACE.[25]"
+msgid "Prize of High Orbit"
+msgstr ""
+
+msgctxt "ROMAN.[101]"
+msgid "Procas"
+msgstr ""
+
+msgctxt "GREEK.[654]"
+msgid "Procrustes"
+msgstr ""
+
+msgctxt "GREEK.[655]"
+msgid "Proetus"
+msgstr ""
+
+msgctxt "GREEK.[656]"
+msgid "Proioxis"
+msgstr ""
+
+msgctxt "GREEK.[657]"
+msgid "Prometheus"
+msgstr ""
+
+msgctxt "ROMAN.[102]"
+msgid "Promitor"
+msgstr ""
+
+msgctxt "MERCANTILE.[30]"
+msgid "Prosperity"
+msgstr ""
+
+msgctxt "GENERAL.[36]"
+msgid "Prosperous Gale"
+msgstr ""
+
+msgctxt "GREEK.[658]"
+msgid "Prosymnus"
+msgstr ""
+
+msgctxt "DIKTAT.[29]"
+msgid "Protector of Askonia"
+msgstr ""
+
+msgctxt "GREEK.[659]"
+msgid "Protesilaus"
+msgstr ""
+
+msgctxt "GREEK.[660]"
+msgid "Proteus"
+msgstr ""
+
+msgctxt "CELTIC.[125]"
+msgid "Pryderi"
+msgstr ""
+
+msgctxt "GREEK.[661]"
+msgid "Psamathe"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[19]"
+msgid "Psi-Duke"
+msgstr ""
+
+msgctxt "GENERAL.[128]"
+msgid "Psilone"
+msgstr ""
+
+msgctxt "GENERAL.[270]"
+msgid "Psire"
+msgstr ""
+
+msgctxt "GREEK.[662]"
+msgid "Psyche"
+msgstr ""
+
+msgctxt "GREEK.[663]"
+msgid "Psyche"
+msgstr ""
+
+msgctxt "ROMAN.[103]"
+msgid "Psyche"
+msgstr ""
+
+msgctxt "GENERAL.[183]"
+msgid "Psycheta-Rus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[107]"
+msgid "Ptah"
+msgstr ""
+
+msgctxt "GREEK.[664]"
+msgid "Pterelaos"
+msgstr ""
+
+msgctxt "GREEK.[665]"
+msgid "Ptocheia"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[40]"
+msgid "Puma-Er"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[17]"
+msgid "Purgatory"
+msgstr ""
+
+msgctxt "CELTIC.[126]"
+msgid "Pwyll"
+msgstr ""
+
+msgctxt "GREEK.[666]"
+msgid "Pygmalion"
+msgstr ""
+
+msgctxt "GREEK.[667]"
+msgid "Pylades"
+msgstr ""
+
+msgctxt "GREEK.[668]"
+msgid "Pyramus"
+msgstr ""
+
+msgctxt "GREEK.[669]"
+msgid "Pyroeis"
+msgstr ""
+
+msgctxt "GREEK.[670]"
+msgid "Pyrrha"
+msgstr ""
+
+msgctxt "GREEK.[671]"
+msgid "Pyrrhikhos"
+msgstr ""
+
+msgctxt "EGYPTIAN.[108]"
+msgid "Qetesh"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[35]"
+msgid "Qoph-Bella"
+msgstr ""
+
+msgctxt "SPACE.[58]"
+msgid "Queen of Jupiter"
+msgstr ""
+
+msgctxt "GENERAL.[138]"
+msgid "Questa"
+msgstr ""
+
+msgctxt "AZTEC.[25]"
+msgid "Quetzalcoatl"
+msgstr ""
+
+msgctxt "ROMAN.[104]"
+msgid "Quirinus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[109]"
+msgid "Ra"
+msgstr ""
+
+msgctxt "PIRATES.[125]"
+msgid "Rackamore's Delight"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[23]"
+msgid "Radok"
+msgstr ""
+
+msgctxt "NORSE.[48]"
+msgid "Ragnarok"
+msgstr ""
+
+msgctxt "JAPANESE.[74]"
+msgid "Raicho"
+msgstr ""
+
+msgctxt "GENERAL.[238]"
+msgid "Raichrome Away"
+msgstr ""
+
+msgctxt "JAPANESE.[75]"
+msgid "Raiden"
+msgstr ""
+
+msgctxt "JAPANESE.[76]"
+msgid "Raijin"
+msgstr ""
+
+msgctxt "JAPANESE.[77]"
+msgid "Raiju"
+msgstr ""
+
+msgctxt "JAPANESE.[78]"
+msgid "Raiko"
+msgstr ""
+
+msgctxt "PIRATES.[36]"
+msgid "Raise The Black Flag"
+msgstr ""
+
+msgctxt "JAPANESE.[79]"
+msgid "Raitaro"
+msgstr ""
+
+msgctxt "JAPANESE.[80]"
+msgid "Rakan"
+msgstr ""
+
+msgctxt "PIRATES.[72]"
+msgid "Rambunctalon"
+msgstr ""
+
+msgctxt "GENERAL.[125]"
+msgid "Ramoral"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[13]"
+msgid "Raphael"
+msgstr ""
+
+msgctxt "EGYPTIAN.[110]"
+msgid "Re"
+msgstr ""
+
+msgctxt "DIKTAT.[20]"
+msgid "Realm's Protector"
+msgstr ""
+
+msgctxt "SPACE.[4]"
+msgid "Red Dwarf"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[5]"
+msgid "Red Fawkes Ghost"
+msgstr ""
+
+msgctxt "GENERAL.[164]"
+msgid "Red Forge"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[7]"
+msgid "Red Mars"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[23]"
+msgid "Red Star Rising"
+msgstr ""
+
+msgctxt "PIRATES.[146]"
+msgid "Redcap"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[0]"
+msgid "Redemption"
+msgstr ""
+
+msgctxt "SPACE.[5]"
+msgid "Redshift"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[9]"
+msgid "Regicide"
+msgstr ""
+
+msgctxt "DIKTAT.[33]"
+msgid "Reign of Andrada"
+msgstr ""
+
+msgctxt "DIKTAT.[34]"
+msgid "Reign of the Conquerer"
+msgstr ""
+
+msgctxt "JAPANESE.[81]"
+msgid "Reiko"
+msgstr ""
+
+msgctxt "HEGEMONY.[11]"
+msgid "Remember the 200th"
+msgstr ""
+
+msgctxt "HEGEMONY.[18]"
+msgid "Remember the Bismar"
+msgstr ""
+
+msgctxt "ROMAN.[105]"
+msgid "Remus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[111]"
+msgid "Renenet"
+msgstr ""
+
+msgctxt "EGYPTIAN.[112]"
+msgid "Renpet"
+msgstr ""
+
+msgctxt "EGYPTIAN.[113]"
+msgid "Reret"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[36]"
+msgid "Res-Sophie"
+msgstr ""
+
+msgctxt "EGYPTIAN.[114]"
+msgid "Resheph"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[23]"
+msgid "Revelation"
+msgstr ""
+
+msgctxt "PIRATES.[31]"
+msgid "Revenger"
+msgstr ""
+
+msgctxt "GENERAL.[175]"
+msgid "Reward"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[34]"
+msgid "Rewards Of Devotion"
+msgstr ""
+
+msgctxt "GREEK.[672]"
+msgid "Rhadamanthus"
+msgstr ""
+
+msgctxt "GREEK.[673]"
+msgid "Rhadamanthys"
+msgstr ""
+
+msgctxt "GREEK.[674]"
+msgid "Rhea"
+msgstr ""
+
+msgctxt "GREEK.[675]"
+msgid "Rhesus"
+msgstr ""
+
+msgctxt "CELTIC.[127]"
+msgid "Rhiannon"
+msgstr ""
+
+msgctxt "GENERAL.[120]"
+msgid "Rho-Priah"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[13]"
+msgid "Rho-Princess"
+msgstr ""
+
+msgctxt "GENERAL.[187]"
+msgid "Rid And Gone"
+msgstr ""
+
+msgctxt "SPACE.[61]"
+msgid "Rigel Flyer"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[28]"
+msgid "Righteous Necessity"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[31]"
+msgid "Rightness of Action"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[46]"
+msgid "Rikard-Ba"
+msgstr ""
+
+msgctxt "MERCANTILE.[35]"
+msgid "Risk Accretion"
+msgstr ""
+
+msgctxt "MERCANTILE.[21]"
+msgid "Risk's Reward"
+msgstr ""
+
+msgctxt "GENERAL.[219]"
+msgid "Risky"
+msgstr ""
+
+msgctxt "CELTIC.[128]"
+msgid "Robur"
+msgstr ""
+
+msgctxt "BEASTS.[12]"
+msgid "Roc"
+msgstr ""
+
+msgctxt "PERSIAN.[5]"
+msgid "Roc"
+msgstr ""
+
+msgctxt "GENERAL.[21]"
+msgid "Roman Road"
+msgstr ""
+
+msgctxt "GENERAL.[216]"
+msgid "Rome Eventually"
+msgstr ""
+
+msgctxt "ROMAN.[106]"
+msgid "Romulus"
+msgstr ""
+
+msgctxt "GENERAL.[17]"
+msgid "Rose Celestial"
+msgstr ""
+
+msgctxt "CELTIC.[129]"
+msgid "Rosmerta"
+msgstr ""
+
+msgctxt "PIRATES.[99]"
+msgid "Rotten Bilger"
+msgstr ""
+
+msgctxt "PIRATES.[168]"
+msgid "Rough Music"
+msgstr ""
+
+msgctxt "PIRATES.[44]"
+msgid "Rover Of The High Cs"
+msgstr ""
+
+msgctxt "CELTIC.[130]"
+msgid "Rudianos"
+msgstr ""
+
+msgctxt "PIRATES.[30]"
+msgid "Runagate"
+msgstr ""
+
+msgctxt "CELTIC.[131]"
+msgid "Runesocesius"
+msgstr ""
+
+msgctxt "PIRATES.[97]"
+msgid "Runs At Trouble"
+msgstr ""
+
+msgctxt "PIRATES.[77]"
+msgid "Rustbucket"
+msgstr ""
+
+msgctxt "JAPANESE.[82]"
+msgid "Ryugu"
+msgstr ""
+
+msgctxt "JAPANESE.[83]"
+msgid "Ryujin"
+msgstr ""
+
+msgctxt "EGYPTIAN.[115]"
+msgid "Saa"
+msgstr ""
+
+msgctxt "GENERAL.[240]"
+msgid "Sable-Cherjar"
+msgstr ""
+
+msgctxt "GENERAL.[65]"
+msgid "Sabled Sun"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[24]"
+msgid "Saboteur"
+msgstr ""
+
+msgctxt "CELTIC.[132]"
+msgid "Sabrina"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[16]"
+msgid "Sacred March"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[2]"
+msgid "Sacrifice"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[43]"
+msgid "Sacrifice-all"
+msgstr ""
+
+msgctxt "GENERAL.[118]"
+msgid "Sad Witch"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[34]"
+msgid "Sade-Toby"
+msgstr ""
+
+msgctxt "KNIGHTS.[44]"
+msgid "Safir"
+msgstr ""
+
+msgctxt "KNIGHTS.[45]"
+msgid "Sagramore"
+msgstr ""
+
+msgctxt "EGYPTIAN.[116]"
+msgid "Sai"
+msgstr ""
+
+msgctxt "EGYPTIAN.[117]"
+msgid "Sakhmet"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[36]"
+msgid "Salvation In Duty"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[54]"
+msgid "Salvation In Submission"
+msgstr ""
+
+msgctxt "JAPANESE.[84]"
+msgid "Samebito"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[32]"
+msgid "Samekh-Cooper"
+msgstr ""
+
+msgctxt "CELTIC.[133]"
+msgid "Samhain"
+msgstr ""
+
+msgctxt "GENERAL.[272]"
+msgid "Santianna"
+msgstr ""
+
+msgctxt "CELTIC.[134]"
+msgid "Saone"
+msgstr ""
+
+msgctxt "PIRATES.[65]"
+msgid "Sar's Regerius"
+msgstr ""
+
+msgctxt "GENERAL.[12]"
+msgid "Saratan"
+msgstr ""
+
+msgctxt "GREEK.[676]"
+msgid "Sarpedon"
+msgstr ""
+
+msgctxt "PERSIAN.[14]"
+msgid "Sarsaok"
+msgstr ""
+
+msgctxt "EGYPTIAN.[118]"
+msgid "Satet"
+msgstr ""
+
+msgctxt "EGYPTIAN.[119]"
+msgid "Satis"
+msgstr ""
+
+msgctxt "ROMAN.[107]"
+msgid "Saturn"
+msgstr ""
+
+msgctxt "GREEK.[677]"
+msgid "Satyr"
+msgstr ""
+
+msgctxt "PIRATES.[76]"
+msgid "Scabby Old Tub"
+msgstr ""
+
+msgctxt "GREEK.[678]"
+msgid "Scamander"
+msgstr ""
+
+msgctxt "CELTIC.[135]"
+msgid "Scathach"
+msgstr ""
+
+msgctxt "PIRATES.[112]"
+msgid "Scorpion"
+msgstr ""
+
+msgctxt "GENERAL.[30]"
+msgid "Scrimshaw"
+msgstr ""
+
+msgctxt "GENERAL.[29]"
+msgid "Scrivener"
+msgstr ""
+
+msgctxt "GENERAL.[22]"
+msgid "Scudding Swiftly"
+msgstr ""
+
+msgctxt "GREEK.[679]"
+msgid "Scylla"
+msgstr ""
+
+msgctxt "EGYPTIAN.[120]"
+msgid "Sebek"
+msgstr ""
+
+msgctxt "EGYPTIAN.[121]"
+msgid "Sechat-Hor"
+msgstr ""
+
+msgctxt "ROMAN.[108]"
+msgid "Securitas"
+msgstr ""
+
+msgctxt "PIRATES.[138]"
+msgid "Seed of Vengeance"
+msgstr ""
+
+msgctxt "CELTIC.[136]"
+msgid "Segomo"
+msgstr ""
+
+msgctxt "KNIGHTS.[46]"
+msgid "Segwarides"
+msgstr ""
+
+msgctxt "EGYPTIAN.[122]"
+msgid "Seker"
+msgstr ""
+
+msgctxt "GREEK.[680]"
+msgid "Selene"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[30]"
+msgid "Selfless Giving"
+msgstr ""
+
+msgctxt "GREEK.[681]"
+msgid "Semele"
+msgstr ""
+
+msgctxt "JAPANESE.[85]"
+msgid "Sengen"
+msgstr ""
+
+msgctxt "GENERAL.[281]"
+msgid "Septentrio"
+msgstr ""
+
+msgctxt "EGYPTIAN.[123]"
+msgid "Septu"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[6]"
+msgid "Seraphim"
+msgstr ""
+
+msgctxt "EGYPTIAN.[124]"
+msgid "Serapis"
+msgstr ""
+
+msgctxt "MERCANTILE.[24]"
+msgid "Serendipity"
+msgstr ""
+
+msgctxt "ROMAN.[109]"
+msgid "Sergestus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[125]"
+msgid "Serket"
+msgstr ""
+
+msgctxt "EGYPTIAN.[126]"
+msgid "Serq"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[30]"
+msgid "Servant Of War"
+msgstr ""
+
+msgctxt "EGYPTIAN.[127]"
+msgid "Seshat"
+msgstr ""
+
+msgctxt "EGYPTIAN.[128]"
+msgid "Sesmu"
+msgstr ""
+
+msgctxt "EGYPTIAN.[129]"
+msgid "Seth"
+msgstr ""
+
+msgctxt "CELTIC.[137]"
+msgid "Setlocenia"
+msgstr ""
+
+msgctxt "PERSIAN.[16]"
+msgid "Shabrang"
+msgstr ""
+
+msgctxt "EGYPTIAN.[130]"
+msgid "Shai"
+msgstr ""
+
+msgctxt "EGYPTIAN.[131]"
+msgid "Shait"
+msgstr ""
+
+msgctxt "CELTIC.[138]"
+msgid "Shannon"
+msgstr ""
+
+msgctxt "BEASTS.[25]"
+msgid "Shedu"
+msgstr ""
+
+msgctxt "GENERAL.[130]"
+msgid "Shevia"
+msgstr ""
+
+msgctxt "PERSIAN.[10]"
+msgid "Sheytan"
+msgstr ""
+
+msgctxt "JAPANESE.[86]"
+msgid "Shichi"
+msgstr ""
+
+msgctxt "PIRATES.[165]"
+msgid "Shields What Shields"
+msgstr ""
+
+msgctxt "GENERAL.[234]"
+msgid "Shift Enduring"
+msgstr ""
+
+msgctxt "JAPANESE.[87]"
+msgid "Shoden"
+msgstr ""
+
+msgctxt "JAPANESE.[88]"
+msgid "Shodo"
+msgstr ""
+
+msgctxt "JAPANESE.[89]"
+msgid "Shojo"
+msgstr ""
+
+msgctxt "GENERAL.[215]"
+msgid "Shoth"
+msgstr ""
+
+msgctxt "JAPANESE.[90]"
+msgid "Shotoku"
+msgstr ""
+
+msgctxt "EGYPTIAN.[132]"
+msgid "Shu"
+msgstr ""
+
+msgctxt "GENERAL.[148]"
+msgid "Shuku-Nyora"
+msgstr ""
+
+msgctxt "EGYPTIAN.[133]"
+msgid "Sia"
+msgstr ""
+
+msgctxt "HEGEMONY.[17]"
+msgid "Siege of Raesvelg"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[14]"
+msgid "Sigma-Prince"
+msgstr ""
+
+msgctxt "NORSE.[49]"
+msgid "Sigmund"
+msgstr ""
+
+msgctxt "NORSE.[50]"
+msgid "Sigurd"
+msgstr ""
+
+msgctxt "GENERAL.[102]"
+msgid "Silent Annunciation"
+msgstr ""
+
+msgctxt "PIRATES.[54]"
+msgid "Silent Death"
+msgstr ""
+
+msgctxt "GREEK.[682]"
+msgid "Silenus"
+msgstr ""
+
+msgctxt "GENERAL.[184]"
+msgid "Silo Sixteen"
+msgstr ""
+
+msgctxt "PIRATES.[26]"
+msgid "Silver Snake"
+msgstr ""
+
+msgctxt "PERSIAN.[15]"
+msgid "Simorgh"
+msgstr ""
+
+msgctxt "PERSIAN.[2]"
+msgid "Simorgh"
+msgstr ""
+
+msgctxt "BEASTS.[19]"
+msgid "Simurgh"
+msgstr ""
+
+msgctxt "DIKTAT.[32]"
+msgid "Sindria's Revenge"
+msgstr ""
+
+msgctxt "GENERAL.[45]"
+msgid "Singularian"
+msgstr ""
+
+msgctxt "GREEK.[683]"
+msgid "Siren"
+msgstr ""
+
+msgctxt "GREEK.[684]"
+msgid "Sisyphus"
+msgstr ""
+
+msgctxt "GENERAL.[35]"
+msgid "Skiron"
+msgstr ""
+
+msgctxt "PIRATES.[37]"
+msgid "Skulltaker"
+msgstr ""
+
+msgctxt "PIRATES.[59]"
+msgid "Skullver Cuss"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[46]"
+msgid "Sleep Not Forever"
+msgstr ""
+
+msgctxt "CELTIC.[139]"
+msgid "Smertios"
+msgstr ""
+
+msgctxt "EGYPTIAN.[134]"
+msgid "Sobek"
+msgstr ""
+
+msgctxt "ROMAN.[110]"
+msgid "Sol"
+msgstr ""
+
+msgctxt "SPACE.[60]"
+msgid "Sol Long"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[34]"
+msgid "Solidarity"
+msgstr ""
+
+msgctxt "GENERAL.[77]"
+msgid "Solo"
+msgstr ""
+
+msgctxt "SPACE.[8]"
+msgid "Solstice"
+msgstr ""
+
+msgctxt "ROMAN.[111]"
+msgid "Somnus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[135]"
+msgid "Somtus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[136]"
+msgid "Sopedu"
+msgstr ""
+
+msgctxt "GENERAL.[280]"
+msgid "Sophie"
+msgstr ""
+
+msgctxt "GREEK.[685]"
+msgid "Sophrosyne"
+msgstr ""
+
+msgctxt "ROMAN.[112]"
+msgid "Soranus"
+msgstr ""
+
+msgctxt "GENERAL.[225]"
+msgid "Sorceptor"
+msgstr ""
+
+msgctxt "GENERAL.[109]"
+msgid "Sorcerer"
+msgstr ""
+
+msgctxt "GENERAL.[27]"
+msgid "Sorceror"
+msgstr ""
+
+msgctxt "GENERAL.[131]"
+msgid "Sorcitude"
+msgstr ""
+
+msgctxt "MERCANTILE.[19]"
+msgid "Sound Investment"
+msgstr ""
+
+msgctxt "DIKTAT.[23]"
+msgid "Sovereign of the Stars"
+msgstr ""
+
+msgctxt "SPACE.[57]"
+msgid "Space Dog"
+msgstr ""
+
+msgctxt "PIRATES.[22]"
+msgid "Space Pig"
+msgstr ""
+
+msgctxt "SPACE.[38]"
+msgid "Space Raptor"
+msgstr ""
+
+msgctxt "PIRATES.[161]"
+msgid "Space Your Captain"
+msgstr ""
+
+msgctxt "SPACE.[31]"
+msgid "Spacefarer"
+msgstr ""
+
+msgctxt "GENERAL.[31]"
+msgid "Spanish Dancer"
+msgstr ""
+
+msgctxt "GENERAL.[171]"
+msgid "Sparadise Thach"
+msgstr ""
+
+msgctxt "GENERAL.[223]"
+msgid "Sparrowen"
+msgstr ""
+
+msgctxt "GREEK.[686]"
+msgid "Sparta"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[4]"
+msgid "Spartacus"
+msgstr ""
+
+msgctxt "DIKTAT.[44]"
+msgid "Spear of Destiny"
+msgstr ""
+
+msgctxt "BEASTS.[13]"
+msgid "Sphinx"
+msgstr ""
+
+msgctxt "PIRATES.[117]"
+msgid "Spicy Stewpot"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[32]"
+msgid "Spirit of Devotion"
+msgstr ""
+
+msgctxt "DIKTAT.[31]"
+msgid "Spirit of Sindria"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[27]"
+msgid "Spirit of William Kale"
+msgstr ""
+
+msgctxt "HEGEMONY.[2]"
+msgid "Spirit of the XIV"
+msgstr ""
+
+msgctxt "ABRAHAMIC.[15]"
+msgid "Star Ark"
+msgstr ""
+
+msgctxt "GENERAL.[24]"
+msgid "Star Blazer"
+msgstr ""
+
+msgctxt "SPACE.[40]"
+msgid "Star Witch"
+msgstr ""
+
+msgctxt "GENERAL.[274]"
+msgid "Starbat"
+msgstr ""
+
+msgctxt "PIRATES.[126]"
+msgid "Starbreaker"
+msgstr ""
+
+msgctxt "SPACE.[30]"
+msgid "Starfarer"
+msgstr ""
+
+msgctxt "SPACE.[26]"
+msgid "Starflyer"
+msgstr ""
+
+msgctxt "GENERAL.[99]"
+msgid "Stark Intangibles"
+msgstr ""
+
+msgctxt "SPACE.[39]"
+msgid "Stars Below"
+msgstr ""
+
+msgctxt "PIRATES.[71]"
+msgid "Starving Crow"
+msgstr ""
+
+msgctxt "ROMAN.[113]"
+msgid "Statanus"
+msgstr ""
+
+msgctxt "PIRATES.[159]"
+msgid "Steel Tomb"
+msgstr ""
+
+msgctxt "MERCANTILE.[36]"
+msgid "Stellar Profits"
+msgstr ""
+
+msgctxt "SPACE.[36]"
+msgid "Stellar Rose"
+msgstr ""
+
+msgctxt "SPACE.[71]"
+msgid "Stellarian"
+msgstr ""
+
+msgctxt "ROMAN.[114]"
+msgid "Stercutus"
+msgstr ""
+
+msgctxt "GREEK.[687]"
+msgid "Sterope"
+msgstr ""
+
+msgctxt "GREEK.[688]"
+msgid "Sthenelus"
+msgstr ""
+
+msgctxt "GREEK.[689]"
+msgid "Stheno"
+msgstr ""
+
+msgctxt "PIRATES.[95]"
+msgid "Stick Your Tariff"
+msgstr ""
+
+msgctxt "GREEK.[690]"
+msgid "Stilbon"
+msgstr ""
+
+msgctxt "PIRATES.[1]"
+msgid "Strange Cousin"
+msgstr ""
+
+msgctxt "BEASTS.[21]"
+msgid "Strix"
+msgstr ""
+
+msgctxt "GREEK.[691]"
+msgid "Styx"
+msgstr ""
+
+msgctxt "JAPANESE.[91]"
+msgid "Suijin"
+msgstr ""
+
+msgctxt "CELTIC.[140]"
+msgid "Sul"
+msgstr ""
+
+msgctxt "PIRATES.[51]"
+msgid "Surprise!"
+msgstr ""
+
+msgctxt "PIRATES.[78]"
+msgid "Surrender Now!"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[27]"
+msgid "Sword of Damocles"
+msgstr ""
+
+msgctxt "PIRATES.[177]"
+msgid "Sword of Santiago"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[53]"
+msgid "Tabard"
+msgstr ""
+
+msgctxt "SPACE.[59]"
+msgid "Tachyon And On"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[54]"
+msgid "Taciturn"
+msgstr ""
+
+msgctxt "SPACE.[41]"
+msgid "Taikonaut"
+msgstr ""
+
+msgctxt "GENERAL.[237]"
+msgid "Tail Folly"
+msgstr ""
+
+msgctxt "JAPANESE.[92]"
+msgid "Taishaku"
+msgstr ""
+
+msgctxt "JAPANESE.[93]"
+msgid "Takami"
+msgstr ""
+
+msgctxt "JAPANESE.[94]"
+msgid "Takara"
+msgstr ""
+
+msgctxt "ROMAN.[115]"
+msgid "Talassio"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[16]"
+msgid "Talent"
+msgstr ""
+
+msgctxt "CELTIC.[141]"
+msgid "Taliesin"
+msgstr ""
+
+msgctxt "AZTEC.[26]"
+msgid "Talocan"
+msgstr ""
+
+msgctxt "GREEK.[692]"
+msgid "Talos"
+msgstr ""
+
+msgctxt "CELTIC.[142]"
+msgid "Tamesis"
+msgstr ""
+
+msgctxt "GREEK.[693]"
+msgid "Tantalus"
+msgstr ""
+
+msgctxt "JAPANESE.[95]"
+msgid "Tanuki"
+msgstr ""
+
+msgctxt "EGYPTIAN.[137]"
+msgid "Taouris"
+msgstr ""
+
+msgctxt "CELTIC.[143]"
+msgid "Taranis"
+msgstr ""
+
+msgctxt "BEASTS.[23]"
+msgid "Tarasque"
+msgstr ""
+
+msgctxt "GREEK.[694]"
+msgid "Tartarus"
+msgstr ""
+
+msgctxt "CELTIC.[144]"
+msgid "Tarvos"
+msgstr ""
+
+msgctxt "EGYPTIAN.[138]"
+msgid "Tatenen"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[15]"
+msgid "Tau-Queen"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[37]"
+msgid "Taw-Maggie"
+msgstr ""
+
+msgctxt "EGYPTIAN.[139]"
+msgid "Taweret"
+msgstr ""
+
+msgctxt "GREEK.[695]"
+msgid "Taygete"
+msgstr ""
+
+msgctxt "PIRATES.[48]"
+msgid "Teach's Lesson"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[24]"
+msgid "Tears of Ludd"
+msgstr ""
+
+msgctxt "GREEK.[696]"
+msgid "Telamon"
+msgstr ""
+
+msgctxt "GREEK.[697]"
+msgid "Telchines"
+msgstr ""
+
+msgctxt "GREEK.[698]"
+msgid "Telemachus"
+msgstr ""
+
+msgctxt "GREEK.[699]"
+msgid "Telephus"
+msgstr ""
+
+msgctxt "GREEK.[700]"
+msgid "Telesphorus"
+msgstr ""
+
+msgctxt "GREEK.[701]"
+msgid "Telete"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[3]"
+msgid "Temperance"
+msgstr ""
+
+msgctxt "ROMAN.[116]"
+msgid "Tempestes"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[57]"
+msgid "Tenacious"
+msgstr ""
+
+msgctxt "EGYPTIAN.[140]"
+msgid "Tenenit"
+msgstr ""
+
+msgctxt "BEASTS.[20]"
+msgid "Tengu"
+msgstr ""
+
+msgctxt "JAPANESE.[96]"
+msgid "Tenjin"
+msgstr ""
+
+msgctxt "JAPANESE.[97]"
+msgid "Tennin"
+msgstr ""
+
+msgctxt "JAPANESE.[98]"
+msgid "Tenshi"
+msgstr ""
+
+msgctxt "SPACE.[42]"
+msgid "Tereshkova"
+msgstr ""
+
+msgctxt "ROMAN.[117]"
+msgid "Terminus"
+msgstr ""
+
+msgctxt "GREEK.[702]"
+msgid "Terpsichore"
+msgstr ""
+
+msgctxt "GENERAL.[260]"
+msgid "Terpsichoria"
+msgstr ""
+
+msgctxt "ROMAN.[118]"
+msgid "Terra"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[27]"
+msgid "Teth-Sierra"
+msgstr ""
+
+msgctxt "CELTIC.[145]"
+msgid "Tethra"
+msgstr ""
+
+msgctxt "GREEK.[703]"
+msgid "Tethys"
+msgstr ""
+
+msgctxt "GREEK.[704]"
+msgid "Teucer"
+msgstr ""
+
+msgctxt "GENERAL.[144]"
+msgid "Teurl"
+msgstr ""
+
+msgctxt "CELTIC.[146]"
+msgid "Teutates"
+msgstr ""
+
+msgctxt "GREEK.[705]"
+msgid "Thalassa"
+msgstr ""
+
+msgctxt "GREEK.[706]"
+msgid "Thalia"
+msgstr ""
+
+msgctxt "GREEK.[707]"
+msgid "Thalia"
+msgstr ""
+
+msgctxt "GREEK.[708]"
+msgid "Thallo"
+msgstr ""
+
+msgctxt "GREEK.[709]"
+msgid "Thanatos"
+msgstr ""
+
+msgctxt "GREEK.[710]"
+msgid "Thaumas"
+msgstr ""
+
+msgctxt "GENERAL.[277]"
+msgid "The Ashes Remain"
+msgstr ""
+
+msgctxt "OTHER.[2]"
+msgid "The Asymptope Convergence"
+msgstr ""
+
+msgctxt "OTHER.[7]"
+msgid "The Hidden Immanence"
+msgstr ""
+
+msgctxt "PIRATES.[24]"
+msgid "The One That Got Away"
+msgstr ""
+
+msgctxt "PIRATES.[57]"
+msgid "The Swift End"
+msgstr ""
+
+msgctxt "OTHER.[1]"
+msgid "The Umbra Radiates"
+msgstr ""
+
+msgctxt "GREEK.[711]"
+msgid "Theia"
+msgstr ""
+
+msgctxt "OTHER.[11]"
+msgid "Their Acts Willed"
+msgstr ""
+
+msgctxt "GREEK.[712]"
+msgid "Themis"
+msgstr ""
+
+msgctxt "GREEK.[713]"
+msgid "Theoclymenus"
+msgstr ""
+
+msgctxt "GENERAL.[19]"
+msgid "There And Back Again"
+msgstr ""
+
+msgctxt "GREEK.[714]"
+msgid "Thersander"
+msgstr ""
+
+msgctxt "GREEK.[715]"
+msgid "Thersites"
+msgstr ""
+
+msgctxt "GREEK.[716]"
+msgid "Theseus"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[4]"
+msgid "Theta-Rusty"
+msgstr ""
+
+msgctxt "GREEK.[717]"
+msgid "Thetis"
+msgstr ""
+
+msgctxt "PIRATES.[106]"
+msgid "They're Not Coming Back"
+msgstr ""
+
+msgctxt "NORSE.[51]"
+msgid "Thiazi"
+msgstr ""
+
+msgctxt "SPACE.[29]"
+msgid "Third Moon Of Mars"
+msgstr ""
+
+msgctxt "GENERAL.[50]"
+msgid "Third Questioning"
+msgstr ""
+
+msgctxt "GENERAL.[90]"
+msgid "This Time For Real"
+msgstr ""
+
+msgctxt "GREEK.[718]"
+msgid "Thisbe"
+msgstr ""
+
+msgctxt "GREEK.[719]"
+msgid "Thoosa"
+msgstr ""
+
+msgctxt "NORSE.[52]"
+msgid "Thor"
+msgstr ""
+
+msgctxt "EGYPTIAN.[141]"
+msgid "Thoth"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[31]"
+msgid "Thousand Martyrs of Deimos"
+msgstr ""
+
+msgctxt "NORSE.[53]"
+msgid "Thrall"
+msgstr ""
+
+msgctxt "GENERAL.[73]"
+msgid "Three Sheets To The Wind"
+msgstr ""
+
+msgctxt "NORSE.[54]"
+msgid "Thrud"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[23]"
+msgid "Thunder Child"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[44]"
+msgid "Thunder-Liu"
+msgstr ""
+
+msgctxt "GREEK.[720]"
+msgid "Thyestes"
+msgstr ""
+
+msgctxt "GREEK.[721]"
+msgid "Thymoetes"
+msgstr ""
+
+msgctxt "GREEK.[722]"
+msgid "Thyrsus"
+msgstr ""
+
+msgctxt "ROMAN.[119]"
+msgid "Tibertus"
+msgstr ""
+
+msgctxt "CELTIC.[147]"
+msgid "Tir na n-Og"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[15]"
+msgid "Tireless"
+msgstr ""
+
+msgctxt "GREEK.[723]"
+msgid "Tisiphone"
+msgstr ""
+
+msgctxt "GREEK.[724]"
+msgid "Tithonus"
+msgstr ""
+
+msgctxt "AZTEC.[27]"
+msgid "Titlacauan"
+msgstr ""
+
+msgctxt "GREEK.[725]"
+msgid "Tityos"
+msgstr ""
+
+msgctxt "CELTIC.[148]"
+msgid "Tlachtga"
+msgstr ""
+
+msgctxt "AZTEC.[28]"
+msgid "Tlaloc"
+msgstr ""
+
+msgctxt "GREEK.[726]"
+msgid "Tlepolemus"
+msgstr ""
+
+msgctxt "SPACE.[22]"
+msgid "To Goddard With Apologies"
+msgstr ""
+
+msgctxt "OTHER.[5]"
+msgid "To Morphenemonia"
+msgstr ""
+
+msgctxt "EGYPTIAN.[142]"
+msgid "Toeris"
+msgstr ""
+
+msgctxt "JAPANESE.[99]"
+msgid "Tokoyo"
+msgstr ""
+
+msgctxt "JAPANESE.[100]"
+msgid "Tokutaro"
+msgstr ""
+
+msgctxt "AZTEC.[29]"
+msgid "Tonatiuh"
+msgstr ""
+
+msgctxt "CELTIC.[149]"
+msgid "Tongoenabiagus"
+msgstr ""
+
+msgctxt "KNIGHTS.[47]"
+msgid "Tor"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[19]"
+msgid "Torment"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[42]"
+msgid "Torment To Apostasy"
+msgstr ""
+
+msgctxt "PIRATES.[10]"
+msgid "Tortuga"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[55]"
+msgid "Tracker"
+msgstr ""
+
+msgctxt "MERCANTILE.[18]"
+msgid "Trade Wind"
+msgstr ""
+
+msgctxt "MERCANTILE.[32]"
+msgid "Treasure"
+msgstr ""
+
+msgctxt "CELTIC.[150]"
+msgid "Trebaruna"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[27]"
+msgid "Tree of Life"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[18]"
+msgid "Trenchant"
+msgstr ""
+
+msgctxt "KNIGHTS.[48]"
+msgid "Tristan"
+msgstr ""
+
+msgctxt "GREEK.[727]"
+msgid "Triteia"
+msgstr ""
+
+msgctxt "GREEK.[728]"
+msgid "Triton"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[17]"
+msgid "Triumph"
+msgstr ""
+
+msgctxt "HEGEMONY.[12]"
+msgid "Triumph of CVII"
+msgstr ""
+
+msgctxt "HEGEMONY.[21]"
+msgid "Triumph of CXCIV"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[56]"
+msgid "Trooper"
+msgstr ""
+
+msgctxt "GENERAL.[243]"
+msgid "Trooperon"
+msgstr ""
+
+msgctxt "GREEK.[729]"
+msgid "Trophonius"
+msgstr ""
+
+msgctxt "PIRATES.[150]"
+msgid "Try And Hit Me"
+msgstr ""
+
+msgctxt "SPACE.[66]"
+msgid "Tsiolkovsky's Vision"
+msgstr ""
+
+msgctxt "JAPANESE.[101]"
+msgid "Tsuyu"
+msgstr ""
+
+msgctxt "EGYPTIAN.[143]"
+msgid "Tuat"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[6]"
+msgid "Tunni"
+msgstr ""
+
+msgctxt "CELTIC.[151]"
+msgid "Turiacus"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[67]"
+msgid "Turn of Seasons"
+msgstr ""
+
+msgctxt "GENERAL.[182]"
+msgid "Two Pleas"
+msgstr ""
+
+msgctxt "PIRATES.[66]"
+msgid "Two Pleas"
+msgstr ""
+
+msgctxt "GREEK.[730]"
+msgid "Tyche"
+msgstr ""
+
+msgctxt "MERCANTILE.[14]"
+msgid "Tycoon"
+msgstr ""
+
+msgctxt "GREEK.[731]"
+msgid "Tydeus"
+msgstr ""
+
+msgctxt "GREEK.[732]"
+msgid "Tyndareus"
+msgstr ""
+
+msgctxt "GREEK.[733]"
+msgid "Typhon"
+msgstr ""
+
+msgctxt "NORSE.[55]"
+msgid "Tyrfing"
+msgstr ""
+
+msgctxt "GENERAL.[155]"
+msgid "Uji"
+msgstr ""
+
+msgctxt "JAPANESE.[102]"
+msgid "Ujigami"
+msgstr ""
+
+msgctxt "JAPANESE.[103]"
+msgid "Ukemochi"
+msgstr ""
+
+msgctxt "NORSE.[56]"
+msgid "Ullr"
+msgstr ""
+
+msgctxt "GENERAL.[181]"
+msgid "Ultramancer"
+msgstr ""
+
+msgctxt "GENERAL.[116]"
+msgid "Ultraviolet"
+msgstr ""
+
+msgctxt "GENERAL.[43]"
+msgid "Ultraviolet Sunrise"
+msgstr ""
+
+msgctxt "GENERAL.[195]"
+msgid "Ulturnus"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[25]"
+msgid "Ulysses"
+msgstr ""
+
+msgctxt "ROMAN.[120]"
+msgid "Ulysses"
+msgstr ""
+
+msgctxt "GENERAL.[113]"
+msgid "Umbra"
+msgstr ""
+
+msgctxt "EGYPTIAN.[144]"
+msgid "Un-nefer"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[48]"
+msgid "Undaunted"
+msgstr ""
+
+msgctxt "BEASTS.[30]"
+msgid "Unicorn"
+msgstr ""
+
+msgctxt "GENERAL.[79]"
+msgid "Unity of Multitude"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[49]"
+msgid "Unrivalled"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[50]"
+msgid "Unshaken"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[51]"
+msgid "Untiring"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[52]"
+msgid "Upholder"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[11]"
+msgid "Uprising"
+msgstr ""
+
+msgctxt "GENERAL.[146]"
+msgid "Upsi-Dustey Takard"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[16]"
+msgid "Upsilon-Duchess"
+msgstr ""
+
+msgctxt "GENERAL.[209]"
+msgid "Urance Raphie"
+msgstr ""
+
+msgctxt "GENERAL.[114]"
+msgid "Urania"
+msgstr ""
+
+msgctxt "GREEK.[734]"
+msgid "Urania"
+msgstr ""
+
+msgctxt "JAPANESE.[104]"
+msgid "Urashima"
+msgstr ""
+
+msgctxt "KNIGHTS.[49]"
+msgid "Urien"
+msgstr ""
+
+msgctxt "GENERAL.[115]"
+msgid "Ursa"
+msgstr ""
+
+msgctxt "EGYPTIAN.[145]"
+msgid "Urthekau"
+msgstr ""
+
+msgctxt "JAPANESE.[105]"
+msgid "Uwibami"
+msgstr ""
+
+msgctxt "JAPANESE.[106]"
+msgid "Uzume"
+msgstr ""
+
+msgctxt "PIRATES.[27]"
+msgid "Vacuum Shark"
+msgstr ""
+
+msgctxt "NORSE.[57]"
+msgid "Valhalla"
+msgstr ""
+
+msgctxt "NORSE.[58]"
+msgid "Valkyrie"
+msgstr ""
+
+msgctxt "NORSE.[59]"
+msgid "Vanaheim"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[19]"
+msgid "Vanguard"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[43]"
+msgid "Vanguard"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[16]"
+msgid "Vanguard"
+msgstr ""
+
+msgctxt "NORSE.[60]"
+msgid "Vanir"
+msgstr ""
+
+msgctxt "GENERAL.[124]"
+msgid "Vanquilon-Echo"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[44]"
+msgid "Vanquisher"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[45]"
+msgid "Venerable"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[21]"
+msgid "Vengeance"
+msgstr ""
+
+msgctxt "DIKTAT.[1]"
+msgid "Vengeance of Opis"
+msgstr ""
+
+msgctxt "PIRATES.[79]"
+msgid "Vent Flux Here"
+msgstr ""
+
+msgctxt "GENERAL.[177]"
+msgid "Ventir Traviolet"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[46]"
+msgid "Venturous"
+msgstr ""
+
+msgctxt "ROMAN.[121]"
+msgid "Venus"
+msgstr ""
+
+msgctxt "SPACE.[35]"
+msgid "Venusean"
+msgstr ""
+
+msgctxt "CELTIC.[152]"
+msgid "Verbeia"
+msgstr ""
+
+msgctxt "ROMAN.[122]"
+msgid "Veritas"
+msgstr ""
+
+msgctxt "ROMAN.[123]"
+msgid "Verminus"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[42]"
+msgid "Vesper"
+msgstr ""
+
+msgctxt "GENERAL.[121]"
+msgid "Vesperiad"
+msgstr ""
+
+msgctxt "ROMAN.[124]"
+msgid "Vesta"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[45]"
+msgid "Vesta-Qi"
+msgstr ""
+
+msgctxt "ROMAN.[125]"
+msgid "Vestal"
+msgstr ""
+
+msgctxt "BEASTS.[17]"
+msgid "Vetala"
+msgstr ""
+
+msgctxt "PIRATES.[172]"
+msgid "Vexatious Woe"
+msgstr ""
+
+msgctxt "SPACE.[53]"
+msgid "Via Acubens"
+msgstr ""
+
+msgctxt "ROMAN.[126]"
+msgid "Victoria"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[20]"
+msgid "Victorious"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[11]"
+msgid "Victory"
+msgstr ""
+
+msgctxt "HEGEMONY.[24]"
+msgid "Victory at Jangala"
+msgstr ""
+
+msgctxt "HEGEMONY.[20]"
+msgid "Victory of Chicomoztoc"
+msgstr ""
+
+msgctxt "HEGEMONY.[19]"
+msgid "Victory of Galatia"
+msgstr ""
+
+msgctxt "HEGEMONY.[13]"
+msgid "Victory of Maxios"
+msgstr ""
+
+msgctxt "HEGEMONY.[15]"
+msgid "Victory of Valhalla"
+msgstr ""
+
+msgctxt "DIKTAT.[38]"
+msgid "Victory of the Potentate"
+msgstr ""
+
+msgctxt "PIRATES.[42]"
+msgid "Victualier"
+msgstr ""
+
+msgctxt "NORSE.[61]"
+msgid "Vidar"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[41]"
+msgid "Vigilant"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[22]"
+msgid "Viking"
+msgstr ""
+
+msgctxt "GENERAL.[256]"
+msgid "Vikinguard"
+msgstr ""
+
+msgctxt "BRITISH_NAVY.[47]"
+msgid "Vindicator"
+msgstr ""
+
+msgctxt "ROMAN.[127]"
+msgid "Virbius"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[1]"
+msgid "Virtue"
+msgstr ""
+
+msgctxt "GENERAL.[151]"
+msgid "Virtune"
+msgstr ""
+
+msgctxt "ROMAN.[128]"
+msgid "Virtus"
+msgstr ""
+
+msgctxt "ROMAN.[129]"
+msgid "Vitumnus"
+msgstr ""
+
+msgctxt "GENERAL.[69]"
+msgid "Voidclipper"
+msgstr ""
+
+msgctxt "GENERAL.[162]"
+msgid "Voidclipse"
+msgstr ""
+
+msgctxt "ROMAN.[130]"
+msgid "Volturnus"
+msgstr ""
+
+msgctxt "CELTIC.[153]"
+msgid "Vosegus"
+msgstr ""
+
+msgctxt "GENERAL.[72]"
+msgid "Voyageur"
+msgstr ""
+
+msgctxt "ROMAN.[131]"
+msgid "Vulturnus"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[52]"
+msgid "Wages Of Sin"
+msgstr ""
+
+msgctxt "JAPANESE.[107]"
+msgid "Wakahiru"
+msgstr ""
+
+msgctxt "GENERAL.[48]"
+msgid "Waking Dream"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[42]"
+msgid "Waning Day"
+msgstr ""
+
+msgctxt "GENERAL.[108]"
+msgid "Warlock"
+msgstr ""
+
+msgctxt "PIRATES.[103]"
+msgid "Wash Me"
+msgstr ""
+
+msgctxt "PIRATES.[88]"
+msgid "Waste Of Ammo"
+msgstr ""
+
+msgctxt "GENERAL.[178]"
+msgid "Waw-Rocky Devengen"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[24]"
+msgid "Waw-Romeo"
+msgstr ""
+
+msgctxt "PIRATES.[49]"
+msgid "Wayward Arms"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[60]"
+msgid "Weeping Willow"
+msgstr ""
+
+msgctxt "BEASTS.[14]"
+msgid "Werewolf"
+msgstr ""
+
+msgctxt "PIRATES.[135]"
+msgid "What Me Worry"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[59]"
+msgid "White Pine"
+msgstr ""
+
+msgctxt "PIRATES.[38]"
+msgid "Whydah Again"
+msgstr ""
+
+msgctxt "GENERAL.[119]"
+msgid "Whydragon"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[17]"
+msgid "Wildcat"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[26]"
+msgid "Word of Ludd"
+msgstr ""
+
+msgctxt "GENERAL.[224]"
+msgid "Worshift Endurang"
+msgstr ""
+
+msgctxt "LUDDIC_CHURCH.[29]"
+msgid "Worshipful Obedience"
+msgstr ""
+
+msgctxt "EGYPTIAN.[146]"
+msgid "Wosyet"
+msgstr ""
+
+msgctxt "GENERAL.[4]"
+msgid "Wrath"
+msgstr ""
+
+msgctxt "GENERAL.[185]"
+msgid "Wrath Aponos"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[10]"
+msgid "Wrath of God"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[7]"
+msgid "Wrath of Ludd"
+msgstr ""
+
+msgctxt "BEASTS.[15]"
+msgid "Wyrm"
+msgstr ""
+
+msgctxt "BEASTS.[16]"
+msgid "Wyvern"
+msgstr ""
+
+msgctxt "GENERAL.[236]"
+msgid "Wyvernax"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[10]"
+msgid "Xi-Fido"
+msgstr ""
+
+msgctxt "AZTEC.[30]"
+msgid "Xilonen"
+msgstr ""
+
+msgctxt "AZTEC.[31]"
+msgid "Xipe Totec"
+msgstr ""
+
+msgctxt "AZTEC.[32]"
+msgid "Xiuhcoatl"
+msgstr ""
+
+msgctxt "AZTEC.[33]"
+msgid "Xochipilli"
+msgstr ""
+
+msgctxt "AZTEC.[34]"
+msgid "Xocotl"
+msgstr ""
+
+msgctxt "GREEK.[735]"
+msgid "Xuthus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[147]"
+msgid "Yaaru"
+msgstr ""
+
+msgctxt "AZTEC.[35]"
+msgid "Yacatecuhtli"
+msgstr ""
+
+msgctxt "JAPANESE.[108]"
+msgid "Yamato"
+msgstr ""
+
+msgctxt "PIRATES.[141]"
+msgid "Yash's Bottle"
+msgstr ""
+
+msgctxt "NORSE.[62]"
+msgid "Yggdrasil"
+msgstr ""
+
+msgctxt "NORSE.[63]"
+msgid "Ymir"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[28]"
+msgid "Yodh-Whiskey"
+msgstr ""
+
+msgctxt "GENERAL.[248]"
+msgid "Yodh-Windian"
+msgstr ""
+
+msgctxt "JAPANESE.[109]"
+msgid "Yomi"
+msgstr ""
+
+msgctxt "CELTIC.[154]"
+msgid "Yonne"
+msgstr ""
+
+msgctxt "JAPANESE.[110]"
+msgid "Yorimasa"
+msgstr ""
+
+msgctxt "GENERAL.[96]"
+msgid "You Found Me Now What"
+msgstr ""
+
+msgctxt "KNIGHTS.[50]"
+msgid "Yvain"
+msgstr ""
+
+msgctxt "GREEK.[736]"
+msgid "Zagreus"
+msgstr ""
+
+msgctxt "PERSIAN.[0]"
+msgid "Zahhak"
+msgstr ""
+
+msgctxt "REVOLUTIONARY.[10]"
+msgid "Zannekin's Back!"
+msgstr ""
+
+msgctxt "BEASTS.[22]"
+msgid "Zaratan"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[25]"
+msgid "Zayin-Uniform"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[3]"
+msgid "Zealot"
+msgstr ""
+
+msgctxt "GREEK.[737]"
+msgid "Zelus"
+msgstr ""
+
+msgctxt "EGYPTIAN.[148]"
+msgid "Zenenet"
+msgstr ""
+
+msgctxt "SPACE.[9]"
+msgid "Zenith"
+msgstr ""
+
+msgctxt "GREEK.[738]"
+msgid "Zephyrus"
+msgstr ""
+
+msgctxt "DERELICT_DRONE.[2]"
+msgid "Zeta-Molly"
+msgstr ""
+
+msgctxt "GENERAL.[229]"
+msgid "Zetamax"
+msgstr ""
+
+msgctxt "GREEK.[739]"
+msgid "Zethus"
+msgstr ""
+
+msgctxt "JAPANESE.[111]"
+msgid "Zocho"
+msgstr ""
+
+msgctxt "SPACE.[10]"
+msgid "Zodiacal Light"
+msgstr ""
+
+msgctxt "JAPANESE.[112]"
+msgid "Zuijin"
+msgstr ""
+
+msgctxt "LUDDIC_PATH.[25]"
+msgid "Zulif"
+msgstr ""
+
+msgctxt "OMEGA.[18]"
+msgid "a77f44"
+msgstr ""
+
+msgctxt "OMEGA.[23]"
+msgid "b25b9d"
+msgstr ""
+
+msgctxt "OMEGA.[16]"
+msgid "b57924"
+msgstr ""
+
+msgctxt "OMEGA.[0]"
+msgid "c12c4d"
+msgstr ""
+
+msgctxt "OMEGA.[19]"
+msgid "cb9c5d"
+msgstr ""
+
+msgctxt "OMEGA.[21]"
+msgid "ee2479"
+msgstr ""
