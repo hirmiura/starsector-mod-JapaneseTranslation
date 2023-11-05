@@ -132,4 +132,4 @@ clean-backup:
 
 clean-package:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
-	rm -fr $(D_MOD)
+	cd $(D_MOD) && rm -f $(SRCS)
