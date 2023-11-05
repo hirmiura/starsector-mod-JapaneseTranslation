@@ -50,9 +50,9 @@ generate-pot: $(addsuffix .pot,$(SRCS))
 
 merge-po: $(addsuffix .edit.po,$(SRCS)) $(addsuffix .po,$(SRCS))
 
-# potとマージする
-%.edit.po:: %.pot
-	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+# potとマージする静的なパターンルール
+$(addsuffix .edit.po,$(SRCS)):: %.edit.po: %.pot
+	@echo -e '$(CC_BrBlue)========== $@ 1 ==========$(CC_Reset)'
 	if [[ -f "$@" ]] ; then \
 		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $< ; \
 	else \
@@ -61,12 +61,12 @@ merge-po: $(addsuffix .edit.po,$(SRCS)) $(addsuffix .po,$(SRCS))
 
 # poとマージする
 # 循環参照対策でPrerequisiteはつけない
-%.edit.po::
-	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+$(addsuffix .edit.po,$(SRCS))::
+	@echo -e '$(CC_BrBlue)========== $@ 2 ==========$(CC_Reset)'
 	$(eval FN := $(@:%.edit.po=%.po))
 	if [[ -f "$(FN)" ]] ; then \
-		msgcat --use-first -o $@ $@ $(FN); \
-	fi \
+		msgcat --use-first -o $@ $@ $(FN) ; \
+	fi
 
 %.po: %.edit.po
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
@@ -97,13 +97,13 @@ generate-mo: $(addsuffix .mo,$(SRCS))
 
 translate: $(SRCS)
 
-%.csv: %.mo %.csv.toml $(D_SS)/%.csv
+%.csv: %.csv.mo %.csv.toml $(D_SS)/%.csv
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
-	$(D_BIN)/mo2csv.py -m $< -c $(@:%.csv=%.toml)
+	$(D_BIN)/mo2csv.py -m $< -c $@.toml
 
-%.json: %.mo %.json.toml $(D_SS)/%.json
+%.json: %.json.mo %.json.toml $(D_SS)/%.json
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
-	$(D_BIN)/mo2json.py -m $< -c $(@:%.json=%.toml)
+	$(D_BIN)/mo2json.py -m $< -c $@.toml
 
 copy-mod: $(SRCS)
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
