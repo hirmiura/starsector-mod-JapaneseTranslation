@@ -1,0 +1,60 @@
+# Created by json2pot.py.
+msgid ""
+msgstr ""
+"Project-Id-Version: tag_data.json Version 0.96a-RC10\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-11-05 22:58+0900\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgctxt "Accepted.name"
+msgid "Accepted"
+msgstr ""
+
+msgctxt "Bounties.name"
+msgid "Bounties"
+msgstr ""
+
+msgctxt "Colony threats.name"
+msgid "Colony threats"
+msgstr ""
+
+msgctxt "Contacts.name"
+msgid "Contacts"
+msgstr ""
+
+msgctxt "Fleet log.name"
+msgid "Fleet log"
+msgstr ""
+
+msgctxt "Important.name"
+msgid "Important"
+msgstr ""
+
+msgctxt "Local.name"
+msgid "Local"
+msgstr ""
+
+msgctxt "Luddic shrines.name"
+msgid "Luddic shrines"
+msgstr ""
+
+msgctxt "Major events.name"
+msgid "Major events"
+msgstr ""
+
+msgctxt "Missions.name"
+msgid "Missions"
+msgstr ""
+
+msgctxt "New.name"
+msgid "New"
+msgstr ""
+
+msgctxt "Story.name"
+msgid "Story"
+msgstr ""
