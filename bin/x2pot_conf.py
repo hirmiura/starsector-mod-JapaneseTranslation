@@ -16,6 +16,7 @@ TZ = timezone(timedelta(hours=+9), "JST")
 
 class X2PotConf(BaseModel, ABC):
     input_files: list[str] = []
+    input_encoding: str = "utf-8"
     output_file: str = ""
     pid_version: str = ""  # Project-Id-Version
     extracts: list = []

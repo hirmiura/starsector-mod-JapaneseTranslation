@@ -54,9 +54,7 @@ def process(args: argparse.Namespace) -> None:
         original_csv_path = Path(file)
         output_csv_path = Path(original_csv_path.name)
         with (
-            original_csv_path.open(
-                newline="", encoding="cp1252"  # WARNING: Windows-1252 で読み込む
-            ) as fp_read,
+            original_csv_path.open(newline="", encoding=config.input_encoding) as fp_read,
             output_csv_path.open("w", newline="", encoding="utf-8") as fp_write,
         ):
             reader = csv.reader(fp_read)

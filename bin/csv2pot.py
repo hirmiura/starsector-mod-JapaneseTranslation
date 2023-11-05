@@ -168,7 +168,7 @@ def generate_pot(config: ConfCsv2Pot) -> str:
 
     # csvファイルを読み込む
     for file in config.input_files:
-        with open(file, newline="", encoding="cp1252") as f:  # WARNING: Windows-1252 で読み込む
+        with open(file, newline="", encoding=config.input_encoding) as f:
             reader = csv.reader(f)
 
             # ヘッダがあれば読み込む
