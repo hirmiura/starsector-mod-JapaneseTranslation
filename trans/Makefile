@@ -4,10 +4,7 @@
 SHELL := /bin/bash
 
 # 各種ディレクトリ
-D_LIST		:= campaign hullmods world
-D_CAMPAIGN	:= campaign
-D_HULLMODS	:= hullmods
-D_WORLD		:= world
+D_LIST		:= campaign hullmods strings world
 
 
 #==============================================================================
