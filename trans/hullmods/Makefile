@@ -11,7 +11,7 @@ D_MOD		:= $(D_REL)/mod/$(D_SUBPATH)
 D_SS		:= $(D_REL)/Starsector/starsector-core/$(D_SUBPATH)
 
 # ソース
-SRCS := hull_mods.csv
+SRCS := $(basename $(shell ls *.{csv,json}.toml))
 
 
 #==============================================================================
