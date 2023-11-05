@@ -4,7 +4,7 @@
 SHELL := /bin/bash
 
 # 各種ディレクトリ
-D_LIST		:= campaign hullmods strings world
+D_LIST		:= $(shell ls -d */ | sed 's/\/$$//')
 
 
 #==============================================================================

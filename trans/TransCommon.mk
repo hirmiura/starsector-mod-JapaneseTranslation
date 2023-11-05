@@ -101,7 +101,7 @@ translate: $(SRCS)
 copy-mod: $(SRCS)
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	@mkdir -p $(D_MOD)
-	cp -u $^ $(D_MOD)
+	cp -u $^ $(D_MOD) || :
 
 
 #==============================================================================
@@ -132,4 +132,4 @@ clean-backup:
 
 clean-package:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
-	rm -fr $(D_MOD)
+	cd $(D_MOD) && rm -f $(SRCS)
