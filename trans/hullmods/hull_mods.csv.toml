@@ -1,6 +1,6 @@
 # hullmods csv2pot.py 設定ファイル
 input_files = [ '../../Starsector/starsector-core/data/hullmods/hull_mods.csv' ]
-output_file = 'hull_mods.pot'
+output_file = 'hull_mods.csv.pot'
 
 pid_version = 'hull_mods.csv Version 0.96a-RC10'
 
