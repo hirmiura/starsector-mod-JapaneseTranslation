@@ -8,6 +8,7 @@ from __future__ import annotations
 import argparse
 import gettext
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -72,8 +73,11 @@ def process(args: argparse.Namespace) -> None:
                 tr_text = gtr.pgettext(full_path, or_text)
                 if or_text and tr_text and or_text != tr_text:
                     is_translated = True
-                    match_expr = jsonpath_ng.parse(full_path)
                     tr_text = tr_text.replace("\n", "\r\n")
+                    # JSONパスが空白を含むならダブルクォートする
+                    if re.search(r"\s", full_path):
+                        full_path = re.sub(r"([^.]*\s[^.]*)", r'"\1"', full_path)
+                    match_expr = jsonpath_ng.parse(full_path)
                     match_expr.update_or_create(output_json_obj, tr_text)
 
         # 翻訳されていれば書き出す
