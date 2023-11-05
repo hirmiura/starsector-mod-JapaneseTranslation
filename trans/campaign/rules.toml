@@ -1,6 +1,7 @@
 # rules csv2pot.py 設定ファイル
-input_files = [ '../../Starsector/starsector-core/data/campaign/rules.csv' ]
-output_file = 'rules.pot'
+input_files    = [ '../../Starsector/starsector-core/data/campaign/rules.csv' ]
+input_encoding = 'cp1252'
+output_file    = 'rules.pot'
 
 pid_version = 'rules.csv Version 0.96a-RC10'
 
