@@ -1,0 +1,11 @@
+# default_fleet_type_names.json json2pot.py 設定ファイル
+
+input_files = [
+    '../../../Starsector/starsector-core/data/world/factions/default_fleet_type_names.json',
+]
+output_file = 'default_fleet_type_names.json.pot'
+
+pid_version = 'default_fleet_type_names.json Version 0.96a-RC10'
+
+[[extracts]]
+path = '$..*'
