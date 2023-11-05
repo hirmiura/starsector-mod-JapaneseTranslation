@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: default_fleet_type_names.json Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-05 23:50+0900\n"
+"PO-Revision-Date: 2023-11-06 01:58+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -29,7 +29,7 @@ msgstr "分遣隊"
 
 msgctxt "patrolSmall"
 msgid "Fast Picket"
-msgstr "高速警備隊"
+msgstr "即応哨戒隊"
 
 msgctxt "inspectionFleet"
 msgid "Inspection Fleet"
