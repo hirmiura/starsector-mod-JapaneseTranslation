@@ -9,6 +9,9 @@ D_SUBPATH	:= data/strings
 D_MOD		:= ../../mod/$(D_SUBPATH)
 D_SS		:= ../../Starsector/starsector-core/$(D_SUBPATH)
 
+# ソース
+SRCS := descriptions.csv strings.json
+
 
 #==============================================================================
 # カラーコード
@@ -35,14 +38,19 @@ check:
 setup: ## セットアップ - ビルドの前準備
 setup: check generate-pot merge-po
 
-generate-pot: strings.pot
+generate-pot: $(addsuffix .pot,$(SRCS))
 
-%.pot: %.toml $(D_SS)/%.json
+%.csv.pot: %.csv.toml $(D_SS)/%.csv
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+	$(D_BIN)/csv2pot.py -c $<
+
+%.json.pot: %.json.toml $(D_SS)/%.json
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	$(D_BIN)/json2pot.py -c $<
 
-merge-po: strings.edit.po strings.po
+merge-po: $(addsuffix .edit.po,$(SRCS)) $(addsuffix .po,$(SRCS))
 
+# potとマージする
 %.edit.po:: %.pot
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ -f "$@" ]] ; then \
@@ -51,6 +59,8 @@ merge-po: strings.edit.po strings.po
 		msginit --no-translator -l ja_JP.utf8 -i $< -o $@ ; \
 	fi
 
+# poとマージする
+# 循環参照対策でPrerequisiteはつけない
 %.edit.po::
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	$(eval FN := $(@:%.edit.po=%.po))
@@ -75,34 +85,38 @@ merge-po: strings.edit.po strings.po
 #==============================================================================
 # ビルド
 #==============================================================================
-.PHONY: build generate-mo translate
+.PHONY: build generate-mo translate copy-mod
 build: ## ビルドする
-build: setup generate-mo translate copy-json
+build: setup generate-mo translate copy-mod
 
-generate-mo: strings.mo
+generate-mo: $(addsuffix .mo,$(SRCS))
 
 %.mo: %.po
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	msgfmt --statistics -o $@ $^
 
-translate: strings.json
+translate: $(SRCS)
 
-%.json: %.mo %.toml $(D_SS)/%.json
+%.csv: %.mo %.csv.toml $(D_SS)/%.csv
+	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
+	$(D_BIN)/mo2csv.py -m $< -c $(@:%.csv=%.toml)
+
+%.json: %.mo %.json.toml $(D_SS)/%.json
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	$(D_BIN)/mo2json.py -m $< -c $(@:%.json=%.toml)
 
-copy-json: strings.json
+copy-mod: $(SRCS)
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	@mkdir -p $(D_MOD)
-	cp $< $(D_MOD)
+	cp -u $^ $(D_MOD)
 
 
 #==============================================================================
 # クリーンアップ
 #==============================================================================
-.PHONY: clean clean-all clean-pot clean-mo clean-json clean-backup clean-package
+.PHONY: clean clean-all clean-pot clean-mo clean-target clean-backup clean-package
 clean: ## セットアップで生成したファイル以外を全て削除します
-clean: clean-mo clean-json clean-package
+clean: clean-mo clean-target clean-package
 
 clean-all: ## 生成した全てのファイルを削除します
 clean-all: clean clean-pot clean-backup
@@ -115,9 +129,9 @@ clean-mo:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
 	rm -f *.mo
 
-clean-json:
+clean-target:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
-	rm -f *.json
+	rm -f $(SRCS)
 
 clean-backup:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'

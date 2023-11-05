@@ -1,7 +1,7 @@
 # strings.json json2pot.py 設定ファイル
 
 input_files = [ '../../Starsector/starsector-core/data/strings/strings.json' ]
-output_file = 'strings.pot'
+output_file = 'strings.json.pot'
 
 pid_version = 'strings.json Version 0.96a-RC10'
 
