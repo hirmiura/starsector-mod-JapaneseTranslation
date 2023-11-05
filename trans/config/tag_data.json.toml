@@ -1,0 +1,9 @@
+# tag_data.json json2pot.py 設定ファイル
+
+input_files = [ '../../Starsector/starsector-core/data/config/tag_data.json' ]
+output_file = 'tag_data.json.pot'
+
+pid_version = 'tag_data.json Version 0.96a-RC10'
+
+[[extracts]]
+path = '$..name'
