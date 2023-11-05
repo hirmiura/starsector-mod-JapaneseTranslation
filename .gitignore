@@ -166,6 +166,7 @@ cython_debug/
 !/mod/JapaneseTranslation.version
 !/mod/mod_info.json
 /trans/**/*
+!/trans/*.mk
 !/trans/**/
 !/trans/**/Makefile
 !/trans/**/*.po
