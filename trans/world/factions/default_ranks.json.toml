@@ -1,7 +1,7 @@
 # default_ranks.json json2pot.py 設定ファイル
 
 input_files = [ '../../../Starsector/starsector-core/data/world/factions/default_ranks.json' ]
-output_file = 'default_ranks.pot'
+output_file = 'default_ranks.json.pot'
 
 pid_version = 'default_ranks.json Version 0.96a-RC10'
 
