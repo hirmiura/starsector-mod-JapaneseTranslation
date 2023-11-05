@@ -1,0 +1,18 @@
+# rules csv2pot.py 設定ファイル
+input_files = [ '../../Starsector/starsector-core/data/strings/descriptions.csv' ]
+output_file = 'descriptions.csv.pot'
+
+pid_version = 'descriptions.csv Version 0.96a-RC10'
+
+ctxt_id_column = 0
+
+[[extracts]] # text1
+column = 2
+[[extracts]] # text2
+column = 3
+[[extracts]] # text3
+column = 4
+[[extracts]] # text4
+column = 5
+[[extracts]] # notes
+column = 6
