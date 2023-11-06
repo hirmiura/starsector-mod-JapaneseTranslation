@@ -157,7 +157,7 @@ msgstr "船舶は、月当たりの供給品消費量に基づいて保守のた
 
 msgctxt "tips.[15]"
 msgid "Ships receive a boost to top speed when their flux level is zero and they're not generating any flux."
-msgstr "フラックスレベルが0でフラックスを発生していない時に、船の最高速度はブーストされる。"
+msgstr "フラックスレベルが0でフラックスを発生していない時には、船の最高速度はブーストされます。"
 
 msgctxt "tips.[25]"
 msgid "Ships with a (D) designation are substandard versions of the normal hulls."
