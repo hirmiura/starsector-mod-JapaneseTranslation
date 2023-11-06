@@ -137,7 +137,7 @@ msgstr "[Tab]を押してコマンドUIを切り替えます。コマンドUIを
 
 msgctxt "tips.[32]"
 msgid "Refitting a ship in space will reduce its combat readiness, especially when changing hull mods."
-msgstr "宇宙で船を改造すること、特に船体改造を行うことは、戦闘即応性を減少させる。"
+msgstr "宇宙で船を改造すること、特に船体改造を行うことは、戦闘即応性を減少させます。"
 
 msgctxt "tips.[44]"
 msgid "Scuttling a ship - or simply not recovering it - will produce more value in fuel and supplies than selling it would."
