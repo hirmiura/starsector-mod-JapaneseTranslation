@@ -189,7 +189,7 @@ msgstr "武器は、ハードポイントスロットに装着されると、リ
 
 msgctxt "tips.[33]"
 msgid "Weapons that fire energy bolts or projectiles can hit targets beyond their maximum range, but only deal soft flux damage to shields when they do."
-msgstr "エネルギーボルトやプロジェクタイルを発射する兵器は、最大射程を超えて標的に命中させることができますが、その場合にはシールドにソフトフラックスダメージを与えるだけである。"
+msgstr "エネルギーボルトやプロジェクタイルを発射する兵器は、最大射程を超えて標的に命中させることができますが、その場合にはシールドにソフトフラックスダメージを与えるだけです。"
 
 msgctxt "tips.[17]"
 msgid "When creating weapon groups for a ship, Shift-click to assign all weapons of the same type."
