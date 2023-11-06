@@ -45,7 +45,7 @@ msgstr "戦闘に必要以上に多くの船を配備することは、戦闘か
 
 msgctxt "tips.[26]"
 msgid "Deploying ships in combat reduces their combat readiness (\"CR\"), which costs supplies to recover."
-msgstr "戦闘に船舶を配備することは、その戦闘即応性(CR)を減少させ、それは回復のための供給コストを増加させる。"
+msgstr "戦闘に船舶を配備することは、その戦闘即応性(CR)を減少させ、回復のための供給コストを増加させます。"
 
 msgctxt "tips.[51]"
 msgid "During a pursuit, you can deploy frigates from the flanks by clicking on them multiple times to cycle the deployment mode."
