@@ -1,0 +1,4 @@
+*.po diff=poignore
+# .git/config
+# [diff "poignore"]
+# textconv = "sed -sr -e '0,/^$/d'"
