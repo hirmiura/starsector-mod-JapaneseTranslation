@@ -104,7 +104,7 @@ def generate_pot(config: Json2PotConf) -> str:
     # jsonファイルを読み込む
     for file in config.input_files:
         match_dict: dict[str, dict[str, str]] = {}
-        with open(file, newline="", encoding=config.input_encoding) as fp:
+        with open(file, encoding=config.input_encoding) as fp:
             json_obj = hjson.load(fp)
         # 設定を読み込む
         for extract in config.extracts:

@@ -57,7 +57,7 @@ def process(args: argparse.Namespace) -> None:
         original_json_path = Path(file)
         is_translated = False
         output_json_obj: dict = {}
-        with original_json_path.open(newline="", encoding=config.input_encoding) as fp_read:
+        with original_json_path.open(encoding=config.input_encoding) as fp_read:
             json_obj = hjson.load(fp_read)
         # 設定を読み込む
         for extract in config.extracts:
@@ -73,7 +73,7 @@ def process(args: argparse.Namespace) -> None:
                 tr_text = gtr.pgettext(full_path, or_text)
                 if or_text and tr_text and or_text != tr_text:
                     is_translated = True
-                    tr_text = tr_text.replace("\n", "\r\n")
+                    # tr_text = tr_text.replace("\n", "\r\n")
                     # JSONパスが空白を含むならダブルクォートする
                     if re.search(r"\s", full_path):
                         full_path = re.sub(r"([^.]*\s[^.]*)", r'"\1"', full_path)
