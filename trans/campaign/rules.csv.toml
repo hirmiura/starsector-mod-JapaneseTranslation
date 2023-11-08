@@ -8,6 +8,7 @@ pid_version = 'rules.csv Version 0.96a-RC10'
 ctxt_id_column = 0
 
 [[extracts]] # script
-column = 3
+column   = 3
+patterns = [ 'AddBarEvent' ]
 [[extracts]] # text
 column = 4

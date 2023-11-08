@@ -114,6 +114,9 @@ def generate_pot(config: Json2PotConf) -> str:
             matches = jp_expr.find(json_obj)
             for m in matches:
                 if isinstance(m.value, str):
+                    # 値がルールに一致するか調べる
+                    if not extract.is_matched_patterns(m.value):
+                        continue
                     match_dict[m.full_path] = {
                         "value": m.value,
                         "flags_line": extract.flags_line or "",

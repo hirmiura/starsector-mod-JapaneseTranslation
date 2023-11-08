@@ -74,6 +74,9 @@ def process(args: argparse.Namespace) -> None:
                 for extract in config.extracts:
                     col = extract.column
                     if row_len > col and row[col].strip():
+                        # 文章がルールに一致するか調べる
+                        if not extract.is_matched_patterns(row[col]):
+                            continue
                         ctxt = config.get_ctxt(col, row, headers) or ""
                         text = row[col].replace("\r", "")
                         tr_text = gtr.pgettext(ctxt, text)

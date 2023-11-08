@@ -182,6 +182,9 @@ def generate_pot(config: ConfCsv2Pot) -> str:
                 for extract in config.extracts:
                     col = extract.column
                     if row_len > col and row[col].strip():
+                        # 文章がルールに一致するか調べる
+                        if not extract.is_matched_patterns(row[col]):
+                            continue
                         # リファレンス
                         pottext.append(f"#: {file}:{reader.line_num}")
                         # フラグ
