@@ -87,16 +87,21 @@ all: setup build packaging
 #==============================================================================
 # クリーンアップ
 #==============================================================================
-.PHONY: clean clean-all clean-package
+.PHONY: clean clean-all clean-backup clean-package
 clean: ## セットアップで生成したファイル以外を全て削除します
 clean: clean-package
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
-	$(MAKE) -C $(D_TRANS) clean
+	$(MAKE) -C $(D_TRANS) $@
 
 clean-all: ## 生成した全てのファイルを削除します
 clean-all: clean
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
-	$(MAKE) -C $(D_TRANS) clean-all
+	$(MAKE) -C $(D_TRANS) $@
+
+clean-backup: ## バックアップファイルを削除します
+clean-backup:
+	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
+	$(MAKE) -C $(D_TRANS) $@
 
 clean-package:
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'

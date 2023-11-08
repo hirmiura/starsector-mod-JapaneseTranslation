@@ -36,11 +36,15 @@ build:
 #==============================================================================
 # クリーンアップ
 #==============================================================================
-.PHONY: clean clean-all
+.PHONY: clean clean-all clean-backup
 clean: ## セットアップで生成したファイル以外を全て削除します
 clean:
 	$(foreach c,$(D_LIST),$(MAKE) -C $(c) $@ && ) true
 
 clean-all: ## 生成した全てのファイルを削除します
 clean-all:
+	$(foreach c,$(D_LIST),$(MAKE) -C $(c) $@ && ) true
+
+clean-backup: ## バックアップファイルを削除します
+clean-backup:
 	$(foreach c,$(D_LIST),$(MAKE) -C $(c) $@ && ) true
