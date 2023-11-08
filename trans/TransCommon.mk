@@ -58,16 +58,17 @@ $(addsuffix .edit.po,$(SRCS))::
 	@echo -e '$(CC_BrBlue)========== $@ 2 ==========$(CC_Reset)'
 	$(eval FN := $(@:%.edit.po=%.po))
 	if [[ -f "$(FN)" ]] ; then \
-		msgcat --use-first -o $@ $@ $(FN) ; \
+		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $(FN) $(FN:%.po=%.pot) ; \
+		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $(FN) ; \
 	fi
 
 %.po: %.edit.po
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ "$(suffix $(@:%.po=%))" != ".edit" ]] ; then \
 		if [[ -f "$@" ]] ; then \
-			msgcat --use-first --no-location --no-wrap --sort-output -o $@ $< $@ ; \
+			msgmerge --lang=ja --no-fuzzy-matching --no-location --no-wrap --sort-output --backup=t -U $@ $< ; \
 		else \
-			msgcat --no-location --no-wrap --sort-output -o $@ $< ; \
+			cp -f $< $@ ; \
 		fi ; \
 		msgattrib --no-obsolete --no-location --no-wrap --sort-output -o - $@ \
 		| grep -vE '^"(POT-Creation-Date|X-Generator):.*\\n"' \
