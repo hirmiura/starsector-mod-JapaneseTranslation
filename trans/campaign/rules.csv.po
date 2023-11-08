@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-08 14:28+0900\n"
+"PO-Revision-Date: 2023-11-09 00:48+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -1515,7 +1515,7 @@ msgstr ""
 #, java-format
 msgctxt "academyFleetConvPay2:text"
 msgid "\"As you will,\" $heOrShe says, rolling $hisOrHer eyes. \"I guess you know where you're going, then. A good day to you, captain,\" $heOrShe concludes, intentionally using a dirtsider farewell."
-msgstr "「お好きなように」と $heOrShe はあざけりながら言う。「では、あなたはどこへ行くのか知っていると思います。良い一日をお過ごしください、キャプテン」と $heOrShe は意図的にダートサイダーの別れを利用して締めくくた。"
+msgstr "「お好きなように」と $heOrShe はあざけりながら言う。「では、あなたはどこへ行くのか知っていると思います。良い一日をお過ごしください、キャプテン」と $heOrShe は意図的にダートサイダーの別れを利用して締めくくった。"
 
 #, java-format
 msgctxt "sdtuMercReactStronger:text"
