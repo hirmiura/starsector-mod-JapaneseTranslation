@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-09 00:48+0900\n"
+"PO-Revision-Date: 2023-11-09 04:22+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -15363,7 +15363,7 @@ msgstr ""
 #, java-format
 msgctxt "devGatesExplodeSel:text"
 msgid "A surge of energy explodes from the Gate."
-msgstr ""
+msgstr "ゲートからのエネルギーサージが爆発する。"
 
 #, java-format
 msgctxt "pkFleetGreeting:text"
@@ -16248,32 +16248,32 @@ msgstr ""
 #, java-format
 msgctxt "defaultGreetingCydonia:text"
 msgid "After a short wait, your connection request is denied."
-msgstr ""
+msgstr "しばらく待つと、接続要求は拒否された。"
 
 #, java-format
 msgctxt "defaultGreetingIgnore:text"
 msgid "After a short wait, your connection request is denied."
-msgstr ""
+msgstr "しばらく待つと、接続要求は拒否された。"
 
 #, java-format
 msgctxt "defaultGreetingKanta:text"
 msgid "After a short wait, your connection request is denied."
-msgstr ""
+msgstr "しばらく待つと、接続要求は拒否された。"
 
 #, java-format
 msgctxt "greetingVirensDefault:text"
 msgid "After a short wait, your connection request is denied."
-msgstr ""
+msgstr "しばらく待つと、接続要求は拒否された。"
 
 #, java-format
 msgctxt "igr_greetingPaid:text"
 msgid "After a short wait, your connection request is rejected."
-msgstr ""
+msgstr "しばらく待つと、接続要求は拒絶された。"
 
 #, java-format
 msgctxt "ise_greetingPaid:text"
 msgid "After a short wait, your connection request is rejected."
-msgstr ""
+msgstr "しばらく待つと、接続要求は拒絶された。"
 
 #, java-format
 msgctxt "gaFC_relayInstallHack1:text"
@@ -22889,32 +22889,32 @@ msgstr ""
 #, java-format
 msgctxt "fusionLampBlue:text"
 msgid "Thank you for using the Fabrique Orbitale Color Selector (tm)!"
-msgstr ""
+msgstr "Fabrique Orbitale Color Selector ™ をご利用いただきありがとうございます！"
 
 #, java-format
 msgctxt "fusionLampGreen:text"
 msgid "Thank you for using the Fabrique Orbitale Color Selector (tm)!"
-msgstr ""
+msgstr "Fabrique Orbitale Color Selector ™ をご利用いただきありがとうございます！"
 
 #, java-format
 msgctxt "fusionLampOrange:text"
 msgid "Thank you for using the Fabrique Orbitale Color Selector (tm)!"
-msgstr ""
+msgstr "Fabrique Orbitale Color Selector ™ をご利用いただきありがとうございます！"
 
 #, java-format
 msgctxt "fusionLampRed:text"
 msgid "Thank you for using the Fabrique Orbitale Color Selector (tm)!"
-msgstr ""
+msgstr "Fabrique Orbitale Color Selector ™ をご利用いただきありがとうございます！"
 
 #, java-format
 msgctxt "fusionLampWhite:text"
 msgid "Thank you for using the Fabrique Orbitale Color Selector (tm)!"
-msgstr ""
+msgstr "Fabrique Orbitale Color Selector ™ をご利用いただきありがとうございます！"
 
 #, java-format
 msgctxt "fusionLampYellow:text"
 msgid "Thank you for using the Fabrique Orbitale Color Selector (tm)!"
-msgstr ""
+msgstr "Fabrique Orbitale Color Selector ™ をご利用いただきありがとうございます！"
 
 #, java-format
 msgctxt "PKSentinelAskWhereFromTrust:text"
@@ -28758,22 +28758,22 @@ msgstr ""
 #, java-format
 msgctxt "ome_hireNoSelJerk:text"
 msgid "You cut the comm link after exchanging a few hollow pleasantries."
-msgstr ""
+msgstr "いくつかの空虚な挨拶を交換した後、通信リンクを切断する。"
 
 #, java-format
 msgctxt "LKEmazConvEndPolite:text"
 msgid "You cut the comm link after exchanging a few pleasantries."
-msgstr ""
+msgstr "いくつかの挨拶を交わした後、通信リンクを切断する。"
 
 #, java-format
 msgctxt "convEndPolite:text"
 msgid "You cut the comm link after exchanging a few pleasantries."
-msgstr ""
+msgstr "いくつかの挨拶を交わした後、通信リンクを切断する。"
 
 #, java-format
 msgctxt "ome_hireNoSel:text"
 msgid "You cut the comm link after exchanging a few pleasantries."
-msgstr ""
+msgstr "いくつかの挨拶を交わした後、通信リンクを切断する。"
 
 #, java-format
 msgctxt "gaDAPirateBuyDeclinePolite:text"
@@ -28783,37 +28783,37 @@ msgstr ""
 #, java-format
 msgctxt "RACA_cutComm:text"
 msgid "You cut the comm link and consider your options."
-msgstr ""
+msgstr "通信リンクを切断し、オプションを検討する。"
 
 #, java-format
 msgctxt "LKEmazConvEnd:text"
 msgid "You cut the comm link."
-msgstr ""
+msgstr "通信リンクを切断する。"
 
 #, java-format
 msgctxt "asebConvEnd:text"
 msgid "You cut the comm link."
-msgstr ""
+msgstr "通信リンクを切断する。"
 
 #, java-format
 msgctxt "bairdConvEnd:text"
 msgid "You cut the comm link."
-msgstr ""
+msgstr "通信リンクを切断する。"
 
 #, java-format
 msgctxt "contactConvEnd:text"
 msgid "You cut the comm link."
-msgstr ""
+msgstr "通信リンクを切断する。"
 
 #, java-format
 msgctxt "convEnd2:text"
 msgid "You cut the comm link."
-msgstr ""
+msgstr "通信リンクを切断する。"
 
 #, java-format
 msgctxt "convEnd:text"
 msgid "You cut the comm link."
-msgstr ""
+msgstr "通信リンクを切断する。"
 
 #, java-format
 msgctxt "gaProbeAttackNow:text"
@@ -31644,52 +31644,52 @@ msgstr ""
 #, java-format
 msgctxt "sal_derelictDefault:text"
 msgid "Your $shipOrFleet approaches $aOrAn $nameInText left from the initial Domain exploration of the Sector."
-msgstr ""
+msgstr "あなたの $shipOrFleet は、セクターの初期ドメイン探索で残された $nameInText に接近する。"
 
 #, java-format
 msgctxt "sal_default:text"
 msgid "Your $shipOrFleet approaches $aOrAn $nameInText."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $nameInText に近づいている。"
 
 #, java-format
 msgctxt "#gaPZ_baseRuinsOpen:text"
 msgid "Your $shipOrFleet approaches $entityName."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $entityName に接近する。"
 
 #, java-format
 msgctxt "PKCeyxInteraction:text"
 msgid "Your $shipOrFleet approaches $entityName."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $entityName に接近する。"
 
 #, java-format
 msgctxt "ceyxOverride:text"
 msgid "Your $shipOrFleet approaches $entityName."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $entityName に接近する。"
 
 #, java-format
 msgctxt "gaOpPlanetInteraction:text"
 msgid "Your $shipOrFleet approaches $entityName."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $entityName に接近する。"
 
 #, java-format
 msgctxt "killaOverride:text"
 msgid "Your $shipOrFleet approaches $entityName."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $entityName に接近する。"
 
 #, java-format
 msgctxt "marketOpen:text"
 msgid "Your $shipOrFleet approaches $entityName."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $entityName に接近する。"
 
 #, java-format
 msgctxt "surveyOpen:text"
 msgid "Your $shipOrFleet approaches $entityName."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $entityName に接近する。"
 
 #, java-format
 msgctxt "surveyStar:text"
 msgid "Your $shipOrFleet approaches $entityName."
-msgstr ""
+msgstr "あなたの $shipOrFleet は $entityName に接近する。"
 
 #, java-format
 msgctxt "surveyOpenDeciv:text"
