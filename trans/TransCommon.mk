@@ -63,6 +63,7 @@ $(addsuffix .edit.po,$(SRCS))::
 	fi
 
 $(addsuffix .po,$(SRCS)):: %.po:
+	$(MAKE) $(@:%.po=%.edit.po)
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ "$(suffix $(@:%.po=%))" != ".edit" ]] ; then \
 		if [[ -f "$@" ]] ; then \
