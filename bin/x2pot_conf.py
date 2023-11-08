@@ -74,10 +74,11 @@ class X2PotConfItem(BaseModel, ABC):
                 self._compiled_patterns.append(cre)
         return self._compiled_patterns
 
-    def is_matched_patterns(self, text: str) -> Optional[bool]:
-        if not self.compiled_patterns:
-            return None
-        for cp in self.compiled_patterns:
+    def is_matched_patterns(self, text: str) -> bool:
+        crepat = self.compiled_patterns
+        if not crepat or len(crepat) == 0:
+            return True
+        for cp in crepat:
             if cp.search(text):
                 return True
         return False
