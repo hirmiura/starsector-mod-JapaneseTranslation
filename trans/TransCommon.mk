@@ -43,38 +43,44 @@ generate-pot: $(addsuffix .pot,$(SRCS))
 
 merge-po: $(addsuffix .edit.po,$(SRCS)) $(addsuffix .po,$(SRCS))
 
+# ## edit.po の作成
 # potとマージする静的なパターンルール
 $(addsuffix .edit.po,$(SRCS)):: %.edit.po: %.pot
 	@echo -e '$(CC_BrBlue)========== $@ 1 ==========$(CC_Reset)'
 	if [[ -f "$@" ]] ; then \
-		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $< ; \
+		msgmerge --no-fuzzy-matching --backup=t -U $@ $< ; \
 	else \
 		msginit --no-translator -l ja_JP.utf8 -i $< -o $@ ; \
 	fi
 
-# poとマージする
+# ## edit.po の作成
+# poとマージする静的なパターンルール
 # 循環参照対策でPrerequisiteはつけない
+# poファイルにpotをマージしてから、poと合わせる
 $(addsuffix .edit.po,$(SRCS))::
 	@echo -e '$(CC_BrBlue)========== $@ 2 ==========$(CC_Reset)'
-	$(eval FN := $(@:%.edit.po=%.po))
-	if [[ -f "$(FN)" ]] ; then \
-		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $(FN) $(FN:%.po=%.pot) ; \
-		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $(FN) ; \
+	$(eval PO := $(@:%.edit.po=%.po))
+	if [[ -f "$(PO)" ]] ; then \
+		msgmerge --no-fuzzy-matching --backup=t -U $(PO) $(PO:%.po=%.pot) ; \
+		msgcat --use-first --more-than 1 -o $@ $@ $(PO) ; \
 	fi
 
-$(addsuffix .po,$(SRCS)):: %.po:
-	$(MAKE) $(@:%.po=%.edit.po)
+# ## po の作成
+# edit.poとマージする静的なパターンルール
+$(addsuffix .po,$(SRCS))::
+	$(eval POT := $(@:%.po=%.pot))
+	$(eval EP := $(@:%.po=%.edit.po))
+	$(MAKE) $(EP)
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
-	if [[ "$(suffix $(@:%.po=%))" != ".edit" ]] ; then \
-		if [[ -f "$@" ]] ; then \
-			msgmerge --lang=ja --no-fuzzy-matching --no-location --no-wrap --sort-output --backup=t -U $@ $(@:%.po=%.edit.po) ; \
-		else \
-			cp -f $(@:%.po=%.edit.po) $@ ; \
-		fi ; \
-		msgattrib --no-obsolete --no-location --no-wrap --sort-output -o - $@ \
-		| grep -vE '^"(POT-Creation-Date|X-Generator):.*\\n"' \
-		| sponge $@ ; \
-	fi
+	if [[ -f "$@" ]] ; then \
+		msgmerge --no-fuzzy-matching --no-location --no-wrap --backup=t -U $@ $(POT) ; \
+		msgcat --use-first --more-than 1 --no-location --no-wrap -o $@ $(EP) $@ ; \
+	else \
+		cp -f $(EP) $@ ; \
+	fi ; \
+	msgattrib --no-obsolete --no-location --no-wrap --sort-output -o - $@ \
+	| grep -vE '^"(POT-Creation-Date|X-Generator):.*\\n"' \
+	| sponge $@
 
 
 #==============================================================================
