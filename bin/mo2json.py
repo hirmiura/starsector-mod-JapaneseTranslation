@@ -68,6 +68,9 @@ def process(args: argparse.Namespace) -> None:
             for m in matches:
                 if not isinstance(m.value, str):
                     continue
+                # 値がルールに一致するか調べる
+                if not extract.is_matched_patterns(m.value):
+                    continue
                 full_path = str(m.full_path)
                 or_text = m.value.replace("\r", "")
                 tr_text = gtr.pgettext(full_path, or_text)
