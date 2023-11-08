@@ -113,7 +113,7 @@ def generate_pot(config: Json2PotConf) -> str:
             jp_expr = jsonpath_ng.ext.parse(ext_path)
             matches = jp_expr.find(json_obj)
             for m in matches:
-                if isinstance(m.value, str):
+                if isinstance(m.value, str) and m.value.strip():
                     # 値がルールに一致するか調べる
                     if not extract.is_matched_patterns(m.value):
                         continue

@@ -11,10 +11,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
-msgctxt "fleetScreen.tooltipCrewBar.title"
-msgid ""
-msgstr ""
-
 msgctxt "fleetScreen.tooltipLogisticalPriority.body"
 msgid "%ss with logistical priority get first pick of crew and supplies available for repairs."
 msgstr "兵站優先された %ss は乗員と修理用物資を優先的に得る。"
