@@ -5,6 +5,7 @@
 
 from __future__ import annotations
 
+import re
 from abc import ABC
 from datetime import datetime, timedelta, timezone
 from typing import Optional
@@ -50,6 +51,9 @@ class X2PotConf(BaseModel, ABC):
 
 class X2PotConfItem(BaseModel, ABC):
     flags: Optional[list[str]] = None
+    patterns: Optional[list[str]] = None
+
+    _compiled_patterns: Optional[list[re.Pattern]] = None
 
     @property
     def flags_line(self) -> Optional[str]:
@@ -58,3 +62,14 @@ class X2PotConfItem(BaseModel, ABC):
             flags_text = ",".join(flags)
             return f"#, {flags_text}"
         return None
+
+    @property
+    def compiled_patterns(self) -> Optional[list[re.Pattern]]:
+        if not self.patterns:
+            return None
+        if self._compiled_patterns is None:
+            self._compiled_patterns = []
+            for p in self.patterns:
+                cre = re.compile(p)
+                self._compiled_patterns.append(cre)
+        return self._compiled_patterns
