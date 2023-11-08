@@ -12,20 +12,22 @@
 
 1. `Starsector` 本体にリンクをはります。
    - `make check` でチェック可能
-2. `poetry shell`
-   - `poetry update` 等は予め行っておいてください
+2. `poetry update`
+   - ライブラリを更新します。
+   - `poetry run pip list -o` 等も必要に応じて
 3. `make setup`
    - POTファイルの生成
    - 旧版のPOファイルのマージ
 4. 生成されたPOファイルを翻訳します。
    - *.edit.po が翻訳作業用ファイル
    - *.po はバージョン管理用ファイル
-   - [Poedit] がおすすめ
+   - [Poedit] がお手軽
 5. `make build`
    - moファイルの生成
    - 訳文の反映
    - modの生成
-6. `JapaneseTranslation-x.y.z.zip` が完成品です。
+6. `make packaging`
+   - `JapaneseTranslation-x.y.z.zip` が完成品です。
 
 ## Wiki
 
