@@ -62,7 +62,7 @@ $(addsuffix .edit.po,$(SRCS))::
 	$(eval PO := $(@:%.edit.po=%.po))
 	if [[ -f "$(PO)" ]] ; then \
 		msgmerge --no-fuzzy-matching --backup=t -U $(PO) $(PO:%.po=%.pot) ; \
-		msgcat --use-first --more-than 1 -o $@ $@ $(PO) ; \
+		msgcat --use-first -o $@ $@ $(PO) ; \
 	fi
 
 # ## po の作成
@@ -74,7 +74,7 @@ $(addsuffix .po,$(SRCS))::
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ -f "$@" ]] ; then \
 		msgmerge --no-fuzzy-matching --no-location --no-wrap --backup=t -U $@ $(POT) ; \
-		msgcat --use-first --more-than 1 --no-location --no-wrap -o $@ $(EP) $@ ; \
+		msgcat --use-first --no-location --no-wrap -o $@ $(EP) $@ ; \
 	else \
 		cp -f $(EP) $@ ; \
 	fi ; \
