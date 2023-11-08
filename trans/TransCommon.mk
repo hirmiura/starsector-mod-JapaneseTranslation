@@ -62,13 +62,13 @@ $(addsuffix .edit.po,$(SRCS))::
 		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $(FN) ; \
 	fi
 
-%.po: %.edit.po
+$(addsuffix .po,$(SRCS)):: %.po:
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
 	if [[ "$(suffix $(@:%.po=%))" != ".edit" ]] ; then \
 		if [[ -f "$@" ]] ; then \
-			msgmerge --lang=ja --no-fuzzy-matching --no-location --no-wrap --sort-output --backup=t -U $@ $< ; \
+			msgmerge --lang=ja --no-fuzzy-matching --no-location --no-wrap --sort-output --backup=t -U $@ $(@:%.po=%.edit.po) ; \
 		else \
-			cp -f $< $@ ; \
+			cp -f $(@:%.po=%.edit.po) $@ ; \
 		fi ; \
 		msgattrib --no-obsolete --no-location --no-wrap --sort-output -o - $@ \
 		| grep -vE '^"(POT-Creation-Date|X-Generator):.*\\n"' \
