@@ -94,7 +94,7 @@ clean: clean-package
 	$(MAKE) -C $(D_TRANS) clean
 
 clean-all: ## 生成した全てのファイルを削除します
-clean-all: clean clean-tmp
+clean-all: clean
 	@echo -e '$(CC_BrMagenta)========== $@ ==========$(CC_Reset)'
 	$(MAKE) -C $(D_TRANS) clean-all
 
