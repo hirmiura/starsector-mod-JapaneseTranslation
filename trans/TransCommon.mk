@@ -43,6 +43,7 @@ generate-pot: $(addsuffix .pot,$(SRCS))
 
 merge-po: $(addsuffix .edit.po,$(SRCS)) $(addsuffix .po,$(SRCS))
 
+# ## edit.po の作成
 # potとマージする静的なパターンルール
 $(addsuffix .edit.po,$(SRCS)):: %.edit.po: %.pot
 	@echo -e '$(CC_BrBlue)========== $@ 1 ==========$(CC_Reset)'
@@ -52,8 +53,10 @@ $(addsuffix .edit.po,$(SRCS)):: %.edit.po: %.pot
 		msginit --no-translator -l ja_JP.utf8 -i $< -o $@ ; \
 	fi
 
-# poとマージする
+# ## edit.po の作成
+# poとマージする静的なパターンルール
 # 循環参照対策でPrerequisiteはつけない
+# poファイルにpotをマージしてから、poと合わせる
 $(addsuffix .edit.po,$(SRCS))::
 	@echo -e '$(CC_BrBlue)========== $@ 2 ==========$(CC_Reset)'
 	$(eval FN := $(@:%.edit.po=%.po))
@@ -62,6 +65,8 @@ $(addsuffix .edit.po,$(SRCS))::
 		msgmerge --lang=ja --no-fuzzy-matching --backup=t -U $@ $(FN) ; \
 	fi
 
+# ## po の作成
+# edit.poとマージする静的なパターンルール
 $(addsuffix .po,$(SRCS)):: %.po:
 	$(MAKE) $(@:%.po=%.edit.po)
 	@echo -e '$(CC_BrBlue)========== $@ ==========$(CC_Reset)'
