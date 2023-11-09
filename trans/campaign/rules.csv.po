@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: rules.csv Version 0.96a-RC10\n"
-"PO-Revision-Date: 2023-11-09 04:22+0900\n"
+"PO-Revision-Date: 2023-11-10 02:58+0900\n"
 "Last-Translator: Hiroshi Miura <hirmiura@gmail.com>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -15438,7 +15438,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_descLuddicPath:text"
 msgid "A weathered brute from the local vice squad stares rudely as you pass, but does not stop you as you enter the door. They want you to know that they could shut the place down at any time - but an illicit teahouse-bar is a useful conduit with the commerce required to carry out holy war. Inside it is dim, the ceiling low, and the crowd packed. The stench of drug fumes and cheap liquor competes with bodies that disdain modern enzyme soaps."
-msgstr ""
+msgstr "地元の副部隊の風化した獣は、あなたが通り過ぎるときには無礼に見つめるが、ドアに入るときにはあなたを止めない。彼らは、彼らがいつでもその場所を閉鎖することができることをあなたに知ってほしいと思っている。しかし、違法な茶屋のバーは、聖戦を行うために必要な商業との有用なパイプ役だ。その中は暗く、天井は低く、群衆は混雑している。薬物の蒸気と安価な酒の悪臭は、現代の酵素石鹸を軽蔑する体と競合する。"
 
 #, java-format
 msgctxt "cpcBlurbBar1:text"
@@ -17043,7 +17043,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_descGeneric:text"
 msgid "As you enter the bar you are buffeted by the human white-noise of conversation and revelry. Ad-holos buzz softly from ceiling-mounted units, shining garish highlights through glasses and bottles as spacer crews mingle with merchants and locals trading drinks for rumor, jobs, and opportunities."
-msgstr ""
+msgstr "バーに入ると、会話や歓喜のホワイトノイズに悩まされる。天井に設置されたユニットからは静かにアドホロが鳴り響き、グラスやボトルを通して派手なハイライトが輝き、スペーサークルーは噂や仕事、機会のために飲み物を交換する商人や地元の人々と交流する。"
 
 #, java-format
 msgctxt "bar_descGenericInfamous:text"
@@ -17052,6 +17052,9 @@ msgid ""
 "\n"
 "Several groups rise and leave, glaring acidly; one spacer spits at your feet, muttering curses. Your guards' hands find their weapons, but nothing more is necessary. You enter the bar, quieter than you found it; most drinkers do their best to pretend they didn't see you."
 msgstr ""
+"バーに入ると、会話のホワイトノイズに悩まされる。安いテーブルのスペーサーがあなたを見て、彼らの顔に衝撃が走る。彼らは横の席に座っている商人をそっと突いて指さす。静寂がバーの上に落ちる。アドホロは静かに鳴り、眼鏡を通して派手なハイライトを輝かせる。\n"
+"\n"
+"いくつかのグループが立ち上がり、気難しく睨みつけ立ち去る。1人のスペーサーがあなたの足に唾を吐き、呪詛をつぶやく。あなたの護衛の手は彼らの武器を見つけるが、それ以上は必要ない。見つけた時よりも静かなバーに入る。ほとんどの飲酒者は、あなたを見ていないふりをするために最善を尽くす。"
 
 #, java-format
 msgctxt "bar_descLeviathanCalvesPulsed:text"
@@ -17066,7 +17069,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_descPerseanLeague:text"
 msgid "As you enter the bar, you sense a lively tension between the crews from across the League worlds. Dour Kazeronians in fine uniforms drink spirits while proud but poor Mayasurans down pints of rice-beer. A crew of Tylians trade rounds and boasts with a couple Zaganian bridge officers who are making a poor example of Luddic temperance. Glowing displays show media feeds from all the worlds of the League, and their speakers contribute to a dull roar of human white noise."
-msgstr ""
+msgstr "バーに入ると、リーグの世界中のクルーたちの間に活発な緊張があるのを感じる。立派な制服を着た気難しいKazeroniansたちは蒸留酒を飲み、誇らしげではあるが貧しいMayasuransはライスビールを飲んでいる。Tyliansのクルーたちは巡回し、ラディックの節制の好例となっているZaganianのブリッジオフィサーたちと自慢している。輝くディスプレイは、リーグのすべての世界からのメディアフィードを示し、彼らのスピーカーは、人間のホワイトノイズの鈍い轟音の一因となっている。"
 
 #, java-format
 msgctxt "playerOptionsVSContactingNPC:text"
@@ -25674,7 +25677,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_descTriTach:text"
 msgid "The lounge is adorned on all surfaces in richly gilt geometrics; black marble columns underlit by cool light-tubes seem to hang effortlessly in the air. Corporate climbers, either slick Tri-Tachyon careerists or wannabes in crisp suits, negotiate deals while buying one another increasingly unlikely cocktails. A few spacers engage in subdued drinking in the low seats, glancing uneasily at what is either abstract art or some kind of holo-projection rig looming from the ceiling."
-msgstr ""
+msgstr "ラウンジはすべての面に豪華な金色の幾何学模様で飾られている。冷たい光管に照らされた黒い大理石の柱は、気楽に空中にぶら下がっているようだ。企業のクライマーたちは、洗練されたトライタキオンのキャリア主義者であれ、シャキッとしたスーツを着た憧れの人であれ、取引を交渉しながら、ますますありそうもないカクテルをお互いに購入する。幾人かのスペーサーは、低い席で控えめな飲酒に従事し、抽象的な芸術か、天井から迫り来るある種のホロ投影装置のいずれかであるものを不安そうに見る。"
 
 #, java-format
 msgctxt "gaATGcottonRaidFinishedA:text"
@@ -26849,7 +26852,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_descPirate:text"
 msgid "The space is dark and filled with shouts, sweat, and pulsing music. Every wall and surface is pitted and stained by rough spacers banging their mugs and laughing as a couple of pirate crews posture for a fight. You can only assume that one of the heavily augmented bouncers will spoil the fun before weapons are drawn. Gangers and pirate captains watch the scene smugly from smoke-filled booths at the back."
-msgstr ""
+msgstr "その空間は暗く、叫び声、汗、脈打つ音楽で満たされている。すべての壁と表面にはくぼみがあり、粗いスペーサーで汚れている。彼らはマグカップを叩き、二人の海賊クルーが戦うための姿勢をとっているのを笑っている。武器が引かれる前に、重度にオーグメントされたバウンサーの1人が楽しみを台無しにするとしか思えない。ギャングと海賊の船長は、煙で満たされた後ろのブースからその光景を見ている。"
 
 #, java-format
 msgctxt "gaFCAskAroundFikenhildBar3:text"
@@ -28959,7 +28962,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_descLuddicChurch:text"
 msgid "You duck past notices encouraging temperance and restraint as you enter the bar. Someone is playing a stringed instrument in an alcove. A row of handworked samovars suggests that tea is served as often as the weak grain-brew favored by the crew of rough-looking laborers at the bar. Many of the patrons at tables or booths seem to be off-worlders or local unbelievers huddling in the closest analog to a den of sin that can be found."
-msgstr ""
+msgstr "バーに入るときには、節制や自制を促す過去の通知を無視する。誰かが床の間で弦楽器を演奏している。手仕事で作られたサモワールが並んでいることから、バーでは粗野な外見の労働者のクルーが好んで飲む薄い穀物の醸造酒と同じくらい頻繁にお茶が出されることがわかる。テーブルやブースにいる客の多くは、地球外の人や地元の不信心者で、罪の巣窟に最も近い場所に集まっているようだ。"
 
 #, java-format
 msgctxt "gaATGlastReturnVictory4:text"
@@ -29020,7 +29023,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_descDiktat:text"
 msgid "You enter the bar, leaving the noisome propaganda broadcasts of the throughway behind. Off-duty laborers drink away their ration credits dutifully at benches set beneath Diktat insignia. In one corner a cadre of finely dressed officer-bureaucrats calls for another round. Even here, a larger-than-life holo of the Lion of Sindria looks down on you as you decide what to do."
-msgstr ""
+msgstr "あなたはバーに入り、高速道路の騒がしいプロパガンダ放送を背後にする。非番の労働者は、Diktatの記章の下に設置されたベンチで、彼らの配給クレジットを律儀に飲み干す。一方の隅では、立派な服を着た役人の幹部がもう一度ラウンドを要求している。ここでも、あなたが何をすべきかを決めるときに、シンドリアのライオンの実物大ホロがあなたを見下ろしている。"
 
 #, java-format
 msgctxt "gaKAGargoyle2Greeting:text"
@@ -29033,7 +29036,7 @@ msgstr ""
 #, java-format
 msgctxt "bar_descHegemony:text"
 msgid "You enter the crowded, well-lit space and take in the rows of taps adorning the wall under bottles from every one of the core worlds - and a few from elsewhere. Merchant-captains mingle with off-duty officers at the bar, served efficiently by the uniformed staff. In one corner, a pack of navy cadets shout and sing, desperately enjoying their last work-shift of freedom."
-msgstr ""
+msgstr "混雑した明るい空間に入ると、壁に並んだタップの列が、コアワールドのあらゆる場所から、そして他の場所からもいくつかのボトルの下に飾られている。商人の船長たちは、バーで非番の将校たちと交流し、制服を着たスタッフが効率的に対応している。一方の隅では、海軍士官候補生の一団が叫び、歌い、ワークシフトの最後の自由時間を必死に楽しんでいる。"
 
 #, java-format
 msgctxt "gaRequestMeeting3:text"
