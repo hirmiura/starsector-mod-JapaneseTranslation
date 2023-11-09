@@ -23,19 +23,11 @@ class X2PotConf(BaseModel, ABC):
     extracts: list = []
 
     @property
-    def pid_version_header(self) -> Optional[str]:
-        pidv = self.pid_version
-        if pidv:
-            return f'"Project-Id-Version: {pidv}\\n"'
-        return None
-
-    @property
     def pot_header(self) -> list[str]:
         # potヘッダを生成する
         pottext = [r"# Created by x2pot.", 'msgid ""', 'msgstr ""']
-        pidv_header = self.pid_version_header
-        if pidv_header:
-            pottext.append(pidv_header)
+        if self.pid_version:
+            pottext.append(f'"Project-Id-Version: {self.pid_version}\\n"')
         dt_now = datetime.now(TZ)
         pottext.extend(
             [
